@@ -14,7 +14,10 @@ Try to migrate the key component of these reference materials into this document
 #### Using `and` and `or` to set default arguments
 
 1. Set a default value with `or`
-    - `or`: `def thing(foo, *, opt=None): opt = opt or {}`
+
+        ```python
+        `def thing(foo, *, opt=None): opt = opt or {}`
+        ```
 
 2. Avoid a zero division error with `and` when adding if statements
 
