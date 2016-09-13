@@ -3,6 +3,8 @@
 
 This project collects detailed notes as aggregate outlines.
 
+Please send `pull requests` if you notice errors.
+
 ### Purpose
 
 1. Store information in a way that can be easily referenced or updated.
