@@ -11,7 +11,7 @@ Try to migrate the key component of these reference materials into this document
 [Original Source](http://www.ibiblio.org/g2swap/byteofpython/read/operator-precedence.html)
 
 
-#### Using `and` and `or` to set default arguments
+#### Helpful `and` and `or` Idioms
 
 1. Set a default value with `or`
 
