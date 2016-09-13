@@ -17,6 +17,6 @@ Try to migrate the key component of these reference materials into this document
     - `or`: `def thing(foo, *, opt=None): opt = opt or {}`
 
 2. Avoid a zero division error with `and` when adding if statements
-    -       ```>>> b = 0
-            >>> a = (b and 100 / b)
-            >>> a```
+```>>> b = 0
+>>> a = (b and 100 / b)
+>>> a```
