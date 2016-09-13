@@ -27,3 +27,7 @@ Try to migrate the key component of these reference materials into this document
     a
     ```
 
+#### 'sqlite3' Context Manager
+
+[PyCon 2016 SQLite Class Video](https://youtu.be/D7wSMnapDp4?t=9m37s)
+[PyCon 2016 SQLite Class Code](https://github.com/kingsawyer/python_sqlite_talk/blob/master/stock_db.py)
