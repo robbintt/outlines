@@ -40,12 +40,44 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
     2. React is 2 Libraries:
         1. `React` - allows you to create `ReactElements`
         2. `ReactDOM` - renders the `ReactElements`
-        3. Why the split? You could theoretically render those `ReactElements anywhere
-    3. 
+        3. Why the split? You could theoretically render those `ReactElements` anywhere
+    3. Example
+
         ```javascript
         ReactDOM.render(
             React.createElement('h1', {className: 'heading'}, 'Hello World!'),
             document.getElementById('container')
         );
-    4. `ReactDOM.render()` will render a `ReactElement` created by `React.createElement()`
+        ```
 
+    4. `ReactDOM.render()` will render a `ReactElement` created by `React.createElement()`
+        - The DOM node we want to render (2nd argument) is called the `entry point`
+        - `ReactElements` take three arguments:
+            1. The node we want to create (HTML Element)
+            2. A JavaScript Object of information (like 'type')
+            3. Optionally a child such as `innerText` or another `ReactElement` 
+                - A child element like this does get `null` for the second argument
+
+    5. Components: Creating a `ReactComponent`
+        1. Component is a function that receives `props` - short for properties
+
+            ```javascript
+            // What is the purpose of props here? Does it allow us to pass the child ReactElement?
+            var Wrapper = function(props) {
+                return(
+                    React.createElement('div', { className: 'wrapper'}, props.children);
+                );
+            }
+            React.createElement(Wrapper, {}, 'Hello World!');
+           
+            ReactDOM.render(
+                React.createElement(Wrapper, null,
+                    React.createElement('h1', { className: 'heading' }, 'Hello World!')
+                ),
+                document.getElementById('container')
+            ); 
+            ```
+
+        2. 
+
+            
