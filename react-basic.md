@@ -9,6 +9,7 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
 1. [react-boilerplate](https://github.com/mxstbr/react-boilerplate)
 2. [React official docs](https://facebook.github.io/react/)
 3. [plot.ly React Tutorial](http://academy.plot.ly/react/1-introduction/)
+    - Part 1: This section is confusingly written but the example is quite nice. See below.
 
 
 ### Getting Started
@@ -35,7 +36,7 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
 2. Why React? For **"building large applications with data that changes over time"**
     - Components: composable, reusable, encapsulated
 
-3. Lets Build: A Weather App
+3. Lets Build: A Counter that updates state.
     1. [react.jsbin.com](https://react.jsbin.com/sewaru/11/edit?js,output) - a fully featured react environment
     2. React is 2 Libraries:
         1. `React` - allows you to create `ReactElements`
@@ -100,6 +101,10 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
         1. `JSX` is 'nothing but a wrapper on `React.createElement`
             - To use Javascript in JSX, wrap it in curly braces.
             - `JSX` always must be transpiled with a build tool.
+
+        2. How to `transpile` JSX in your build environment?
+            - Babel / Gulp - [`npm install --save-dev babel-cli babel-preset-react`](https://babeljs.io/docs/plugins/preset-react/)
+            - 
 
             ```javascript
             var Wrapper = function(props) {
