@@ -10,7 +10,10 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
 2. [React official docs](https://facebook.github.io/react/)
 3. [plot.ly React Tutorial](http://academy.plot.ly/react/1-introduction/)
     - Part 1: This section is confusingly written but the example is quite nice. See below.
-
+    - Part 2-6: The weather app seems like a nice example, but I don't plan to use create-react-app
+        - Plan: Try building this part in a static file with a transpiler service?
+4. [Babel](https://babeljs.io/) is the de facto JSX transpiler.
+5. [babel-standalone](https://github.com/Daniel15/babel-standalone) - might be used as a static site transpiler?
 
 ### Getting Started
 
