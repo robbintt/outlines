@@ -20,6 +20,7 @@ Consider writing a service to detect and deliver changes to raspberry PI IP addr
 
 * SSH Port
     1. Add additional ssh port `Port 2200` to `/etc/ssh/sshd_config`
+    2. Set `PermitRootLogin` to 'no' in `/etc/ssh/sshd_config`
     2. Restart ssh server: `sudo service sshd restart`
     3. Add ssh port forwarding on router
 
