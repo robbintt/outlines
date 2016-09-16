@@ -71,6 +71,9 @@ Each browser just depends on its JavaScript Engine.
     - `window` is the global object in the browser.  `document` and `screen` exist inside window but are aliased in the global scope, as far as I understand.
     - View these in the browser console by typing `window` or `document` to view the objects. Also check out `window.location` or `window.location.host` etc.
     - Also: `window.document.head === document.head`. THUS: `Document Object Model`. The document object is your .html, .php, .aspx, etc object.
+- [Ellipses / ... / Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+    - Ellipses are the same as a * operator in python on an argument list.
+    - Ellipses supports both modes, in functions and when passing arrays to functions.
 
 
 #### JavaScript Browser API: [MDN Web API Reference](https://developer.mozilla.org/en-US/docs/Web/reference/API)
