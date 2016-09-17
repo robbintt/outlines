@@ -5,6 +5,8 @@ Vim tricks are added here in order of need. A trick not often referenced should 
 
 #### Buffers
 
+- `:tabnew` - open a new empty buffer
+- `:edit <filename>` - open <filename> in a new buffer
 - `:buffers`, `:ls` - show open buffers
 - `:buffer 1`, `:bu 1` - go to buffer 1
 - `:buffer <substring>` - go to buffer that matches substring (press tab to complete)
