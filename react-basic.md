@@ -200,7 +200,7 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
             - Whenever the state changes, the `<p>` element is updated.
 
 
-### Plot.ly Part II
+### [Plot.ly Part II - Your First App](http://academy.plot.ly/react/2-first-app/)
 
 1. New Concepts
     - XMLHttpRequest asynchronous w/ event listener triggers React state change
@@ -212,5 +212,16 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
     - Declaring a variable `currentTemp` and managing its default value and state.
 
 
-### Plot.ly Part III
+### [Plot.ly Part III - Plot.ly - Adding a Forecast Graph](http://academy.plot.ly/react/3-with-plotly/)
+
+1. New Concepts
+    - ComponentDidMount, ComponentDidUpdate
+    - build `Plot` component around plot.ly library (imported with cdnjs)
+    - Interacting with a plot.ly graph's `plotly_click` event handler.
+    - Managing state with a complex UI -- still kind of a rats nest.
+    - Tie plot.ly event handler and CSS IDs into onPlotClick component (props.onPlotClick)
+
+
+### [Plot.ly Part IV - State Management with Redux](http://academy.plot.ly/react/4-redux-state-management/)
+
 
