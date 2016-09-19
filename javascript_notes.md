@@ -126,13 +126,12 @@ Special Note on innerText/textContent (from treehouse docs):
     - Perform: Perform what is required.
     - Perfect: Perfect our solution incrementally. Nothing is ever 'perfect'.
 
+##### [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+    - `var myfunc = (param1, param2, …, paramN) => { // multiline-statements }`
 
-
-
-
-#### [Official React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
-
-- 
+##### [event.preventDefault](https://api.jquery.com/event.preventdefault/)
+    - Cancels the default action bound to the element, e.g. onClick submit a form is cancelled.
+    - See plotly react tutorial Part II for a use case and example.
 
 
 #### Resources
