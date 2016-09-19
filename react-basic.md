@@ -12,6 +12,7 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
     - Part 1: This section is confusingly written but the example is quite nice. See below.
     - Part 2-6: The weather app seems like a nice example, but I don't plan to use create-react-app
         - Plan: Try building this part in a static file with a transpiler service?
+        - Result: Parts 2, 3 are complete, using babel-standalone transpiler served from cdnjs
 4. [Babel](https://babeljs.io/) is the de facto JSX transpiler.
 5. [babel-standalone](https://github.com/Daniel15/babel-standalone) - might be used as a static site transpiler?
 6. [Official React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
