@@ -14,6 +14,7 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
         - Plan: Try building this part in a static file with a transpiler service?
 4. [Babel](https://babeljs.io/) is the de facto JSX transpiler.
 5. [babel-standalone](https://github.com/Daniel15/babel-standalone) - might be used as a static site transpiler?
+6. [Official React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
 
 ### Getting Started
 
@@ -199,8 +200,17 @@ This is a draft version of a react outline from basics.  Send PRs to correct any
             - Whenever the state changes, the `<p>` element is updated.
 
 
+### Plot.ly Part II
 
-#### [Official React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
+1. New Concepts
+    - XMLHttpRequest asynchronous w/ event listener triggers React state change
+        - Receiving data with an API on the client side
+        - Note that you can set a cookie for the client and use it to authenticate against your own API for that user...
+    - handling `this` by alias inside a child function with its own `this`
+    - Using arrow functions to manage state.
+    - Using `preventDefault` to prevent a form's default submit behavior
+    - Declaring a variable `currentTemp` and managing its default value and state.
 
-- 
+
+### Plot.ly Part III
 
