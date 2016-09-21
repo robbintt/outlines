@@ -58,7 +58,7 @@ static domain_name_servers=192.168.1.1
 #### User Management
 
 * Add user
-    1. `adduser robbintt` - use a new `pwgen -cn 12` password. Add robbintt to `sudo` group
+    1. `adduser robbintt` - use a new `pwgen -cny 12` password. Add robbintt to `sudo` group
     2. Create SSH keys `ssh-keygen`
     3. Add SSH pubkey to bitbucket dotfiles.git as deployment key
     4. `cd ~; git clone git@bitbucket.org:robbintt/dotfiles.git .dotfiles`
