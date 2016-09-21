@@ -40,7 +40,7 @@ static domain_name_servers=192.168.1.1
 
 * Expand Filesystem (select it to auto expand)
 
-* Change User Password: `pi` password to a `pwgen -cn 12` password
+* Change User Password: `pi` password to a `pwgen -cnj 12` password
 
 * Boot Options -> Console
 
