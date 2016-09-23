@@ -1,6 +1,5 @@
 ### Publish your own react component
 
-#### Speaker: 
 
 Speaker: [Mark Muskardin](http://hackingbeauty.com/about/)
 
