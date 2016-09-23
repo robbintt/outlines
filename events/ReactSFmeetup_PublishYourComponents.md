@@ -1,9 +1,12 @@
 ### Publish your own react component
 
-#### Speaker: Mark Muskardin
-#### Presentation: http://hackingbeauty.com/reactbook/
+#### Speaker: 
 
-Mark is building single page blazing fast apps in react/redux for startups.
+[Mark Muskardin](http://hackingbeauty.com/about/)
+
+[Presentation](http://hackingbeauty.com/reactbook/)
+
+About Mark: Mark is building single page blazing fast apps in react/redux for startups.
 
 
 ### Outline
@@ -41,7 +44,8 @@ Mark is building single page blazing fast apps in react/redux for startups.
 
 
 ### References:
-    - [ui-patterns.com](http://ui-pattens.com)
-    - [reddit reactjs](https://www.reddit.com/r/reactjs)
-    - [nwb](https://github.com/insin/nwb)
-    - [frontend npm packaging](http://blog.npmjs.org/post/101775448305/npm-and-front-end-packaging)
+
+- [ui-patterns.com](http://ui-pattens.com)
+- [reddit reactjs](https://www.reddit.com/r/reactjs)
+- [nwb](https://github.com/insin/nwb)
+- [frontend npm packaging](http://blog.npmjs.org/post/101775448305/npm-and-front-end-packaging)
