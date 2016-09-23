@@ -5,7 +5,7 @@ Speaker: [Mark Muskardin](http://hackingbeauty.com/about/)
 
 Presentation: [http://hackingbeauty.com/reactbook/](http://hackingbeauty.com/reactbook/)
 
-About Mark: Mark is building single page blazing fast apps in react/redux for startups.
+__About Mark:__ Mark is building single page blazing fast apps in react/redux for startups.
 
 
 ### Outline
