@@ -78,7 +78,7 @@ Do these in order.
     3. Make sure your apache logs exist in `{projectdirectory}/logs/`
         - For more info, check the path in your apache config file
         - `access.log`, `error.log`
-    4. `sudo a2ensite {mywebsitename}` then `sudo apache2 restart`
+    4. `a2ensite {mywebsitename}` then `apache2 restart`
 
 5. If you have errors, fix this configuration as you fix the error.
 6. [WP Codex - Changing The Site URL](https://codex.wordpress.org/Changing_The_Site_URL)
