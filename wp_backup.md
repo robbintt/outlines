@@ -18,7 +18,7 @@ This is the same pattern for any modern web application framework.
     - Username
     - Password
 
-2. `mysqldump {Database Name} > mywpsite.bkp.yyyymmdd.sql -u <Username> -p
+2. `mysqldump {Database Name} > ~/backups/mywpsite.bkp.yyyymmdd.sql -u <Username> -p
     - Enter password at the prompt 
 
 
