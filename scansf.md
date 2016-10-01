@@ -25,38 +25,46 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 1. Serious
 
+    - `211` - Robbery (holdup)
+    - `212` - Strongarm
     - `216` - Shots fired
     - `217` - Shooting
-    - Code 3` - Emergency/lights and siren
-    - `918` - Person screaming for help
+    - `221` - Person with gun
     - `418` - Fight or dispute, no weapons
-    - `212` - Strongarm
+    - `918` - Person screaming for help
+    - `Code 3` - Emergency/lights and siren
 
 
 2. Heard at least once
 
-    - `Code 1` - Do so at your convenience
-    - `10-10A` - Off duty, at home
     - `10-08` - In service, ready for assignment
     - `10-09` - Repeat last transmission
-    - `901` - Call __________
+    - `10-10A` - Off duty, at home
+    - `10-26` - Clear (example: "still waiting on the 10-26")   
+    - `Code 1` - Do so at your convenience
+    - `496` - Stolen property receiving (example: phone)
+    - `519` - Vehicle accident with injury
+    - `520` - Accident (non-vehicle) (example: like going off the road)
+    - `529` - Explosion
+    - `901` - Call ______ (example: "can you 901 my cell")
+    - `904` - Meet with officer non-emergency
     - `910` - Check on well-being
     - `913` - Complaint Unknown
     - `914` - Person down
-    - `519` - Vehicle accident with injury
-    - `520` - Accident (non-vehicle) (example: like going off the road)
     - `811` - Intoxicated person (question: especially in vehicle?)
+    - `594` - Malicious Mischief (vandalism)
 
 
 3. Very Frequent
 
+    - `415` - Noise complaint
     - `585` - Traffic stop
     - `587` - Parking violation
     - `909` - Citizen requests interviews
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
-    - `415` - Noise complaint
     - `10-98` or `98` - Available for assignment
+    - `11-98` or `98` - Meet: ______ (possible example: I am 98 to you? are you still at X?)
 
 
 4. Every Transmission
@@ -68,6 +76,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 5. Slang
 
+    - `G.O.A` - gone on arrival (example: person of interest was G.O.A.)
     - `R.P.` - relevant person
     - `O.M.` - oriental male
     - `B.M.` - black male
@@ -85,7 +94,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 7. SFPD Preferred Phoenetic Alphabet
 
     - Charlie
-    - Danny?
+    - David
     - Edward
     - George
     - John
@@ -94,6 +103,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - Mary
     - Norah
     - Tom
+    - Red?
+    - Sam
 
 
 8. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
