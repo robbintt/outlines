@@ -32,13 +32,12 @@ Gain some fluency with police codes and common abbreviations or slang.
     - `418` - Fight or dispute, no weapons
 
 
-2. Slang
+2. Heard at least once
 
-    - `R.P.` - relevant person
-    - `O.M.` - oriental male
-    - `B.M.` - black male
-    - `white male` - white male
-    - `L.M.` - latin male
+    - `Code 1` - Do so at your convenience
+    - `910` - Check on well-being
+    - `10-10A` - Off duty, at home
+    - `913` - Complaint Unknown
 
 
 3. Very Frequent
@@ -58,12 +57,13 @@ Gain some fluency with police codes and common abbreviations or slang.
     - `10-97` or `97` - Arrived at scene
 
 
-5. Heard at least once
+5. Slang
 
-    - `Code 1` - Do so at your convenience
-    - `910` - Check on well-being
-    - `10-10A` - Off duty, at home
-    - `913` - Complaint Unknown
+    - `R.P.` - relevant person
+    - `O.M.` - oriental male
+    - `B.M.` - black male
+    - `white male` - white male
+    - `L.M.` - latin male
 
 
 6. Police ID Format
