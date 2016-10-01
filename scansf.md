@@ -30,6 +30,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - Code 3` - Emergency/lights and siren
     - `918` - Person screaming for help
     - `418` - Fight or dispute, no weapons
+    - `212` - Strongarm
 
 
 2. Heard at least once
@@ -40,6 +41,9 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `913` - Complaint Unknown
     - `10-08` - In service, ready for assignment
     - `914` - Person down
+    - `10-09` - Repeat last transmission
+    - `10-98` - Available for assignment
+    - `901` - Call __________
 
 
 3. Very Frequent
@@ -66,6 +70,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `B.M.` - black male
     - `white male` - white male
     - `L.M.` - latin male
+    - `the city` - slang for san francisco in registration data (address etc.)
+    - `merit` - a crime, something concrete to report
 
 
 6. Police ID Format
@@ -75,11 +81,16 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 7. SFPD Preferred Phoenetic Alphabet
 
-    Charlie
-    Edward
-    John
-    King
-    Norah
+    - Charlie
+    - Danny?
+    - Edward
+    - George
+    - John
+    - King
+    - Ida
+    - Mary
+    - Norah
+    - Tom
 
 
 8. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
