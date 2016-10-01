@@ -4,7 +4,7 @@
 
 #### Purpose
 
-Gain some fluency with police codes and common abbreviations or slang.
+Gain some fluency with police radio codes and common abbreviations or slang.
 
 
 #### Workflow
@@ -38,6 +38,8 @@ Gain some fluency with police codes and common abbreviations or slang.
     - `910` - Check on well-being
     - `10-10A` - Off duty, at home
     - `913` - Complaint Unknown
+    - `10-08` - In service, ready for assignment
+    - `914` - Person down
 
 
 3. Very Frequent
@@ -71,7 +73,16 @@ Gain some fluency with police codes and common abbreviations or slang.
     - `L##L` - Letter:Number:Number:Letter
 
 
-7. [Nato Alphabet](http://www.alphabravocharlie.info/alphabet.php)
+7. SFPD Preferred Phoenetic Alphabet
+
+    Charlie
+    Edward
+    John
+    King
+    Norah
+
+
+8. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
 
     - A   Alpha   Al fah
     - B   Bravo   Brah Voh
