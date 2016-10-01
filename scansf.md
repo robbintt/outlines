@@ -1,17 +1,26 @@
 
 ### Police Scanner Reference
 
-When possible, if you hear a new code, toss it on the "Heard at least once" list. As a call becomes common, transfer it to the relevant list.
+
+#### Purpose
+
+Gain some fluency with police codes and common abbreviations or slang.
+
+
+#### Workflow
+
+1. When possible, if you hear a new code, toss it on the "Heard at least once" list. 
+2. As a call becomes common, transfer it to the relevant list.
 
 
 
-### Locations
+#### Locations
 
 1. [ScanSF Online Scanners](https://scansf.com/)
 2. [ScanSF SFPD Radio Codes](https://scansf.com/sfpd_radio_codes.txt)
 
 
-### Common Radio Codes
+#### Common Radio Codes
 
 
 1. Serious
@@ -20,6 +29,7 @@ When possible, if you hear a new code, toss it on the "Heard at least once" list
     - `217` - Shooting
     - Code 3` - Emergency/lights and siren
     - `918` - Person screaming for help
+    - `418` - Fight or dispute, no weapons
 
 
 2. Slang
@@ -53,6 +63,7 @@ When possible, if you hear a new code, toss it on the "Heard at least once" list
     - `Code 1` - Do so at your convenience
     - `910` - Check on well-being
     - `10-10A` - Off duty, at home
+    - `913` - Complaint Unknown
 
 
 6. Police ID Format
