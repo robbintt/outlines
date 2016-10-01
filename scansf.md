@@ -36,14 +36,16 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 2. Heard at least once
 
     - `Code 1` - Do so at your convenience
-    - `910` - Check on well-being
     - `10-10A` - Off duty, at home
-    - `913` - Complaint Unknown
     - `10-08` - In service, ready for assignment
-    - `914` - Person down
     - `10-09` - Repeat last transmission
-    - `10-98` - Available for assignment
     - `901` - Call __________
+    - `910` - Check on well-being
+    - `913` - Complaint Unknown
+    - `914` - Person down
+    - `519` - Vehicle accident with injury
+    - `520` - Accident (non-vehicle) (example: like going off the road)
+    - `811` - Intoxicated person (question: especially in vehicle?)
 
 
 3. Very Frequent
@@ -54,6 +56,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
     - `415` - Noise complaint
+    - `10-98` or `98` - Available for assignment
 
 
 4. Every Transmission
