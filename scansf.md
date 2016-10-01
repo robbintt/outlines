@@ -42,6 +42,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-09` - Repeat last transmission
     - `10-10A` - Off duty, at home
     - `10-26` - Clear (example: "still waiting on the 10-26")   
+    - `10-22` or `22` - (example: "22 that all")
     - `Code 1` - Do so at your convenience
     - `496` - Stolen property receiving (example: phone)
     - `518` - Vehicle accident no injury
@@ -53,6 +54,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `811` - Intoxicated person (question: especially in vehicle?)
     - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `904` - Meet with officer non-emergency (example: marin county warrant search)
+    - `905` - Meet with city or public service employee
     - `910` - Check on well-being
     - `913` - Complaint Unknown
     - `914` - Person down
