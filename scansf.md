@@ -13,7 +13,6 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 2. As a call becomes common, transfer it to the relevant list.
 
 
-
 #### Locations
 
 1. [ScanSF Online Scanners](https://scansf.com/)
@@ -33,26 +32,32 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `418` - Fight or dispute, no weapons
     - `918` - Person screaming for help
     - `Code 3` - Emergency/lights and siren
+    - `Code 33` - Mobile emergency - clear this radio channel
 
 
 2. Heard at least once
 
+    - `10-01` - Reception is poor
     - `10-08` - In service, ready for assignment
     - `10-09` - Repeat last transmission
     - `10-10A` - Off duty, at home
     - `10-26` - Clear (example: "still waiting on the 10-26")   
     - `Code 1` - Do so at your convenience
     - `496` - Stolen property receiving (example: phone)
+    - `518` - Vehicle accident no injury
     - `519` - Vehicle accident with injury
     - `520` - Accident (non-vehicle) (example: like going off the road)
     - `529` - Explosion
-    - `901` - Call ______ (example: "can you 901 my cell")
-    - `904` - Meet with officer non-emergency
+    - `588` - Driveway violation - tow
+    - `594` - Malicious Mischief (vandalism)
+    - `811` - Intoxicated person (question: especially in vehicle?)
+    - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
+    - `904` - Meet with officer non-emergency (example: marin county warrant search)
     - `910` - Check on well-being
     - `913` - Complaint Unknown
     - `914` - Person down
-    - `811` - Intoxicated person (question: especially in vehicle?)
-    - `594` - Malicious Mischief (vandalism)
+    - `10-07I` - Out of service (investigation)
+    - `10-49` - Proceed to ______
 
 
 3. Very Frequent
@@ -65,10 +70,12 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `917` - Suspicious person
     - `10-98` or `98` - Available for assignment
     - `11-98` or `98` - Meet: ______ (possible example: I am 98 to you? are you still at X?)
+    - `408` - Send ambulance (example: they are sending a 408)
 
 
 4. Every Transmission
 
+    - `10-20` or `20` - Location (example: Your 20?)
     - `10-04` - Copy/Ok
     - `Code 4` - No further assistance needed
     - `10-97` or `97` - Arrived at scene
@@ -84,17 +91,24 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `L.M.` - latin male
     - `the city` - slang for san francisco in registration data (address etc.)
     - `merit` - a crime, something concrete to report
+    - `shots fired` - shots fired (observed directly by officer?)
 
 
-6. Police ID Format
+6. Questions
+    
+    - What is a "one five edward"? 
+        - "ida one five edward"
+
+
+7. Police ID Format
 
     - `L##L` - Letter:Number:Number:Letter
 
 
-7. SFPD Preferred Phoenetic Alphabet
+8. SFPD Preferred Phoenetic Alphabet
 
     - Charlie
-    - David
+    - David/Dan?
     - Edward
     - George
     - John
@@ -103,11 +117,11 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - Mary
     - Norah
     - Tom
-    - Red?
+    - Robert/Red?
     - Sam
 
 
-8. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
+9. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
 
     - A   Alpha   Al fah
     - B   Bravo   Brah Voh
