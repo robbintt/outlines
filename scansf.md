@@ -41,6 +41,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - 'henry eleven edward' we have that car that was on mission
     - '115' on the close 5 of that
     - i will give result to the '110' - 'three ida one ten'
+    - 'charlie 12 edwards' can you copy a plate
 
 
 1. Serious
@@ -67,7 +68,6 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-22` or `22` - Disregard that last assignment (example: "22 all that")
     - `10-29` - Check for warrants
     - `10-30` - Person/Vehicle wanted/stolen (ex: I don't know if that is 10-30 or not)
-    - `10-32` - Person/vehicle clear - '32 all around'
     - `Code 1` - Do so at your convenience
     - `Code 33` - Mobile Emergency - Clear this radio channel
     - `311` - indecent exposure
@@ -101,6 +101,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `909` - Citizen requests interviews
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
+    - `10-32` or `32` - Person/vehicle clear - '32 all around'
     - `10-98` or `98` - Available for assignment
     - `11-98` or `98` - Meet: ______ (possible example: I am 98 to you? are you still at X?)
 
