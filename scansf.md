@@ -27,7 +27,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 0. Unknown
 
-    - `915` - Homeless, call for service?
+    - `908` - Muni bus inspection program (quizlet)
+    - `915` - Homeless, call for service (quizlet)
         - Could be related to indecent exposure. 
         - Maybe related to suspicious person?
     - `10-04E` - aka 'ten four edward'
@@ -41,11 +42,12 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - 'henry eleven edward' we have that car that was on mission
     - '115' on the close 5 of that
     - i will give result to the '110' - 'three ida one ten'
-    - 'charlie 12 edwards' can you copy a plate
+    - 'charlie 12 edwards can you copy a plate'
 
 
 1. Serious
 
+    - `152` - Drunk Driver
     - `211` - Robbery (holdup)
     - `212` - Strongarm
     - `216` - Shots fired
@@ -56,6 +58,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `Code 3` - Emergency/lights and siren
     - `Code 33` - Mobile emergency - clear this radio channel
     - `602` - Breaking and entering
+    - `914` - Person down (ex. I have a 914 bleeding but stable)
 
 
 2. Heard at least once
@@ -71,6 +74,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `Code 1` - Do so at your convenience
     - `Code 33` - Mobile Emergency - Clear this radio channel
     - `311` - indecent exposure
+    - `407` - Prisoner transport
     - `488` - petty theft
     - `496` - Stolen property receiving (example: phone)
     - `518` - Vehicle accident no injury
@@ -96,7 +100,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `415` - Noise complaint
     - `585` - Traffic stop
     - `587` - Parking violation
-    - `811` - Intoxicated person (question: especially in vehicle?)
+    - `811` - Intoxicated person (question: is this ever used for a person in vehicle? 152?)
     - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `909` - Citizen requests interviews
     - `916` - Suspicious person in vehicle
@@ -116,6 +120,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 5. Slang
 
+    - `LoJack` - [stolen vehicle recovery system](https://en.wikipedia.org/wiki/LoJack)
+        - This is a system that consumers install on their vehicle and which can be used by police for recovering a vehicle if stolen
     - `G.O.A` - gone on arrival (example: person of interest was G.O.A.)
     - `R.P.` - relevant person
     - `O.M.` - oriental male
