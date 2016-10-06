@@ -19,6 +19,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 2. [ScanSF SFPD Radio Codes](https://scansf.com/sfpd_radio_codes.txt)
 3. [More scan codes based on Santa Barbara and others](http://www.mendosa.com/code.html)
 4. [Another site - seems to have MISS (mississipi?) codes](http://www.textfiles.com/hamradio/police.txt)
+5. [Scan San Diego Codes](http://www.scansandiego.net/Scanner/police_codes.html)
 
 
 #### Common Radio Codes
@@ -100,6 +101,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `the city` - slang for san francisco in registration data (address etc.)
     - `merit` - a crime, something concrete to report
     - `shots fired` - shots fired (observed directly by officer?)
+    - In the aves (sunset), officers use the letter of the alphabet to describe location.
+        - `40th and K` = 40th and Kirkham (etc.)
 
 
 6. Questions
