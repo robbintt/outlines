@@ -26,7 +26,15 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 0. Unknown
 
-    - `915` - Unknown! Could be related to indecent exposure.
+    - `915` - Unknown! 
+        - Could be related to indecent exposure. 
+        - Maybe related to suspicious person?
+    - `10-04E` - aka 'ten four edward'
+    - '13 edward' - maybe `13e` - no code for that
+        - I think it might be the station, e.g. 'charlie 15 edward to 13 edward'
+        - `10-13` is 'advise conditions at scene'
+    - 'david one six edward' - maybe `d-16e`
+        - note: `10-16` is pick up prisoner
 
 1. Serious
 
@@ -58,8 +66,9 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `529` - Explosion
     - `588` - Driveway violation - tow
     - `594` - Malicious Mischief (vandalism)
+    - `601` - Trespassers
+    - `809` - Missing Person
     - `811` - Intoxicated person (question: especially in vehicle?)
-    - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `904` - Meet with officer non-emergency (example: marin county warrant search)
     - `905` - Meet with city or public service employee
     - `910` - Check on well-being
@@ -74,6 +83,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `415` - Noise complaint
     - `585` - Traffic stop
     - `587` - Parking violation
+    - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `909` - Citizen requests interviews
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
@@ -87,7 +97,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-20` or `20` - Location (example: Your 20?)
     - `10-04` - Copy/Ok
     - `Code 4` - No further assistance needed
-    - `10-97` or `97` - Arrived at scene
+    - `10-97` or `97` - Arrived at scene, or at the scene (ex. "Are you still 97 on mission?")
 
 
 5. Slang
@@ -138,6 +148,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - Robert/Red?
     - Sam
     - Tom
+    - Union
     - Victor
     - W
     - X
