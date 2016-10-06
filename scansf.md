@@ -17,10 +17,15 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 1. [ScanSF Online Scanners](https://scansf.com/)
 2. [ScanSF SFPD Radio Codes](https://scansf.com/sfpd_radio_codes.txt)
+3. [More scan codes based on Santa Barbara and others](http://www.mendosa.com/code.html)
+4. [Another site - seems to have MISS (mississipi?) codes](http://www.textfiles.com/hamradio/police.txt)
 
 
 #### Common Radio Codes
 
+0. Unknown
+
+    - `915` - Unknown! Could be related to indecent exposure.
 
 1. Serious
 
@@ -44,6 +49,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-26` - Clear (example: "still waiting on the 10-26")   
     - `10-22` or `22` - (example: "22 that all")
     - `Code 1` - Do so at your convenience
+    - `311` - indecent exposure
     - `496` - Stolen property receiving (example: phone)
     - `518` - Vehicle accident no injury
     - `519` - Vehicle accident with injury
@@ -109,18 +115,31 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 8. SFPD Preferred Phoenetic Alphabet
 
+    - Adam
+    - Boy?
     - Charlie
-    - David/Dan?
+    - David
     - Edward
+    - Frank
     - George
+    - Henry
+    - Ida
     - John
     - King
-    - Ida
+    - Lincoln
     - Mary
     - Norah
-    - Tom
+    - O
+    - P
+    - Q
     - Robert/Red?
     - Sam
+    - Tom
+    - Victor
+    - W
+    - X
+    - Yellow
+    - Zebra
 
 
 9. [Nato Phoenetic Alphabet](http://www.alphabravocharlie.info/alphabet.php)
