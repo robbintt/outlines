@@ -25,7 +25,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 #### Common Radio Codes
 
-0. Unknown
+
+1. Unknown
 
     - `908` - Muni bus inspection program (quizlet)
     - `915` - Homeless, call for service (quizlet)
@@ -43,9 +44,11 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - '115' on the close 5 of that
     - i will give result to the '110' - 'three ida one ten'
     - 'charlie 12 edwards can you copy a plate'
+    - What is a "one five edward"? 
+        - "ida one five edward"
 
 
-1. Serious
+2. Serious
 
     - `152` - Drunk Driver
     - `211` - Robbery (holdup)
@@ -62,7 +65,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `914` - Person down (ex. I have a 914 bleeding but stable)
 
 
-2. Heard at least once
+3. Heard at least once
 
     - `10-01` - Reception is poor
     - `10-07I` - Out of service (investigation)
@@ -97,9 +100,10 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `914` - Person down
 
 
-3. Very Frequent
+4. Very Frequent
 
     - `408` - Send ambulance (example: they are sending a 408)
+    - `410` - Requested assistance responding (ex: 'request 408' 'confirm you have a 410')
     - `415` - Noise complaint
     - `585` - Traffic stop
     - `587` - Parking violation
@@ -113,7 +117,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `11-98` or `98` - Meet: ______ (possible example: I am 98 to you? are you still at X?)
 
 
-4. Every Transmission
+5. Every Transmission
 
     - `10-20` or `20` - Location (example: Your 20?)
     - `10-04` - Copy/Ok
@@ -121,7 +125,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-97` or `97` or `nine seven` - Arrived at scene, or at the scene (ex. "Are you still 97 on mission?")
 
 
-5. Slang
+6. Slang
 
     - `LoJack` - [stolen vehicle recovery system](https://en.wikipedia.org/wiki/LoJack)
         - This is a system that consumers install on their vehicle and which can be used by police for recovering a vehicle if stolen
@@ -139,13 +143,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `Hot Sheet` - A list of stolen property and crimes under investigation compiled and held by the police.  The use of 'hot' means known or wanted by the police; suspect. [Source: Quora](https://www.quora.com/What-is-a-hot-sheet)
 
 
-6. Questions
-    
-    - What is a "one five edward"? 
-        - "ida one five edward"
 
-
-7. Police ID Format
+7. Police ID Format (Speculative)
 
     - `L##L` - Letter:Number:Number:Letter
 
