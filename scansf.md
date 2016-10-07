@@ -53,6 +53,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `216` - Shots fired
     - `217` - Shooting
     - `221` - Person with gun
+    - `240` - Assault
     - `418` - Fight or dispute, no weapons
     - `918` - Person screaming for help
     - `Code 3` - Emergency/lights and siren
@@ -64,13 +65,15 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 2. Heard at least once
 
     - `10-01` - Reception is poor
+    - `10-07I` - Out of service (investigation)
     - `10-08` - In service, ready for assignment
     - `10-09` - Repeat last transmission
     - `10-10A` - Off duty, at home
     - `10-26` - Clear (example: "still waiting on the 10-26")   
     - `10-22` or `22` - Disregard that last assignment (example: "22 all that")
-    - `10-29` - Check for warrants
+    - `10-29` or `29`- Check for warrants (ex. "can you run a 29 for me)
     - `10-30` - Person/Vehicle wanted/stolen (ex: I don't know if that is 10-30 or not)
+    - `10-49` - Proceed to ______
     - `Code 1` - Do so at your convenience
     - `Code 33` - Mobile Emergency - Clear this radio channel
     - `311` - indecent exposure
@@ -84,14 +87,14 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `588` - Driveway violation - tow
     - `594` - Malicious Mischief (vandalism)
     - `601` - Trespassers
+    - `800` - Mentally-disturbed person
+    - `851` - Stolen vehicle
     - `809` - Missing Person
     - `904` - Meet with officer non-emergency (example: marin county warrant search)
     - `905` - Meet with city or public service employee (fire dept etc)
     - `910` - Check on well-being
     - `913` - Complaint Unknown
     - `914` - Person down
-    - `10-07I` - Out of service (investigation)
-    - `10-49` - Proceed to ______
 
 
 3. Very Frequent
@@ -150,7 +153,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 8. SFPD Preferred Phoenetic Alphabet
 
     - Adam
-    - Boy?
+    - Boy
     - Charlie
     - David
     - Edward
@@ -164,15 +167,15 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - Mary, Medic?
     - Norah
     - Ocean
-    - P
-    - Q
+    - Paul
+    - Queen
     - Robert, Red
     - Sam
     - Tom, Tim
     - Union
     - Victor
     - William
-    - X
+    - Xray
     - Yellow
     - Zebra
 
