@@ -54,7 +54,7 @@ Do these in order.
     2. `create database {Database Name};`
     3. `create user '{User}'@'localhost' IDENTIFIED BY '{Password}'`
         - Does the next step create the user automatically if you don't do this?
-    4. `grant usage on *.* to {User}@localhost identified by '{Password}';`
+    4. `grant usage on '{database}'.* to '{User}'@'localhost' identified by '{Password}';`
     5. view your changes: `mysql> select user, host, password from mysql.user;`
     6. `mysql> FLUSH PRIVILEGES;` then `mysql> quit;`
     7. Ensure the `wp-config.php` has the same Database Name, Username, Password
