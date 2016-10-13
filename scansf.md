@@ -28,7 +28,6 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 1. Unknown
 
-    - lower great highway from sloat to taraval is `utl`?.
     - "I'll get my own" or "We'll get our own" - Maybe case number. Common for traffic stop (585).
     - "if you want to break each other one at a time apparently they are serving again up here."
     - `908` - Muni bus inspection program (quizlet)
@@ -147,6 +146,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `blue on blue` - there are men with guns, we do not know if there are uniformed officers or not (undercover). Please be aware of any blue on blue (don't shoot the other cops!)
     - "broken down" - telling people camping on the street they need to move their camp elsewhere.
     - `suspect information` followed by 'verbal' or 'documented' - whether they said it or showed their ID.
+    - lower great highway from sloat to taraval is `utl` - unable to locate (suspect)
+        - "so far the fire is utl."
 
 
 7. Police ID Format (Speculative)
