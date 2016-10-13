@@ -141,6 +141,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - In the aves (sunset), officers use the letter of the alphabet to describe location.
         - `40th and K` = 40th and Kirkham (etc.)
     - `Hot Sheet` - A list of stolen property and crimes under investigation compiled and held by the police.  The use of 'hot' means known or wanted by the police; suspect. [Source: Quora](https://www.quora.com/What-is-a-hot-sheet)
+    - `blue on blue` - there are men with guns, we do not know if there are uniformed officers or not (undercover). Please be aware of any blue on blue (don't shoot the other cops!)
 
 
 
