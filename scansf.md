@@ -28,6 +28,9 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 1. Unknown
 
+    - lower great highway from sloat to taraval is `utl`?.
+    - "I'll get my own" or "We'll get our own" - Maybe case number. Common for traffic stop (585).
+    - "if you want to break each other one at a time apparently they are serving again up here."
     - `908` - Muni bus inspection program (quizlet)
     - `915` - Homeless, call for service (quizlet)
         - Could be related to indecent exposure. 
@@ -142,7 +145,8 @@ Gain some fluency with police radio codes and common abbreviations or slang.
         - `40th and K` = 40th and Kirkham (etc.)
     - `Hot Sheet` - A list of stolen property and crimes under investigation compiled and held by the police.  The use of 'hot' means known or wanted by the police; suspect. [Source: Quora](https://www.quora.com/What-is-a-hot-sheet)
     - `blue on blue` - there are men with guns, we do not know if there are uniformed officers or not (undercover). Please be aware of any blue on blue (don't shoot the other cops!)
-
+    - "broken down" - telling people camping on the street they need to move their camp elsewhere.
+    - `suspect information` followed by 'verbal' or 'documented' - whether they said it or showed their ID.
 
 
 7. Police ID Format (Speculative)
