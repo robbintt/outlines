@@ -31,7 +31,6 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - "I'll get my own" or "We'll get our own" - Maybe case number. Common for traffic stop (585).
     - "if you want to break each other one at a time apparently they are serving again up here."
     - `908` - Muni bus inspection program (quizlet)
-    - `915` - Homeless, call for service (quizlet)
         - Could be related to indecent exposure. 
         - Maybe related to suspicious person?
     - `10-04E` - aka 'ten four edward'
@@ -112,6 +111,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `811` - Intoxicated person (question: is this ever used for a person in vehicle? 152?)
     - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `909` - Citizen requests interviews
+    - `915` - Homeless (call for service) - slang refers to people chronically city-camping 
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
     - `10-32` or `32` - Person/vehicle clear - '32 all around'
