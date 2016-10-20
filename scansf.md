@@ -92,6 +92,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `594` - Malicious Mischief (vandalism)
     - `601` - Trespassers
     - `800` - Mentally-disturbed person
+    - `802` - Coroner's Case (unexpected or possibility of a law being broken)
     - `851` - Stolen vehicle
     - `809` - Missing Person
     - `904` - Meet with officer non-emergency (example: marin county warrant search)
