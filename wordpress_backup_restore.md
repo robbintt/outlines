@@ -1,11 +1,13 @@
 ### WordPress Backup and Restore Procedures
 
-The backup and restore procedures are very good automation targets.
+These procedures have been tested at least once on an ansible managed Ubuntu 16.04 server. The backup and restore procedures are very good automation targets.
 
 #### Automation Constraints
 
 1. URL name length is different than mysql user, database, password maximum length
 2. Use `sudo -u www-data do-stuff` to maintain ownership under `apache2`'s `www-data` user.
+3. It looks like a lot of PHP5 stuff might break on PHP7. PHP versioning could be very important.
+    - PHP versioning creates tons of security concerns. Requires compartmentalization/virtualization
 
 
 #### WordPress Backup Procedure
