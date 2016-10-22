@@ -8,7 +8,7 @@ The backup and restore procedures are very good automation targets.
 2. Use `sudo -u www-data do-stuff` to maintain ownership under `apache2`'s `www-data` user.
 
 
-#### WordPress Backup
+#### WordPress Backup Procedure
 
 This backup methodology is generic across projects and databases. The written protocol is specific for `apache2`, `MySQL`, and `WordPress`.
 
@@ -24,12 +24,26 @@ This backup methodology is generic across projects and databases. The written pr
     5. Move the backups from ~ to the appropriate archival location
 
 
-#### WordPress Restore
+#### WordPress Restore Procedure
 
 1. Backup the bad database and files. Include `bad` in the backup filenames.
-
-1. Disable the site in apache2 `sudo a2dissite www.example.com`
-2. Delete the database being overwritten in mysql
-    - 
-3. Assess the file backup to see which files will be restored.
-3. Delete project directory in `/var/www/websites` or the `wp-content` directory depending on the file backup
+    - Use the `WordPress Backup Procedure`
+2. Disable the site in apache2 
+    1. `sudo a2dissite www.example.com`
+    2. `sudo service apache2 reload`
+3. Delete the database being overwritten in mysql - feel free to login and combine steps. These are added this way for atomicity."
+    1. `$ sudo mysql -e "DROP DATABASE mydbname; \q"`
+    2. `$ sudo mysql -e "CREATE DATABASE wwwthesketchycom; \q"`
+    3. `$ sudo mysql mydbname < mydbname.bkp.sql`
+    4. User grants stay intact when a database is dropped; no need to modify users 
+4. Assess and restore the file backup to see which files will be restored.
+    1. Typically the restore will be the entire `public_html` directory
+    2. Delete the old directory that will be replaced.
+    3. As `www-data`, restore the backup.
+        1. `cd /var/www/websites`
+        2. `rm -rf www.example.com`
+            - use extra caution, write the command then go back and add the `-rf` flags.
+        3. `sudo -u www-data tar -xzvf ~/www.thesketchy.com.bkp.YYYYMMDD.HHMM.tar.gz`
+5. Re-enable the site:
+    1. `sudo a2ensite www.example.com`
+    2. `sudo service apache2 reload`
