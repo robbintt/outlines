@@ -31,7 +31,6 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - "I'll get my own" or "We'll get our own" - Maybe case number. Common for traffic stop (585).
     - "if you want to break each other one at a time apparently they are serving again up here."
     - `908` - Muni bus inspection program (quizlet)
-    - `915` - Homeless, call for service (quizlet)
         - Could be related to indecent exposure. 
         - Maybe related to suspicious person?
     - `10-04E` - aka 'ten four edward'
@@ -83,6 +82,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `Code 33` - Mobile Emergency - Clear this radio channel
     - `311` - indecent exposure
     - `407` - Prisoner transport
+    - `459` - Robbery (suspect tried to break the window then ran off)
     - `488` - petty theft
     - `496` - Stolen property receiving (example: phone)
     - `518` - Vehicle accident no injury
@@ -93,7 +93,9 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `594` - Malicious Mischief (vandalism)
     - `601` - Trespassers
     - `800` - Mentally-disturbed person
+    - `802` - Coroner's Case (unexpected or possibility of a law being broken)
     - `851` - Stolen vehicle
+    - `852` - Auto boost/strip (heard a 852 misreported as a 459)
     - `809` - Missing Person
     - `904` - Meet with officer non-emergency (example: marin county warrant search)
     - `905` - Meet with city or public service employee (fire dept etc)
@@ -112,6 +114,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `811` - Intoxicated person (question: is this ever used for a person in vehicle? 152?)
     - `901` - Call ______ (example: "can you 901 my cell", "give me a 901 please")
     - `909` - Citizen requests interviews
+    - `915` - Homeless (call for service) - slang refers to people chronically city-camping 
     - `916` - Suspicious person in vehicle
     - `917` - Suspicious person
     - `10-32` or `32` - Person/vehicle clear - '32 all around'
