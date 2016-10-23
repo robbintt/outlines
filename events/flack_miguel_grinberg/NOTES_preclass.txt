@@ -1,0 +1,50 @@
+SATURDAY 9 A.M.–12:20 P.M.
+
+FLASK AT SCALE
+MIGUEL GRINBERG
+
+Course Repo:
+git@github.com:miguelgrinberg/flack.git
+
+Audience level:
+Intermediate
+Category:
+Web Frameworks
+DESCRIPTION
+Do you think that because Flask is a micro-framework, it must only be good for small, toy-like web applications? Well, not at all! In this tutorial I am going to show you a few patterns and best practices that can take your Flask application to the next level.
+ABSTRACT
+Can Flask scale? For many, that is the million dollar question. Unfortunately even the Flask official documentation is ambiguous about this topic. Flask is a small, unobtrusive framework that simplifies the interface between your application and the web server. Outside of that, it mostly stays out of your way, so if you need to write an application that can scale, Flask is not going to prevent it, and in fact, it will allow you to freely choose the components of your stack and not impose choices on you like big frameworks tend to do.
+
+In this tutorial session, I will walk you through a list of typical patterns for medium and large applications written in Flask, specifically chosen to highlight scalability patterns and best practices that you will be able to transfer to your own projects. The class will be divided in two main sections, dedicated to scalability of the code (i.e. how to write large applications with Flask) and scalability of the deployed application (i.e. how to handle large numbers of clients).
+
+STUDENT HANDOUT
+No handouts have been provided yet for this tutorial
+
+QUESTIONS ABOUT THIS TUTORIAL
+ Leave class note
+Class notes are visible to both instructor(s) and attendees
+
+Miguel Grinberg 2 weeks, 2 days ago
+Hello!
+
+I'm looking forward to meeting all of you on the 28th!
+
+In the mean time, I thought I would share some code that we will be using during class, so that you get a chance to install it and familiarize yourself with it. I've created a GitHub repository for this class at: https://github.com/miguelgrinberg/flack. At this point I uploaded an example application that will be the starting point of the class.
+
+What I would like you to do between now and the 28th is to clone the repository, try the initial version of the application and ask me about anything you don't understand about it. The project is a REST API written in a single-module Flask application and a JavaScript client that uses it. We will obviously concentrate on the server side, but I am happy to address questions regarding any part of the code. If you are all more or less familiar with the Flask portion of application ahead of time we will save some time at class, time that we can use to cover the fun stuff.
+
+To clone the repository and get the code please use the following commands:
+
+git clone https://github.com/miguelgrinberg/flack
+cd flack
+git checkout v0.1
+The v0.1 tag ensures you are synced with the the starting point of this application. In the days before the class I will be pushing additional versions of the application that make up the material I will cover in class, always building upon this first version I'm sharing with you today.
+
+The README.md file will give you some information on how to set up and run the code.
+
+Feel free to contact me with any questions you may have. Not sure if you are allowed to post here. If that does not work, you can write to me at miguel.grinberg@gmail.com.
+
+See you at PyCon!
+
+Miguel
+
