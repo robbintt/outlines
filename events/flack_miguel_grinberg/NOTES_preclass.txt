@@ -6,6 +6,9 @@ MIGUEL GRINBERG
 Course Repo:
 git@github.com:miguelgrinberg/flack.git
 
+My Fork (with these notes):
+git@github.com:robbintt/flack.git
+
 Audience level:
 Intermediate
 Category:
