@@ -80,6 +80,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
     - `10-49` - Proceed to ______
     - `Code 1` - Do so at your convenience
     - `Code 33` - Mobile Emergency - Clear this radio channel
+    - `207` - Kidnapping
     - `311` - indecent exposure
     - `407` - Prisoner transport
     - `459` - Robbery (suspect tried to break the window then ran off)
@@ -132,6 +133,11 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 6. Slang
 
+    - X - female (from scansf sfpd radio codes, typically "X yelling for help"
+    - 418 - any dispute people are having?
+        1. mostly verbal disputes
+        2. fistfights
+        3. someone disputes someone elses behavior? (complaint about burnouts?)
     - `LoJack` - [stolen vehicle recovery system](https://en.wikipedia.org/wiki/LoJack)
         - This is a system that consumers install on their vehicle and which can be used by police for recovering a vehicle if stolen
     - `G.O.A` - gone on arrival (example: person of interest was G.O.A.)
