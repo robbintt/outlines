@@ -5,7 +5,8 @@
 
 A list of resources, subdivide as it grows.
 
-1. [The slideshow that got me started here](https://news.ycombinator.com/item?id=9635230)
+1. [The slideshow that got me started here](http://charliethe.ninja/2015/05/29/intro_to_c.html)
+    - [Originally found here](https://news.ycombinator.com/item?id=9635230)
 2. [comp.lang.c guide](http://www.c-faq.com/)
 3. [C Standard Library](http://en.wikipedia.org/wiki/C_standard_library)
 4. [C POSIX Library](http://en.wikipedia.org/wiki/C_POSIX_library)
