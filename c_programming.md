@@ -44,11 +44,14 @@ A list of resources, subdivide as it grows.
     - `autotools` in GNU, `msbuild` on win
 
 
-#### Lizzie says: 
+#### Lizzie says:
+
+`make` - Some people do it strangely but ime 90% of makefiles do the exact same thing: "compile .c files to .o files with CFLAGS. link all the relevant .o files with LDFLAGS"
 
 1. learn to use `asan` and `ubsan` right off the bat. They are `compiler extensions` for `dynamic bounds / overflow checking`.
     1. [asan: Address Sanitizer]()
     2. [ubsan: GCC Undefined Behavior Sanitizer]()
+    3. `-fsanitize=address -fsanitize=undefined`
 
 2. learning `gdb` also helps a lot
     1. [gdb]()
@@ -58,4 +61,22 @@ A list of resources, subdivide as it grows.
 4. [c Language Lawyer perspective](http://c-faq.com/)
 
 5. [Programming Lanugages - C  // International Standard 9899:201x Draft April 2011](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
+
+6. Check out `struct initializers` - not a common pattern but been around for 20 years. 
+
+    ```c
+    struct mystruct mydata = {.b = c, .d = e};
+    ```
+vs
+    ```c
+    struct mystruct mydata;
+    memset(&mydata, 0, sizeof(mydata));
+    mydata.b = c;
+    mydata.d = e;
+    ```
+    - removes potential bugs:
+        - passing the wrong size to memset
+        - getting the size and value arguments to memset reversed on accident.
+        - using mydata before it's initialized
+        - memsetting a pointer, which is UB
 
