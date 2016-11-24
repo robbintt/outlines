@@ -3,14 +3,13 @@
 
 ### Resources
 
-[The slideshow that got me started here](https://news.ycombinator.com/item?id=9635230)
-[comp.lang.c guide](http://www.c-faq.com/)
-
-[C Standard Library](http://en.wikipedia.org/wiki/C_standard_library)
-[C POSIX Library](http://en.wikipedia.org/wiki/C_POSIX_library)
-[C++ STL - Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library)
-
-[gcc docs](https://gcc.gnu.org/onlinedocs/gcc/)
+1.[The slideshow that got me started here](https://news.ycombinator.com/item?id=9635230)
+2.[comp.lang.c guide](http://www.c-faq.com/)
+3.
+4.[C Standard Library](http://en.wikipedia.org/wiki/C_standard_library)
+5.[C POSIX Library](http://en.wikipedia.org/wiki/C_POSIX_library)
+6.[C++ STL - Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library)
+7.[gcc docs](https://gcc.gnu.org/onlinedocs/gcc/)
 
 
 
@@ -22,7 +21,7 @@
 
 TheAceOfHearts says: ["C is a very small and simple language but the tooling and patterns are old and mysterious."](https://news.ycombinator.com/item?id=9635230)
 
-- (TheAceOfHearts) Things you need to learn to learn c:
+1. (TheAceOfHearts) Things you need to learn to learn c:
     1. make
     2. autoconf
     3. how the compiler + preprocessors work
