@@ -86,5 +86,5 @@ vs
         - using mydata before it's initialized
         - memsetting a pointer, which is UB
     - note from henner:
-        > I am always annoyed that the designated initializers ( { .a = 42} ) don't work in C++. Sometimes I just sprinkle in a C file for initializers
+        - > I am always annoyed that the designated initializers ( { .a = 42} ) don't work in C++. Sometimes I just sprinkle in a C file for initializers
 
