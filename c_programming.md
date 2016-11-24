@@ -14,6 +14,10 @@ A list of resources, subdivide as it grows.
 
 
 
+### Codebases to read and participate in
+
+1. `sqlite3`
+2. `python3`
 
 
 ### Others' Resources
