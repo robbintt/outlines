@@ -3,13 +3,13 @@
 
 ### Resources
 
-1.[The slideshow that got me started here](https://news.ycombinator.com/item?id=9635230)
-2.[comp.lang.c guide](http://www.c-faq.com/)
-3.
-4.[C Standard Library](http://en.wikipedia.org/wiki/C_standard_library)
-5.[C POSIX Library](http://en.wikipedia.org/wiki/C_POSIX_library)
-6.[C++ STL - Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library)
-7.[gcc docs](https://gcc.gnu.org/onlinedocs/gcc/)
+1. [The slideshow that got me started here](https://news.ycombinator.com/item?id=9635230)
+2. [comp.lang.c guide](http://www.c-faq.com/)
+3. 
+4. [C Standard Library](http://en.wikipedia.org/wiki/C_standard_library)
+5. [C POSIX Library](http://en.wikipedia.org/wiki/C_POSIX_library)
+6. [C++ STL - Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library)
+7. [gcc docs](https://gcc.gnu.org/onlinedocs/gcc/)
 
 
 
