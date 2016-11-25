@@ -13,6 +13,8 @@ A list of resources, subdivide as it grows.
 5. [C++ STL - Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library)
 6. [gcc docs](https://gcc.gnu.org/onlinedocs/gcc/)
 7. [LLVM Sanitizers (Google)](https://github.com/google/sanitizers)
+8. [What is the datatype of a pointer in c?](http://stackoverflow.com/questions/3976326/what-is-the-datatype-of-pointer-in-c)
+    - henner says: a `long` in any particular system should be able to hold a pointer
 
 
 ### Codebases to read and participate in
@@ -26,6 +28,12 @@ A list of resources, subdivide as it grows.
 
 [Knuth Reward Check](https://en.wikipedia.org/wiki/Knuth_reward_check) - In the preface of each of his books and on his website,[7] Knuth offers a reward of $2.56 (USD) to the first person to find each error in his published books, whether it be technical, typographical, or historical. Knuth explains that $2.56, or 256 cents, corresponds to one hexadecimal dollar.[8] "Valuable suggestions" are worth 32 cents, or about  1⁄8 of the errors in the book (0.001 hexadecimal dollars or 0.1 hexadecimal cents). In his earlier books a smaller reward was offered. For example, the 2nd edition of The Art of Computer Programming, Volume 1, offered $2.00.
 
+
+### Learn C The Hard Way (Zed Shaw)
+
+#### LCTHW References
+
+- `man 3 printf`
 
 ### Others' Resources
 
