@@ -31,9 +31,19 @@ A list of resources, subdivide as it grows.
 
 ### Learn C The Hard Way (Zed Shaw)
 
+Some notes as I read through lcthw.
+
+
+
 #### LCTHW References
 
 - `man 3 printf`
+
+#### LCTHW Makefile References
+- `-g` generate debug information
+- `-Wall` (gnu gcc): 
+    - >This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.  This also enables some language-specific warnings described in C++ Dialect Options and Objective-C and Objective-C++ Dialect Options.
+
 
 ### Others' Resources
 
