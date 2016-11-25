@@ -41,8 +41,10 @@ Some notes as I read through lcthw.
 
 #### LCTHW Makefile References
 - `-g` generate debug information
-- `-Wall` (gnu gcc): 
-    - >This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.  This also enables some language-specific warnings described in C++ Dialect Options and Objective-C and Objective-C++ Dialect Options.
+- `-Wall` (gnu gcc)
+    - From the manpage:   
+
+>This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.  This also enables some language-specific warnings described in C++ Dialect Options and Objective-C and Objective-C++ Dialect Options.
 
 
 ### Others' Resources
