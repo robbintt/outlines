@@ -43,7 +43,7 @@ Some notes as I read through lcthw.
 1. `: ?` (same category as `&&` `||` `!`) is `logical ternary`. Expression `a:b?c` maps to `if a then b else c`
 
 
-#### Keywords
+#### Keywords - Alphabetical
 
 - case: A branch in a switch-statement.
 - char: Character data type.
@@ -75,6 +75,70 @@ Some notes as I read through lcthw.
 - void: Declare a data type empty.
 - volatile: Declare a variable might be modified elsewhere.
 - while: Start a while-loop.
+
+
+#### Keywords - Grouped
+
+Note: keywords in C only fall into two categories: `data management` and `control flow`
+
+##### Data Types & Modifiers
+
+- int: An integer data type.
+- long: A long integer data type.
+- short: A short integer data type.
+
+- signed: A signed modifier for integer data types.
+- unsigned: An unsigned modifier for integer data types.
+
+- char: Character data type.
+
+- float: A floating point data type.
+- double: A double floating point data type.
+
+- const: Make a variable unmodifiable.
+- volatile: Declare a variable might be modified elsewhere.
+- extern: Declare an identifier is defined externally.
+- void: Declare a data type empty.
+- static: Preserve variable value after its scope exits.
+- register: Declare a variable be stored in a CPU register.
+- auto: Give a local variable a local lifetime.
+
+
+##### Compound Data Types
+
+- struct: Combine variables into a single record.
+
+- union: Start a union-statement.
+- enum: Define a set of int constants.
+
+- typedef: Create a new type.
+
+
+##### Data Introspection
+
+- sizeof: Determine the size of data.
+
+
+##### Control Flow
+
+- if: Starts an if-statement.
+- else: An else branch of an if-statement.
+
+- for: Start a for-loop.
+
+- do: Start a do-while loop.
+- while: Start a while-loop.
+
+- continue: Continue to the top of a loop.
+- break: Exit out of a compound statement.
+
+- switch: Start a switch-statement.
+- case: A branch in a switch-statement.
+- default: Default branch in a switch-statement.
+
+- goto: Jump to a label.
+
+- return: Return from a function.
 
 
 #### LCTHW References
