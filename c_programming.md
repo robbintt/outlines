@@ -15,6 +15,10 @@ A list of resources, subdivide as it grows.
 7. [LLVM Sanitizers (Google)](https://github.com/google/sanitizers)
 8. [What is the datatype of a pointer in c?](http://stackoverflow.com/questions/3976326/what-is-the-datatype-of-pointer-in-c)
     - henner says: a `long` in any particular system should be able to hold a pointer
+9. [Tips on printf (escape sequences)](http://web.mit.edu/10.001/Web/Course_Notes/c_Notes/tips_printf.html)
+10. [Wikipedia "Escape sequences in C"](https://en.wikipedia.org/wiki/Escape_sequences_in_C)
+11. [a make guide](http://mrbook.org/blog/tutorials/make/)
+12. [gnu make guide](https://www.gnu.org/software/make/manual/make.html)
 
 
 ### Codebases to read and participate in
@@ -34,12 +38,70 @@ A list of resources, subdivide as it grows.
 Some notes as I read through lcthw.
 
 
+#### Quickref
+
+1. `: ?` (same category as `&&` `||` `!`) is `logical ternary`. Expression `a:b?c` maps to `if a then b else c`
+
+
+#### Keywords
+
+- case: A branch in a switch-statement.
+- char: Character data type.
+- const: Make a variable unmodifiable.
+- continue: Continue to the top of a loop.
+- default: Default branch in a switch-statement.
+- do: Start a do-while loop.
+- double: A double floating point data type.
+- else: An else branch of an if-statement.
+- enum: Define a set of int constants.
+- extern: Declare an identifier is defined externally.
+- float: A floating point data type.
+- for: Start a for-loop.
+- goto: Jump to a label.
+- if: Starts an if-statement.
+- int: An integer data type.
+- long: A long integer data type.
+- register: Declare a variable be stored in a CPU register.
+- return: Return from a function.
+- short: A short integer data type.
+- signed: A signed modifier for integer data types.
+- sizeof: Determine the size of data.
+- static: Preserve variable value after its scope exits.
+- struct: Combine variables into a single record.
+- switch: Start a switch-statement.
+- typedef: Create a new type.
+- union: Start a union-statement.
+- unsigned: An unsigned modifier for integer data types.
+- void: Declare a data type empty.
+- volatile: Declare a variable might be modified elsewhere.
+- while: Start a while-loop.
+
 
 #### LCTHW References
 
 - `man 3 printf`
+- `gdb quickref` - learn c the hard way page 36-37
+    - mentions: run, break, backtrace, print expr, continue, next, step, quit, help, cd, pwd, make, shell, clear, info break, info watch, attach pid, detach, list
+- `lldb quickref` - learn c the hard way page 37-38
+    - mentions: run [args], breakpint set, thread backtrace, print expr, continue, next, step, quit, help, cd, pwd, make, shell, clear, info break, info watch, attach -p pid, detach, list
+- use `gdb` or `lldb` to debug your compiled program
+    - type `run` in the debugger command line to run the application
+        - a bunch of helpful `gdb` debugging flags from zed
+        - `gdb --args ./ex3 myarg1 myarg2 myargetc` pass args to program
+    - apple: `lldb` has the same commands available but you have to read the manpages for the llvm names
+- `valgrind` - track all your memory and tell you when you messed it up
+    - gotta know how to work with the `heap`
+    - `valgrind ./ex3`
+- apple does not have valgrind:
+    - `gdb --batch --ex run --ex bt --ex q --args ./ex3`
+    - "a very lame alternative to valgrind, the most useful command for debugging c code"
+- `splint` linter
+- `address sanitizer` - asan
+    - new alternative to `valgrind` that works on osx
+    -
 
 #### LCTHW Makefile References
+- always use tabs in `Makefile`s. Never spaces.
 - `-g` generate debug information
 - `-Wall` (gnu gcc)
     - From the manpage:   
