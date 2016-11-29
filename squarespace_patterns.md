@@ -30,6 +30,26 @@ Squarespace requires some acrobatics in order to display editable pages inside t
         - Plan: Embed the content into the page templates
 
 
+#### Template Management
+
+1. jsont.squarespace.com
+    - [json-t basics](http://jsont.squarespace.com/)
+    - [json-t advanced](http://jsont.squarespace.com/advanced-jsont/#If-Statements-extensionii)
+
+2. developers.squarespace.com
+    - [what is json-t](http://developers.squarespace.com/what-is-json-t/)
+    - [json-t system variables](http://developers.squarespace.com/jsont-system-variables/)
+    - [json-t predicates](http://developers.squarespace.com/jsont-predicates/)
+    - [json-t directive](http://developers.squarespace.com/jsont-directives/)
+    - [json-t formatters](http://developers.squarespace.com/jsont-directives/)
+    - [json-t helpers](http://developers.squarespace.com/jsont-helpers/)
+    - [custom Query tag](http://developers.squarespace.com/squarespace-query/) for collection querying
+
+3. answers.squarespace.com
+    - [disambiguating {.if} and {.equal}](https://answers.squarespace.com/questions/100096/access-parent-scope-from-repeated-section.html)
+    - [custom layout for individual page](https://answers.squarespace.com/questions/10839/how-do-you-add-custom-layouts-to-individual-pages.html)
+
+
 #### User-editable sections
 
 In order to allow to clients to edit their pages in a coherent way, it is necessary to use index pages to combine each editable page into one 'main page'.
