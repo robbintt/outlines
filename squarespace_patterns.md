@@ -19,6 +19,17 @@ Manage local git config in the project directory. From [this squarespace answer]
 - `styles/base.css` - seems to go on each site either before or after site
 
 
+#### Managing Editable Page Sections (inside a parent page)
+
+Squarespace requires some acrobatics in order to display editable pages inside the main page.
+
+1. Scenario: Bespoke Theme from Designer
+    1. The client needs to edit the contents
+        - Plan: Use a squarespace `index.conf`. This page contains other pages. The index page will display its own template, `collections/index.list` which will wrap the "main content" from the Squarespace CMS. The json data available to the index.conf, primarily just `title` and `navigation title` and `slug` (all have similar names in the json) can also be called in the template.
+    2. The client doesn't need to edit the contents
+        - Plan: Embed the content into the page templates
+
+
 #### User-editable sections
 
 In order to allow to clients to edit their pages in a coherent way, it is necessary to use index pages to combine each editable page into one 'main page'.
