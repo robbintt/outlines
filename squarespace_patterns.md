@@ -6,6 +6,19 @@ A collection of concepts for developing bespoke web applications in the squaresp
 View a page's available JSON by appending `?format=json-pretty` to the url.
 
 
+#### Avoid putting in credentials every git push
+
+Manage local git config in the project directory. From [this squarespace answer](https://answers.squarespace.com/questions/4565/how-can-i-avoid-credentials-typing-on-every-git-push-pull.html).
+
+- `git config credential.helper 'cache --timeout=3600'
+
+
+#### Managing LESS and CSS
+
+- `styles/reset.css` - override squarespace default styles
+- `styles/base.css` - seems to go on each site either before or after site
+
+
 #### User-editable sections
 
 In order to allow to clients to edit their pages in a coherent way, it is necessary to use index pages to combine each editable page into one 'main page'.
