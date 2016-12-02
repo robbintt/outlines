@@ -13,6 +13,11 @@ Manage local git config in the project directory. From [this squarespace answer]
 - `git config credential.helper 'cache --timeout=3600'
 
 
+#### Text blocks merge! How to prevent text blocks from merging.
+
+- Alternate text blocks with empty markdown blocks
+
+
 #### Managing LESS and CSS
 
 - `styles/reset.css` - override squarespace default styles
