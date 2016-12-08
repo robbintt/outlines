@@ -19,6 +19,7 @@ A list of resources, subdivide as it grows.
 10. [Wikipedia "Escape sequences in C"](https://en.wikipedia.org/wiki/Escape_sequences_in_C)
 11. [a make guide](http://mrbook.org/blog/tutorials/make/)
 12. [gnu make guide](https://www.gnu.org/software/make/manual/make.html)
+13. Ascii table: `man ascii`
 
 
 ### Codebases to read and participate in
