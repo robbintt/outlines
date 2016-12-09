@@ -21,6 +21,28 @@ A list of resources, subdivide as it grows.
 12. [gnu make guide](https://www.gnu.org/software/make/manual/make.html)
 13. Ascii table: `man ascii`
 
+#### Definitions
+
+1. `gcc` - gnu compiler collection
+2. `gnu binutils` - sister project of gcc
+3. `avr-gcc` - version of gcc for the avr class of microcontrollers
+    - has 3 available compilers: `c`, `c++`, `ada`
+    - compiler does not assemble or link the final code
+4. `gas` - gnu assembler 
+5. `GNU Libc` - GNU C Standard Library
+    - 
+6. `AVR Libc` - AVR GCC C Standard Library
+7. `GNU Make` - Building software / Makefile stuff
+    - Some distributions of the toolchains, and other AVR tools such as MFile, contain a Makefile template written for the AVR toolchain and AVR applications that you can copy and modify for your application.
+8. `AVRDUDE` - program your device
+9. `avr-gdb`, `avr-insight`, and `ddd`
+    - avr versions of common make tools.
+10. `AVaRICE` - AVaRICE is a back-end program to AVR GDB and interfaces to the Atmel JTAG In-Circuit Emulator (ICE), to provide emulation capabilities.
+11. `SimulAVR` - SimulAVR is an AVR simulator used as a back-end with AVR GDB.
+12. `SRecord` is a collection of powerful tools for manipulating EPROM load files. It reads and writes numerous EPROM file formats, and can perform many different manipulations.
+13. `MFile` is a simple Makefile generator is meant as an aid to quickly customize a Makefile to use for your AVR application.
+ 
+
 
 ### Codebases to read and participate in
 
