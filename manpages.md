@@ -1,9 +1,10 @@
 
 ### Using `manpages`
 
-This document is derived mostly from `man man` and its refernces.
+Ever wonder if "man" has a man page? Ever stare deep into man's soul? Now you don't have to type "man man" to see man's deepest features.
 
-It is possible to specify the exact /path/to/manpage in `man <manpage>`. 
+This document is derived mostly from `man man` and its references.
+
 
 
 #### Viewing all related man pages
@@ -19,7 +20,7 @@ Another option: `man -aW man | xargs ls -l`
 
 #### man checks $PATH for manpages
 
-If an application is on $PATH, man searches 
+If an application is on $PATH, man finds it on system path.
 
 2. Specify folders: `man man -M /usr/share/man:/usr/local/share/man`
     - Can search and open local manpages this way
