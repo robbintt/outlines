@@ -27,6 +27,9 @@ Info can be used a few different ways
     - Also carries you to the next node regardless of level
 - `backspace`: page up
     - Also carries you to the previous node regardless of level
+- `b`: go to the top of the current node
+- `C-l`: redraw the page (control-L)
+- `?`: open a quick reference (close it with `C-x 0`)
 - `[`: go to the next node in the current document
 - `]`: go to the previous node in the current document
 - `n`: go to the next node at the same level in the current document
@@ -36,18 +39,37 @@ Info can be used a few different ways
 - follow a link: move cursor over a link, a word preceded by an asterisk, press enter
 - `q`: quit
 - `m`: go to the menu item you write if it exists
+    - Try searching for a menu to quickly find the menu's options?
+- `f Cross`: follow a cross-reference starting with 'Cross'
+    - `f?`: fetch a list of cross references for the current node
+    - `C-g`: give up when fetching cross references (instead of typing one of the options)
+    - a cross reference can lead to another manual, even on a remote machine
+- `i Cross`: automate - go to index for info manual, search node for 'Cross', and go there
+- `d`: go to the directory
+- `t`: go to the top node in a manual
+- `n n`: go directly to **info for experts**
 
-- `info --vi-keys printf`: use vi type keybindings
+
+#### Using vi type keybindings
+
+- `$ info --vi-keys printf`: use vi type keybindings
     - FUTURE: map out exactly what varies between standard nav and vi mode
 
 
 ### Notes from `info info`
 
+Many notes on `info info` are integrated elsewhere in this outline.
+
+The `?` reference is very large and worth further study.
+
+info calls its hyperlinks `Cross References`.
+
+Check out the 'info for experts' section by typing `n n` or type `d i` and type 'Advanced'.
 
 
 ### Notes from `man info`
 
-Note on `man info` are integrated elsewhere in this outline.
+Notes on `man info` are integrated elsewhere in this outline.
 
 `info coreutils printf`: get printf in coreutils (if there are more than one printf files)
 
