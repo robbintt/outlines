@@ -18,7 +18,7 @@ Info can be used a few different ways
 
 - `info` to get the directory root node for info files.
 - `info printf` to get info on the node "printf".
-- `info --apropos="printf" to search all nodes for "printf"
+- `info --apropos="printf" to search for "printf" on all nodes of all info pages on the info page path.
 
 
 ### Navigation
