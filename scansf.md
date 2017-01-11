@@ -168,8 +168,12 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
     - `L##L` - Letter:Number:Number:Letter
 
+8. Case Number Format Info
 
-8. SFPD Preferred Phoenetic Alphabet
+    - `Case 017 000 239 at 129 am new years day`
+
+
+9. SFPD Preferred Phoenetic Alphabet
 
     - Adam
     - Boy
