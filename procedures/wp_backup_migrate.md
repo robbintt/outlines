@@ -1,6 +1,6 @@
 ### Basic Backup or Migration Protocols for WordPress Sites
 
-A simple reference.
+A protocol for backing up and/or migrating a Wordpress site.
 
 
 ### Future
