@@ -14,7 +14,7 @@ Edit `/etc/ssh/sshd_config` to have the line `Port 443` after any similar lines 
 
 1. `ssh -p443 -D localhost:443 <username>@<remote-host>`
     - macos: `sudo ssh -i <path-to-ssh-key> -D localhost:443 <username>@<remote-host>`
-2. Configure your local system to send network traffic over a proxy at localhost:443
+2. Configure your local system to send network traffic over a SOCKS proxy at localhost:443
     - macos: `System Preferences->Network`
         1. unlock administrative access (press the lock)
         2. select 'wifi' for wifi 
