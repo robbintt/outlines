@@ -1,0 +1,16 @@
+## Procedure: Set up ssh as a SOCKS5 proxy over 443
+
+"A simple VPN." - lee
+
+1. `ssh -p443 -D localhost:443 <username>@<remote-host>`
+    - macos: `sudo ssh -i <path-to-ssh-key> -D localhost:443 <username>@<remote-host>`
+2. Configure your local system to send network traffic over a proxy at localhost:443
+    - macos: `System Preferences->Network`
+        1. unlock administrative access (press the lock)
+        2. select 'wifi' for wifi, 
+        3. choose `Advanced...->Proxies`
+        4. Add `localhost` : `443` to the `SOCKS Proxy`, choose `ok`
+        5. In the 'network' window choose `save`
+        6. Check your IP at [google.com](google.com) by typing "whats my IP"
+
+
