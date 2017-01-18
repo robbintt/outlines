@@ -134,6 +134,7 @@ Gain some fluency with police radio codes and common abbreviations or slang.
 
 6. Slang
 
+    - `302` - protesters, protest, also called a 'demo'
     - `CAD` - Computer Aided Dispatch (ex: "Can you put another plate in CAD for me?")
     - Operator on scansf used 470/fraud code to portray repeat suicide threat offender "do you think he is really 801 or is he 470?"
     - X - female (from scansf sfpd radio codes, typically "X yelling for help"
