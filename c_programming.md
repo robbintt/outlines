@@ -11,6 +11,13 @@
       if (c == '\n')
         ++nl;
     ```
+2. Assignments associate from right-to-left
+    - The following are equivalent:
+        - `nl = nw = nc = 0`
+        - `nl = (nw = (nc = 0))`
+3. Evaluations with `&&` and `||` are left-to-right
+    - `if (c == ' ' || c == '\n' || c == '\t')`
+    - Evaluation stops as soon as truth or falsehood is known, "short-circuit" or "minimal" evaluation
 
 
 ### Resources
