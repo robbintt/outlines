@@ -2,9 +2,9 @@
 
 ### Notes - K&R - The C Programming Language
 
-1. A control flow keyword's contents are a single statement
+1. A control flow keyword's contents are a single statement (k&r: p. 19)
     - One "statement" can be a single statement, like `int c;`, or a group of statements inside braces
-    - A control flow keyword also initiates a single statement
+    - A control flow keyword also initiates a single statement:
     ```
     /* this is one statement, even though it is two nested control flow keywords */
     while ((c = getchar()) != EOF)
