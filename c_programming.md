@@ -39,6 +39,7 @@ A list of resources, subdivide as it grows.
 11. [a make guide](http://mrbook.org/blog/tutorials/make/)
 12. [gnu make guide](https://www.gnu.org/software/make/manual/make.html)
 13. Ascii table: `man ascii`
+14. [Learn x in y minutes: C](https://learnxinyminutes.com/docs/c/)
 
 #### Definitions
 
