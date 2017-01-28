@@ -123,6 +123,7 @@ Some notes as I read through lcthw.
 
 Note: keywords in C only fall into two categories: `data management` and `control flow`
 
+
 ##### Data Types & Modifiers
 
 - int: An integer data type.
@@ -204,7 +205,7 @@ Note: keywords in C only fall into two categories: `data management` and `contro
 - `splint` linter
 - `address sanitizer` - asan
     - new alternative to `valgrind` that works on osx
-    -
+    - [github.com/google/sanitizers/wiki/AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)
 
 #### LCTHW Makefile References
 - always use tabs in `Makefile`s. Never spaces.
@@ -216,6 +217,8 @@ Note: keywords in C only fall into two categories: `data management` and `contro
 
 
 ### Others' Resources
+
+- zv says: `man ld.so` - it's worth your time in my view to at least skim the `ld.so` manpage
 
 #### Mitch says: 
 
