@@ -199,7 +199,7 @@ There is no other place to start.
     2. `CIO + AF of L` - Union protecting workers becomes entrenched member of establishment
     3. etc.
 
-#### Class Distinctions: The Trinity
+#### Section: Class Distinctions: The Trinity
 
 1. Three Parts of Mankind
     1. `Haves`: *want to keep* 
