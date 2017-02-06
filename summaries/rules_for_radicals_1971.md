@@ -3,9 +3,9 @@
 Author: [Saul Alinksy](https://en.wikipedia.org/wiki/Saul_Alinsky)
 
 
-## Safety Note: 
+## Safety Note
 
-Do not store or supply ```unsafe materials``` for ```Anything Illegal```, **especially** for "People You Trust".
+Do not store or supply **unsafe materials** for **Anything Illegal**, *especially* for "People You Trust".
 
 In 2012-2017, the FBI has repeatedly radicalized left-wing organizations to cross strict legal barriers in perceived assistance of domestic terrorism.  
 
@@ -22,8 +22,8 @@ The FBI has also [infiltrated Oil Pipeline Protestors](http://web.archive.org/we
 The book is dated in some political terminology. See the below list for clarifications.
 
 - `radical` means `activist` in 2017
-- `revolution` means `political revolution` in 2017 (not violent revolution)
-    - Although, Alinsky sometimes refers to actual revolutions in the same umbrella term and context.  
+- `revolution` means `political revolution` in 2017
+    - Although, Alinsky doesn't make this strict distinction between whether violence is actually used.  
 - `reformation` means `reorganization of values or priorities` for your `political base`
 
 
