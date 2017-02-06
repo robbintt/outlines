@@ -71,16 +71,17 @@ Taken while reading the book.
 
 If you cannot communicate in a way that your audience listens to you, you are silent no matter how loudly you scream. The inference here is that if you are not accepted in the community you wish to change, you are assenting to `the system` by not truly seeking a path to change that brings the community with you.
 
-    1. Communicate within the experience of your audience 
-        - Pay full respect to its values
-        - A fool attacks the American flag: `it is the establishment which has betrayed the flag while the flag, itself, remains the glorious symbol of America's hopes and aspirations`
-    2. Humor is essential
-        - `Through humor much is accepted that would be rejected if presented seriously.`
-    3. Radicalism is social  
-        - Do it for, and with, people
-    4. `If the real radical finds that having long hair sets up psychological barriers to communication and organization, he cuts his hair.`
-        - Start your battle where the world is, not where you would like it to be.
-        - Work inside the system: `Dostoyevsky said that taking a new step is what people fear the most. Any revolutionary change must be preceded by a passive, affirmative, non-challenging attitude toward change among the mass of our people. They must feel so frustrated, so defeated, so lost, so futureless in the prevailing system that they are willing to let go of the past and chance the future. That acceptance is the reformation essential to any revolution. To bring on this reformation requires that the organizer work inside the system, among not only the middle class but the 40 percent of American families... whose income ranges from $5000 to$10000 a year [in 1971 dollars]... IF we fail to communicate with them... they will move to the right... maybe they will anyways, but lets not let it happen by default.`
+1. Communicate within the experience of your audience 
+    - Pay full respect to its values
+    - A fool attacks the American flag: `it is the establishment which has betrayed the flag while the flag, itself, remains the glorious symbol of America's hopes and aspirations`
+2. Humor and comedy are essential
+    - `Through humor much is accepted that would be rejected if presented seriously.`
+    - Note: People want to laugh and find joy in whatever they do. It inspires growth more than anything.
+3. Radicalism is social  
+    - Do it for, and with, people
+4. `If the real radical finds that having long hair sets up psychological barriers to communication and organization, he cuts his hair.`
+    - Start your battle where the world is, not where you would like it to be.
+    - Work inside the system: `Dostoyevsky said that taking a new step is what people fear the most. Any revolutionary change must be preceded by a passive, affirmative, non-challenging attitude toward change among the mass of our people. They must feel so frustrated, so defeated, so lost, so futureless in the prevailing system that they are willing to let go of the past and chance the future. That acceptance is the reformation essential to any revolution. To bring on this reformation requires that the organizer work inside the system, among not only the middle class but the 40 percent of American families... whose income ranges from $5000 to$10000 a year [in 1971 dollars]... IF we fail to communicate with them... they will move to the right... maybe they will anyways, but lets not let it happen by default.`
 
 
 ##### Non-Violence
