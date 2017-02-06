@@ -23,8 +23,7 @@ The book is dated in some political terminology. See the below list for clarific
 
 - `radical` means `activist` in 2017
 - `revolution` means `political revolution` in 2017 (not violent revolution)
-    - Although, Alinsky sometimes refers to actual revolutions in the same umbrella term and context.
-- `reformation` means `reorganization of values or priorities` for your `political base`
+    - Although, Alinsky sometimes refers to actual revolutions in the same umbrella term and context.  - `reformation` means `reorganization of values or priorities` for your `political base`
 
 
 ## *Rules for Radicals* Notes
@@ -132,6 +131,7 @@ There is no other place to start.
 **Premise:** The significant changes in history have been made by revolutions.
 
 **Content:** The book proposes:
+
     - Certain general observations
     - propositions
     - concepts of the mechanics of mass movements
@@ -155,6 +155,8 @@ There is no other place to start.
 
 ##### Revolutionary "how-to" Guides Are Rare
 
+**This text is dedicated to splitting two atomic ideas: `revolution` from `communism`**
+
 - Revolutionary literature is sparse!
     - Literature extolling the virtues of the `Haves` is prolific
     - Literature decrying revolution as reptilian, evil, and hellish is prolific
@@ -165,7 +167,6 @@ There is no other place to start.
     - Tactics, maneuvers, strategy, and principles of action in the making of revolutions
 
 - Today's situation is suicidal: revolution and communism have become one in peoples' minds
-    - **This text is dedicated to splitting two atomic ideas: `revolution` from `communism`**
     - We only accept revolution if it is guaranteed to be on our side and we can't find a way out
     - Revolution is associated with communism
     - "The Status Quo" is associated with capitalism
@@ -176,9 +177,11 @@ There is no other place to start.
     - The prerequisite for ideology is `possession of a basic truth`
         - Easy for christians, marxists
         - Hard for an organizer working for open society, who must be a `political relativist`
-        - A `free-society organizer` is free of the shackles of dogma
-            - One belief: `that people, given the power to act, will do the right thing in the long run, most of the time`
-            - "Politics of Change". Note: This is perhaps better called the **un-dogma** of a free society.
+
+- A `free-society organizer` is free of the shackles of dogma
+    - One belief: `that people, given the power to act, will do the right thing in the long run, most of the time`
+    - **Politics of Change**: free to focus on what matters to people now, rather than serve a dogma
+    - Note: This is perhaps better called the **un-dogma** of a free society.
 
 
 
