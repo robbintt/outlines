@@ -13,6 +13,8 @@ Taken while reading the book.
 
 > "Few [radicals] survived the Joe McCarthy Holocaust of the 1950s and of those there were even fewer whose understanding and insights had developed beyond the dialectical materialism of orthodox Marxism. My fellow radicals who were supposed to pass on the torch of experience and insights to the new generation just were not there. As the young looked around at society around them, it was all, in their words, 'materialistic, decadent, bourgeois in its values, bankrupt, and violent.' Is it any wonder that they rejected us in toto."
 
+- Reader note: [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) is seen now as a reactionary backlash to issues as far ranging as `women's suffrage`, `child labor laws`, and `gay rights`, as well as a means for certain politicians to use fear to keep power. The FBI is also implicated heavily in performing illegal spying.  There are loophopes for domestic spying [used by the FBI today](http://web.archive.org/web/20170202180421/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/). 
+
 - Young people have seen 'activist democracies' turn into 'nihilistic bombing and murder' and there is no panacea for it as there was in the past, 'revolution in Russia and China has since become the same old stuff under a different name'.
 - Young people are looking for a way of life that has some meaning or sense: religion, political philosophy, science, or ideologies.
 - The small world of the past inspired trust, and the big world of today inspires confusion and incomprehensibility.
