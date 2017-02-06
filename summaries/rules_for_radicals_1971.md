@@ -121,6 +121,67 @@ There is no other place to start.
 
 ### Chapter 1 - The Purpose
 
+"The Prince" by Machiavelli is for the **Haves** on how to hold power.
+
+"Rules for Radicals" is for the **Have Nots** on how to take it away.
+
+##### Defining This Book
+
+**Purpose:** Create mass organizations to seize power and give it to the people.
+
+**Premise:** The significant changes in history have been made by revolutions.
+
+**Content:** The book proposes:
+    - Certain general observations
+    - propositions
+    - concepts of the mechanics of mass movements
+    - various stages of the cycle of action and reaction in a revolution
+
+> This book will not contain any panacea or dogma; I detest and fear dogma. I know that all revolutions must have ideologies to spur them on. That in the heat of conflict these ideologies tend to be smelted into rigid dogmas claiming exclusive possession of the truth, and the keys to paradise, is tragic. Dogma is the enemy of human freedom. Dogma must be watched for and apprehended at every turn and twist of the revolutionary movement... To diminish the danger that ideology will deteriorate into dogma, and to protect the free, open, questing, and creative mind of man, as well as to allow for change, no ideology should be more specific than that of America's founding fathers: "For the general welfare."
+
+##### Political Sensitivity & Control Over Events
+
+- **Resilient**, **Adaptable**, and **Sensitive**
+    - "Radicals must have a degree of control over the flow of events"
+        - Have a plan for each branch in the path
+    - Adaptable: Merge the plan, old plans, similar experiences
+        - Adapt to shifting political circumstances
+    - Resilient: Don't back down!!
+    - Sensitive: `find`, `create`, and `take` opportunities
+        - Avoid being trapped by your own tactics
+        - Forced to travel a road not of your choosing.
+    - Keep the initiative. **Do not pass the initiative.** 
+        - Keep things in motion!!
+
+##### Revolutionary "how-to" Guides Are Rare
+
+- Revolutionary literature is sparse!
+    - Literature extolling the virtues of the `Haves` is prolific
+    - Literature decrying revolution as reptilian, evil, and hellish is prolific
+    - To the status quo, revolution "is the only force which has no image, but instead casts a dark, ominous shadow of things to come."
+
+- A significant body of communist revolutionary literature exists
+    - It is embedded in the "language of communism, red and yellow"
+    - Tactics, maneuvers, strategy, and principles of action in the making of revolutions
+
+- Today's situation is suicidal: revolution and communism have become one in peoples' minds
+    - **This text is dedicated to splitting two atomic ideas: `revolution` from `communism`**
+    - We only accept revolution if it is guaranteed to be on our side and we can't find a way out
+    - Revolution is associated with communism
+    - "The Status Quo" is associated with capitalism
+
+####  The Ideology of Change
+
+- **Question:** What, if any, is my ideology?
+    - The prerequisite for ideology is `possession of a basic truth`
+        - Easy for christians, marxists
+        - Hard for an organizer working for open society, who must be a `political relativist`
+        - A `free-society organizer` is free of the shackles of dogma
+            - One belief: `that people, given the power to act, will do the right thing in the long run, most of the time`
+            - "Politics of Change". Note: This is perhaps better called the **un-dogma** of a free society.
+
+
+
 
 
 
