@@ -30,4 +30,4 @@ Taken while reading the book.
         - Contempt
         - "take off for Algeria"
 - There are no rules for revolution as there are for revelation.
-    > "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low.
+> "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low.
