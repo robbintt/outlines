@@ -34,13 +34,13 @@ Taken while reading the book.
 
 ### Prologue
 
-##### McCarthy Era
+#### McCarthy Era
 
 > "Few [radicals] survived the Joe McCarthy Holocaust of the 1950s and of those there were even fewer whose understanding and insights had developed beyond the dialectical materialism of orthodox Marxism. My fellow radicals who were supposed to pass on the torch of experience and insights to the new generation just were not there. As the young looked around at society around them, it was all, in their words, 'materialistic, decadent, bourgeois in its values, bankrupt, and violent.' Is it any wonder that they rejected us in toto." (p. xiii)
 
 - Reader note: [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) is seen now as a reactionary backlash to issues as far ranging as `women's suffrage`, `child labor laws`, and `gay rights`, as well as a means for certain politicians to use fear to keep power. The FBI is also implicated heavily in performing illegal spying.  There are loophopes for domestic spying [used by the FBI today](http://web.archive.org/web/20170202180421/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/). 
 
-##### Young vs. Old
+#### Young vs. Old
 
 - Young people have seen 'activist democracies' turn into 'nihilistic bombing and murder' and there is no panacea for it as there was in the past, 'revolution in Russia and China has since become the same old stuff under a different name'.
 - Young people are looking for a way of life that has some meaning or sense: religion, political philosophy, science, or ideologies.
@@ -62,11 +62,11 @@ Taken while reading the book.
         - "take off for Algeria"
 - There are no rules for revolution as there are for revelation.
 
-##### There are `no rules for revolution` but there are `rules for radicals`.
+#### There are `no rules for revolution` but there are `rules for radicals`.
 
 > "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low. First, there are no rules for revolution any more than there are rules for love or rules for happiness, but there *are* rules for radicals who want to change their world; there are central concepts of action in human politics that operate regardless of the scene or the time. To know these is basic to a pragmatic attack on the system. These rules make the difference between a realistic radical and being a rhetorical one who uses the tired old words and slogans, calls the police 'pig' or 'white fascist racist' or 'motherfucker' and has so stereotyped himself that others react by saying, 'oh, he's one of *those*,' and then promptly turn off." (p. xviii)
 
-##### Communication
+#### Communication
 
 >Throughout history, silence has been regarded as assent -- in this case, assent to the system.
 
@@ -85,7 +85,7 @@ If you cannot communicate in a way that your audience listens to you, you are si
     - Work inside the system: `Dostoyevsky said that taking a new step is what people fear the most. Any revolutionary change must be preceded by a passive, affirmative, non-challenging attitude toward change among the mass of our people. They must feel so frustrated, so defeated, so lost, so futureless in the prevailing system that they are willing to let go of the past and chance the future. That acceptance is the reformation essential to any revolution. To bring on this reformation requires that the organizer work inside the system, among not only the middle class but the 40 percent of American families... whose income ranges from $5000 to$10000 a year [in 1971 dollars]... IF we fail to communicate with them... they will move to the right... maybe they will anyways, but lets not let it happen by default.`
 
 
-##### Non-Violence
+#### Non-Violence
 
 Violence is absurd when the other side has all the guns.
 
@@ -94,7 +94,7 @@ Just one violent incident like has happened in the US `would have resulted in a 
 Remember that we have the freedom to fight with our words and to build an opposition base against the administration.  
 
 
-##### Start with `the system`
+#### Start with `the system`
 
 There is no other place to start.
 
@@ -109,7 +109,7 @@ There is no other place to start.
     - `Revolution` without prior reformation will collapse or become totalitarian tyranny.
     - `Reformation` - People are fed up with past ways. They don't know what will work but they know that the present system is hopeless. They won't act for change but won't strongly oppose those who do. Then the time is ripe for `revolution`.
 
-##### Participation
+#### Participation
 
 > Citizen participation is the animating spirit and force in a society predicated on voluntarism.
 
