@@ -26,6 +26,25 @@ The book is dated in some political terminology. See the below list for clarific
     - Although, Alinsky doesn't make this strict distinction between whether violence is actually used.  
 - `reformation` means `reorganization of values or priorities` for your `political base`
 
+## General Notes
+
+Wikipedia offers a summary of the rules:
+
+1. “Power is not only what you have, but what the enemy thinks you have.” Power is derived from 2 main sources – money and people. “Have-Nots” must build power from flesh and blood.
+2. “Never go outside the expertise of your people.” It results in confusion, fear and retreat. Feeling secure adds to the backbone of anyone.
+3. “Whenever possible, go outside the expertise of the enemy.” Look for ways to increase insecurity, anxiety and uncertainty.
+4. “Make the enemy live up to its own book of rules.” If the rule is that every letter gets a reply, send 30,000 letters. You can kill them with this because no one can possibly obey all of their own rules.
+5. “Ridicule is man’s most potent weapon.” There is no defense. It’s irrational. It’s infuriating. It also works as a key pressure point to force the enemy into concessions.
+6. “A good tactic is one your people enjoy.” They’ll keep doing it without urging and come back to do more. They’re doing their thing, and will even suggest better ones.
+7. “A tactic that drags on too long becomes a drag.” Don’t become old news.
+8. “Keep the pressure on. Never let up.” Keep trying new things to keep the opposition off balance. As the opposition masters one approach, hit them from the flank with something new.
+9. “The threat is usually more terrifying than the thing itself.” Imagination and ego can dream up many more consequences than any activist.
+10. "The major premise for tactics is the development of operations that will maintain a constant pressure upon the opposition."  It is this unceasing pressure that results in the reactions from the opposition that are essential for the success of the campaign.
+11. “If you push a negative hard enough, it will push through and become a positive.” Violence from the other side can win the public to your side because the public sympathizes with the underdog.
+12. “The price of a successful attack is a constructive alternative.” Never let the enemy score points because you’re caught without a solution to the problem.
+13. “Pick the target, freeze it, personalize it, and polarize it.” Cut off the support network and isolate the target from sympathy. Go after people and not institutions; people hurt faster than institutions.
+
+
 
 ## *Rules for Radicals* Notes
 
