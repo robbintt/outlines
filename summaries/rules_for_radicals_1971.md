@@ -1,9 +1,9 @@
-## Rules For Radicals - 1971
+# Rules For Radicals - 1971
 
 Author: [Saul Alinksy](https://en.wikipedia.org/wiki/Saul_Alinsky)
 
 
-### Safety Note: 
+## Safety Note: 
 
 Do not store or supply ```unsafe materials``` for ```Anything Illegal```, **especially** for "People You Trust".
 
@@ -17,7 +17,7 @@ Here is a half baked guide [about what infiltrators might do](http://www.rooshv.
 
 The FBI has also [infiltrated Oil Pipeline Protestors](http://web.archive.org/web/20170202145036/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/) using legal loopholes.
 
-### Dictionary
+## Dictionary
 
 The book is dated in some political terminology. See the below list for clarifications.
 
@@ -27,12 +27,12 @@ The book is dated in some political terminology. See the below list for clarific
 - `reformation` means `reorganization of values or priorities` for your `political base`
 
 
-### Notes
+## *Rules for Radicals* Notes
 
 Taken while reading the book.
 
 
-#### Prologue
+### Prologue
 
 ##### McCarthy Era
 
@@ -118,6 +118,9 @@ There is no other place to start.
 
 > Hang on to one of the most precious parts of youth, laughter...
         
+
+### Chapter 1 - The Purpose
+
 
 
 
