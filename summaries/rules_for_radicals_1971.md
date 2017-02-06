@@ -3,7 +3,7 @@
 Author: [Saul Alinksy](https://en.wikipedia.org/wiki/Saul_Alinsky)
 
 
-### Modern Note: Do not store or supply materials for "Anything Illegal", **especially** for "People You Trust"
+### **Safety Note**: Do not store or supply materials for "Anything Illegal", **especially** for "People You Trust"
 
 In 2012-2017, the FBI has repeatedly radicalized left-wing organizations to cross strict legal barriers in perceived assistance of domestic terrorism.  
 
