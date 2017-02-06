@@ -9,11 +9,22 @@ Do not store or supply **unsafe materials** for **Anything Illegal**, *especiall
 
 In 2012-2017, the FBI has repeatedly radicalized left-wing organizations to cross strict legal barriers in perceived assistance of domestic terrorism.  
 
+[If an agent knocks, federal investigators and your rights](http://web.archive.org/web/20161107205955/http://bcn.boulder.co.us/environment/vail/ifanagentknocks.html/)
+
+> Today, the FBI may begin a full investigation whenever there is a reasonable indication that "two or more persons are engaged in an enterprise for the purpose of furthering political or social goals wholly or in part through activities that involve force or violence and a violation of the criminal laws of the United States." The FBI has interpreted "force or violence" **to include the destruction of property as a symbolic act, and the mere advocacy of such property destruction would trigger an investigation.** Even without any reasonable indication, under a separate guideline on "Civil Disorders and Demonstrations Involving a Federal Interest," the FBI may investigate an organization that plans only legal and peaceful demonstrations.
+
+> Another set of rules governing federal intelligence gathering is Executive Order 12333, in force since 1981. It authorizes the FBI and CIA to infiltrate, manipulate and destroy U.S.political organizations, as well as to use electronic surveillance -- under the pretext of an international intelligence investigation.
+
+
+
+
+Here is a half baked guide [about what infiltrators might do](http://www.rooshv.com/how-the-fbi-infiltrates-movements-and-what-you-can-do-to-stop-them).
+
+
 >Also in Texas, a left-wing group was infiltrated by an FBI informant who insisted that the group become violent in response to the Republican scourge. Once he convinced members to make Molotov cocktails, the FBI [stormed in and made arrests](http://web.archive.org/web/20170203130247/http://www.motherjones.com/politics/2011/08/brandon-darby-anarchist-fbi-terrorism).
 
 >Lastly, the FBI infiltrated middle-aged peace activists and filed trumped-up charges of them providing “assistance” to terrorists. The bogus charges were eventually dropped.
 
-Here is a half baked guide [about what infiltrators might do](http://www.rooshv.com/how-the-fbi-infiltrates-movements-and-what-you-can-do-to-stop-them).
 
 The FBI has also [infiltrated Oil Pipeline Protestors](http://web.archive.org/web/20170202145036/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/) using legal loopholes.
 
