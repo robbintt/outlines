@@ -133,10 +133,10 @@ There is no other place to start.
 
 **Content:** The book proposes:
 
-    - Certain general observations
-    - propositions
-    - concepts of the mechanics of mass movements
-    - various stages of the cycle of action and reaction in a revolution
+- Certain general observations
+- propositions
+- concepts of the mechanics of mass movements
+- various stages of the cycle of action and reaction in a revolution
 
 > This book will not contain any panacea or dogma; I detest and fear dogma. I know that all revolutions must have ideologies to spur them on. That in the heat of conflict these ideologies tend to be smelted into rigid dogmas claiming exclusive possession of the truth, and the keys to paradise, is tragic. Dogma is the enemy of human freedom. Dogma must be watched for and apprehended at every turn and twist of the revolutionary movement... To diminish the danger that ideology will deteriorate into dogma, and to protect the free, open, questing, and creative mind of man, as well as to allow for change, no ideology should be more specific than that of America's founding fathers: "For the general welfare."
 
