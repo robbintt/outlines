@@ -28,7 +28,7 @@ The book is dated in some political terminology. See the below list for clarific
 
 ## General Notes
 
-Wikipedia offers a summary of the rules:
+Wikipedia offers a [summary of the rules](https://en.wikipedia.org/wiki/Rules_for_Radicals#The_Rules):
 
 1. “Power is not only what you have, but what the enemy thinks you have.” Power is derived from 2 main sources – money and people. “Have-Nots” must build power from flesh and blood.
 2. “Never go outside the expertise of your people.” It results in confusion, fear and retreat. Feeling secure adds to the backbone of anyone.
@@ -215,7 +215,7 @@ There is no other place to start.
 
 1. Examples of the `duality of revolution and reaction` (p. 16)
     1. `Urban Housing Projects` - A dream of replacing the tenements vs. a doubly segregated place.
-    2. `CIO + AF of L` - Union protecting workers becomes entrenched member of establishment
+    2. `CIO + AF of L` - CIO reforming AF of L becomes entrenched member of establishment as AFLCIO
     3. etc.
 
 #### Section: Class Distinctions: The Trinity
