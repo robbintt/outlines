@@ -29,5 +29,5 @@ Taken while reading the book.
         - Suicide
         - Contempt
         - "take off for Algeria"
-- > "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low.
 - There are no rules for revolution as there are for revelation.
+    > "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low.
