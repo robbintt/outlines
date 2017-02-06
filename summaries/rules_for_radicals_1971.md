@@ -3,6 +3,18 @@
 Author: [Saul Alinksy](https://en.wikipedia.org/wiki/Saul_Alinsky)
 
 
+### To The Reader - Don't provide materials for direct action, especially to people you think you trust
+
+In 2012-2017, the FBI has repeatedly radicalized left-wing organizations to cross strict legal barriers in perceived assistance of domestic terrorism.  
+
+Here is a half baked guide [about what infiltrators will do](http://www.rooshv.com/how-the-fbi-infiltrates-movements-and-what-you-can-do-to-stop-them).
+
+>Also in Texas, a left-wing group was infiltrated by an FBI informant who insisted that the group become violent in response to the Republican scourge. Once he convinced members to make Molotov cocktails, the FBI [stormed in and made arrests](http://web.archive.org/web/20170203130247/http://www.motherjones.com/politics/2011/08/brandon-darby-anarchist-fbi-terrorism).
+
+>Lastly, the FBI infiltrated middle-aged peace activists and filed trumped-up charges of them providing “assistance” to terrorists. The bogus charges were eventually dropped.
+
+The FBI has also [infiltrated Oil Pipeline Protestors](http://web.archive.org/web/20170202145036/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/) using legal loopholes.
+
 
 ### Notes
 
