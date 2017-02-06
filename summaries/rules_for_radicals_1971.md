@@ -82,14 +82,16 @@ If you cannot communicate in a way that your audience listens to you, you are si
     - Do it for, and with, people
 4. `If the real radical finds that having long hair sets up psychological barriers to communication and organization, he cuts his hair.`
     - Start your battle where the world is, not where you would like it to be.
-    - Work inside the system: `Dostoyevsky said that taking a new step is what people fear the most. Any revolutionary change must be preceded by a passive, affirmative, non-challenging attitude toward change among the mass of our people. They must feel so frustrated, so defeated, so lost, so futureless in the prevailing system that they are willing to let go of the past and chance the future. That acceptance is the reformation essential to any revolution. To bring on this reformation requires that the organizer work inside the system, among not only the middle class but the 40 percent of American families... whose income ranges from $5000 to$10000 a year [in 1971 dollars]... IF we fail to communicate with them... they will move to the right... maybe they will anyways, but lets not let it happen by default.`
+    - Work inside the system
+
+> Dostoyevsky said that taking a new step is what people fear the most. Any revolutionary change must be preceded by a passive, affirmative, non-challenging attitude toward change among the mass of our people. They must feel so frustrated, so defeated, so lost, so futureless in the prevailing system that they are willing to let go of the past and chance the future. That acceptance is the reformation essential to any revolution. To bring on this reformation requires that the organizer work inside the system, among not only the middle class but the 40 percent of American families... whose income ranges from $5000 to$10000 a year [in 1971 dollars]... IF we fail to communicate with them... they will move to the right... maybe they will anyways, but lets not let it happen by default. (p. xix)
 
 
 #### Non-Violence
 
 Violence is absurd when the other side has all the guns.
 
-Just one violent incident like has happened in the US `would have resulted in a sweeping purge and mass executions in Russia, China, or Cuba. Lets keep some perspective.
+> Just one violent incident like has happened in the US would have resulted in a sweeping purge and mass executions in Russia, China, or Cuba. Lets keep some perspective. (paraphrased)
 
 Remember that we have the freedom to fight with our words and to build an opposition base against the administration.  
 
@@ -117,7 +119,7 @@ There is no other place to start.
 
 > To lose your "identity" as a citizen of democracy is but a step from losing your identity as a person. People react to this frustration by not acting at all.
 
-> Hang on to one of the most precious parts of youth, laughter...
+> Hang on to one of the most precious parts of youth, laughter... (p. xxvii)
         
 
 ### Chapter 1 - The Purpose
@@ -126,7 +128,7 @@ There is no other place to start.
 
 "Rules for Radicals" is for the **Have Nots** on how to take it away.
 
-##### Defining This Book
+#### Defining This Book
 
 **Purpose:** Create mass organizations to seize power and give it to the people.
 
@@ -139,9 +141,9 @@ There is no other place to start.
 - concepts of the mechanics of mass movements
 - various stages of the cycle of action and reaction in a revolution
 
-> This book will not contain any panacea or dogma; I detest and fear dogma. I know that all revolutions must have ideologies to spur them on. That in the heat of conflict these ideologies tend to be smelted into rigid dogmas claiming exclusive possession of the truth, and the keys to paradise, is tragic. Dogma is the enemy of human freedom. Dogma must be watched for and apprehended at every turn and twist of the revolutionary movement... To diminish the danger that ideology will deteriorate into dogma, and to protect the free, open, questing, and creative mind of man, as well as to allow for change, no ideology should be more specific than that of America's founding fathers: "For the general welfare."
+> This book will not contain any panacea or dogma; I detest and fear dogma. I know that all revolutions must have ideologies to spur them on. That in the heat of conflict these ideologies tend to be smelted into rigid dogmas claiming exclusive possession of the truth, and the keys to paradise, is tragic. Dogma is the enemy of human freedom. Dogma must be watched for and apprehended at every turn and twist of the revolutionary movement... To diminish the danger that ideology will deteriorate into dogma, and to protect the free, open, questing, and creative mind of man, as well as to allow for change, no ideology should be more specific than that of America's founding fathers: "For the general welfare." (p. 4)
 
-##### Political Sensitivity & Control Over Events
+#### Political Sensitivity & Control Over Events
 
 - **Resilient**, **Adaptable**, and **Sensitive**
     - "Radicals must have a degree of control over the flow of events"
@@ -155,7 +157,7 @@ There is no other place to start.
     - Keep the initiative. **Do not pass the initiative.** 
         - Keep things in motion!!
 
-##### Revolutionary "how-to" Guides Are Rare
+#### Revolutionary "how-to" Guides Are Rare
 
 **This text is dedicated to splitting two atomic ideas: `revolution` from `communism`**
 
@@ -173,7 +175,7 @@ There is no other place to start.
     - Revolution is associated with communism
     - "The Status Quo" is associated with capitalism
 
-####  The Ideology of Change
+####  Section: The Ideology of Change
 
 - **Question:** What, if any, is my ideology?
     - The prerequisite for ideology is `possession of a basic truth`
@@ -185,7 +187,61 @@ There is no other place to start.
     - **Politics of Change**: free to focus on what matters to people now, rather than serve a dogma
     - Note: This is perhaps better called the **un-dogma** of a free society.
 
+> Political realists see the world as it is: an arena of power politics moved primarily by perceived immediate self-interests, where morality is rhetorical rationale for expedient action and self-interest. (p.12)
 
+
+#### Duality of Revolution and Counter-Revolution
+
+- Accept and embrace the `duality of revolution and counter-revolution`. If you understand the big picture of `revolution` and `counter-revolution` then you can seek to alter the historical pattern of "two steps forwards, one step back".
+
+1. Examples of the `duality of revolution and reaction` (p. 16)
+    1. `Urban Housing Projects` - A dream of replacing the tenements vs. a doubly segregated place.
+    2. `CIO + AF of L` - Union protecting workers becomes entrenched member of establishment
+    3. etc.
+
+#### Class Distinctions: The Trinity
+
+1. Three Parts of Mankind
+    1. `Haves`: *want to keep* 
+        - power, money, food, security, luxury
+        - determined to **freeze the Status Quo**
+        - "When do we sleep?" - fear violent uprising
+    2. `Have-Nots`: *want to get*
+        - poverty, rotten housing, disease, ignorance, political impotence, despair
+        - jobs pay the least
+        - deprived in all areas basic to human growth
+        - caged by color physical or political, barred from representation
+        - hate the establishment, opulence, police, courts, churches
+        - Justice, morality, law, and order are mere words when used by the `Haves`: justify and secure the status quo
+        - Power in Numbers.
+        - "When do we eat?", "get off our backs"
+    3. `Have-A-Little, Want Mores`: the middle class
+        - Torn between `status quo` and `change things to get more`
+        - social, economic, political schizoids
+        - Generally seek the safe way
+        - Insist on three aces in their hand before playing the poker game of `revolution`
+        - Majority in the US, and generally in Western society.
+        - Argument by Alinksy that the greats come out of the middle class
+
+The `middle class` spawns people who provoke action but `Do Nothing`, "I agree with your ends but not with your means."  Act as a blanket for the sparks of disension.  The book will examine both the `Doers` and the `Do-Nothings`. Edmund Burke: "The only thing necessary for the triumph of evil is for good men to do nothing." *Alice in Wonderland*: Tiger-Lily points out that the flowers that talk grow out of hard beds of ground. In most gardens, they make the beds too soft so that the flowers are always asleep. (p. 21)
+
+> Change means movement. Movement means friction. Only in the frictionless vacuum of a nonexistent abstract world can movement or change occur without that abrasive friction of conflict. In these pages it is our open political purpose to cooperate with the great law of change; to want otherwise would be like King Canute's commanding the tides and waves to cease.
+
+> *Alinsky's personal philosophy is anchored in optimism.* If we imagine the struggle as a mountain, we must visualize a mountain with no top.... Knowing that the mountain has no top... *Why do we continue?* ... because it's there... 
+
+Different than Sisyphis, doomed to have the boulder roll back down again. We see new vistas at each plateau.
+
+#### The low road to morality.
+
+- If you have bread and your neighbor has none, he will kill you and eat yours.
+- We must accept that we rely on each other to continue a free society.
+- You must share some of your wealth, or lose all of it. Remember: organizations are wealth, you can't destroy everyone.
+- Note: Following this low road, `welfare` and `basic income` can be viewed, for better or for worse, as ransom on society's wealth.
+
+>This is the low road to morality. There is no other. (p. 23)
+
+
+### Chapter 2 - Of Means and Ends
 
 
 
