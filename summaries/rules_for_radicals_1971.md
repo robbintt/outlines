@@ -23,7 +23,7 @@ Taken while reading the book.
 
 #### Prologue
 
-> "Few [radicals] survived the Joe McCarthy Holocaust of the 1950s and of those there were even fewer whose understanding and insights had developed beyond the dialectical materialism of orthodox Marxism. My fellow radicals who were supposed to pass on the torch of experience and insights to the new generation just were not there. As the young looked around at society around them, it was all, in their words, 'materialistic, decadent, bourgeois in its values, bankrupt, and violent.' Is it any wonder that they rejected us in toto."
+> "Few [radicals] survived the Joe McCarthy Holocaust of the 1950s and of those there were even fewer whose understanding and insights had developed beyond the dialectical materialism of orthodox Marxism. My fellow radicals who were supposed to pass on the torch of experience and insights to the new generation just were not there. As the young looked around at society around them, it was all, in their words, 'materialistic, decadent, bourgeois in its values, bankrupt, and violent.' Is it any wonder that they rejected us in toto." (p. xiii)
 
 - Reader note: [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) is seen now as a reactionary backlash to issues as far ranging as `women's suffrage`, `child labor laws`, and `gay rights`, as well as a means for certain politicians to use fear to keep power. The FBI is also implicated heavily in performing illegal spying.  There are loophopes for domestic spying [used by the FBI today](http://web.archive.org/web/20170202180421/https://shadowproof.com/2017/01/31/fbi-rule-book-reveals-loopholes-infiltrating-groups-protesting-pipelines/). 
 
@@ -47,4 +47,11 @@ Taken while reading the book.
         - "take off for Algeria"
 - There are no rules for revolution as there are for revelation.
 
-> "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low.
+> "Remember we are talking about revolution, not revelation; you can miss the target by shooting too high as well as too low. First, there are no rules for revolution any more than there are rules for love or rules for happiness, but there *are* rules for radicals who want to change their world; there are central concepts of action in human politics that operate regardless of the scene or the time. To know these is basic to a pragmatic attack on the system. These rules make the difference between a realistic radical and being a rhetorical one who uses the tired old words and slogans, calls the police 'pig' or 'white fascist racist' or 'motherfucker' and has so stereotyped himself that others react by saying, 'oh, he's one of *those*,' and then promptly turn off." (p. xviii)
+
+- Communication
+    1. Communicate within the experience of your audience w/ full respect to its values
+        - A fool attacks the American flag: `it is the establishment which has betrayed the flag while the flag, itself, remains the glorious symbol of America's hopes and aspirations`
+
+
+
