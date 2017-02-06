@@ -23,7 +23,8 @@ The book is dated in some political terminology. See the below list for clarific
 
 - `radical` means `activist` in 2017
 - `revolution` means `political revolution` in 2017 (not violent revolution)
-    - Although, Alinsky sometimes refers to actual revolutions in the same umbrella term and context.  - `reformation` means `reorganization of values or priorities` for your `political base`
+    - Although, Alinsky sometimes refers to actual revolutions in the same umbrella term and context.  
+- `reformation` means `reorganization of values or priorities` for your `political base`
 
 
 ## *Rules for Radicals* Notes
