@@ -3,6 +3,13 @@
 Reading and taking notes on books is time consuming and many concepts exist for making the first time you read something the last time.
 
 
+### Review these resources
+
+1. [1](https://www.quora.com/Do-you-take-notes-when-reading-a-book-If-yes-how-do-you-take-notes-as-it-helps-you-better-absorb-information)
+2. [2](https://www.farnamstreetblog.com/2014/05/remembering-what-you-read/)
+3. [3](https://www.farnamstreetblog.com/2013/11/taking-notes-while-reading/)
+
+
 ### Goals
 
 Read comprehensively the first time and ensure that key information is ingested.
