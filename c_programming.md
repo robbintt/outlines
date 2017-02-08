@@ -217,6 +217,13 @@ Note: keywords in C only fall into two categories: `data management` and `contro
 >This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.  This also enables some language-specific warnings described in C++ Dialect Options and Objective-C and Objective-C++ Dialect Options.
 
 
+### Macros [(source)](https://gcc.gnu.org/onlinedocs/cpp/Macros.html)
+
+> A macro is a fragment of code which has been given a name. Whenever the name is used, it is replaced by the contents of the macro. There are two kinds of macros. They differ mostly in what they look like when they are used. Object-like macros resemble data objects when used, function-like macros resemble function calls.
+
+> You may define any valid identifier as a macro, even if it is a C keyword. The preprocessor does not know anything about keywords. This can be useful if you wish to hide a keyword such as const from an older compiler that does not understand it. However, the preprocessor operator defined (see Defined) can never be defined as a macro, and C++'s named operators (see C++ Named Operators) cannot be macros when you are compiling C++.
+
+
 ### Others' Resources
 
 - zv says: `man ld.so` - it's worth your time in my view to at least skim the `ld.so` manpage
