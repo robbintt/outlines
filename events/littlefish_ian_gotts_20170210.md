@@ -3,13 +3,13 @@
 Speaker: Ian Gotts
 Talk: The Business of Consulting
 
+Note: Ian wrote about 10 books and his first one still gets him business today.
 
-####
 
-Three R's of Ian's talk:
-R
-Remember
-Reveal
+1. Three R's of Ian's talk:
+- R
+- Remember
+- Reveal
 
 
 #### Winning Work
@@ -202,7 +202,47 @@ Always test the boundary of how much you can charge.
 Day rate: $500, $800, $1000, $2000 - always move it up!!
 
 
-    
+##### Notes
+
+He says technical skills are worthless, amazing eastern european developers cost $20 an hour, so it's all about access to technical skills.
+
+Innovative websites don't work.  It's why all product websites and carts are the same.
+
+
+
+##### Questions
+
+1. How do you be awesome if you don't have a resume that says you worked for the big 5?
+    - Ian: It may not be who you worked for but who your clients have been in the past.
+    - Example: The best part of the book is the back cover with quotes by people that love them. Everyone reads the back -- this book must be incredible.
+2. How do you get a client to use your name?
+    - A bunch of clients will, some people won't put it through their legal people.
+    - Find people who will bat for you.
+    - If it's a book, it can further their career. Find win-wins.
+3. What about partnerships?
+    - Equity partnerships - you need to be super careful. Getting a divorce is hard.
+    - Are you both aligned? Are you both putting the same amount of time on it?
+    - "We'll work it out in the end?"
+    - Very difficult to unwind if it goes wrong.
+4. How much do you spend on marketing when do you stop?
+    - As a small business, SEO, facebook marketing, etc. are a huge waste.
+    - BEST: Networking events where you can work together to figure out how to get clients.
+    - BEST: Write a book or a paper, they hang around forever!
+    - BEST: Linkedin relationships, article worth reading on linkedin
+    - Make sure to get writing out there.
+    - What are you really good at? Where are they?
+        - Salesforce: all on twitter. Why? No one knows!!
+        - 430 salesforce user groups - marin, sf, etc. Every other week.
+        - half consultants and half clients!! there's an ecosystem
+        - remember: salesforce growth blocker is consultants.
+5. How do I move up a tier on project size?
+    - Confidence to bid for bigger projects
+    - Being there already - take a bigger project with a current client.    
+    - Who else do you need around? Project management skills?
+    - The people who are winning those projects, how are they doing it?
+        - What does their website look like?
+        - How do I get $2000 a day? Answer: put less on your resume
+        - Behave how people are operating at that level behave
 
 
 
