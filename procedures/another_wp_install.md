@@ -19,7 +19,7 @@
     2. `create database {Database Name};`
     3. `create user '{User}'@'localhost' IDENTIFIED BY '{Password}'`
         - Does the next step create the user automatically if you don't do this?
-    4. `GRANT ALL PRIVILEGES ON '{db}'.* To '{user}'@'localhost' IDENTIFIED BY '{passwd}';`
+    4. `GRANT ALL PRIVILEGES ON {db}.* To '{user}'@'localhost' IDENTIFIED BY '{passwd}';`
     5. view your changes: `mysql> select user, host, password from mysql.user;`
     6. `mysql> FLUSH PRIVILEGES;` then `mysql> quit;`
 4. Set the `wp-config.php` salts and database info according to the MySQL information.
@@ -32,6 +32,7 @@
     - `$table_prefix`
     - [Authentication Unique Keys and Salts](https://api.wordpress.org/secret-key/1.1/salt/)
 5. Use wp-cli for first time install
+    - it is usually aliased to `wp`
     - `sudo -u www-data wp core install --url=www.example.com --title=Example --admin_user=ex-admin --admin_password=123xyz --admin_email=admin@ex.com
     - if installed in a subdirectory `www.example.com/subdir` then `wp option update siteurl http://www.example.com/subdir`
 
