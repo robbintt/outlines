@@ -4,7 +4,6 @@ To upload a zip to archive.org
 crop images to be consistent (as they should look in the book)
 image filenames must be in order (from beginning to end)
 rename into a zip file, eg: foo_images.zip (must end in `_images.zip`)  Foo MAY need to be an indentifier, not sure. Maybe it could be anything.
-
 To test:
 ========
 Go to archive.org, choose upload a file, update.
