@@ -1,0 +1,19 @@
+
+## We are reviewing: https://github.com/faun/dotfiles/blob/master/vimrc
+
+faun (do this?):
+set nocompatible "makes vim not stupid"
+
+
+faun's favorite thing in vimrc:
+<space><enter> runs tests, deeply linked to tmux.
+
+faun's vimrc
+Look at how he maps his f3 key to remove trailing whitespace in the whole file
+
+
+vim modeline
+modelines allow you to set variables specific to a file. By default, the first and last five lines are read by vim for variable settings. For example, if you put the following in the last line of a C program, you would get a textwidth of 60 chars when editing that file:
+/* vim: tw=60 ts=2: */
+The modelines variable sets the number of lines (at the beginning and end of each file) vim checks for initializations.
+check out in spf13

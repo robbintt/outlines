@@ -1,0 +1,49 @@
+
+
+A list of some (all?) CSS animation types:
+CSS Transitions, Transforms, Keyframe Animations
+
+A rundown of smil vs css vs js (svg animation library):
+http://www.creativebloq.com/javascript/css-js-smil-animations-21514229
+
+Microsoft does not use SMIL and won't.
+Chrome is planning to phase out SMIL.
+
+snap.js, velocity.js, gsap.js javascript animation libraries.
+
+two.js - another drawing library, this one can use canvas
+
+adobe "state of svg animation": http://blogs.adobe.com/dreamweaver/2015/06/the-state-of-svg-animation.html
+
+(css properties that can be animated are found on w3.org)
+
+SVG WordPress like a boss:
+https://discourse.roots.io/t/best-practice-svg-wordpress-like-a-boss/6280
+
+
+We can only animate inline svg with css.
+
+CSS Transform Property: rotate, scale, skew, translate
+The transition is then applied onto the transform for the class of the elements affected.
+
+Give the SVG elements CSS classes and style those.
+
+<g>...</g> element is a container for grouping SVG elements together. Add a CSS class to the <g> element to change all components as a group.
+
+XML always has closing tags.
+
+CSS transforms around 50% 50% (center)
+SVG transforms around 0 0 (top left)
+Use `transform-origin: 50% 50%;` to transform around the center.
+
+
+Firefox "transform-origin bug": 
+===============================
+Firefox does not honor percentage based origins for SVG
+Firefox doesn't recognize keyword based origins (right bottom or center center)
+cx and cy in the circle SVG element have the circle center in 'pixels'
+This is kinda weird since SVG doesn't have pixels, but the length is apparently relative to the whole SVG.
+transform-origin: 200px 50px;
+
+
+

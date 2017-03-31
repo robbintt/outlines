@@ -1,0 +1,71 @@
+General notes:
+
+When printing a circle, the back and front (oriented in printer) of each item seemed to have deformation. This is likely a resolution issue or a problem with the model. I saw a much smaller circular print at the same time without that deformity visible, although it may have been available to be seen on the bottom of the item. it was a lot taller (a 1 inch tall, half inch diameter cylinder with a hole in the middle)
+
+
+PLA
+
+https://www.makerbot.com/blog/2011/01/26/how-to-get-better-results-from-your-3d-printer-%E2%80%93-part-iii
+Platform temperature: 70 C recommended
+
+First PLA Print (8 PM)
+- Came out great!
+- 80 mm/s feedrate
+- 100 mm/s travel feedrate
+- 190 C nozzle temperature
+- 70 C platform temperature
+- Painter's tape on platform (fresh)
+- Used a raft
+- No real deformation 
+
+
+
+ABS
+===
+
+Today's Notes (11.17.15, 4 attempts)
+I started  printing at 
+Finished printing at around 730 PM.
+During this time it got dark and colder as well. Probably started at 72 C ambient room temperature and went to 67 C ambient room temperature.
+Alex reported that he could see his breath at NB last night and his print was very deformed. There may have been a relationship.
+
+
+First Attempt (worked well!)
+============================
+Extruder @ 220 C
+Feedrate 40 mm/s
+Travel Feedrate 55 mm/s
+Blue painter's tape on platform. Platforma at 110 C.
+
+
+Second Attempt (Worked very well! I deformed it when prying up.)
+=======================
+Extruder @ 220 C
+This was the nicest sample.
+No raft - the coin bent because the platform was not allowed to cool.
+Previously, rafts must have allowed the structure of the item to cool faster than the platform, preventing deformation. IMPORTANT IF NOT USING A RAFT!!
+Kapton tape on platform. Platform at 130 C.
+
+
+Third attempt (not good, many deformities)
+==========================================
+Extruder @ 220 C
+Feedrate 80 mm/s was TERRIBLE quality print.
+Travel feedrate probably doesn't matter, since it doesn't affect the print?
+Travel Feedrate was 80.
+Kapton tape on platform. Platform at 130 C.
+
+
+Fourth attempt (ok, but some deformities):
+==========================================
+Extruder @ 220 C
+Feedrate 40 mm/s was much nicer than the recommended 80 mm/s
+Travel feedrate probably doesn't matter, since it doesn't affect the print?
+Travel Feedrate was 40.
+Kapton tape on platform. Platform at 135 C.
+
+https://www.makerbot.com/blog/2011/01/26/how-to-get-better-results-from-your-3d-printer-%E2%80%93-part-iii
+print temperature 220-230 C for small to large (higher for larger)
+
+https://www.makerbot.com/blog/2011/01/26/how-to-get-better-results-from-your-3d-printer-%E2%80%93-part-iii
+Platform temperature: 130 C (135-140 recommended by source)
