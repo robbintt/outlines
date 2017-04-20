@@ -15,6 +15,10 @@
 # Needs Deeper Research
 
 2. tabs->spaces
+  - looks like highlight and <|> indent by 4 spaces in html extension files... not sure how it varies by file extension
+  - we want this to be 2 spaces by default and 4 spaces in the .py file extension
+  - indentation with the tab also does not always work, it seems to try to force a style from somewhere, tab does not always have an effect
+  - tab seems to add spaces when it allows input... this should not follow complex rules, tab should just put 2 spaces in regardless
 
 
 # Done
