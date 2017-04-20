@@ -20,9 +20,14 @@
 1. line numbers on startup, line number toggle?
 3. note taken - How do i search for tabs, e.g. \t
 4. scroll-margin set to 5
-8. C-l should redraw the screen
+8. C-l should redraw the screen - redraw does not clear search highlighting in emacs...
   - Clear a search with `SPC s c`
 
+
+# Optional
+
+1. redraw screen with some key combo? - https://www.gnu.org/software/emacs/manual/html_node/elisp/Refresh-Screen.html
+  - May already be in spacemacs, check
 
 
 ----------------------------------------
