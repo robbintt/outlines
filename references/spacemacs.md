@@ -9,6 +9,8 @@
 11. Consider alias for bash for spacemacs nongui as default `emacs -nw`
   - Also, consider installing the emacs-plus package from homebrew cask on mac
   - The emacs-plus package is apparently the recommended package by spacemacs, no idea why...
+12. Store undo history between sessions for all edited files.
+  - manage branching undo history better? may just need training...
 
 # Needs Deeper Research
 
