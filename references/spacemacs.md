@@ -6,7 +6,9 @@
 7. How do I drill down to my packages? How do I learn about my evil mode configuration and contribute to the evil mode emacs plugin?
 9. Consider moving my hotkeys to a helm menu or something, with a space leader instead of C-<key> pattern. Also includes vim functions.
 10. Rewrite vim functions for spacemacs
-
+11. Consider alias for bash for spacemacs nongui as default `emacs -nw`
+  - Also, consider installing the emacs-plus package from homebrew cask on mac
+  - The emacs-plus package is apparently the recommended package by spacemacs, no idea why...
 
 # Needs Deeper Research
 
