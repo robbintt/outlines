@@ -27,6 +27,7 @@ This does not have all sections listed, just main sections and popular reference
 6. Clear search highlighting: `SPC s c`
 7. Navigate buffers: `SPC b b`
   - Check out the `* Messages *` buffer!!
+8. Jump between matched tags: `%`
 
 
 ### Interesting Sequences
