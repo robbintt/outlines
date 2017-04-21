@@ -2,14 +2,16 @@
 
 ## Table of Contents
 
-1. [References](#References)
+1. [Reference](#Reference)
+  1. [Notes](#Notes)
+    1. [Spacemacs State Color Codes](#Spacemacs State Color Codes)
 2. [Spacemacs Fixes](#Spacemacs Fixes)
 3. [Greg's elisp notes](# Greg's elisp notes)
 
 
-# References
+## Reference
 
-## Useful Sequences
+### Useful Sequences
 
 1. Get your major-mode: `C-h v major-mode`
 2. Reload stuff/settings: `SPC f e R`
@@ -19,23 +21,23 @@
   - has some sort of minor mode where you can keep pressing stuff, try it
 
 
-## Interesting Sequences
+### Interesting Sequences
 1. Incremental Search: `C-s stuff`
   - Note: `/ style` search is already incremental in spacemacs.
 
 
 
-## References
+### External References
   1. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
 
 
 
-## Notes (From References)
+### Notes (From References)
 
-Each note should have a `###` header.
+Each note should have a `####` header and be included in the TOC.
 
 
-### Spacemacs State Color Codes
+#### Spacemacs State Color Codes
 
 There are [10 states](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#states).
 
