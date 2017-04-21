@@ -12,7 +12,7 @@ This does not have all sections listed, just main sections and popular reference
         1. [Spacemacs State Color Codes](#spacemacs-state-color-codes)
 2. [Spacemacs Fixes](#spacemacs-fixes)
 3. [Greg's elisp notes](#gregs-elisp-notes)
-
+4. [Why I switched](#why-i-switched-to-spacemacs)
 
 ## Reference
 
@@ -20,6 +20,7 @@ This does not have all sections listed, just main sections and popular reference
 
 2. See all active `minor-modes` and `major mode`: `C-h m`
   1. another get major-mode: `C-h v major-mode`
+  2. another get minor-mode: `C-h v minor-mode-list`
 2. Reload stuff/settings: `SPC f e R`
 3. Load up non-GUI mode: `$ emacs -nw`
 4. Insert any character: `C-q `
@@ -29,16 +30,19 @@ This does not have all sections listed, just main sections and popular reference
 7. Navigate buffers: `SPC b b`
   - Check out the `* Messages *` buffer!!
 8. Jump between matched tags: `%`
+9. Exit insert mode (evil-escape): `fd`
 
 
 ### Interesting Sequences
 1. Incremental Search: `C-s stuff`
   - Note: `/ style` search is already incremental in spacemacs.
+2. Learn emacs lisp: `SPC h i elisp RET`
 
 
 
 ### External References
   1. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
+      1. [Remapping keys](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#keybindings)
 
 
 
@@ -91,6 +95,7 @@ Things I think need fixed.
   - manage branching undo history better? may just need training...
 14. C-c should exit insert mode
 15. Fix ridiculous html indentation
+16. Disable the mouse... try the (disable-mouse) package?
 
 
 ## Needs Deeper Research
@@ -172,3 +177,15 @@ If there is no apostraphe before a preceding list then the first item
 of the list is a function. If there is an apostophe then the list is just
 taken as is.
 
+
+
+# Why I switched to Spacemacs
+
+I wrote these out for someone. I prefer to see spacemacs as a vim featureset expansion.
+
+1. Vimscript sucks and vim isn't really great wrt extendability, extensions are all over the place
+2. I like scheme and am working on writing a lot of C this year, and emacs seems much better suited for working in both.
+3. Spacemacs provides most of the common commands I use in vim.
+4. Vim promises leader keys but you effectively chord enough of your actions that it's a fake claim, which I am trying to avoid. Spacemacs uses a space leader for most things.
+5. Vim feels stagnant, even if that isn't true.
+6. The core featureset of vim doesn't really need vim the application anymore
