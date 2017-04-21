@@ -10,8 +10,8 @@ This does not have all sections listed, just main sections and popular reference
 1. [Reference](#Reference)
     1. [Notes](#notes-from-references)
         1. [Spacemacs State Color Codes](#spacemacs-state-color-codes)
-2. [Spacemacs Fixes](#Spacemacs Fixes)
-3. [Greg's elisp notes](# Greg's elisp notes)
+2. [Spacemacs Fixes](#spacemacs-fixes)
+3. [Greg's elisp notes](#gregs-elisp-notes)
 
 
 ## Reference
