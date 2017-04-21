@@ -3,8 +3,8 @@
 ## Table of Contents
 
 1. [References](#References)
-
-
+2. [Spacemacs Fixes](#Spacemacs Fixes)
+3. [Greg's elisp notes](# Greg's elisp notes)
 
 
 # References
@@ -56,7 +56,13 @@ The state table is from the [Spacemacs documentation](https://raw.githubusercont
 | iedit-insert | red           | exclusive to Spacemacs, used to replace multiple regions of text using =iedit= (more [[#replacing-text-with-iedit][info]])                 |
 
 
-# Identified as `needs fixed for spacemacs`
+
+# Spacemacs Fixes
+
+Things I think need fixed.
+
+
+## Identified as `needs fixed for spacemacs`
 
 6. Make default colors the same as default terminal colors...
   - not sure how to let these pass through, spacemacs has magic colors
@@ -71,7 +77,7 @@ The state table is from the [Spacemacs documentation](https://raw.githubusercont
 15. Fix ridiculous html indentation
 
 
-# Needs Deeper Research
+## Needs Deeper Research
 
 2. tabs->spaces
   - looks like highlight and <|> indent by 4 spaces in html extension files... not sure how it varies by file extension
@@ -95,7 +101,7 @@ The state table is from the [Spacemacs documentation](https://raw.githubusercont
   
 8. How do I manage undo branches?
 
-# Done
+## Done
 
 1. line numbers on startup, line number toggle?
 3. note taken - How do i search for tabs, e.g. \t
@@ -106,7 +112,7 @@ The state table is from the [Spacemacs documentation](https://raw.githubusercont
   - in init.el: put smartparens in dotspacemacs-excluded-packages
 
 
-# Optional
+## Optional
 
 1. redraw screen with some key combo? - https://www.gnu.org/software/emacs/manual/html_node/elisp/Refresh-Screen.html
   - May already be in spacemacs, check around
