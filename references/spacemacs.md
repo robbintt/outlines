@@ -1,18 +1,21 @@
 
 # Identified as `needs fixed for spacemacs`
 
-5. Turn off auto add closing quotes, braces, brackets, tildes, etc.
 6. Make default colors the same as default terminal colors...
-7. How do I drill down to my packages? How do I learn about my evil mode configuration and contribute to the evil mode emacs plugin?
+  - not sure how to let these pass through, spacemacs has magic colors
 9. Consider moving my hotkeys to a helm menu or something, with a space leader instead of C-<key> pattern. Also includes vim functions.
 10. Rewrite vim functions for spacemacs
 11. Consider alias for bash for spacemacs nongui as default `emacs -nw`
   - Also, consider installing the emacs-plus package from homebrew cask on mac
-  - The emacs-plus package is apparently the recommended package by spacemacs, no idea why...
+  - The emacs-plus package is apparently the recommended package by spacemacs, no idea why
 12. Store undo history between sessions for all edited files.
   - manage branching undo history better? may just need training...
 13. Esc (1/2 second pause or less) followed by a key is a meta-key leader... need it to be dead key from now on
+  - this is related: https://github.com/syl20bnr/spacemacs/issues/2756
+
 14. C-c should exit insert mode
+15. Fix ridiculous html indentation
+
 
 # Needs Deeper Research
 
@@ -26,6 +29,10 @@
     - in html when exiting insert mode, it seems to do some postprocessing on my editing, visual mode gets weird
     - things in html mode are generally not working, especially with regards to <tab> <esc> <dj> and similar
 
+7. How do I drill down to my packages? How do I learn about my evil mode configuration and contribute to the evil mode emacs plugin?
+  - i have been reading the elisp in the .spacemacs.d layers
+  
+8. How do I manage undo branches?
 
 # Done
 
@@ -34,12 +41,14 @@
 4. scroll-margin set to 5
 8. C-l should redraw the screen - redraw does not clear search highlighting in emacs...
   - Clear a search with `SPC s c`
+5. Turn off auto add closing quotes, braces, brackets, tildes, etc.
+  - in init.el: put smartparens in dotspacemacs-excluded-packages
 
 
 # Optional
 
 1. redraw screen with some key combo? - https://www.gnu.org/software/emacs/manual/html_node/elisp/Refresh-Screen.html
-  - May already be in spacemacs, check
+  - May already be in spacemacs, check around
 
 
 ----------------------------------------
