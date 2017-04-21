@@ -183,9 +183,10 @@ taken as is.
 
 I wrote these out for someone. I prefer to see spacemacs as a vim featureset expansion.
 
-1. Vimscript sucks and vim isn't really great wrt extendability, extensions are all over the place
-2. I like scheme and am working on writing a lot of C this year, and emacs seems much better suited for working in both.
-3. Spacemacs provides most of the common commands I use in vim.
-4. Vim promises leader keys but you effectively chord enough of your actions that it's a fake claim, which I am trying to avoid. Spacemacs uses a space leader for most things.
-5. Vim feels stagnant, even if that isn't true.
-6. The core featureset of vim doesn't really need vim the application anymore
+1. Vimscript sucks and vim isn't really great wrt extendability, extensions are all over the place.
+2. I like scheme/lisp and am writing a lot of C this year, emacs seems much better suited for working in both.
+3. Spacemacs provides most common keys in vim (but not all!).
+    - For example `C-a` in vim is `SPC n +` in spacemacs. It drops chording, a net positive.
+4. Vim promises leader keys but you effectively chord enough of your actions that it's a fake claim. Spacemacs uses a space leader for most things.
+5. Vim feels stagnant, even if it isn't.
+6. The `core featureset` of vim doesn't really need `vim the application` anymore
