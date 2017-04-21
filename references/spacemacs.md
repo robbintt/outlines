@@ -77,6 +77,7 @@ This does not have all sections listed, just main sections and popular reference
 4. [learn elisp in 15 minutes](https://learnxinyminutes.com/docs/elisp/)
 5. [GNU emacs manual](https://www.gnu.org/software/emacs/manual/emacs.html)
 6. [Configuration "Tutorial" Orientation for contributing layers](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/)
+7. [Chaotic Migration Guide](https://juanjoalvarez.net/es/detail/2014/sep/19/vim-emacsevil-chaotic-migration-guide/)
 
 
 
