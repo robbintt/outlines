@@ -18,25 +18,29 @@ This does not have all sections listed, just main sections and popular reference
 
 ### Useful Sequences
 
-2. See all active `minor-modes` and `major mode`: `C-h m`
-  1. another get major-mode: `C-h v major-mode`
-  2. another get minor-mode: `C-h v minor-mode-list`
+1. See all active `minor-modes` and `major mode`: `C-h m`
+    1. another get major-mode: `C-h v major-mode`
+    2. another get minor-mode: `C-h v minor-mode-list`
 2. Reload stuff/settings: `SPC f e R`
 3. Load up non-GUI mode: `$ emacs -nw`
 4. Insert any character: `C-q `
 5. Increment by q (q=1 by default): `q SPC n -`
-  - has some sort of minor mode where you can keep pressing stuff, try it
+    - has some sort of minor mode where you can keep pressing stuff, try it
 6. Clear search highlighting: `SPC s c`
 7. Navigate buffers: `SPC b b`
-    - Check out the `* Messages *` buffer!!
+    - Check out the `Messages` buffer
 8. Jump between matched tags: `%`
 9. Exit insert mode (evil-escape): `fd`
 10. Find a file and open in a new buffer: `SPC f f`
+11. "help describe": `SPC h d`
+    - "help describe function" `SPC h d f`
+    - "help describe key" `SPC h d k`
+12. [guide-key](https://github.com/kai2nenobu/guide-key) - a menu of stuff": `SPC`
 
 
 ### Interesting Sequences
 1. Incremental Search: `C-s stuff`
-  - Note: `/ style` search is already incremental in spacemacs.
+    - Note: `/ style` search is already incremental in spacemacs.
 2. Learn emacs lisp: `SPC h i elisp RET`
 
 
@@ -44,6 +48,8 @@ This does not have all sections listed, just main sections and popular reference
 ### External References
   1. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
       1. [Remapping keys](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#keybindings)
+  2. [guide-key](https://github.com/kai2nenobu/guide-key)
+  3. [learn elisp in 15 minutes](https://learnxinyminutes.com/docs/elisp/)
 
 
 
