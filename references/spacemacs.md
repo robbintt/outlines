@@ -11,6 +11,8 @@
   - The emacs-plus package is apparently the recommended package by spacemacs, no idea why...
 12. Store undo history between sessions for all edited files.
   - manage branching undo history better? may just need training...
+13. Esc (1/2 second pause or less) followed by a key is a meta-key leader... need it to be dead key from now on
+14. C-c should exit insert mode
 
 # Needs Deeper Research
 
@@ -18,7 +20,11 @@
   - looks like highlight and <|> indent by 4 spaces in html extension files... not sure how it varies by file extension
   - we want this to be 2 spaces by default and 4 spaces in the .py file extension
   - indentation with the tab also does not always work, it seems to try to force a style from somewhere, tab does not always have an effect
-  - tab seems to add spaces when it allows input... this should not follow complex rules, tab should just put 2 spaces in regardless
+
+  - html specific
+    - tab seems to add spaces when it allows input... this should not follow complex rules, tab should just put 2 spaces in regardless
+    - in html when exiting insert mode, it seems to do some postprocessing on my editing, visual mode gets weird
+    - things in html mode are generally not working, especially with regards to <tab> <esc> <dj> and similar
 
 
 # Done
