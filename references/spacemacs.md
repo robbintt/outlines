@@ -18,7 +18,8 @@ This does not have all sections listed, just main sections and popular reference
 
 ### Useful Sequences
 
-1. Get your major-mode: `C-h v major-mode`
+2. See all active `minor-modes` and `major mode`: `C-h m`
+  1. another get major-mode: `C-h v major-mode`
 2. Reload stuff/settings: `SPC f e R`
 3. Load up non-GUI mode: `$ emacs -nw`
 4. Insert any character: `C-q `
