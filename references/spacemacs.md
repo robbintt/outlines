@@ -1,10 +1,15 @@
 # Spacemacs Reference Document
 
+A general reference for getting into spacemacs from vim.  Mostly derivative of other guides.
+
+
 ## Table of Contents
+
+This does not have all sections listed, just main sections and popular reference areas.
 
 1. [Reference](#Reference)
     1. [Notes](#notes-from-references)
-        1. [Spacemacs State Color Codes](#Spacemacs State Color Codes)
+        1. [Spacemacs State Color Codes](#spacemacs-state-color-codes)
 2. [Spacemacs Fixes](#Spacemacs Fixes)
 3. [Greg's elisp notes](# Greg's elisp notes)
 
@@ -17,8 +22,9 @@
 2. Reload stuff/settings: `SPC f e R`
 3. Load up non-GUI mode: `$ emacs -nw`
 4. Insert any character: `C-q `
-1. Increment by q (q=1 by default): `q SPC n -`
+5. Increment by q (q=1 by default): `q SPC n -`
   - has some sort of minor mode where you can keep pressing stuff, try it
+6. Clear search highlighting: `SPC s c`
 
 
 ### Interesting Sequences
@@ -36,6 +42,10 @@
 
 Each note should have a `####` header and be included in the TOC.
 
+
+#### What is `setq`?
+
+Set Quoted. `(set (quote scroll-margin) 5)` is equivalent to `(setq scroll-margin 5)`.
 
 #### Spacemacs State Color Codes
 
