@@ -21,6 +21,7 @@ This does not have all sections listed, just main sections and popular reference
 1. See all active `minor-modes` and `major mode`: `C-h m`
     1. another get major-mode: `C-h v major-mode`
     2. another get minor-mode: `C-h v minor-mode-list`
+    3. [spacemacs minor-mode stuff](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#minor-modes)
 2. Reload stuff/settings: `SPC f e R`
 3. Load up non-GUI mode: `$ emacs -nw`
 4. Insert any character: `C-q `
@@ -29,6 +30,8 @@ This does not have all sections listed, just main sections and popular reference
 6. Clear search highlighting: `SPC s c`
 7. Navigate buffers: `SPC b b`
     - Check out the `Messages` buffer
+    - kill buffer: `SPC b d`
+    - next or prev buffer: `SPC b n` or `SPC b p`
 8. Jump between matched tags: `%`
 9. Exit insert mode (evil-escape): `fd`
 10. Find a file and open in a new buffer: `SPC f f`
@@ -46,10 +49,13 @@ This does not have all sections listed, just main sections and popular reference
 
 
 ### External References
-  1. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
-      1. [Remapping keys](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#keybindings)
-  2. [guide-key](https://github.com/kai2nenobu/guide-key)
-  3. [learn elisp in 15 minutes](https://learnxinyminutes.com/docs/elisp/)
+1. [Spacemacs documentation](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org)
+2. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
+    1. [Remapping keys](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#keybindings)
+3. [guide-key](https://github.com/kai2nenobu/guide-key)
+4. [learn elisp in 15 minutes](https://learnxinyminutes.com/docs/elisp/)
+5. [GNU emacs manual](https://www.gnu.org/software/emacs/manual/emacs.html)
+6. [Configuration "Tutorial" Orientation for contributing layers](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/)
 
 
 
