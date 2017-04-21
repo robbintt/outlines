@@ -34,11 +34,22 @@ This does not have all sections listed, just main sections and popular reference
     - next or prev buffer: `SPC b n` or `SPC b p`
 8. Jump between matched tags: `%`
 9. Exit insert mode (evil-escape): `fd`
+    - note that this should take you to `evil normal mode` from anywhere
+    - this may work identically to `C-g`
 10. Find a file and open in a new buffer: `SPC f f`
 11. "help describe": `SPC h d`
     - "help describe function" `SPC h d f`
     - "help describe key" `SPC h d k`
-12. [guide-key](https://github.com/kai2nenobu/guide-key) - a menu of stuff": `SPC`
+12. [guide-key](https://github.com/kai2nenobu/guide-key), a menu of stuff: `SPC`
+13. Insert lorem ipsum: `SPC i l l`
+    - (lorem-ipsum) has several nice insert options `SPC i l`
+14. Note that the vim `.` repeater works on `SPC`-leader macros..
+    - try `SPC i l l . . . . .`
+15. Using `evil-nerd-commenter`
+    - comment or uncomment a block of lines `SPC c l`
+    - toggle comment on each line in a block of lines `SPC c ;`
+        - can be used to simultaneously uncomment and comment neighboring lines
+16. `SPC m` is aliased to `,` and accesses the current `major-mode` menu
 
 
 ### Interesting Sequences
@@ -46,6 +57,16 @@ This does not have all sections listed, just main sections and popular reference
     - Note: `/ style` search is already incremental in spacemacs.
 2. Learn emacs lisp: `SPC h i elisp RET`
 
+
+### Future
+
+1. Mess with `iedit` and `iedit-insert` states
+2. Try out the other `SPC s` search options
+3. Test out spacemacs regex `SPC x` which uses `pcre2el` package
+    - [further reference](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#regular-expressions)
+4. [editing lisp code & lisp keybindings](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#editing-lisp-code)
+5. [managing projects](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#managing-projects)
+6. [compiling code](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#compiling)
 
 
 ### External References
