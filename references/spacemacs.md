@@ -3,8 +3,8 @@
 ## Table of Contents
 
 1. [Reference](#Reference)
-  1. [Notes](#Notes)
-    1. [Spacemacs State Color Codes](#Spacemacs State Color Codes)
+    1. [Notes](#notes-from-references)
+        1. [Spacemacs State Color Codes](#Spacemacs State Color Codes)
 2. [Spacemacs Fixes](#Spacemacs Fixes)
 3. [Greg's elisp notes](# Greg's elisp notes)
 
