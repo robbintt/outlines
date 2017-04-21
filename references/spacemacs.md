@@ -1,3 +1,51 @@
+# Spacemacs Reference
+
+## Useful Sequences
+
+1. Get your major-mode: `C-h v major-mode`
+2. Reload stuff/settings: `SPC f e R`
+3. Load up non-GUI mode: `$ emacs -nw`
+4. Insert any character: `C-q `
+1. Increment by q (q=1 by default): `q SPC n -`
+  - has some sort of minor mode where you can keep pressing stuff, try it
+
+
+## Interesting Sequences
+1. Incremental Search: `C-s stuff`
+  - Note: `/ style` search is already incremental in spacemacs.
+
+
+
+## References
+  1. [Migrating from Vim](https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org)
+
+
+
+## Notes (From References)
+
+Each note should have a `###` header.
+
+
+### Spacemacs State Color Codes
+
+There are [10 states](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#states).
+
+The state table is from the [Spacemacs documentation](https://raw.githubusercontent.com/syl20bnr/spacemacs/master/doc/DOCUMENTATION.org).
+
+| State        | Default Color | Description                                                                                                |
+|--------------|---------------|------------------------------------------------------------------------------------------------------------|
+| normal       | orange        | like the =normal mode of Vim=, used to execute and combine commands                                        |
+| insert       | green         | like the =insert mode of Vim=, used to actually insert text                                                |
+| visual       | gray          | like the =visual mode of Vim=, used to make text selection                                                 |
+| motion       | purple        | exclusive to =Evil=, used to navigate read only buffers                                                    |
+| emacs        | blue          | exclusive to =Evil=, using this state is like using a regular Emacs without Vim                            |
+| replace      | chocolate     | exclusive to =Evil=, overwrites the character under point instead of inserting a new one                   |
+| hybrid       | blue          | exclusive to Spacemacs, this is like the insert state except that all the emacs key bindings are available |
+| evilified    | light brown   | exclusive to Spacemacs, this is an =emacs state= modified to bring Vim navigation, selection and search.   |
+| lisp         | pink          | exclusive to Spacemacs, used to navigate Lisp code and modify it (more [[#editing-lisp-code][info]])                               |
+| iedit        | red           | exclusive to Spacemacs, used to navigate between multiple regions of text using =iedit= (more [[#replacing-text-with-iedit][info]])        |
+| iedit-insert | red           | exclusive to Spacemacs, used to replace multiple regions of text using =iedit= (more [[#replacing-text-with-iedit][info]])                 |
+
 
 # Identified as `needs fixed for spacemacs`
 
@@ -10,9 +58,6 @@
   - The emacs-plus package is apparently the recommended package by spacemacs, no idea why
 12. Store undo history between sessions for all edited files.
   - manage branching undo history better? may just need training...
-13. Esc (1/2 second pause or less) followed by a key is a meta-key leader... need it to be dead key from now on
-  - this is related: https://github.com/syl20bnr/spacemacs/issues/2756
-
 14. C-c should exit insert mode
 15. Fix ridiculous html indentation
 
@@ -28,6 +73,13 @@
     - tab seems to add spaces when it allows input... this should not follow complex rules, tab should just put 2 spaces in regardless
     - in html when exiting insert mode, it seems to do some postprocessing on my editing, visual mode gets weird
     - things in html mode are generally not working, especially with regards to <tab> <esc> <dj> and similar
+
+
+13. Esc (1/2 second pause or less) followed by a key is a meta-key leader... need it to be dead key from now on
+  - this is related: https://github.com/syl20bnr/spacemacs/issues/2756
+  - this seems to have abated, i think i toggled a mode
+  - i do not know why it would have abated but i did restart my computer
+  - still reloading emacs settings should be enough, mysterious
 
 7. How do I drill down to my packages? How do I learn about my evil mode configuration and contribute to the evil mode emacs plugin?
   - i have been reading the elisp in the .spacemacs.d layers
