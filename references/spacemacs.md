@@ -25,6 +25,8 @@ This does not have all sections listed, just main sections and popular reference
 5. Increment by q (q=1 by default): `q SPC n -`
   - has some sort of minor mode where you can keep pressing stuff, try it
 6. Clear search highlighting: `SPC s c`
+7. Navigate buffers: `SPC b b`
+  - Check out the `* Messages *` buffer!!
 
 
 ### Interesting Sequences
