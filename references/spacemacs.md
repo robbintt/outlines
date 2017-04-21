@@ -28,9 +28,10 @@ This does not have all sections listed, just main sections and popular reference
   - has some sort of minor mode where you can keep pressing stuff, try it
 6. Clear search highlighting: `SPC s c`
 7. Navigate buffers: `SPC b b`
-  - Check out the `* Messages *` buffer!!
+    - Check out the `* Messages *` buffer!!
 8. Jump between matched tags: `%`
 9. Exit insert mode (evil-escape): `fd`
+10. Find a file and open in a new buffer: `SPC f f`
 
 
 ### Interesting Sequences
