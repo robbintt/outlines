@@ -80,6 +80,14 @@ This does not have all sections listed, just main sections and popular reference
 7. [Chaotic Migration Guide](https://juanjoalvarez.net/es/detail/2014/sep/19/vim-emacsevil-chaotic-migration-guide/)
 
 
+### Subreddits:
+
+1. [/r/emacs/](https://www.reddit.com/r/emacs/)
+2. [/r/spacemacs/](https://www.reddit.com/r/spacemacs/)
+3. [/r/evilmode/](https://www.reddit.com/r/evilmode/)
+4. [/r/orgmode/](https://www.reddit.com/r/orgmode/)
+
+
 
 ### Notes (From References)
 
