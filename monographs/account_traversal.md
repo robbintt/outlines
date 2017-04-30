@@ -32,14 +32,14 @@ Most accounts are dependent on one of the following accounts:
 - Phone Number (Provider Managed Account)
   
   
-## But I'm in a hurry!
+### But I'm in a hurry!
 
 First of all, if you aren't really thinking about these problems and how they affect your online presence, you should just leave phone recovery on. Turning it off requires attention, consideration, and light maintenance.
 
 If you are in a position that could compromise your `salary`, `business`, `community`, or `family`, think carefully about whether you govern your information in a way that impacts those relationships fairly.
 
 
-## Determine if you have what it takes!
+### Determine if you have what it takes!
 
 If you are disorganized, lose your keys often, or have things stolen often, the recovery phone number may be safer for you.
 
