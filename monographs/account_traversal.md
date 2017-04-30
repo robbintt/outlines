@@ -24,10 +24,10 @@ I don't know, should you?
 Removing `Phone Number Recovery` from primary accounts will help a lot, but it's also how you recover your account if you lose your password.
 
 Most accounts are dependent on one of the following accounts:
-  - Google Account (parent account of gmail service)
-  - iCloud Account (Apple)
-  - Facebook Profile
-  - Phone Number (Provider Managed Account)
+- Google Account (parent account of gmail service)
+- iCloud Account (Apple)
+- Facebook Profile
+- Phone Number (Provider Managed Account)
   
   
 ### But I'm in a hurry!
@@ -53,18 +53,18 @@ TL;DR - The benefits are marginal, tangible, and convenient.
 1. Much faster to enter
 2. Immune to Shoulder Surfing (no visual acquisition vector)
 3. Phone theft happens daily.
-  - If you lose your keys often, maybe this isn't for you.
+    - If you lose your keys often, maybe this isn't for you.
 4. A `backup FIDO-U2F` is cheaper & easier to maintain than a `backup phone`
 5. The `account server` may be able to detect a `man in the middle attack` or a `phishing website`
-  - The `account server` may not bother doing this, which is bad behavior
-  - Unfortunately we can `trust` the account server but cannot `verify` their behavior
+    - The `account server` may not bother doing this, which is bad behavior
+    - Unfortunately we can `trust` the account server but cannot `verify` their behavior
 
 #### Without FIDO-U2F?
 
 The same order of account protection can be achieved without FIDO-U2F:
 1. Use Google Authenticator
 2. Have a second BACKUP 2FA method (NOT a phone number)
-  - You will have your phone stolen and lose access to Google Authenticator.
+    - You will have your phone stolen and lose access to Google Authenticator.
 3. Disable Phone Number Account Recovery
 
 
