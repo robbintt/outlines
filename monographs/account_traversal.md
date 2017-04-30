@@ -21,6 +21,8 @@ Not convinced? [This reporter lost it all](https://www.wired.com/2012/08/apple-a
 
 I don't know, should you?
 
+This whole document is dedicated to convincing you that you should, unless you don't have the bandwidth to do so.
+
 Removing `Phone Number Recovery` from primary accounts will help a lot, but it's also how you recover your account if you lose your password.
 
 Most accounts are dependent on one of the following accounts:
