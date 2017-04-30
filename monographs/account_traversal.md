@@ -8,7 +8,7 @@ How about these:
 3. `domain name registrar` for your `primary email domain name`
 
 
-### Can I Trust my phone company?
+## Can I Trust my phone company?
 
 No, that's how the [CIA Director got hacked](https://www.wired.com/2015/10/hacker-who-broke-into-cia-director-john-brennan-email-tells-how-he-did-it/).
 
@@ -17,7 +17,7 @@ If you need more fear, watch this [exploit demo video](https://youtu.be/bjYhmX_O
 Not convinced? [This reporter lost it all](https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/) [(and got some back)](https://www.wired.com/2012/08/mat-honan-data-recovery/).
 
 
-### Should I turn off `phone number recovery`?
+## Should I turn off `phone number recovery`?
 
 I don't know, should you?
 
@@ -30,25 +30,25 @@ Most accounts are dependent on one of the following accounts:
 - Phone Number (Provider Managed Account)
   
   
-### But I'm in a hurry!
+## But I'm in a hurry!
 
 First of all, if you aren't really thinking about these problems and how they affect your online presence, you should just leave phone recovery on. Turning it off requires attention, consideration, and light maintenance.
 
 If you are in a position that could compromise your `salary`, `business`, `community`, or `family`, think carefully about whether you govern your information in a way that impacts those relationships fairly.
 
 
-### Determine if you have what it takes!
+## Determine if you have what it takes!
 
 If you are disorganized, lose your keys often, or have things stolen often, the recovery phone number may be safer for you.
 
 
-### Clarifying 2FA and FIDO-U2F
+## Clarifying 2FA and FIDO-U2F
 
 FIDO-U2F provides key marginal benefits over using Google Authenticator.
 
 TL;DR - The benefits are marginal, tangible, and convenient.
 
-#### Benefits
+### Benefits
 
 1. Much faster to enter
 2. Immune to Shoulder Surfing (no visual acquisition vector)
@@ -59,7 +59,7 @@ TL;DR - The benefits are marginal, tangible, and convenient.
     - The `account server` may not bother doing this, which is bad behavior
     - Unfortunately we can `trust` the account server but cannot `verify` their behavior
 
-#### Without FIDO-U2F?
+### Without FIDO-U2F?
 
 The same order of account protection can be achieved without FIDO-U2F:
 1. Use Google Authenticator
@@ -68,7 +68,7 @@ The same order of account protection can be achieved without FIDO-U2F:
 3. Disable Phone Number Account Recovery
 
 
-### Know your `recovery emails` and `recovery phone numbers`
+## Know your `recovery emails` and `recovery phone numbers`
 
 Google has a recovery email feature. Is it your Yahoo account from 2003?
 
@@ -80,7 +80,7 @@ A customer service agent at a phone company often has the power to reallocate yo
 
 
 
-### Building an `account recovery graph`
+## Building an `account recovery graph`
 
 It is helpful to build a graph of how your account dependencies resolve. This requires you to list out your commonly accessed accounts.
 
@@ -93,17 +93,17 @@ Once you find your most common `recovery emails` and `recovery phone numbers`, a
 Now imagine if a thief got access to one of these `recovery accounts`. What happens next? How many accounts can they steal from you?
 
 
-#### Does your `primary email` have a `recovery email`?
+### Does your `primary email` have a `recovery email`?
 
 Why would you have a recovery email on your primary email?  If that recovery email is compromised, it is at the top of your `account recovery graph`, and a prime target for an attacker.
 
 
-#### Know your Circular Dependencies
+### Know your Circular Dependencies
 
 If your Google and iCloud accounts both recover each other, they form a closed loop and can compromise any account linked to either one.
 
 
-#### Account Traversal
+### Account Traversal
 
 This just means the ability to walk down your whole graph from one piece of information. This is how you lose all your data.
 
