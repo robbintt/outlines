@@ -66,7 +66,9 @@ TL;DR - The benefits are marginal, tangible, and convenient.
 The same order of account protection can be achieved without FIDO-U2F:
 1. Use Google Authenticator
 2. Have a second BACKUP 2FA method (NOT a phone number)
-    - You will have your phone stolen and lose access to Google Authenticator.
+    - **WHEN your phone is stolen**, you WILL lose all those Google Authenticator 2FA tokens.
+    - iPhone **Encrypted** backups currently store them. This isn't guaranteed.
+    - Unencrypted backups do not store them. I do not know if icloud backups store them.
 3. Disable Phone Number Account Recovery
 
 
