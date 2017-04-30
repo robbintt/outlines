@@ -108,7 +108,7 @@ It is helpful to build a graph of how your account dependencies resolve. This re
 
 Draw this graph with bubbles and arrows.
 
-For each account ask yourself, "if I lose the password for this account, how do I recover it?"  The answer is usually traced back to one `recovery phone number` and a few `recover email` accounts.
+For each account ask yourself, "if I lose the password for this account, how do I recover it?"  The answer is usually traced back to one `recovery phone number` and a few `recovery email` accounts.
 
 Once you find your most common `recovery emails` and `recovery phone numbers`, ask yourself - how do you recover those accounts?  You should find that everything depeonds on one or two things, often your `phone number` and `primary email`.
 
