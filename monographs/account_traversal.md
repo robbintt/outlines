@@ -50,6 +50,11 @@ FIDO-U2F provides key marginal benefits over using Google Authenticator.
 
 TL;DR - The benefits are marginal, tangible, and convenient.
 
+
+### Which product do I use?
+
+I used the [Yubico FIDO-U2F](https://www.amazon.com/dp/B00NLKA0D8). You will need to register two of them on each account and put one in a safe place in case you lose the other.
+
 ### Benefits
 
 1. Much faster to enter
