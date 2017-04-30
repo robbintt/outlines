@@ -1,11 +1,11 @@
 # Account Traversal 
 
-Can someone who has gained control of your `phone number` take over all your online accounts?
+Can someone who has gained control of your **phone number** take over all your online accounts?
 
-How about these:
-1. `primary email` 
-2. `primary email recovery email`
-3. `domain name registrar` for your `primary email domain name`
+What if someone controls one of these:
+1. Primary Email
+2. Recovery Email for the Primary Email
+3. Domain Name Registrar - for the Domain Name of your Primary Email
 
 
 ## Can I Trust my phone company?
