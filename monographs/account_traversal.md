@@ -60,6 +60,17 @@ TL;DR - The benefits are marginal, tangible, and convenient.
 5. The `account server` may be able to detect a `man in the middle attack` or a `phishing website`
     - The `account server` may not bother doing this, which is bad behavior
     - Unfortunately we can `trust` the account server but cannot `verify` their behavior
+    
+### Costs
+
+1. **Surprise:** You have to use Google Authenticator for everything anyways!
+    - Browsers: FIDO-U2F only works with Chrome (for now) 
+    - You have to use Google Authenticator for everything else.
+    - This includes Firefox, Safari, iPhone apps
+        - Apparently you can connect the hardware to an android phone?
+2. Make a backup U2F token in case you lose your keys
+3. Keep your backup up-to-date
+    - Maintain an index of what services use U2F so you can audit your backup
 
 ### Without FIDO-U2F?
 
