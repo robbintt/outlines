@@ -59,27 +59,28 @@ I used the [Yubico FIDO-U2F](https://www.amazon.com/dp/B00NLKA0D8). You will nee
 
 ### Benefits
 
-1. Much faster to enter
+1. Fast compared to OTP 2FA (one-time password e.g. Google Authenticator)
 2. Immune to Shoulder Surfing (no visual acquisition vector)
-3. Phone theft happens daily.
-    - If you lose your keys often, maybe this isn't for you.
-4. A `backup FIDO-U2F` is cheaper & easier to maintain than a `backup phone`
+3. Phone theft happens daily, this is not in a phone
+4. A `backup FIDO-U2F` is cheaper & easier to maintain than a `backup phone` containing additional Google Authenticator OTP for each account.
+    - Many OTP setups only support one linked app, too (needs fact checked)
 5. The `account server` may be able to detect a `man in the middle attack` or a `phishing website`
-    - The `account server` may not bother doing this, which is bad behavior
-    - Unfortunately we can `trust` the account server but cannot `verify` their behavior
+    - However, many companies may not bother doing this -- shame on them
+    - Cannot verify they are doing this or doing it right
     
 ### Costs
 
-1. **Surprise:** You have to use Google Authenticator on each account anyways!
-    - Browsers: FIDO-U2F only works with Chrome (for now) 
-    - You have to use Google Authenticator for everything else.
-    - This includes Firefox, Safari, iPhone apps
-        - Apparently you can connect the hardware to an android phone?
+1. **Surprise:** You have to use Google Authenticator on each account if you want to login to things on an iPhone
+    - Apparently you can connect the FIDO-U2F dongle to an android phone?
+    - Browsers: FIDO-U2F only works with Chrome and Opera (for now) 
+        - Reportedly Firefox and Microsoft are coming
+    - No hope for Safari, iPhone FIDO-U2F (Apple hates sharing)
+    - You have to use Google Authenticator for everything else
 2. Make a backup U2F token in case you lose your keys
 3. Keep your backup up-to-date
     - Maintain an index of what services use U2F so you can audit your backup
 
-### Without FIDO-U2F?
+### Improving Security without FIDO-U2F?
 
 The same order of account protection can be achieved without FIDO-U2F:
 1. Use Google Authenticator
