@@ -2,7 +2,10 @@
 
 Can someone who has gained control of your `phone number` take over all your online accounts?
 
-How about your `primary email` or `primary email recovery email` or your `domain name registrar` for your `primary email domain name`?
+How about these:
+1. `primary email` 
+2. `primary email recovery email`
+3. `domain name registrar` for your `primary email domain name`
 
 
 ### Can I Trust my phone company?
