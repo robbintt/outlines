@@ -16,7 +16,7 @@ No, that's how the [CIA Director got hacked](https://www.wired.com/2015/10/hacke
 
 If you need more fear, watch this [exploit demo video](https://youtu.be/bjYhmX_OUQQ).
 
-Not convinced? [This reporter lost it all](https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/) [(and got some back)](https://www.wired.com/2012/08/mat-honan-data-recovery/).
+Not convinced? This reporter [lost it all](https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/) (and [got some back](https://www.wired.com/2012/08/mat-honan-data-recovery/)).
 
 
 ## Should I turn off `phone number recovery`?
@@ -25,7 +25,7 @@ I don't know, should you?
 
 This whole document is dedicated to convincing you that you should, unless you don't have the bandwidth to do so.
 
-Removing `Phone Number Recovery` from primary accounts will help a lot, but it's also how you recover your account if you lose your password.
+Removing `Phone Number Recovery` from primary accounts will help a lot, but it's also the default way that you recover your account if you lose your password. It is not the only way though, and we will explore better alternatives.
 
 Most accounts are dependent on one of the following accounts:
 - Google Account (parent account of gmail service)
