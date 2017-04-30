@@ -1,5 +1,7 @@
 # Account Traversal 
 
+**Disclaimer: This document does not include a strict howto.**
+
 Can someone who has gained control of your **phone number** take over all your online accounts?
 
 What if someone controls one of these:
@@ -68,7 +70,7 @@ I used the [Yubico FIDO-U2F](https://www.amazon.com/dp/B00NLKA0D8). You will nee
     
 ### Costs
 
-1. **Surprise:** You have to use Google Authenticator for everything anyways!
+1. **Surprise:** You have to use Google Authenticator on each account anyways!
     - Browsers: FIDO-U2F only works with Chrome (for now) 
     - You have to use Google Authenticator for everything else.
     - This includes Firefox, Safari, iPhone apps
