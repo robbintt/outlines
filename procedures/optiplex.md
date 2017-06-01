@@ -12,7 +12,7 @@
     1. In `Drives` -> `SATA Operation` select `AHCI`
     1. Optional: reset security settings by unseating the bios coin battery for 1 minute
 1. Download `xubuntu 16.04.2 iso` and write to a `flash drive`
-1. Attach a monitor, keyboard, mouse, and ethernet or wifi card
+1. Attach a monitor, keyboard, mouse, and ethernet cable or USB wifi card
 1. `install xubuntu`
     - Select: `install 3rd party software`
     - Set an appropriate: `hostname`, `username`, and `password`
@@ -22,6 +22,10 @@
     - Additionally, your interface name may be different, here called `enp2s0`
         - Find your interface by typing `ifconfig`, it is the one that is not `lo`
     - Ubuntu guarantees consistent naming for these interfaces per hardware configuration
+1. SSH into your computer through your local network at the correct local IP 
+    - If you will connect over the internet, test this too through a remote connection
+1. Restart the computer, optionally test SSH again
+1. If everything works, you can remove the peripherals and manage the machine through SSH
 
 
 ```
