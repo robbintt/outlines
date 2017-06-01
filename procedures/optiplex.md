@@ -26,6 +26,7 @@
     - If you will connect over the internet, test this too through a remote connection
 1. Restart the computer, optionally test SSH again
 1. If everything works, you can remove the peripherals and manage the machine through SSH
+1. This guide does not cover securing or managing your installation.
 
 
 ```
