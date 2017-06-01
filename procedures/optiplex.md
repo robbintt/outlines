@@ -20,22 +20,22 @@
 1. Get a static IP on your local network (lan)
     - Paste the contents in the snippet below into `/etc/network/interfaces`
 
-```
-# interfaces(5) file used by ifup(8) and ifdown(8)
-
-# default loopback interface (from install)
-auto lo
-iface lo inet loopback
-
-auto enp2s0
-iface enp2s0 inet static
-address 192.168.1.ddd
-netmask 255.255.255.0
-gateway 192.168.1.1
-
-# google DNS
-dns-nameservers 8.8.8.8
-```
+	```
+	# interfaces(5) file used by ifup(8) and ifdown(8)
+	
+	# default loopback interface (from install)
+	auto lo
+	iface lo inet loopback
+	
+	auto enp2s0
+	iface enp2s0 inet static
+	address 192.168.1.ddd
+	netmask 255.255.255.0
+	gateway 192.168.1.1
+	
+	# google DNS
+	dns-nameservers 8.8.8.8
+	```
 
     - Update your `address` and `gateway` for your local network
     - Additionally, your interface name may be different, here called `enp2s0`
