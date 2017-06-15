@@ -1,5 +1,7 @@
 ## import madness
 
+This talk only works in Python 3!!
+
 This title `import madness` is executable. If we import it we get an `ImportError` without that module existing.
 
 What is a module? A python file.
@@ -32,6 +34,7 @@ Solve most `import` errors with `sys.path`.
 
 ### Some of the source
 
+bit.ly/2s8YmzL
 
 ```
 current_module = sys.modules(__name__)
