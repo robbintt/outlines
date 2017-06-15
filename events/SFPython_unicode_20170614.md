@@ -8,6 +8,12 @@ Speaker: Lukasz Langa
 
 Yes! Plane ticket unicode errors can stop you from flying...
 
+### How does Python decode a file when you import a module?
+
+Python2 imports as ascii by default. Python3 imports as unicode by default.
+
+Python reads the encoding you give and additionally has a `filesystem encoding` it uses but he did not cover details of this.
+
 
 ### What is text?
 
@@ -93,15 +99,12 @@ Use the library `unicodedata` to combine these grapheme clusters... somehow...
 ```
 unicodedata.normalize('NFS', u'\u00c7')
 unicodedata.normalize('NFS', u'\u00c7').encode('utf8')
-
-
-
-
-### Using bytes for text is heading for a bug!
+```
 
 
 ### Tips!
 
+- Using bytes for text is heading for a bug!
 - Python3 reused `str` for unicode text
 - In Python3 `bytes` means `bytes`
 - When reading data just do `b.decode('utf-8')`
