@@ -3,6 +3,18 @@
 These are combined because you usually mash them together into a result.
 
 
+### History
+
+Taken from `https://www.washington.edu/computing/unix/history.html`
+
+It is also possible to use certain words from commands and do a regular expression type modifier.  This may not be worth learning.
+
+- `!!` repeat last command
+- `!-n` repeat n commands ago, examples:
+    - `!-2`, repeat 2 commands ago
+    - `!-1` == `!!`, repeat last command
+- `!n` repeat nth command as indexed in `history` command
+- `!<substring>` repeats most recent command beginning with `<substring>`
 
 
 ### strace - trace system calls and signals
