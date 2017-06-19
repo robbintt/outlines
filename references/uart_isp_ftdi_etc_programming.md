@@ -143,7 +143,7 @@ Arduinos used to have an FTDI chip but it was too expensive so they moved to a s
 
 It is cheaper than the FTDI FT232RL.
 
-Adafruit offers this chip and it is also in other popular USB->UART devices.
+Adafruit offers a [low-cost breakout board](https://www.adafruit.com/product/3309) of this chip and it is also in other popular USB->UART devices.
 
 
 ### Raspberry Pi
