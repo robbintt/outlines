@@ -1,48 +1,51 @@
-## FTDI v ISP/ICSP v UART/USART v SPI
+# FTDI v ISP/ICSP v UART/USART v SPI
 
 These terms cause a bunch of confusion.
 
 
-### Disambiguation
+## Bootloaders
+
+It is popular to put a bootloader on your chip. This takes up some space but allows the chip to "reprogram" itself by writing to its own flash.
+
+Some systems have a separate ISP/ICSP or UART chip on board and you can use that to reprogram the chip without a bootloader.
+
+The purpose of both of these systems is that you can reprogram the chip while it is on-board.
+
+
+## Disambiguation
 
 FTDI is one implementation of UART. 
 
-UART is more common. USART is uncommon.
+ISP/ICSP is a set of different protocols based on different companies.
 
-Many devices support  UART and not USART. 
-
-USART is similar to SPI.
-
-ISP is a set of different protocols based on different companies
+UART is more common. USART is uncommon. Many devices support UART and not USART. USART is similar to SPI.
 
 
-#### Synchronous
-
-- USART 
-- SPI
-- ISP
-
-#### Asynchronous
-
-- UART (therefore FTDI)
-
-
-#### Definitions
+### Definitions
 
 - *asynchronous* - uses no clock
 - *synchronous* - uses a clock
 
 
+### Synchronous
+
+- USART 
+- SPI
+- ISP/ICSP
+
+
+### Asynchronous
+
+- UART (therefore FTDI)
+
+
 ### References
 
 1. Thread on [USART v SPI](https://electronics.stackexchange.com/questions/55960/difference-between-miso-mosi-and-txd-rxd)
-
-
-#### Wikipedia
-
-- [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-- [ISP/ICSP](https://en.wikipedia.org/wiki/In-system_programming)
-- [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
+1. Wikipedia
+    - [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
+    - [ISP/ICSP](https://en.wikipedia.org/wiki/In-system_programming)
+    - [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
 
 
 ### SPI - Serial Peripheral Interface
@@ -58,6 +61,7 @@ I used SPI via Raspberry Pi (original) GPIO pins to program a flash chip that I 
 
 Direction: 
 
+Channels: 
 
 This allows you to program on-chip. There are multiple incompatible ISP technologies.
 
@@ -68,12 +72,12 @@ Wikipedia states: "A ISP USB cable must typically be shorter than 180cm"
 
 ### UART - `Universal Asynchronous Receiver/Transmitter`
 
-
 Direction: Simplex, Half Duplex, Full Duplex
 
 Channels: 1+ (typically 1 channel)
 
 The foundation of UART is the shift register and clock.
+
 
 #### Raspberry Pi <-> Arduino via UART
 
@@ -87,8 +91,7 @@ Note that in the demo, a `voltage divider` is used to talk from the arduino to t
 - Maybe the Raspberry Pi would be a good way to program the ESP8266EX?
 
 
-
-### FTDI is UART
+## FTDI is UART
 
 Direction: 
 
@@ -103,13 +106,12 @@ To use FTDI you need a 512 byte bootloader.
 A number of FTDI programmers exist but do not always seem branded as such.
 
 
-
-#### Arduino: FTDI or ISP?
+### Arduino: FTDI or ISP?
 
 Arduinos used to have an FTDI chip but it was too expensive so they moved to a second chip that can do USB ISP on the primary chip.
 
 
-#### FTDI Programmers
+### UART (FTDI) Programmers
 
 1. Sparkfun FT232RL Breakout: [3v3](https://www.sparkfun.com/products/9873) [5v](https://www.sparkfun.com/products/9716)
     - These are called 'USB to serial IC' boards
@@ -120,14 +122,15 @@ Arduinos used to have an FTDI chip but it was too expensive so they moved to a s
     - Offers `RTS` pin and `DTR` as a pad [DTR guide](https://learn.adafruit.com/ftdi-friend/programming-blank-avrs)
     - Offers 3v3 and 5v - signal is 3v3 (5v compatible), power is 5v... make sure you know what you are doing
 
-##### Other brands
+
+#### Other brands
 
 1. The ESP8266 AiThinker Light Bulb apparently needs an FTDI programmer
     - recommended by the developer: [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig)
     - He got some boards from china, I have asked him for a link to the seller
 
 
-### Hardware
+## Hardware
 
 1. *JTAG Programmers* - Apparently the industry standard. Can we make these for fun?
 2. [AVR ISP Programmers](http://www.ladyada.net/learn/avr/programmers.html)
@@ -136,22 +139,22 @@ Arduinos used to have an FTDI chip but it was too expensive so they moved to a s
     - Arduino Uno
     - BusPirate
 
-#### Raspberry Pi
+### Raspberry Pi
 
 How does this fit into the picture? I have used it with `flashrom` as a flash programmer for a lenovo x220 with a test clip, how is this related to everything else?
 
 
-#### The BusPirate
+### BusPirate
 
 Apparently the BUS Pirate can do all of this, but requires configuration.
 
 
-#### Arduino Uno
+### Arduino Uno
 
 Careful! Transmits at 5V which will fry the Raspberry Pi and esp8266.
 
 
-### Software
+## Software
 
 1. `flashrom`
 2. `avrdude`
