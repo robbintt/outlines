@@ -16,9 +16,9 @@ The purpose of both of these systems is that you can reprogram the chip while it
 
 FTDI is one implementation of UART. 
 
-ISP/ICSP is a set of different protocols based on different companies.
+ISP/ICSP is a set of similar protocols created by different companies, AVR ISP is used with AVR chips and is common/popular.
 
-UART is more common. USART is uncommon. Many devices support UART and not USART. USART is similar to SPI.
+UART is common. USART is uncommon. Many devices support UART and not USART. USART is similar to SPI.
 
 
 ### Definitions
@@ -125,7 +125,7 @@ Arduinos used to have an FTDI chip but it was too expensive so they moved to a s
 
 #### Other brands
 
-1. The ESP8266 AiThinker Light Bulb apparently needs an FTDI programmer
+1. The ESP8266 AiThinker Light Bulb needs an UART programmer
     - recommended by the developer: [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig)
     - He got some boards from china, I have asked him for a link to the seller
 
@@ -138,6 +138,13 @@ Arduinos used to have an FTDI chip but it was too expensive so they moved to a s
     - Raspberry Pi
     - Arduino Uno
     - BusPirate
+
+### The *CP210x* USB to UART from Silicon Labs exists
+
+It is cheaper than the FTDI FT232RL.
+
+Adafruit offers this chip and it is also in other popular USB->UART devices.
+
 
 ### Raspberry Pi
 
