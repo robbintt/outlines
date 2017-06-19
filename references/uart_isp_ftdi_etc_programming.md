@@ -2,6 +2,10 @@
 
 These terms cause a bunch of confusion.
 
+## Programming
+
+You probably program these things with `avrdude`. See `man avrdude`.
+
 
 ## Bootloaders
 
