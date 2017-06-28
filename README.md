@@ -13,7 +13,7 @@ Please send `pull requests` if you notice errors.
 
 ### Locations
 
-1. `procedures` - process oriented information
+1. `praxes` - praxis/process oriented information
 2. `reference` - primarly aggregated from another source
 3. `monographs` - my original, observations from data and experiences
 4. `events` - notes from speakers and events 
