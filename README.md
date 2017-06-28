@@ -17,5 +17,5 @@ Please send `pull requests` if you notice errors.
 2. `reference` - primarly aggregated from another source
 3. `monographs` - my original, observations from data and experiences
 4. `talks` - notes from speakers and events 
-5. `summaries` - for longer works, if it is worth reading, it is worth taking notes on
+5. `digests` - for longer works, if it is worth reading, it is worth taking notes on
 6. `external` - copies of external outlines worth keeping handy
