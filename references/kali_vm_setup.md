@@ -34,6 +34,15 @@ So I can use my native terminal.
 
 ### Attacker VM
 
+The VM can be ssh'd into from the host. It's got a DHCP IP on 192.168.56.0/24.
+
+#### Setting up the attacker vm for native terminal (no virtualbox window)
+
+1. Install sshd and set it up.
+2. Make sure root can login with a password
+3. From host: `ssh root@192.168.1.<D>`
+    - you should just have to accept the host key and give the password: `toor`
+
 I set up kali linux light `.ova` file as my attacker machine. It seems to work just like an `ovm` machine (you import it as an appliance in VirtualBox.
 
 - username: root
