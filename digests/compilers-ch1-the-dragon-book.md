@@ -90,9 +90,10 @@ Introducing `analysis` and illustrate its use in some `text-formatting languages
     - AKA: `lexical analysis` or `scanning`
     - read stream of `source program` left-to-right and group into `tokens`, streams of characters, with collective meaning 
 1. `Hierarchical Analysis`
-    - AKA: `parsing` or `syntax analysis`
+    - AKA: `syntax analysis` or `parsing`
     - hierarchically group characters/tokens into meaningful nested collections
 1. `Semantic Analysis`
+    - find semantic errors, identify operands, type checking
     - check that components of a program fit together meaningfully
 
 #### Lexical Analysis
@@ -159,35 +160,116 @@ TEX uses hierarchical arrangement in boxes as part of the `syntax analysis` to d
 
 ### 1.3 The Phases of a Compiler
 
+A compiler operates in conceptual `phases`.  Each transforms the `source program` from one representation to another.
+
+See fig. 1.9, page 10 for a "typical decomposition of a compiler".
+
+Some phases may be grouped together.  Intermediate representations between grouped phases need not be explicity constructed.
+
+
+
+###### Phases
+
+There are six phases between `source program` and `target program`:
+
+1. Lexical Analyzer
+1. Syntax Analyzer
+1. Semantic Analyzer
+1. Intermediate Code Generator
+1. Code Optimizer
+1. Code Generator
+
+See figure 1.10 , page 13, for a detailed translation of `position := initial + rate * 60`.
+
+###### Supplementary Phases (used during every phase)
+
+1. Symbol-table manager
+1. Error handler
 
 
 #### Symbol-Table Management
 
+1. `Symbol Table`: data structure containing a record for each identifier with fields for the attributes of the identifier.  Quickly find, store, and retrieve data for that identifier.
 
+The `identifier` is added by the `lexical analyzer` but the identifier's `attributes` are typically added and consumed during later phases.
+
+An attribute could be something like storage, scope, type. If the identifier is a procedure: perhaps number and type of arguments, method of passing arguments (by reference, etc.), and type returned, if any.
+
+See chapters: 2, 7 for more about symbol tables.
 
 
 #### Error Detection and Reporting
 
+Each phase must encounter and deal with errors, and potentially proceed.
+
+The `syntax analyzer` and `semantic analyzer` typically handle a large fraction of errors.
+
+The `lexical analyzer` may encounter errors when remaining characters do not form a token.
+
+The `syntax analyser` finds errors where the `token stream` violates the structure rules.
+
+The `semantic analyzer` can find errors where a meaningless operation occurs, e.g. add an array to the name of a procedure.
+
+Further discussion of errors for each phase is included in the part of the book devoted to that phase.
 
 
 #### The Analysis Phase
 
+As `translation` progresses, the compiler's representatin of the source program changes.  
+
+note: In this diagram and chapter, the `intermediate representation` is considered/proxied as the `syntax tree` and `symbol table`.  The data structure for the tree in `fig. 1.10` is shown in `fig. 1.11b`.
+
+`Lexical analysis` is covered in chapter 3.
 
 
 #### Intermediate Code Generation
+
+Some compilers generate an explicit `intermediate representation` of the `source program`, "a program for an abstract machine".
+
+Variety of forms.
+
+Chapter 8 covers principle `intermediate representations` in compilers. Chapters 5, 8 cover algorithms for generating intermedaite code for typical programming language constructs.
+
+
+##### Properties of an `intermediate representation`
+
+1. easy to produce
+1. easy to translate into the `target program`
+
+##### `Three-address code`
+
+`Three-address code` consists of a sequence of instructions, each of which has at most three operands.
+
+Assembly language for a machine in which every memory location can act like a register. 
 
 
 
 #### Code Optimization
 
+**Goal:** improve intermediate code.
+
+Simple example on pages 14-15.
+
+Chapter 9 discusses simple optimizations.
+
+Chapter 10 gives technology used by most powerful optimizing compilers.
 
 
 #### Code Generation
 
+**Goal:** generate `target code` from `intermediate code`.
 
+Normally this gives `relocateable machine code` or `assembly code`.
+
+A crucial aspect is assignment of variables to registers.
+
+Simple example on pages 15-16.
+
+Chapter 9 covers code generation.
 
 
 ### 1.4 Cousins of the Compiler
+
 
 
 ### 1.5 The Grouping of Phases
