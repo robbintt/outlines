@@ -324,7 +324,26 @@ Fairly routine: keep the `front end` of a compiler and redo the `back end` for a
 
 #### Passes
 
+Many phases can be done in one pass. Organizing phases into passes is complex and discussed for some specific implementations in chapter 12.
+
+The whole `back end` may be one pass, immedately producing `intermediate code`.
+
+We may think of the `syntax analyzer` as being 'in charge'.  As it discovers grammatical structure, the parser can call intermediate code generation.  See chapter 2 for a compiler with this implementation.
+
+
 #### Reducing the Number of Passes
+
+**Goal:** Have relatively few passes.
+
+**Goal:** Don't use up all the system memory.
+
+Reconciling these could create tension.
+
+> The interface between the lexical and syntactic analyzers can often be limited to a single token. It is often very hard to perform code generation until the intermediate representation has been completely generated.
+
+1. `backpatching`: merge `intermediate code` and `target code` generation can often be merged into one pass by creating a slot and filling it once the information becomes available. See the example, page 21. 
+
+To ensure you do not use too much space, you can reduce the distance over which backpatching occurs.
 
 
 ### 1.6 Compiler-Construction Tools
