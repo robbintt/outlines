@@ -160,12 +160,9 @@ TEX uses hierarchical arrangement in boxes as part of the `syntax analysis` to d
 
 ### 1.3 The Phases of a Compiler
 
-A compiler operates in conceptual `phases`.  Each transforms the `source program` from one representation to another.
-
-See fig. 1.9, page 10 for a "typical decomposition of a compiler".
-
-Some phases may be grouped together.  Intermediate representations between grouped phases need not be explicity constructed.
-
+- A compiler operates in conceptual `phases`.  Each transforms the `source program` from one representation to another. 
+- Some phases may be grouped together.  Intermediate representations between grouped phases need not be explicity constructed.
+- See fig. 1.9, page 10 for a "typical decomposition of a compiler".
 
 
 ###### Phases
@@ -189,46 +186,35 @@ See figure 1.10 , page 13, for a detailed translation of `position := initial + 
 
 #### Symbol-Table Management
 
-1. `Symbol Table`: data structure containing a record for each identifier with fields for the attributes of the identifier.  Quickly find, store, and retrieve data for that identifier.
-
-The `identifier` is added by the `lexical analyzer` but the identifier's `attributes` are typically added and consumed during later phases.
-
-An attribute could be something like storage, scope, type. If the identifier is a procedure: perhaps number and type of arguments, method of passing arguments (by reference, etc.), and type returned, if any.
-
-See chapters: 2, 7 for more about symbol tables.
+- `Symbol Table`: data structure containing a record for each identifier with fields for the attributes of the identifier.  Quickly find, store, and retrieve data for that identifier.
+- The `identifier` is added by the `lexical analyzer` but the identifier's `attributes` are typically added and consumed during later phases.
+- An attribute could be something like storage, scope, type. If the identifier is a procedure: perhaps number and type of arguments, method of passing arguments (by reference, etc.), and type returned, if any.
+- See chapters: 2, 7 for more about symbol tables.
 
 
 #### Error Detection and Reporting
 
 Each phase must encounter and deal with errors, and potentially proceed.
 
-The `syntax analyzer` and `semantic analyzer` typically handle a large fraction of errors.
-
-The `lexical analyzer` may encounter errors when remaining characters do not form a token.
-
-The `syntax analyser` finds errors where the `token stream` violates the structure rules.
-
-The `semantic analyzer` can find errors where a meaningless operation occurs, e.g. add an array to the name of a procedure.
-
-Further discussion of errors for each phase is included in the part of the book devoted to that phase.
+- The `syntax analyzer` and `semantic analyzer` typically handle a large fraction of errors.
+- The `lexical analyzer` may encounter errors when remaining characters do not form a token.
+- The `syntax analyser` finds errors where the `token stream` violates the structure rules.
+- The `semantic analyzer` can find errors where a meaningless operation occurs, e.g. add an array to the name of a procedure.
+- Further discussion of errors for each phase is included in the part of the book devoted to that phase.
 
 
 #### The Analysis Phase
 
-As `translation` progresses, the compiler's representatin of the source program changes.  
-
-note: In this diagram and chapter, the `intermediate representation` is considered/proxied as the `syntax tree` and `symbol table`.  The data structure for the tree in `fig. 1.10` is shown in `fig. 1.11b`.
-
-`Lexical analysis` is covered in chapter 3.
+- As `translation` progresses, the compiler's representatin of the source program changes.  
+- note: In this diagram and chapter, the `intermediate representation` is considered/proxied as the `syntax tree` and `symbol table`.  The data structure for the tree in `fig. 1.10` is shown in `fig. 1.11b`.
+- `Lexical analysis` is covered in chapter 3.
 
 
 #### Intermediate Code Generation
 
-Some compilers generate an explicit `intermediate representation` of the `source program`, "a program for an abstract machine".
-
-Variety of forms.
-
-Chapter 8 covers principle `intermediate representations` in compilers. Chapters 5, 8 cover algorithms for generating intermedaite code for typical programming language constructs.
+- Some compilers generate an explicit `intermediate representation` of the `source program`, "a program for an abstract machine".
+- Variety of forms.
+- Chapter 8 covers principle `intermediate representations` in compilers. Chapters 5, 8 cover algorithms for generating intermedaite code for typical programming language constructs.
 
 
 ##### Properties of an `intermediate representation`
@@ -248,31 +234,97 @@ Assembly language for a machine in which every memory location can act like a re
 
 **Goal:** improve intermediate code.
 
-Simple example on pages 14-15.
-
-Chapter 9 discusses simple optimizations.
-
-Chapter 10 gives technology used by most powerful optimizing compilers.
+- Simple example on pages 14-15.
+- Chapter 9 discusses simple optimizations.
+- Chapter 10 gives technology used by most powerful optimizing compilers.
 
 
 #### Code Generation
 
 **Goal:** generate `target code` from `intermediate code`.
 
-Normally this gives `relocateable machine code` or `assembly code`.
-
-A crucial aspect is assignment of variables to registers.
-
-Simple example on pages 15-16.
-
-Chapter 9 covers code generation.
+- Normally this gives `relocateable machine code` or `assembly code`.
+- A crucial aspect is assignment of variables to registers.
+- Simple example on pages 15-16.
+- Chapter 9 covers code generation.
 
 
 ### 1.4 Cousins of the Compiler
 
+This section is about a compiler's typical operating context.
+
+#### Preprocessors
+
+Produce the input to compilers.  Everything here seems to boil down to macros.
+
+1. `Macro processing`: allow user to define macros as shorhand for longer constructs.
+1. `File inclusion`: include header files into the program text, e.g. in `c language`: `#include <global.h>` is replaced by the contents of `global.h`
+1. `"Rational" preprocessors`: Add capabilities to a language, especially for flow control and data structures. Same as macros functionally?
+1. `Language Extensions`: More macros, different use.  See example in book.
+
+Example 1.2 on page 16.
+
+
+#### Assemblers
+
+`Assembly code` is a mnemonic version of `machine code`, where `names` are used instead of `binary codes for operations`. Names are also given to `memory addresses`.
+
+> It is customary for assembly languages to have macro facilities that are similar to those in the macro preprocessors described above.
+
+
+#### Two-pass Assembly
+
+Simple assemblers make two passes over the input file, where a `pass` reads a input file once.
+
+1. The first pass finds and stores `identifiers`, assigning storage locations in the `symbol table`.
+1. The second pass translates `operation` code into the bits representing that `operation` in machine language. It also translates each `identifier` intot he address given for that `identifier` in the `symbol table`.
+
+The output of the second pass is usually `relocateable machine code`, which means it can be loaded starting in any memory location, L, in memory.  If L is added to all addresses in the code, all references will be correct.
+
+> Thus, the output of the assembler must distinguish those portions of instructions that refer to addresses that can be relocated.
+
+See example 3, page 18-19.
+
+
+#### Loaders and Link-editors
+
+A `loader` usually performs both `loading` and `link-editing`.
+
+1. `loading`: Taking relocateable machine code, altering the relocateable address, and placing the altered instructions and data in memory at the proper locations.
+1. `link-editor`: Make a single program from several files of relocateable machine code. Many of the files result from separate compiles, and often are stored in separate locations for system-wide use. e.g. libraries.
+1. `external reference`: code in one file references a location in another file. May be data or an entry point to a procedure.
+    - relocateable machine code file must retain the information in the symbol table for:
+        - each data location defined in one file and used in another
+        - each entry point of a procedure defined in one file and used in another
+    - if not known in advance, must include entire symbol table as part of relocateable machine code 
 
 
 ### 1.5 The Grouping of Phases
+
+Multiple phases are often grouped together in compiler implementations.
+
+#### Front and Back Ends
+
+1. `Front end`: largely independent of target machine, based on `source language`
+    - lexical analysis
+    - syntactic analysis
+    - symbol table creation
+    - semantic analysis
+    - generate intermediate code
+1. `Back end`:
+    - code optimization
+    - code generation
+    - error handling
+    - symbol table operations
+
+Fairly routine: keep the `front end` of a compiler and redo the `back end` for another machine.  Parts of the `back end` can even be kept.  Further discussion in Chapter 9.
+
+> It is also tempting to compile several different languages into the same intermediate language and use a common back end for the different front ends, thereby obtaining several compilers for one machine. However, because of subtle differences in the viewpoints of different languages, there has been only limited success in this direction.
+    
+
+#### Passes
+
+#### Reducing the Number of Passes
 
 
 ### 1.6 Compiler-Construction Tools
