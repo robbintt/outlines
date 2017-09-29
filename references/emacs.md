@@ -3,7 +3,6 @@
 I intend to install a number of packages from spacemacs.
 
 
-
 ### Quickref
 
 1. `M-x`: get a prompt
@@ -27,6 +26,12 @@ An easier way to install packages? People like it. Seems heavy to me...
 - [init.el example with use-package](http://cachestocaches.com/2015/8/getting-started-use-package/)
     - [code](https://github.com/CachesToCaches/getting_started_with_use_package/blob/master/init-use-package.el)
 
+
+### Customize Group
+
+- M-x customize-group seems to have context for customizing stuff
+  - try it and choose `undo-tree`
+
 ### Notes
 
 1. M-<key>: You can press escape then the key instead of meta.
@@ -36,6 +41,13 @@ An easier way to install packages? People like it. Seems heavy to me...
 
 1. [Evil Plugins](https://www.emacswiki.org/emacs/Evil#toc6)
     - lots of additional features
+1. Undo Tree should go to a directory in $HOME?  right now it goes to $TMPDIR in macos which may be deleted??
+1. Undo Tree & Persistent Buffer - done?
+    - [emacswiki.org: Category Undo](https://www.emacswiki.org/emacs/CategoryUndo)
+    - [UndoTree](https://www.emacswiki.org/emacs/UndoTree): like vim?
+        - apparently has a corruption bug with this feature, a fork is incomplete
+        - apparently undo-tree does this but it has a major corruption bug with this specific feature, and the solution right now is to use emacs server, so i'm going to do that
+1. emacs server - the only way to get persistent undo for now as you never exit the session
 
 
 ### Desired Spacemacs Packages
