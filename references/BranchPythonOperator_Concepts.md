@@ -24,6 +24,8 @@ There are two options:
 
 Variables sit in a global `variables` object, where as `XComs` are pushed and pulled between tasks.
 
+For task-to-task communication, we will use `XComs`.
+
 
 #### Passing Context to `BranchPythonOperator`
 
@@ -41,6 +43,7 @@ Each branch must point to a task; if there isn't anything to do, use a `DummyOpe
 
 #### General
 
+- [apache-airflow on git](https://github.com/apache/incubator-airflow)
 - [Airflow 'gitter' chat](https://gitter.im/apache/incubator-airflow)
 - [Common Pitfalls (Official)](https://cwiki.apache.org/confluence/display/AIRFLOW/Common+Pitfalls)
 - [medium/handy-tech: Airflow Tips, Tricks, and Pitfalls](https://medium.com/handy-tech/airflow-tips-tricks-and-pitfalls-9ba53fba14eb)
