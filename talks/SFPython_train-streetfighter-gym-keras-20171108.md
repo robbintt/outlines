@@ -1,4 +1,4 @@
-# Tensorflow Talk @ SF Python
+# Gym & Keras @ SFPython 
 
 Speaker: Adam Fletcher - adam@gyroscope.cc
 
