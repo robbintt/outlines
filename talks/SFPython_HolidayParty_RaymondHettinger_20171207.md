@@ -1,6 +1,7 @@
 # Raymond Hettinger Holiday Party Talk 2017
 
 Raymond says: I will tweet out a link to this presentation later. It is in sphinx.
+Notes are in this folder, `/outlines/talks`, as `HettingerHolidaySF2017.pdf`.
 
 - Mission: Train thousands of Python Developers
 - Mutable Minds, Inc.
