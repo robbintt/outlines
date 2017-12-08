@@ -1,4 +1,4 @@
-# Raymond Hettinger Holiday Party Talk
+# Raymond Hettinger Holiday Party Talk 2017
 
 Raymond says: I will tweet out a link to this presentation later. It is in sphinx.
 
@@ -12,6 +12,17 @@ Raymond says: I will tweet out a link to this presentation later. It is in sphin
 I use sphinx to prepare my talks / slide decks. Never intend to go back to Powerpoint.
 
 I am a manufacturer of Python Programmers. I take someone good at something and make them good at something plus Python programming.
+
+
+## Questions from the end of the talk
+
+I didn't really record them all.
+
+- (Mentions offhand he has an OCaml background)
+- Q: Why can't I use a value `use_slots = True` instead of manually adding slots
+    - Raymond: I expect some discussion this week on python-dev about that. Solution is probably that the class decorator will return a new class with the slots in it. It's a little late to turn it on and off with true/false. The present design doesn't preclude that feature. We need to avoid making it impossible. Also because no one who reviewed the pep and no one thought of it, or eric wanted to do it that way.
+
+    
 
 
 ## Python 3.7
