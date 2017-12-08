@@ -152,7 +152,7 @@ If you just change a readme, just want to download that on a version update
 Working on react+Tensorflow, R, Spark, going to get stuff into Jupyter.
 
 
-# Datasette - Simon @ Eventbrite - journalist stuff @ guardian
+# 7. Datasette - Simon @ Eventbrite - journalist stuff @ guardian
 
 [datasette](github.com/simonw/datasette/)
 
