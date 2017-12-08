@@ -172,3 +172,11 @@ Just like that you have a browseable, searchable json API
 
 he built `https://sf-tree-search.now.sh` because he thought "why not?" - search sf by tree
 
+
+# 8. How to build community - Simeon
+
+Pacman rule - Eric Holscher - don't stand in a circle, people can't get in.  Everyone should meet more people.
+
+Bring a friend, bring a female coworker.
+
+BayPiggies, SF Django Meetup, Pyninsula, PyLadies, East Bay Python, North Bay Python
