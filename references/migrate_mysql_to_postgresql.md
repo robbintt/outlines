@@ -18,6 +18,7 @@ Note that the postgres backend is volunteer supported.
   - [Specific section, seems out of date](https://www.mediawiki.org/wiki/Manual:PostgreSQL#From_MySQL_to_PostgreSQL)
   - The [perl script](https://phabricator.wikimedia.org/source/mediawiki/browse/master/maintenance/postgres/mediawiki_mysql2postgres.pl) seems to proscribe (in its header notes) just spinning up a postgres database and attaching it to a working mediawiki instance then importing a mediawiki backup created with `maintenance/dumpBackup.php`.
 - ["Moving a wiki"](https://www.mediawiki.org/wiki/Manual:Moving_a_wiki)
+- [postgres issues: phabricator.org](https://phabricator.wikimedia.org/maniphest/query/1nNRlmUp59G3/#R)
 
 ### MediaWiki Test Environment
 
