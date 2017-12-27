@@ -5,6 +5,11 @@ It is remarkable that recording sound is the hard part of DeepSpeech.
 With deepspeech installed in a `virtualenv`, do the following.
 
 
+### Recording audio
+
+macos: get a `m4a` format audio with `quicktime`
+
+
 ### Use ffmpeg
 
 1. Get ffmpeg: `brew install ffmpeg` or `apt install ffmpeg`
