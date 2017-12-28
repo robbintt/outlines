@@ -16,7 +16,7 @@ There are a lot of ways to do this.
 
 On 2017/12/28 the project page says:
 
-> be sure you get version 2.x"
+> be sure you get version 2.x
 
 ### Check your version in a shell
 
