@@ -51,7 +51,7 @@ Save this code as `example.clj` in the git repository `scad-clj` that you just c
 ```
 
 1. In a shell, `cd` into the scad-clj project directory: `cd scad-clj`
-1. Run the example.clj file: `$ lein repl < example.clj`
+1. Run the `example.clj` file: `$ lein repl < example.clj`
 1. Start the OpenSCAD program
 	1. Navigate to and open the generated example.scad in OpenSCAD
 	1. You can now make changes to `example.clj` as you wish, recompile them, and reload the file in OpenSCAD.
