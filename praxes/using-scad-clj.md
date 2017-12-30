@@ -1,6 +1,6 @@
-# Using the `scad-clj` OpenSCAD wrapper
+# Using the `scad-clj` OpenSCAD DSL
 
-This wrapper was used by [adereth](https://twitter.com/adereth) to make the [dactyl keyboard](https://github.com/adereth/dactyl-keyboard).
+This DSL [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) was used by [adereth](https://twitter.com/adereth) to make the [dactyl keyboard](https://github.com/adereth/dactyl-keyboard).
 
 OpenSCAD becomes insane after awhile and what it needs most is lisp, because everything needs lisp.
 
