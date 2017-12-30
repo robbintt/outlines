@@ -62,3 +62,9 @@ Save this code as `example.clj` in the git repository `scad-clj` that you just c
 1. Todo: run from **your own project directory**, `not scad-clj`.
 	- Otherwise it's messy and hard to keep stuff under source control.
   - Use adereth's `dactyl` project as a template (avoid users needing to know much about clojure/lein/OpenSCAD before starting)
+
+
+### References
+
+1. [OpenSCAD User Manual/The OpenSCAD Language](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language)
+
