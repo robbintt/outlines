@@ -67,4 +67,4 @@ Save this code as `example.clj` in the git repository `scad-clj` that you just c
 ### References
 
 1. [OpenSCAD User Manual/The OpenSCAD Language](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language)
-
+1. [scad-clj source code (includes compiler)](https://github.com/farrellm/scad-clj/tree/master/src/scad_clj)
