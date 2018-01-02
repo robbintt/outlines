@@ -1,6 +1,6 @@
-# Using the `scad-clj` OpenSCAD DSL
+# Howto: Using the `scad-clj` OpenSCAD DSL on the CLI
 
-This DSL [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) was used by [adereth](https://twitter.com/adereth) to make the [dactyl keyboard](https://github.com/adereth/dactyl-keyboard).
+This DSL [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) was used by [adereth](https://twitter.com/adereth) to make the [dactyl keyboard](https://github.com/adereth/dactyl-keyboard).  This howto is based on [Adereth's blog post](http://adereth.github.io/blog/2014/04/09/3d-printing-with-clojure/).
 
 OpenSCAD becomes insane after awhile and what it needs most is lisp, because everything needs lisp.
 
@@ -58,6 +58,7 @@ Save this code as `example.clj` in the git repository `scad-clj` that you just c
 	1. As an example, try changing the sphere to size 50 in `example.clj`
 		1. run the repl command
 		1. your OpenSCAD instance should auto reload
+        - If this setting is not already chosen it is at (see the menu - TODO, add exact `file->location_name`)
 		1. If not, choose `file->reload` or `CMD+r` on a mac.
 1. Todo: run from **your own project directory**, `not scad-clj`.
 	- Otherwise it's messy and hard to keep stuff under source control.
@@ -68,3 +69,4 @@ Save this code as `example.clj` in the git repository `scad-clj` that you just c
 
 1. [OpenSCAD User Manual/The OpenSCAD Language](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language)
 1. [scad-clj source code (includes compiler)](https://github.com/farrellm/scad-clj/tree/master/src/scad_clj)
+1. [Adereth's Blog Post](http://adereth.github.io/blog/2014/04/09/3d-printing-with-clojure/)
