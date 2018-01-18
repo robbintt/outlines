@@ -48,7 +48,7 @@ The tasks really accumulate and orchestrating really become a challenge... denor
 
 Airflow is `configuration as code` and `pipelines as code`.
 
-We are going to get into why `configuration of code` is such a powerful concept.
+We are going to get into why `configuration as code` is such a powerful concept.
 
 DAG is a fancy acronym that also just means workflow in this context (and Directed Acyclic Graph).
 
