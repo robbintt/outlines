@@ -112,10 +112,10 @@ Framework reads the config file and builds a very complex framework on your beha
 There's a photo that has a bunch of bullets for how this configuration works (he said 'behind the Python')
 
 - Runs optimized logic
-  - If building the same pipeline over and over, some older ones won't be optimized. Why not improve the old whenever you improve the new?
+    - If building the same pipeline over and over, some older ones won't be optimized. Why not improve the old whenever you improve the new?
 - Cut the long tail of high cardinality dimension as specified
-  - Give parameters instead of tons of parameters and the framework does it automagically for you.
-  - In theory crafts a dashboard on your behalf.
+    - Give parameters instead of tons of parameters and the framework does it automagically for you.
+    - In theory crafts a dashboard on your behalf.
 
 
 #### Experimentation
@@ -127,8 +127,8 @@ Their complex dags are MASSIVE at airbnb.  Nested in a complicated way. This loo
 
 1. Wait for source data
 1. Load source data into `metric repository`
-  - He could do a talk on what a `metric repository` might be.
-  - A skinny table with a lot of rows... joins to `experimental assignments` and `experimental stats`
+    - He could do a talk on what a `metric repository` might be.
+    - A skinny table with a lot of rows... joins to `experimental assignments` and `experimental stats`
 1. ... (slide moved on)
 1. ... (slide moved on)
 1. ... (slide moved on)
@@ -156,11 +156,11 @@ Instead of reinventing the wheel for each model you are training.
 - centralized & reusable across models
 - consistent reproducible.
 - smart and efficient around time-windowing
-  - life-to-date metrics
-  - how many times over the last 7- or 28-days that a user performed a certain action
-  - use a YAML file to define what might be interesting
+    - life-to-date metrics
+    - how many times over the last 7- or 28-days that a user performed a certain action
+    - use a YAML file to define what might be interesting
 - hooks for training and scoring
-  - hooks are out of the `metrics repository`
+    - hooks are out of the `metrics repository`
 
 
 #### Stats Daemon
@@ -171,9 +171,12 @@ Instead of reinventing the wheel for each model you are training.
 
 ##### How to make a Stats Daemon
 
+Model metastore, ask metastore for schema of table, ask rule engine to build sql automatically. Use presto and pivot the result, attach to partition in a skinny table.
+
+
 He verbally said the following:
 
-- A `stats daemon` is the idea of computing database stats on top of your data warehouse.  - 
+- A `stats daemon` is the idea of computing database stats on top of your data warehouse.
 - People who know about classic RDBMS, mysql, oracle, postgres, etc. These stats are stored in the schema for the query optimizer to plan.- 
 - Hive etc. do not compute these stats but people can leverage these stats too, beyond the query optimizer.- 
 - Every time we see something changes in hive or hive metadata we compute a bunch more metadata.- 
@@ -186,7 +189,6 @@ He verbally said the following:
 - 
 - 
 
-Model metastore, ask metastore for schema of table, ask rule engine to build sql automatically. Use presto and pivot the result, attach to partition in a skinny table.
 
 
 #### More!
@@ -194,12 +196,12 @@ Model metastore, ask metastore for schema of table, ask rule engine to build sql
 - Anomoly Detection
 - Production MySQL exports
 - AirOlap: Loads data into druid.io
-  - druid.io - in-memory column store that's really fast
+    - druid.io - in-memory column store that's really fast
 - Email targeting rule engine
-  - Complex rules to determine who gets what email - no marketing email in 3 days and no lyft ride in 7 days... do the right thing
+    - Complex rules to determine who gets what email - no marketing email in 3 days and no lyft ride in 7 days... do the right thing
 - Cohort analysis and user segmentation (prototype)
 - [Insert your common pattern here]
-  - Knowing you can write dynamic python you can find your own place to apply this pattern.
+    - Knowing you can write dynamic python you can find your own place to apply this pattern.
 
 
 #### Conclusion
