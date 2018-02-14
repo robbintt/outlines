@@ -28,7 +28,7 @@ For example, you might paste an existing register, `l`, with `"lp`.
 
 ##### Methods for Copying Macros
 
-A macro doesn't really exist in vim, it's really a register that is played back with the macro key.
+A macro doesn't really exist in vim, it's really a register, e.g. register `l` that is played back with the macro key, `@`, e.g. `@l`.
 
 1. On any empty line, you can paste an existing register, `j`, into another register, `l`: `"jp"ldd`
 2. In `ex mode`, use the command: `:let @l=@j`
