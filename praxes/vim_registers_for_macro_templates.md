@@ -55,8 +55,8 @@ This example will fill the register `l` that executes `j` which moves the cursor
 4. Move your text into the `l` register: `0"ld$`
     - `0`: go to the beginning of the line
     - `"l`: queue up the `l` register to be yanked
-    - `d`: delete, yanking to `l` in the process
-    - `$`: goto the end of the line, apparently also can be the `g_` sequence.
+    - `d`: begin delete at cursor, yanking to `l` in the process
+    - `$`: move cursor to where the delete will terminate, the end of the line without the newline, apparently also can be the `g_` sequence.
 5. Quit command mode: `:q`
 6. Run your macro: `@l`
 
