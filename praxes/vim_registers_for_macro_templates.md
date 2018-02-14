@@ -70,10 +70,10 @@ It must be typed as the single character ``. It is accessed with the `` charac
 
 In vim this sequence looks like this, `^V^[`, but is only two characters long, not four. 
 
-The key sequence to type this character in vim can also be written as `ctrl+v ctrl+[`.
+The key sequence to type the `^[` character in vim can also be written as `ctrl+v ctrl+[`.
 
 To get `^V` you can type `ctrl+v ctrl+v`.
 
-You should not use `ctrl+c` (also known as `^C` or ``) here because it will put you back into `ex mode` with your typed command in the ex buffer. We want to stay in the command buffer.
+You should not use `ctrl+c` (also known as `^C` or ``) here because it will put you back into `ex mode` with your typed command in the ex buffer. We want to stay in the command buffer so we can paste the macro back into the register.
 
 
