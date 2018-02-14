@@ -30,7 +30,7 @@ For example, you might paste an existing register, `l`, with `"lp`.
 
 A macro doesn't really exist in vim, it's really a register, e.g. register `l` that is played back with the macro key, `@`, e.g. `@l`.
 
-1. On any empty line, you can paste an existing register, `j`, into another register, `l`: `"jp"ldd`
+1. On any empty line, you can paste an existing register, `j`, into another register, `l`: `"jp"l0d$`
 2. In `ex mode`, use the command: `:let @l=@j`
 
 
@@ -38,8 +38,7 @@ A macro doesn't really exist in vim, it's really a register, e.g. register `l` t
 
 We will use the `command buffer` as an anonymous buffer to avoid needing to modify a file to modify the register.
 
-The example looks like this: `q:ij^["ldd:q`
-
+The example looks like this: `q:ij^["l0d$:q`
 
 This example will fill the register `l` that executes `j` which moves the cursor down 1 line.
 
@@ -53,7 +52,10 @@ This example will fill the register `l` that executes `j` which moves the cursor
     - To paste directly from register `k`, type `"kp`
 2. Make your modifications: `j` can be replaced by any line representing your macro.
 3. Exit insert mode: ``
-4. Move your text into the buffer: `"ldd`
+4. Move your text into the `l` register: `"l0d$`
+    - `0`: go to the beginning of the line
+    - `d`: delete
+    - `$`: goto the end of the line, apparently also can be the `g_` sequence.
 5. Quit command mode: `:q`
 6. Run your macro: `@l`
 
