@@ -30,7 +30,7 @@ For example, you might paste an existing register, `l`, with `"lp`.
 
 A macro doesn't really exist in vim, it's really a register, e.g. register `l` that is played back with the macro key, `@`, e.g. `@l`.
 
-1. On any empty line, you can paste an existing register, `j`, into another register, `l`: `"jp"l0d$`
+1. On any empty line, you can paste an existing register, `j`, into another register, `l`: `"jp0"ld$`
 2. In `ex mode`, use the command: `:let @l=@j`
 
 
@@ -38,7 +38,7 @@ A macro doesn't really exist in vim, it's really a register, e.g. register `l` t
 
 We will use the `command buffer` as an anonymous buffer to avoid needing to modify a file to modify the register.
 
-The example looks like this: `q:ij^["l0d$:q`
+The example looks like this: `q:ij^[0"ld$:q`
 
 This example will fill the register `l` that executes `j` which moves the cursor down 1 line.
 
@@ -52,7 +52,7 @@ This example will fill the register `l` that executes `j` which moves the cursor
     - To paste directly from register `k`, type `"kp`
 2. Make your modifications: `j` can be replaced by any line representing your macro.
 3. Exit insert mode: ``
-4. Move your text into the `l` register: `"l0d$`
+4. Move your text into the `l` register: `0"ld$`
     - `0`: go to the beginning of the line
     - `d`: delete
     - `$`: goto the end of the line, apparently also can be the `g_` sequence.
@@ -64,10 +64,16 @@ This example will fill the register `l` that executes `j` which moves the cursor
 
 In a browser you probably cannot see the escape character, typically rendered as `^[` but as one glyph, ``, not two.
 
-The `^[` key simply means the escape key.  You can also do this chord directly to escape, also written as `ctrl+[`.  
+This character simply means the escape key.  You can also do this chord directly to escape, also written as `ctrl+[`.  
 
-It can be typed as `^[` ,the two character combo in a macro or as the single character `` which is accessed with the `` character followed by the `` character.
+It must be typed as the single character ``. It is accessed with the `` character followed by the `` character: `` 
 
-You cannot use `ctrl+c` (also known as `^c` or ``) here because it will put you back into `ex mode` with your typed command in the ex buffer. We want to stay in the command buffer.
+In vim this sequence looks like this, `^V^[`, but is only two characters long, not four. 
+
+The key sequence to type this character in vim can also be written as `ctrl+v ctrl+[`.
+
+To get `^V` you can type `ctrl+v ctrl+v`.
+
+You should not use `ctrl+c` (also known as `^C` or ``) here because it will put you back into `ex mode` with your typed command in the ex buffer. We want to stay in the command buffer.
 
 
