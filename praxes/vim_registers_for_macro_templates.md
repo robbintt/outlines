@@ -41,7 +41,7 @@ We will use the `command buffer` as an anonymous buffer to avoid needing to modi
 The example looks like this: `q:ij^["ldd:q`
 
 
-This example will create the macro that executes `j` which moves the cursor down 1 line.
+This example will fill the register `l` that executes `j` which moves the cursor down 1 line.
 
 **You should replace `j` with any vim macro you wish.**
 
