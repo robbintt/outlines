@@ -76,9 +76,16 @@ Graves designed an instrument (takistoscopic?) that measures speed of recognitio
 
 Graves also did case studies and did the questionnaries for thousands of people.
 
+
+### Graves' Big Idea
+
 Rather than figure out 'what is the next psychological system, political system, or cutting edge view of management, he was looking for the deeper dynamic that produces those systems, the underlying `master trend maker` that produces trends. At what point does a new theory emerge and does it totally replace the old theories, or does it 'transcend and include' in the language of Ken Wilbur(sp?)?
 
+Beck claims that Graves says that "there is no final state" and that "each system transcends AND includes the previous system", no utopian achievement or magic omega point. 
 
+> Humans are simply the kind of organism with an immense, amazing capacity to recalibrate their worlds.
+
+> What is it that causes the change?  Why do some people, companies, countries, organizations change and others don't? Can we figure out the master code to this process? Can we, while trying to figure out this master code, identify for the first time the equations that cause a change in the codes and why new codes appear? Why is the process different for different human groupings along a psychological trajectory.
 
 
 
