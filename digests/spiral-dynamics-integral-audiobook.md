@@ -88,5 +88,38 @@ Beck claims that Graves says that "there is no final state" and that "each syste
 > What is it that causes the change?  Why do some people, companies, countries, organizations change and others don't? Can we figure out the master code to this process? Can we, while trying to figure out this master code, identify for the first time the equations that cause a change in the codes and why new codes appear? Why is the process different for different human groupings along a psychological trajectory.
 
 
+### Twenty years beyond Clare Graves' Death in 1986
+
+We should be ready to potentially begin to suggest that people ought to pay attention to this particular concept: "The Emergent Cyclical Double-Helix Model of Adult Biopsychosocial Systems." That's why we call it Spiral Dynamics, it's much easier to think in those terms.
+
+
+### An Audio Clip of Clare Graves is Played
+
+This shifts between summary and quotation.
+
+Nature and Management of value systems is basically correct but a somewhat misleading perception of what Graves work is all about. There are, in the literature, publications of Graves on Values and on Management. They are derivative of a much larger area of interest. The studies are of the evolution in time and space of the adult human psychosocial systems. To comprehend what I have said about values, one must understand the totality of the work on which the work on values has developed, namely adult human psychosocial systems.
+
+> What has been published by me is not completed work and was not completed at time of publishing. It is a preliminary effort. Errors have been made, some larger, some smaller. Errors were made. I would not say today some of the things I said in earlier publications. During early publication, some sketches etc. have been attractive to others. Some have been stimulated to research within those preliminary conceptions. I must state that the very acceptance, use of, and call for more of my ideas, that I was early of the mind to scatter has caused me to delay until I could find that in my own mind the thinking was basically conceived. I had to wait until the bugs were worked out, lest further publication compound the problems I was facing as I examined and reexamined my data. Tonight I am ready, and shall present for the first time.
+
+Many "answers" to psychological development are described by Graves.
+
+
+### Beck Pumps Up Graves
+
+Beck spends some time pointing out the good characteristics of Graves, and makes him out to be a really well meaning and professional sounding guy. He points out that Graves feels that the data made him come to the conclusions that he did. Graves got sick and 'it was not healthy for him to express his ideas in written word'.
+
+People laughed at the name of his theory a lot. Beck breaks down the components of the title.
+
+This is chapter 1 at 45 minutes, and it's really not very precise.
+
+- Emergent - Socieities emerge and people emerge in an evolutionary sense
+- Cyclical - 
+- Spiral - Two systems - `i/me/mine` and `we/us/our` causes a pendulum swing in society as the focus shifts (too much of one drives the other to prominence)
+- Double-Helix - He describes both helices but it is a very jumbled definition
+- Adult - Graves studied adults
+- BioPsychoSocial - There are chemical underpinnings to psychology. Chemical assays and alloys or something, it's really a jumble. Oxytocin example. Beck claims that Graves identified the chemical and neurological structures of the first 5 systems he was able to isolate.
+
+
+
 
 
