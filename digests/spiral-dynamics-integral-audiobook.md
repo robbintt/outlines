@@ -28,30 +28,38 @@ During these sessions, Beck will:
 In South Africa, Beck says he used this model "to replace the ethnic-racial categories in Apartheid to make it possible Nelson Mandela for others to move out of the threat of civil war." and now wants to use it on fundamentalist Islamic terrorist mindset in Dutch society and then take it elsewhere. Also redesigning organizations to connect to marketplace and for employees in ways that fit who they are. In sports, the NFL, and global. Also designed schools. "It is beginning to have a universal application." Beck loosely calls it `a theory of everything`, not THE theory of everything.
 
 
-### Session 1
+### Session 1 Overview
 
 We will visit the work of Graves: research, discovery, conceptual system, allay any fears that this is the latest psycho-babble.
 
 
-### Session 2
+### Session 2 Overview
 
 We will take you a trip up the existential staircase, along the psychological map, how each of the numatic codes appeared, why they did, and how they express themselves.  The codes are like musical notes, but form musical chords because they are systems within us, not types of us. 
 
 This session covers the FIRST TIER which is the FIRST SIX SYSTEMS.
 
 
-### Session 3
+### Session 3 Overview
 
 We will move into the `SECOND TIER`, the next set of SIX SYSTEMS and looking at issues today in terms of their complexities and how we can work as individuals, leaders of organizations, communities, and members of the human race. How we can find fresh approaches to the very complex issues that confront us.
 
 
-### Session 4
+### Session 4 Overview
 
 A specific application of this knowledge in terms of change itself.  Change from what, to what.  Look at the EIGHT DIMENSIONS OF CHANGE. Look at particular processes we go through when we leap to a new PLATFORM or PARADIGM. With some precision look at the nature of change in ourselves, life choices, our family relationships, the nature of our communities, and the future of our planet. Look at the whole matter of ORGANIZATIONS.
 
-### Session 5
+ 
+### Session 5 Overview
 
-Begin to look at organizations. Begin to answer the question "How should who manage whom to do what?" or "How should who teach whom to do what?"
+Begin to look at organizations. Begin to answer the question "How should who manage whom to do what?" or "How should who teach whom to do what?" Moving the focus from the individual trajectory to kinds and domains of human groups. A major part of the approach is how to view, transform, and refresh organizations.
+
+
+### Session 6 Overview
+
+Take a broad look at 6 billion people and ask "How can we stitch together our wounded world?"
+
+
 
 
 
