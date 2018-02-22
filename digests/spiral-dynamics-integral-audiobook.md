@@ -60,6 +60,25 @@ Begin to look at organizations. Begin to answer the question "How should who man
 Take a broad look at 6 billion people and ask "How can we stitch together our wounded world?"
 
 
+### Anecdotes
+
+Beck talks about Graves feeling unauthentic because he could not address which psychological theories are "useful". Instead of giving up teaching, Graves started a study of thousands of people.  He asked 'How do you view healthy people? How do you view people that understand the world?" and other questions, and tried to rationalize it between the Maslow Hierarchy. Found the data to be beyond self-actualization, a group feature simply not based on the individual personal needs.
+
+
+### Graves' Inspiration
+
+Graves detected that patterns surface even when people change from `what to what`. Detected different world-views around `express self` and `sacrifice self`.  Beck calls `express-self` and `sacrifice-self` a `TECHNOLOGY`. Beck says that Graves 'detected' or 'uncovered' these basic systems that already existed. 
+
+
+### Graves' Test Methodology
+
+Graves designed an instrument (takistoscopic?) that measures speed of recognition of symbols. Graves then designed symbols to reflect a specific world view.  He would reveal those words at different speeds on a monitor until the person saw the words and pushed the button.  He would then reveal the speed by which they viewed those words. The basis of the research is that it is revealing the priority of these systems for the testee.
+
+Graves also did case studies and did the questionnaries for thousands of people.
+
+Rather than figure out 'what is the next psychological system, political system, or cutting edge view of management, he was looking for the deeper dynamic that produces those systems, the underlying `master trend maker` that produces trends. At what point does a new theory emerge and does it totally replace the old theories, or does it 'transcend and include' in the language of Ken Wilbur(sp?)?
+
+
 
 
 
