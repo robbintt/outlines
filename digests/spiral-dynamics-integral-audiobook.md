@@ -170,6 +170,64 @@ We want to move back in time and see when these systems first appeared, and soci
 
 Life conditions: no grocery stores, no medicine, a clan-type existence that just had to deal with the pattern of living. The primary goal was to meet the periodic, physiological needs of the species: food, water, sex, primitive music, adaptive intelligences. It would be a serious mistake to think of this as primitive.  This mind-brain may have had access to sensory systems we have lost, for example sensing a tiger in the bush, 'it was just amazing what they knew and when they knew it, shifts in a weather pattern, memories of where they buried ostrich eggs with their water supply'.
 
+In a tragedy or crisis we will see people who regressed into a nearly helpless, temporary beige condition for example when working with a FEMA crisis they must detect people who regressed and need help to do the very ordinary skills of: booking reservations, meeting people, handling insurance claims. We could lock people into a beige type existence by providing care for too long and not returning them to their enviornment. Beck fears we can create very unhealthy systems where people get stuck in beige to hit organizational quotas.  Learned helplessness.  He says this raises ethical questions about who gets access to which medical care and how long we keep people alive who survive in a beige system.
+
+
+## Second Level System - Purple System - Animistic Tribalistic One-For-All All-For-One
+
+> The cow died. The moon was full. The cow died because the moon was full. What do you think happened the next time the moon was full?
+
+Beck claims some Native American Tribes exist and/or existed in this system and used that as reasoning for naming their children after Elk or Eagles.  I don't really know, can any collection of tribe stories be said to represent what the individuals truly believed?
+
+Desmond Tutu - Ubuntu - Mutual Recipricity. I find food and share with you today because tomorrow you find food and share with me. Beck says that sports teams and coaches still fall back to this system, wearing lucky hats and lucky ties before the game.
+
+Another example: "something old, something new, something borrowed, something blue"
+
+> I am going to keep making the point that these aren't types of people, these are systems in people, and even the way we adjust today to our existence problems often requires a full complement of all these systems that like christmas tree lights can brighten and dim.
+
+
+## Third Level System - Red System - The Egocentric System
+
+
+Youth who don't remember the experience of parents and grandparents, who don't remember the needs of their parents and grandparents, there comes a point when the *individual spirit wants to break free* - but breaking free of the voices of the ancestors, it takes a lot of macho, risk, self-awareness, and the other dynamics that cause to break away from the heavy purpose system on the part of the *elites* who like to break out on their own and would draw with them others from the tribe who want to break free from the oppression of the heavy use of ritual to keep them trapped. Beck claims we see this in the terrible twos as well, in a first awareness of the raw, egocentric self-discovery.
+
+> I want it all, I want it now.  I want to be free.
+
+A natural step in child rearing. The third level system is important in child rearing and societies who are in the stage of being detribalized. People with no sense of other people, who become wild, guiltless, virtually very shameless.  Beck says he watched as Zulu youth are frustrated with such ritual because they had been to the bright lights (the city). The breakaway from Apartheid was about breaking away from the tyranny of elders, a raw, revolutionary phase.
+
+> The egosystem is neither good or bad. All have positive and negative aspects. Lets just say that the raw energy of red is essentially to producing humans who can take major risks and do major tasks like going to the moon. If we stifle this raw energy, we do ourselves a disservice, but if we look at the prison system, this red system without accountability inhabits a *completely different world*. In it's healthy version it is fun, risk taking. Musicians, race car drivers, linebackers, other expressions in power. "Women who are asserting themselves outside of the type, file, and smile mentality and beginning to assert themselves."
+
+- Egocentric, predatory, "I want it all, I want it now", lack of guilt, insistence that the promethean value system can assert itself, often moves into the dominant position (either for good or ill).
+
+- Redness requires heavy management, even ventilation. Everyone has it. Red does not have the guilt necessary of more complex systems but sometimes access the "weaponry" of more complex value systems... it's part of being human
+
+Beck says third-world areas are red/purple.
+
+
+## Fourth Level System - Blue System - The (absolutistic?) System
+
+Red system grows older and gets scared.  We, us, our. Line up and go to college for 4 years before worrying about getting a motor car.
+
+Transcendency, meaning, and purpose. Part of something larger and permanent, willing to conform my life, and give up my quest for pleasure and gratification and live for something more permanent.
+
+A growing sense of purpose behind a religious or nationalistic system.
+
+Sacrifice now to obtain later. Die for a cause, prepare for retirement, work for a principle.
+
+Law, justice, fairness begin to appear. Without it, anarchy and greed takeover. When that occurs the more complex systems are arrested and cannot develop.
+
+The Dutch system has issues where the "Dutch Blue" is in conflict with the "Islamic Blue". One blue-ism against another, both impacted by this worldview.
+
+> Navigating through this blue zone is very difficult. Singapore has probably done the very best. They have 5 hot ethnic cores existing in purple and red. Singapore has 2 year mandatory national service for males, authority. It is a control mechanism to prevent the cores from exploding. Today it is moving into the orange system, keeping the blue system in place.
+
+A society, family, a sports team, continues to exercise or resonate its purple, red, blue systems - keeping all in their healthy condition. If that doesn't happen, the more complex systems will be arrested, atrophy, one will become very primitive and very toxic versions of it.
+
+If we erode the system we lose charity, fairness, law and order.
+
+
+## Fifth Level System - 
+
+
 
 
 
