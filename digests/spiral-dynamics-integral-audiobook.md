@@ -166,14 +166,14 @@ The purpose is to find a basic value structure / worldview with the idea that th
 We want to move back in time and see when these systems first appeared, and societies that are developing from a less- to a more-complex state, and in a child's development.  As we track them through history we should see them even today. When we emerged for the first time, it was revolutionary and had a pure manifestation. Now that more complex systems are already developed the systems growing more complex for the first time are being influenced by existing complex systems.  This began once we crossed the rubicon from animals to thinking humans.
 
 
-### First Level System - Beige System - Survival Level System
+#### First Level System - Beige System - Survival Level System
 
 Life conditions: no grocery stores, no medicine, a clan-type existence that just had to deal with the pattern of living. The primary goal was to meet the periodic, physiological needs of the species: food, water, sex, primitive music, adaptive intelligences. It would be a serious mistake to think of this as primitive.  This mind-brain may have had access to sensory systems we have lost, for example sensing a tiger in the bush, 'it was just amazing what they knew and when they knew it, shifts in a weather pattern, memories of where they buried ostrich eggs with their water supply'.
 
 In a tragedy or crisis we will see people who regressed into a nearly helpless, temporary beige condition for example when working with a FEMA crisis they must detect people who regressed and need help to do the very ordinary skills of: booking reservations, meeting people, handling insurance claims. We could lock people into a beige type existence by providing care for too long and not returning them to their enviornment. Beck fears we can create very unhealthy systems where people get stuck in beige to hit organizational quotas.  Learned helplessness.  He says this raises ethical questions about who gets access to which medical care and how long we keep people alive who survive in a beige system.
 
 
-## Second Level System - Purple System - Animistic Tribalistic One-For-All All-For-One
+### Second Level System - Purple System - Animistic Tribalistic One-For-All All-For-One
 
 > The cow died. The moon was full. The cow died because the moon was full. What do you think happened the next time the moon was full?
 
@@ -186,7 +186,7 @@ Another example: "something old, something new, something borrowed, something bl
 > I am going to keep making the point that these aren't types of people, these are systems in people, and even the way we adjust today to our existence problems often requires a full complement of all these systems that like christmas tree lights can brighten and dim.
 
 
-## Third Level System - Red System - The Egocentric System
+### Third Level System - Red System - The Egocentric System
 
 
 Youth who don't remember the experience of parents and grandparents, who don't remember the needs of their parents and grandparents, there comes a point when the *individual spirit wants to break free* - but breaking free of the voices of the ancestors, it takes a lot of macho, risk, self-awareness, and the other dynamics that cause to break away from the heavy purpose system on the part of the *elites* who like to break out on their own and would draw with them others from the tribe who want to break free from the oppression of the heavy use of ritual to keep them trapped. Beck claims we see this in the terrible twos as well, in a first awareness of the raw, egocentric self-discovery.
@@ -204,7 +204,7 @@ A natural step in child rearing. The third level system is important in child re
 Beck says third-world areas are red/purple.
 
 
-## Fourth Level System - Blue System -
+### Fourth Level System - Blue System -
 
 Red system grows older and gets scared.  We, us, our. Line up and go to college for 4 years before worrying about getting a motor car.
 
@@ -225,7 +225,7 @@ A society, family, a sports team, continues to exercise or resonate its purple, 
 If we erode the system we lose charity, fairness, law and order.
 
 
-## Fifth Level System - Orange System - 
+### Fifth Level System - Orange System - 
 
 Enlightenment. We aren't content with divine state control. We are not content with theocratic explanations for the plague.
 
@@ -256,7 +256,7 @@ If all we have is orange, if the whole world is a casino, where those who are lu
 We must celebrate the healthy version of each meme code and recognize when it becomes unhealthy.  When a meme's manifestation interferes with another meme's right to be, that is not good for the human species. When a blue malignancy takes over the entire world with a priest is in charge, that would not be good.  When orange technocrats take over, driven only by bottom lines, that would not be good for the species.
 
 
-## Sixth Level System - Green System - 
+### Sixth Level System - Green System - 
 
 Humanistic, Egalitarian, Earthy, an attempt to rediscover our basic human-ness. Rejecting the materialism in orange and the dogma in blue.
 
@@ -270,11 +270,32 @@ Found in habitats these forms (memes) can multiply and begin to complexify.
 
 
 
-##  
+### Beck says Graves Discovered These Systems
+
+But they existed all along, we just can't see them except from a "Green System" vantage.
+
+
+### Beck would like to articulate "what's next?"
+
+Should we all be levitating where we find peace and our world is punctuated by the sound of gongs? Is that a form of escapism?
+
+Certainly there is richness, humanness, calming, tranquility. All necessary.
+
+We've convinced ourselves we discovered utopia around the corner. 
+
+We fail to recognize there are billions of people where the next 24 hours matters.  Millions of people escaping the predator, trapped in red zones. People moving into blue zones, searching for a religious experience or personalized god on a throne somewhere.
+
+If we think god has died, it's because our own value systems are such that we move into more complex thinking,  ability to think in terms of cosmos, of deeper senses of spirituality. Those moving into a blue system will embrace a concrete type, in most cases father-dominant theocracy.
+
+Those of us moving into the orange zone want to acquire enough to be comfortable in this world and are not so interested in a zone of personal theology.
+
+If we are not careful, through our nirvana, that we think we can expose everyone to our Green System, they simply aren't ready yet. Including things like full equal human rights for everyone. Maybe the highest level of caring is to not impose on people, who are not capable, to embrace what we truly believe is critical.
+
+> At each stage of human existence, the adult is off on his quest for his holy grail, the way of live by which he seeks to exist. On his first level, autonomic physiological satisfaction. Second level is a method of living. Third level is search for heroic and power. Fourth is ultimate peace. Fifth is material pleasure in orange.  Affectionate relations in green.  But then, a search for respect of self (in session 3, Beck calls this yellow). A search for peace in an incomprehensible world (turqoise). When you find that you will not find that peace, ninth level quest (coral). As he sets off on each quest, he believes he will find the answer to his existence. Much to his surprise and dismay, he finds that the solution to existence is not the solution he has come to find. Every stage he reaches leaves him disconcerted and perplexed. As he solves one set of human problems, he finds a new set in his place. The quest he finds is never-ending.
 
 
 
-
+## Session 3:
 
 
 
