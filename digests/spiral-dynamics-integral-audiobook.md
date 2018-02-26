@@ -3,6 +3,7 @@
 - Author: Don Beck
 - Speaker: Don Beck
 
+I had to return this book because the author slowly breaks down until he can no longer perform complete sentences.
 
 ## Session 1: The Dance of the Double Helix / How Humans Emerge
 
