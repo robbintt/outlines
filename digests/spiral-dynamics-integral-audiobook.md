@@ -128,7 +128,7 @@ So, he adds to the word BIO, PSYCHO.  BIOPSYCHO.
 What about SOCIAL? Oh well.
 
 
-### Beck Rambles
+### Beck Rambles about Psycho-Social Systems
 
 He talks about old psychosocial systems and equality.  He says the idea of steps of development are anathema because of white male european dominance and imperialism that has produced many of our problems. And that human development has trouble accepting a hierarchy of human development. Beck says that Graves uses a hierarchy but not of dominance or "better people" but the "complexity to handle problems".  Life has created greater complexity and survival has depended on the activation of that complexity at the same level or a level above.
 
@@ -145,8 +145,30 @@ Beck claims it is about deeper value structures, "fractals that organize" beneat
 > I make no guarantee that at the end you will know what I am about at the end of these sessions. Maybe 6 months, one year, two years, maybe never.  I am not asking you to decide based on the evidence if this is true. I am asking you to determine if this is useable.  If you are interested in academic research and applications, I would be more than happy to share that with you.
 
 
-## Session 2: 
+## Session 2: The Codes By Which We Live
 
+Let's discuss priorities for living / world views / `basic value systems`. We will look at *8 primary value systems*.
+
+The terms `deep codes`, `memetics`, `value systems`, `world view`, are all synonomys and interchangeable in these six sessions.
+
+Let's also use the word `memetics` and `meme` from Richard Dawkins' 'The Selfish Gene'
+
+> Dawkins said he cannot account for culture genetically and coined `meme` to represent a `a unit of cultural information that propagates itself across the ecologies of mind and produces what we call *our belief systems*.
+
+We are simply looking at how and why people value what the do. We are looking at how they think, not what they think.
+
+What happens to people and organizations as they age and change or age and atrophy?  What happens during conflicts, the deepest areas of difference and how to create solutions that respect and honor those deep codes.
+
+> Colors have been controversial. They were first used in South Africa to replace skin color pigmentation categories with a new language of difference that could transcend those categories. We wanted to break the stranglehold of Apartheid by first doing it within the symbolic systems. So I could talk to President Mandel about a Blue system and a Yellow system. We can use letter pairs, as did Graves, A-N, B-O, etc. Or we can use the language of levels: first, second, third, fourth level. In this presentation you will find it very useful to use colors. These colors have no particular symbolic meaning, they are arbitrary choices we decided to use to make communication much easier. Colors is a shorthand and becomes very convenient
+
+The purpose is to find a basic value structure / worldview with the idea that the structure cascades through individuals, organizations, societies, leaves their imprint on culture and art. As the meme replicates itself as does a gene, it touches every aspect of our life experience. That's why being able to detect the code gives us a real advantage in managing complex systems and very threatening problems.
+
+We want to move back in time and see when these systems first appeared, and societies that are developing from a less- to a more-complex state, and in a child's development.  As we track them through history we should see them even today. When we emerged for the first time, it was revolutionary and had a pure manifestation. Now that more complex systems are already developed the systems growing more complex for the first time are being influenced by existing complex systems.  This began once we crossed the rubicon from animals to thinking humans.
+
+
+### First Level System - Beige System - Survival Level System
+
+Life conditions: no grocery stores, no medicine, a clan-type existence that just had to deal with the pattern of living. The primary goal was to meet the periodic, physiological needs of the species: food, water, sex, primitive music, adaptive intelligences. It would be a serious mistake to think of this as primitive.  This mind-brain may have had access to sensory systems we have lost, for example sensing a tiger in the bush, 'it was just amazing what they knew and when they knew it, shifts in a weather pattern, memories of where they buried ostrich eggs with their water supply'.
 
 
 
