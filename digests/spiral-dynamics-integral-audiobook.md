@@ -294,8 +294,62 @@ If we are not careful, through our nirvana, that we think we can expose everyone
 > At each stage of human existence, the adult is off on his quest for his holy grail, the way of live by which he seeks to exist. On his first level, autonomic physiological satisfaction. Second level is a method of living. Third level is search for heroic and power. Fourth is ultimate peace. Fifth is material pleasure in orange.  Affectionate relations in green.  But then, a search for respect of self (in session 3, Beck calls this yellow). A search for peace in an incomprehensible world (turqoise). When you find that you will not find that peace, ninth level quest (coral). As he sets off on each quest, he believes he will find the answer to his existence. Much to his surprise and dismay, he finds that the solution to existence is not the solution he has come to find. Every stage he reaches leaves him disconcerted and perplexed. As he solves one set of human problems, he finds a new set in his place. The quest he finds is never-ending.
 
 
+## Session 3: The Leap into Second Tier
 
-## Session 3:
+The first six layers of complexity were described in section 2.
+
+Graves found the seventh level system to NOT be a continuation of the first six. He found, rather, some kind of "quantum jump".
+
+> Trent: I can find some peace with this 'quantized' jump, like an electron in a different orbital or something.
+
+Graves call the "first set of systems" the `Existence Systems`. As we are ready to exit our animalistic nature and poised to enter a whole different conceptual world.
+
+> "poised for a momentus leap" - as in the title of "The Futurist"
+
+> It's one thing if we wipe each other out with machine guns or bow and arrows. It's another thing if we create a nuclear winter or release microbes that attack our genetic material.
+
+Then he calls the `Existence Systems` the `fs green` system for some reason. I guess that means "first set green".
+
+**There is more good talk at the beginning of this chapter that should be summarized.**
+
+
+### Beck Rambles about Conflicting Systems
+
+Essentially all systems demand attention and it causes other systems to be diminished or out of balance. It lasts a long time.
+
+
+### Getting Rid of Systems?
+
+> We can't get rid of the other systems quite simply because there are billions of people passing through those systems. If we get rid of them we stymie billions of people with nowhere to go.
+
+Trent: I thought he said these systems exist in everyone to some degree, so isn't this statement really off base?
+
+
+### What is the point of this system of thought?
+
+> I'm not constructing a heavy Machiavellian attempt to change people. I am in the business of trying to create structures, habitats, dams, locks, that will naturally produce the environments for the self-organizing non-linear jumps to occur in humans.
+
+> What we have are sinkholes, backwaters, cesspools full of all kinds of social poison. How do we drain the swamp? How do we as humans, not a cultural or national group, get our minds around the problem of the emergence of 6 billion people on a very delicate, fragile planet. This is our neverending quest today and is what we are searching for.
+
+> At each of these major ratchets (colors/systems) that graves talks about, it takes a crisis to awaken our capabilities. Since this is a biopsychosocial theory, it takes a crisis to actually think the kind of thinking modalities that can solve it. Graves used to call these degrees of activation of the nervous system. Beck goes on to say that these are like upgrades of DOS, the operating system. Why... we already have like 4 synonyms.
+
+### Some more rambling
+
+> Warm colors create gaps between people, predator-prey, exploiter-exploitee.  Cool colors close the gaps. Green redistributes wealth to ensure more people are winners.  As people go back and forth they go back and forth. 
+
+
+### Yellow - An Acceptance of Verticality; Steps, Stages, Waves
+
+Beck decides not to form complete sentences for awhile.
+
+Two Tracks to something or other:
+    - `orange -> green -> yellow`
+    - `green -> yellow -> turqoise`
+
+The below is just completely unacceptable. There is no reason to continue this book.
+
+> As we ponder the question - "How we find the models of thinking and the approach to problem resolution of greater complexity than the kinds of problems that we've created for ourselves. That's our challenge. If one is interested to really understand the seventh level system, the first and the second tier, the integrative, the natural, the authentic, a sense of flexible flow, then one simply has to look at the life conditions of, that is to say what functions need to be performed given those life conditions. The characteristic and texture of each of the systems is in large part but not totally the result of what those functions need to be. If we have life conditions A, then the kinds of mind-brains and social forms and clans, and in, they're called, are necessary for conditions A. If on the other hand, we have problems B which we have identified earlier, then this will begin to dictate the contours and shape of system O, thus the appearance of the tribal bonding order. If once again we have problem C, a jungle type mentality, then the predation and the strength and the power contained within the P system are necessary to handle the dragons because in the CP Red world, there are always dragons either real or imaginary. That's why the system tends to be very sensitive, often very paranoid, quick to insult, fast trigger. Because it believes it lives in that kind of very dangerous world where if it doesn't act first and defend self, it will be overwhelmed. And, when we have problems D, the chaos ultimately caused by mature red empire systems and the hedonism and the viciousness, and the coldbloodedness and the constant gas between the haves and the have-nots with the imperialistic systems then that is what gave rise to system D, so system D has guild-based obedience, a sense of obligation and conformity, a clear set of rules and regulations, what sets out for a person how to receive a just reward. That is to say, a retirement, a hope of heaven, whatever that happens to be. Sacrifice now to obtain later. And likewise, conditions E, a very secular world where all the energy is let loose for the successful ones and the reality that one cannot find the causes of the plagues in the bible and one must learn the secrets of the universe which gave rise to System R. And obviously the same trend follows with problem F, the sixth level set of problems created by the successes and the failures of the earlier systems with the intent to once again restore humanness in the age of the machine and the depersonalization and the loss of the sense of the person that characterizes the fifth level orange system. So, S will be determined by F. If we follow that same sequence then we ask, as we have a moment ago, describe some of the life conditions that all of us confront at problems G, unlike any we have had before, because we have all these systems I have just named at full blast, each demanding their place in the sun and the resulting chaos then cannot be resolved by any of the first six systems. So system T, or seventh level, or yellow in our color code, will have to emerge in such a way it can address those particular systems. 
+> Now some people often confuse the work of Clare W Graves with that of Abraham Maslow who in his self-actualization seems to be stating some of the aspects of this system and I think that is probably the case, but when I used to talk with Clare about that we agreed that the Maslow pyramid with self-actualization at the top in terms of the pinnacle, with each set of needs being met and then releasing energy for the next to be met, Graves really believed that one could put that particular pyramid within each of the memetic fields, so that Billy Graham would be self-actualized at the fourth level of human existence. Donald Trump would be self-actualized at the fifth level set of life conditions. Former President Jimmy Carter would be self-actualized at the sixth level of human existence. Because all self-actualization means is using more of the brain that's there, but remember a key Gravesian concept that today is getting massive support of scientific studies of the mind brain is that each of these systems represents a different configured mind-brain. That is to say that certain systems in the brain that process are hooked up in a different mesh-work, which is a term that is used by brain scientists. That's why often change that we are trying to explain is not a willy nilly kind of superficial change of choice in toothpaste. The kind of change that we will be talking about later, change variation 7, means a total recalibration, a total almost reengineering, with different brain systems and processes and chemistry all meshed together in a new gestalt. So that we are literally suggesting that this major shift involves recovery, regeneration, and then renewal. And that the idea here is that we have to build the new processing systems that will have the codes of complexity to manage the world that we have both caused and inherited.
 
 
 
