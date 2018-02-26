@@ -204,7 +204,7 @@ A natural step in child rearing. The third level system is important in child re
 Beck says third-world areas are red/purple.
 
 
-## Fourth Level System - Blue System - The (absolutistic?) System
+## Fourth Level System - Blue System -
 
 Red system grows older and gets scared.  We, us, our. Line up and go to college for 4 years before worrying about getting a motor car.
 
@@ -225,7 +225,54 @@ A society, family, a sports team, continues to exercise or resonate its purple, 
 If we erode the system we lose charity, fairness, law and order.
 
 
-## Fifth Level System - 
+## Fifth Level System - Orange System - 
+
+Enlightenment. We aren't content with divine state control. We are not content with theocratic explanations for the plague.
+
+Secular, pragmatic attempt to control the secrets of the universe.
+
+Assertion of the individual in the new expression of the individual. Strategic, Manipulative, materialistic, autonomous self, protestant revolution, age of science, breakthroughs of science, cause and effect beyond the purple version of the moon and the cloud.
+
+If each individual works on their own, it can raise all boats.
+
+> Thank you Adam Smith...
+
+The ability to stand tall as humans and determine our own destiny.
+
+Heavy risk takers, explorers. "The Creative Orange Mind".  The United States is really known for the Orange System.
+
+The first chapter of Genesis was redefined in terms of stewardship over the planet, other interpretations of religious information through the orange system. The idea of coloring the bible by these color systems.
+
+Technology to produce the good life here and now, but not necessarily to let go of the good life "there and then" - the pie in the sky, heaven. Often Beck finds very strong cool color system, purple, blue, green, and warm color system, red, orange, yellow. The protestant work ethic is a combination of a heavy blue, almost predestination system of religion, along with a heavy orange, success in business. Same with the Dutch travelling to Cape Town.
+
+Today, orange is the dominant system on the planet. Success and profit drive. Recognizes that abundance meets peoples basic needs. Rather than worrying about lions, tigers, bears, worry about competition and taxation. High aspirations, positive outlook on life, a can-do philosophy.
+
+The core of orange is "changeability".
+
+Now Beck says "orange has landed people on the moon". I guess he considers red to integrate with orange.
+
+If all we have is orange, if the whole world is a casino, where those who are lucky, skillful, or inherit wealth. If they have little concern for the earth, then we can see what damage it can bring. We have to recognize when it becomes unhealthy.
+
+We must celebrate the healthy version of each meme code and recognize when it becomes unhealthy.  When a meme's manifestation interferes with another meme's right to be, that is not good for the human species. When a blue malignancy takes over the entire world with a priest is in charge, that would not be good.  When orange technocrats take over, driven only by bottom lines, that would not be good for the species.
+
+
+## Sixth Level System - Green System - 
+
+Humanistic, Egalitarian, Earthy, an attempt to rediscover our basic human-ness. Rejecting the materialism in orange and the dogma in blue.
+
+A major wave of green, the attitude of the war in vietnam, rampant classism and racism. An attempt to rid ourselves with artificial and become authentic.
+
+Our affluence produced the first expressions of green. You only find the emergence of green in the aftermath of orange success. The highest levels of green are found in scandanavian countries. You find pockets of green in American societies. Boston, San Francisco, Seattle, Santa Barbara, Boulder. 
+
+Found in habitats these forms (memes) can multiply and begin to complexify.
+
+> It's about the memes! It's not about the categories it's not about the beliefs, it's about these belief systems (memetics, basic values).
+
+
+
+##  
+
+
 
 
 
