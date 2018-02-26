@@ -135,7 +135,14 @@ He talks about old psychosocial systems and equality.  He says the idea of steps
 
 ### Spiral Dynamics is for Applied Purposes
 
+Beck claims it is about deeper value structures, "fractals that organize" beneath the surface, that inhabit the core of where decisions are being made. The goal is to shape things at that level.
 
+> The Graves Theory provides a specific strategy for doing this, not a 'theoretical concept with no application', it is just the opposite. Beck says they have been doing work for 30 years in applications, field studies, 'where the rubber hits the road.'  Stuff that works. This stuff is for handling some of the issues of stuff around us, not for idle conversation. Beck claims it takes 2-3 years to get your mind around it.
+
+- Beck claims apartheid was not about race
+- Beck claims that Islamic threat is not about religion
+
+> I make no guarantee that at the end you will know what I am about at the end of these sessions. Maybe 6 months, one year, two years, maybe never.  I am not asking you to decide based on the evidence if this is true. I am asking you to determine if this is useable.  If you are interested in academic research and applications, I would be more than happy to share that with you.
 
 
 ## Session 2: 
