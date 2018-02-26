@@ -119,6 +119,27 @@ This is chapter 1 at 45 minutes, and it's really not very precise.
 - Adult - Graves studied adults
 - BioPsychoSocial - There are chemical underpinnings to psychology. Chemical assays and alloys or something, it's really a jumble. Oxytocin example. Beck claims that Graves identified the chemical and neurological structures of the first 5 systems he was able to isolate.
 
+Value systems, called `MEMEs` in SESSION 2 have the ability "to jump, to morph, to recalibrate, to do a quantum leap".
+
+It doesn't matter if you think things are contained in metaphysical systems or just in physical matter, either way the system works.
+
+So, he adds to the word BIO, PSYCHO.  BIOPSYCHO.
+
+What about SOCIAL? Oh well.
+
+
+### Beck Rambles
+
+He talks about old psychosocial systems and equality.  He says the idea of steps of development are anathema because of white male european dominance and imperialism that has produced many of our problems. And that human development has trouble accepting a hierarchy of human development. Beck says that Graves uses a hierarchy but not of dominance or "better people" but the "complexity to handle problems".  Life has created greater complexity and survival has depended on the activation of that complexity at the same level or a level above.
+
+
+### Spiral Dynamics is for Applied Purposes
+
+
+
+
+## Session 2: 
+
 
 
 
