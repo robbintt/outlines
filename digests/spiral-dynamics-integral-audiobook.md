@@ -5,6 +5,15 @@
 
 I had to return this book because the author slowly breaks down until he can no longer perform complete sentences.
 
+## Trent's Summary
+
+I can't say I really disagree with the main thrust of these systems being built on each other like scaffolding.  But I don't see the systems as any of the following
+
+- particularly comprehensive
+- a good prognosticative tool
+- a way of understanding the past or the future in terms of the present
+- or a way to pick apart people or cultures in a way that assists thinking
+
 ## Session 1: The Dance of the Double Helix / How Humans Emerge
 
 There are six independent sections that stand on their own but are woven together into a tapestry. Beck is encouraging the reader to listen to the examples and war stories and think within the system.
