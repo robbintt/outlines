@@ -3,7 +3,7 @@
 - Author: Don Beck
 - Speaker: Don Beck
 
-I had to return this book because the author slowly breaks down until he can no longer perform complete sentences.
+I had to return this book because the author slowly rambles longer until he no longer performs complete sentences (perform because the author is the speaker).
 
 ## Trent's Summary
 
