@@ -3,11 +3,11 @@
 - Author: Don Beck
 - Speaker: Don Beck
 
-I had to return this book because the author slowly rambles longer until he no longer performs complete sentences (perform because the author is the speaker).
+I had to return this book because the author slowly rambles in longer increments until he no longer performs complete sentences (perform because the author is the speaker).
 
 ## Trent's Summary
 
-I can't say I really disagree with the main thrust of these systems being built on each other like scaffolding.  But I don't see the systems as any of the following
+I can't say I really disagree with the main thrust of these systems being built on each other like scaffolding.  But I don't see the systems as any of the following:
 
 - particularly comprehensive
 - a good prognosticative tool
