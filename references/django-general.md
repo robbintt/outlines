@@ -42,6 +42,20 @@ Django is used in industry! Pinterest, NASA, Venmo, Sighten, Instagram, etc.
 1. API, static frontend (March 19)
 
 
+#### First Time Setup
+
+The `manage.py` is executable by default in Python 3.  Simply `./manage.py runserver` or any other argument.
+
+You can `python manage.py runserver 80` for example, to run on any port.
+
+1. Python 3 in a virtualenv
+1. pip install django
+1. django-admin startproject
+1. python manage.py migrate
+1. python manage.py createsuperuser
+1. python manage.py startapp social
+
+
 ## Specific Technologies
 
 - DocRaptor for html to pdf in Django - Razzi used it at a company. [stack overflow](https://stackoverflow.com/questions/22247595/generate-pdf-with-docraptor-in-django)
