@@ -5,6 +5,9 @@ Try to migrate the key component of these reference materials into this document
 
 ### Sections
 
+#### Quick HTTP Server
+
+- `python -m http.server`
 
 #### Python Operator Precedence
 
