@@ -22,6 +22,8 @@ The focus of the ergonomic evaluation is my desk work.
 ## Behavioral Corrections
 
 1. When sitting, move forwards: `RULE: Elbow, Shoulder, Ear should be VERTICALLY aligned`
+    - I tend to always move my butt too far back which means my arms have to reach.
+    - I do not want to reach with my arms because I end up planting my wrists and hunching my shoulders.
 1. Move the mouse as close to center as possible
     - Avoid `Right Shoulder Abduction` when using the mouse
 1. Use TWO possible resting hand positions:
