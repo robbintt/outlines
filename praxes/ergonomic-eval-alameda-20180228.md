@@ -56,9 +56,13 @@ The focus of the ergonomic evaluation is my desk work.
     - Use reams of paper to move the screen up
 1. Seatpan is moved as far forward as possible to support the mid thigh and prevent cut-off bloodflow.
     - This is to avoid numbness in the legs and feet.
-1. Recommended sit-stand desk: `Workright Electric Sit Stand Desk`
 1. Fix right armrest (this one is broken)
 1. Use a "RFM Internet High-Back Chair": http://rfmseating.com/portfolio-view/internet/
     - 
 1. Mouse is too narrow and activating my finger flexons or something. I am planting my hand while mousing in an `ulnar deviation`. BAD.
     - Replace mouse with a wider one, `Kensington Slim Blade Trackball` and a `blue mouse slider` identical to my Genentech one.
+
+## Future Fixes (recommendations)
+
+1. Get a "Workright Electric Sit Stand Desk" - Needs approved and delivered
+1. Repair the right armwrest of the "RFM Internet High-Back Chair"
