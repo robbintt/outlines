@@ -58,6 +58,7 @@ The focus of the ergonomic evaluation is my desk work.
     - This is to avoid numbness in the legs and feet.
 1. Recommended sit-stand desk: `Workright Electric Sit Stand Desk`
 1. Fix right armrest (this one is broken)
-1. Get the model of the chair for this report: 
+1. Use a "RFM Internet High-Back Chair": http://rfmseating.com/portfolio-view/internet/
+    - 
 1. Mouse is too narrow and activating my finger flexons or something. I am planting my hand while mousing in an `ulnar deviation`. BAD.
     - Replace mouse with a wider one, `Kensington Slim Blade Trackball` and a `blue mouse slider` identical to my Genentech one.
