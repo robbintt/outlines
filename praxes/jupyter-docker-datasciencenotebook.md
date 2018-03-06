@@ -6,9 +6,9 @@ brew cask install docker
 
 ## Quick References
 
+I guess what I would really like is one of these with sage math?
+
 - [Guide covers this notebook](https://hub.docker.com/r/jupyter/datascience-notebook/)
-    - Use this to determine what capabilities we have
-    - THIS WILL BE OUTDATED:
     - Jupyter Notebook 5.2.x
     - Conda Python 3.x environment
     - pandas, matplotlib, scipy, seaborn, scikit-learn, scikit-image, sympy, cython, patsy, statsmodel, cloudpickle, dill, numba, bokeh pre-installed
@@ -20,7 +20,6 @@ brew cask install docker
     - tini as the container entrypoint and start-notebook.sh as the default command
     - A start-singleuser.sh script useful for running a single-user instance of the Notebook server, as required by JupyterHub
     - A start.sh script useful for running alternative commands in the container (e.g. ipython, jupyter kernelgateway, jupyter lab)
-    - Options for a self-signed HTTPS certificate and passwordless sudo
 - [Jupyter Notebook Shortcuts](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)
 
 
@@ -55,7 +54,7 @@ ssh into your docker container.
 The following is a summary of the linked diagram. The diagram is a superior explanation.
 
 Docker stacks are very interesting:
-1. `tensorflow-notebook1`
+1. `tensorflow-notebook`
 1. `datascience-notebook`
 1. `pyspark-notebook` --> `all-spark-notebook`
 
