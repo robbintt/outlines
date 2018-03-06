@@ -3,6 +3,10 @@
 (brew must be installed; cask must be installed)
 brew cask install docker
 
+
+## Quick References
+
+- [Guide covers this notebook](https://hub.docker.com/r/jupyter/datascience-notebook/)
 - [Jupyter Notebook Shortcuts](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)
 
 
@@ -31,9 +35,6 @@ ssh into your docker container.
 
 
 ## Resources
-
-### we decided to try this notebook:
-- https://hub.docker.com/r/jupyter/datascience-notebook/
 
 #### This is based on the [docker-stacks](https://github.com/jupyter/docker-stacks#visual-overview)
 
