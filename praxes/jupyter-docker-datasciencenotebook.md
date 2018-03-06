@@ -3,6 +3,9 @@
 (brew must be installed; cask must be installed)
 brew cask install docker
 
+- [Jupyter Notebook Shortcuts](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)
+
+
 ## Steps
 
 I recommend doing this from your home internet. It is about 2 GB. 
