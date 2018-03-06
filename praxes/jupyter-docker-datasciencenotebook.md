@@ -32,6 +32,19 @@ ssh into your docker container.
 ### we decided to try this notebook:
 - https://hub.docker.com/r/jupyter/datascience-notebook/
 
+#### This is based on the [docker-stacks](https://github.com/jupyter/docker-stacks#visual-overview)
+
+The following is a summary of the linked diagram. The diagram is a superior explanation.
+
+Docker stacks are very interesting:
+1. `tensorflow-notebook1`
+1. `datascience-notebook`
+1. `pyspark-notebook` --> `all-spark-notebook`
+
+All these notebooks are based on the `scipy-notebook`, which is `ubuntu base-notebook` based. (And all descend from `minimal-notebook`).
+
+There is a separate `r-notebook`
+
 ### found on this list of notebooks:
 - https://hub.docker.com/r/jupyter/notebook/
 
