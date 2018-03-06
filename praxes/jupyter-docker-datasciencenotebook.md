@@ -14,6 +14,13 @@ brew cask install docker
     - pandas, matplotlib, scipy, seaborn, scikit-learn, scikit-image, sympy, cython, patsy, statsmodel, cloudpickle, dill, numba, bokeh pre-installed
     - Conda R v3.3.x and channel
     - plyr, devtools, shiny, rmarkdown, forecast, rsqlite, reshape2, nycflights13, caret, rcurl, and randomforest pre-installed 
+    - The tidyverse R packages are also installed, including ggplot2, dplyr, tidyr, readr, purrr, tibble, stringr, lubridate, and broom
+    - Julia v0.6.x with Gadfly, RDatasets and HDF5 pre-installed
+    - Unprivileged user jovyan (uid=1000, configurable, see options) in group users (gid=100) with ownership over /home/jovyan and /opt/conda
+    - tini as the container entrypoint and start-notebook.sh as the default command
+    - A start-singleuser.sh script useful for running a single-user instance of the Notebook server, as required by JupyterHub
+    - A start.sh script useful for running alternative commands in the container (e.g. ipython, jupyter kernelgateway, jupyter lab)
+    - Options for a self-signed HTTPS certificate and passwordless sudo
 - [Jupyter Notebook Shortcuts](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)
 
 
