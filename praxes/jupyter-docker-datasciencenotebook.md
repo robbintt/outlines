@@ -7,6 +7,13 @@ brew cask install docker
 ## Quick References
 
 - [Guide covers this notebook](https://hub.docker.com/r/jupyter/datascience-notebook/)
+    - Use this to determine what capabilities we have
+    - THIS WILL BE OUTDATED:
+    - Jupyter Notebook 5.2.x
+    - Conda Python 3.x environment
+    - pandas, matplotlib, scipy, seaborn, scikit-learn, scikit-image, sympy, cython, patsy, statsmodel, cloudpickle, dill, numba, bokeh pre-installed
+    - Conda R v3.3.x and channel
+    - plyr, devtools, shiny, rmarkdown, forecast, rsqlite, reshape2, nycflights13, caret, rcurl, and randomforest pre-installed 
 - [Jupyter Notebook Shortcuts](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)
 
 
