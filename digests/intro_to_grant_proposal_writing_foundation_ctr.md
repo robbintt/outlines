@@ -1,5 +1,6 @@
 ## Introduction to Proposal Writing Video
 
+- Notes are from [this video](https://www.youtube.com/watch?v=F1NhEhovepA)
 - Source: Foundation Center
 - Speaker: 
 
