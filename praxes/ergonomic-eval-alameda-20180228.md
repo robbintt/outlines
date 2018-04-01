@@ -24,6 +24,7 @@ The focus of the ergonomic evaluation is my desk work.
 1. When sitting, move forwards: `RULE: Elbow, Shoulder, Ear should be VERTICALLY aligned`
     - I tend to always move my butt too far back which means my arms have to reach.
     - I do not want to reach with my arms because I end up planting my wrists and hunching my shoulders.
+1. Do not plant palms, too much contact stress.
 1. Move the mouse as close to center as possible
     - Avoid `Right Shoulder Abduction` when using the mouse
 1. Use TWO possible resting hand positions:
@@ -43,6 +44,7 @@ The focus of the ergonomic evaluation is my desk work.
 1. Shoulders fully at rest on arm wrests
 1. Feet planted at 90 degrees on the ground
 1. Back at 100 degrees resting on the backrest
+1. Do not plant palms.
 
 
 ## Equipment Fixes
