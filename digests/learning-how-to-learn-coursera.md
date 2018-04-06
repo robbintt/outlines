@@ -2,12 +2,50 @@
 
 Learn the basics of how the brain works to learn more easily and be less frustrated.
 
+The course has 4 modules over 4 weeks.
+
+#### Information
+
 - Source: coursera.org
 - Speaker: Barbara Oakley, Terrence Sejnowski
 - Basis: "A Mind for Numbers" by Barbara Oakley
     - the book formed the basis for this MOOC
     - audible audio or paper/ebook
 
+#### Course Videos 
+
+You'll gain insight into how we learn by using a variety of different approaches, ranging from personal stories, to insights from cognitive psychology, to an examination of deep neuroscience.
+
+#### Course Activities
+
+- In-video Quizzes
+- Graded Quiz in each Module
+- Peer-evaluated assignments (optional)
+
+#### Course Objectives
+
+By the end of the course, we expect you to be able to do the following:
+
+- Explain the difference between focused and diffuse modes of thinking.
+- Explain what a chunk is, and how and why you can and should enhance your chunking skills.
+- Explain how working memory and long term memory differ from one another.
+- Describe key techniques to help students learn most efficiently such as: 
+    - the Pomodoro
+    - metaphor
+    - story
+    - visualization
+    - deliberate practice
+    - interleaving
+- Describe actions that hinder students from learning most effectively, such as:
+    - procrastination
+    - over-learning
+    - Einstellung
+    - choking
+    - multi-tasking
+    - illusions of learning
+    - lack of sleep
+- Describe the most important aspects of proper test preparation.
+- Explain the importance of “mindset” in learning.
 
 ## Video 1: Introduction to the Focused and Diffuse modes
 
@@ -56,6 +94,17 @@ Master the simple approaches outlined here, including simple tips to help preven
 
 
 
+
+
+
+
+# Trent on 10+10 Rules of Studying
+
+1. Recalling what you just read is a `validation test`. You can verify the work product of your reading. The work product is that you learned the material.
+1. Another major plug for flashcards and spaced repetition. Maybe I should just keep a paper system of mixed flashcards that I can rebase as neeed.  Electronic ones are not working.
+1. Use outside resources early and often. Identify helpful people and don't waste your time on people that aren't successful at teaching you.
+1. Airplane Mode: Every text message pulls up the roots of your attempt to learn.
+1. Sleep is the foundation of learning and survival.
 
 # 10 Rules of Studying
 
