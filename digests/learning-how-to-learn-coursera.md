@@ -60,7 +60,7 @@ The `focused` and `diffuse` modes of thinking are fundamentally different.
 1. Diffuse Mode of Thinking
     - Relaxed: related to a set of neural resting states
 
-Metaphor and analogy are very helpful when learning something new.
+**Metaphor and analogy are very helpful when learning something new.**
 
 
 ### Analogy: Pinball Game
@@ -91,6 +91,64 @@ Discover new ways to hold your focus and embed the material more deeply and powe
 Condense key ideas you are learning about so you can grasp them more easily.
 
 Master the simple approaches outlined here, including simple tips to help prevent procrastination, and you'll be able to learn more effectively and with less frustration.
+
+
+## Video 3: sing the Focused and Diffuse Modes--Or, a Little Dali will do You
+
+Your mind needs to go back and forth between the two learning modes, that's what makes you learn effectively.
+
+Analogy: Lifting weights. You can't work out like a fiend the day before a weightlifting competition. Neural structure is like a muscle, gradually grow a `neural scaffold` to hang your thinking on.
+
+Learning something difficult takes time.
+
+Salvador Dali - the very definition of "a wild and crazy guy"
+
+Thomas Edison - One of the most brilliant inventors ever
+
+### Dali's technique
+
+- Relax in a chair and let his mind go free. 
+- Dangle a key in his hand just above the floor. 
+- And just as he drifted into his dreams, falling asleep he would drop the key, waking himself up. 
+- Just in time to gather the `diffuse mode` connections and ideas in his mind
+- And back he would go into the `focused mode`, bringing with him the new connections he made in the diffuse mode
+
+
+### Edison Technique
+
+According to legend...
+
+- Relax in his chair, holding ball-bearings in his hand
+- His mind would run free and noodle back in a relaxed way to what he would focus on
+- The ball bearings drop and clatter to the ground - same as Dali
+- He is awakened! Off he would go with his ideas in the `diffuse mode`, ready to build on them in the `focused mode`
+
+
+
+## Week 1: What is Learning?
+
+### Some Context
+
+- Brain weighs 3 lbs. Consumes 10x more energy by weight than rest of body.
+- Most complex device in the known universe.
+- We are not consciously aware of how our brains work. Brains evolved to help us navigate complex environments. Most of heavy lifting is below consciousness.
+- Surprised to find out that `running`, `reaching`, `seeing`, `hearing` are much more complex problems than we thought (than `chess` and `math`) and still out of the reach of raw computer processing.
+- Much of heavy lifting below the level of consciousness and we don't need to know how it's done to survive
+- We are only aware of a tiny fraction of events in the mind
+- There are areas of the brain that are active during focused states, and other areas of the brain that are active during resting states.
+- Brain connectivity is dynamic and remains so even after it matures. New synapses form and others disappear.
+- How do memories remain stable over so many years?
+- Viewing a dendritic branch on a neuron. After learning and sleep the dendrite has new synapses.
+- Synapses < 1 micron diameter; human hair is 20 microns diameter. Near the limit of light microscopy.
+- You are not the same person you were after a nap or night sleep. Upgrade!
+- Shakespeare: Macbeth laments insomnia, sleep knits up your experiences into the tapestry of your life story.
+- Check out [www.brainfacts.org](www.brainfacts.org).
+- There are a million billion synapses in the brain.
+
+There are references at the end of the video.
+
+
+## Introductory Quiz
 
 
 
