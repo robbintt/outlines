@@ -12,6 +12,9 @@ trent: it sounds like they version their dags somehow...
 
 Question: Are you versioning your DAGs?  No we are using `git describe` so counting up version from a parent.
 
+Max: Use Apache Arrow to store serialized data, then use xcom_push and pull to send & retrieve the data. Don't store too much serialized data in xcom stuff.
+
+
 ## Initial (non k8s) deployment
 
 - Airflow under supervisord (scheduler and webserver on same box)
