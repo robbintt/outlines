@@ -19,6 +19,8 @@ Project [here](http://lapinozz.github.io/project/2016/03/27/generating-brainfuck
 
 ### Binary Lambda Calculus 
 
+A lot of interesting blc information is stored here: https://tromp.github.io/cl/Binary_lambda_calculus.html
+
 A ton of info from the creator of `tromp`: https://tromp.github.io/cl/cl.html
 
 This ties in closely to computer science theory and brainfuck in general.
@@ -26,6 +28,7 @@ This ties in closely to computer science theory and brainfuck in general.
 The author claims that `tromp` is the most concise possible `universal machine`
 
 details about tromp: http://www.ioccc.org/2012/tromp/hint.html
+
 
 
 
