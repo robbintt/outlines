@@ -14,6 +14,12 @@ Question: Are you versioning your DAGs?  No we are using `git describe` so count
 
 Max: Use Apache Arrow to store serialized data, then use xcom_push and pull to send & retrieve the data. Don't store too much serialized data in xcom stuff.
 
+Max: Backfill is so common, you might consider setting up a whole backflow framework.  (Trent: maybe just run a whole scheduler with separate dags that have backfill enabled with a different pool of workers...)
+
+Max: If you are doing local surgeries or magic on your data, you probably want to keep that in the DAG and use conditionals for what the date is to determine what to do, that way someone running a regular DAG backfill isn't going to blow away your surgery.
+
+Max: We would build a dag framework for backfilling that would build a custom dag for a particular date range and manage that, then programmatically manage date ranges.  Then managing those backfill datasets into production db as atomic operations.
+
 
 ## Initial (non k8s) deployment
 
