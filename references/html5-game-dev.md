@@ -1,16 +1,19 @@
 # Learning HTML5 Native Game Dev
 
-Goal: Make some simple games in html5.
 
-Secondary Goal: Somehow translate the games to mobile app native.
+## Goals
+
+1. Make some simple games in html5
+2. Somehow translate the games to mobile app native
+3. Leverage existing javascript libraries for multiplayer, maybe even run a server/api for play between phone and browser
 
 
 ## Option: react-game-kit
 
-- Use the same game code for web, iOS, android.
-- Use react.
+- Use the same game code for web, iOS, android
+- Use react
 - Hot reload game logic
-- Don't have to learn unity.
+- Don't have to learn unity
 
 
 ### References
@@ -25,3 +28,12 @@ Secondary Goal: Somehow translate the games to mobile app native.
 Jeffrey built [this](https://jeffreyatw.github.io/react-redux-platformer)  ([source](https://github.com/JeffreyATW/react-redux-platformer))
 
 > Formidable Labs does great stuff - Nick
+
+
+## Option: 
+
+2D Sprite Managment.
+
+### References
+
+- [source](https://github.com/pixijs/pixi.js)
