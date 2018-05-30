@@ -148,8 +148,12 @@ According to legend...
 There are references at the end of the video.
 
 
-## Introductory Quiz
+## Introductory Quiz Notes
 
+1. There is a coursera mobile app...
+
+10,000
+## Video: A procrastination Preview
 
 
 
