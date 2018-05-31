@@ -13,6 +13,7 @@ It looks like there are a lot of different ways to do this, and games are typica
 ## Trajectory
 
 1. Package someone else's game for iOS with Phonegap (or Cordova) just to see it happen.
+1. I plan to use the default `phonegap hello world` app to test this out.
 1. Make modifications to the game and package again to iOS.
 
 
