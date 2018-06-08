@@ -4,6 +4,20 @@
 
 I read somewhere that phonegap CLI is easier once you downaload the ios and android SDKs.
 
+### Issues (All heresay at this point)
+
+These issues are mostly around game dev focusing on 60fps games.
+
+There is less criticism for business apps.
+
+- a lot of intermittent problems (sound issues, android issues)
+- issues with having a high number of elements
+- issues on phones older than iphone 6 and similar android generations
+- may not use canvas and webgl due to the type of iphone browser emulation?
+    - 
+
+
+### Alternatives for game dev
 
 
 1. Get an apple developer account - individual is faster
