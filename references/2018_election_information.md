@@ -23,3 +23,18 @@ For streaming changes, Wikipedia might be the best bet.
 
 - [United States Elections, 2018](https://en.wikipedia.org/wiki/United_States_elections,_2018)
 
+
+
+## Reddit Politics - [https://www.reddit.com/r/politics](https://www.reddit.com/r/politics)
+
+Biased view, but generally in my direction.  Has good data.
+
+
+- [Reddit Calendar of Primaries 2018](https://old.reddit.com/r/politics/comments/7nmfkw/2018_calendar_of_primaries/)
+
+
+
+## Politico Election Results - https://www.politico.com
+
+- [Midterm Election Schedule 2018: Primary and Registration Dates](https://www.politico.com/election-results/2018)
+	- They don't even have CA Lieutenant Governor, why?
