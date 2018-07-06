@@ -24,12 +24,12 @@ Your reserve heart rate is: Maximum Heart Rate - Resting Heart Rate
 1. Put your finger on your pulse (I use my neck)
 1. Start the timer on a beat, and count beats for 60 seconds.
     - The number of beats per 60 seconds is your resting heart rate.
-1. > The American Heart Association recommends checking your resting heart rate first thing in the morning (but before you get out of bed." [1](https://www.health.harvard.edu/blog/resting-heart-rate-can-reflect-current-future-health-201606179806)
+1. "The American Heart Association recommends checking your resting heart rate first thing in the morning (but before you get out of bed." [1](https://www.health.harvard.edu/blog/resting-heart-rate-can-reflect-current-future-health-201606179806)
 
 
 ## Target Heart Rate Range
 
-Your Target Heart Rate (THR Range) is generally 70 to 85 percent of your maximum heart rate, although it is based on you individually and there are a few ways to calculate it.
+Your Target Heart Rate (THR) Range is generally 70 to 85 percent of your maximum heart rate, although it is based on you individually and there are a few ways to calculate it.
 
 IMPORTANT: There's no evidence that being at the high or low range of your Target Heart Rate is better... 
 
@@ -48,7 +48,7 @@ If you want to push yourself then: **increase the TIME you are at your target he
 
 This method takes into account age and base heart rate.  [The method is from the Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887).
 
-Lets check target against the other method at some regular ages assuming 65 BPM Resting Heart Rate (RHR).
+Lets check target at some regular ages assuming 65 BPM Resting Heart Rate (RHR).
 
 - 20 YRS : `(220-20-65)*.7+65` to `(220-20-65)*.85+65` = 160-180
 - 30 YRS : `(220-30-65)*.7+65` to `(220-30-65)*.85+65` = 153-171
@@ -80,16 +80,17 @@ But the range is pretty close between both.  My heart rate is very stable at my 
 1. Target Heart rate is 70%-85% of Max Heart Rate: 120 * (70% to 85%) + 66 = 150 - 168 BPM
     - You want to spend your workout in this range... but how much time at each part of the range? I like to alternate every 5 min for 25 min.
     - I tend to stick closer to 146 right now, I consider 154 to be a really heavy workout.
-    - I hit this something like 8 minutes into the workout? Measure what is a comfortable and natural ramp.
+    - I hit this something like 8 minutes into the workout? I measure what is a comfortable and natural ramp.
 
 1. Minimum Exercise Heart Rate is 60% of Max Heart Rate: 186 * 60% = 112 bpm
-	- I easily hit this and warm out quite comfortably to 120 BPM within a few minutes
-	- I think this is too low, but it is for mild exercise at 35-40 mins.
+	- I easily hit this and warm up quite comfortably to 120 BPM within a few minutes
+	- I think this is too low, but it is for mild exercise at 150 minutes per week
+	- If I did moderate exercise I would do 150 mins per week, or 50 minutes per session at 120 BPM.
 
 
 ### Calculate Target Heart Rate Range: with General Method
 
-This method takes into account age only and NOT resting heart rate. Lets check target against the other method at some regular ages.  These ranges are a lot broader and don't go nearly as high.
+This method takes into account age only and NOT resting heart rate. Lets check target against the resting method at some regular ages.  These ranges are a lot broader and don't go nearly as high.
 
 - 20 YRS : `(220-20)*.7` to `(220-20)*.85` = 140-170
 - 30 YRS : `(220-20)*.7` to `(220-20)*.85` = 133-162
@@ -119,7 +120,7 @@ Summary: 150 min moderate exercise or 75 min vigorous exercise per week. Use the
 
 ### Intensity
 
-You can use relative intensity to measure your workout. 
+You can use relative intensity to measure your workout. You are the judge of the intensity in this system.  You probably need some experience to make this accurate. 
 
 The primary scale has two names: `Borg Scale` and `Rating of Perceived Exertion (RPE) Scale`.
 
@@ -153,5 +154,5 @@ You should also do:
 ## References
 
 1. [CALCULATING YOUR TARGET HEART RATE](https://www.canyonranch.com/blog/fitness/calculating-your-target-heart-rate/)
-    - The reference for these facts, and it has no citations.  
+    - This is the reference for some of these facts, and it has no citations.  
     - Please verify ALL data with the AHA or other entity and remove this reference.  I have read similar things elsewhere, but that's not a substitute for real citations.
