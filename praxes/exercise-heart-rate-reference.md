@@ -74,9 +74,10 @@ But the range is pretty close between both.  My heart rate is very stable at my 
 
 
 1. Max Heart Rate @ 34 Years: 220 - 34 = 186 BPM - **WARNING - DO NOT GET NEAR THIS HEART RATE**
-    - WARNING: This heart rate is your absolute MAXIMUM and could cause damage. 
+    - WARNING: This heart rate is your absolute MAXIMUM and could cause damage.
     - It may also be EVEN LOWER for you, it's just an AVERAGE.
 1. Reserve Heart Rate (HRR) @ 34 years (MHR-HRR): 186 - 66 = 120 BPM
+    - This is how much you have "left over" between your resting and your max.
 1. Target Heart rate is approximately 70%-85% of Max Heart Rate, based on HRR: (186-66) * (70% to 85%) + 66 = 150 - 168 BPM
     - The exact calculation is `HRR * (70% to 85%) + RHR = THR Range`
         - Think of it as using 70-85% of your reserve
