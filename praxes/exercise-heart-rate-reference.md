@@ -37,9 +37,9 @@ IMPORTANT: There's no evidence that being at the high or low range of your Targe
 
 ## How to improve at cardio
 
-There is no reason to push your heart rate during non-competitive exercise. It is bad to go too high.
+There is no reason to push your heart rate beyond the target range during non-competitive exercise. It is bad to go too close to the max at any time.
 
-Going above your target heart rate increases risk of damage.
+Going above your `Target Heart Rate Range` increases risk of damage.
 
 If you want to push yourself then: **increase the TIME you are at your target heart rate.**
 
@@ -112,10 +112,42 @@ This method takes into account age only and NOT resting heart rate. Lets check t
 	- I easily hit this and warm out quite comfortably to 120 BPM within a few minutes
 
 
-### Timespan
+## Intensity and Time Span
 
-This website says to stay at your TARGET HEART RATE, 130-158 for at least 15-20 mins and ideally 35-40 mins... but which one??
+Summary: 150 min moderate exercise or 75 min vigorous exercise per week. Use the Rating of Perceived Exertion or 'borg' scale.
 
+
+### Intensity
+
+You can use relative intensity to measure your workout. 
+
+The primary scale has two names: `Borg Scale` and `Rating of Perceived Exertion (RPE) Scale`.
+
+- [Wikipedia: Borg Scale](https://en.wikipedia.org/wiki/Rating_of_perceived_exertion)
+- [CDC: Measuring Exertion](https://www.cdc.gov/physicalactivity/basics/measuring/exertion.htm)
+
+- A rating of 12-13 probably is a moderate physical exercise??
+- A rating of 15-17 probably is a vigorous physical exercise??
+
+
+> Studies show that your perceived exertion compares well with your heart rate. So if you think you're working hard, your heart rate is probably higher than usual. [(1)](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887)
+
+
+### Time Span
+
+[The Mayo Clinic recommends](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887) every week do **one of the following**:
+
+1. 150 minutes of moderate aerobic activity or 
+1. 75 minutes of vigorous aerobic activity
+
+You may need to work up to vigorous aerobic activity. I certainly did in 2018.
+
+You should also do: 
+
+1. 2 strength training sessions - per week 
+    - (including rock climbing, "heavy gardening")
+    - Free weights are ideal
+    - Weight machines
 
 
 ## References
