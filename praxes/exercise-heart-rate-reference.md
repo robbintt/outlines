@@ -79,7 +79,7 @@ But the range is pretty close between both.  My heart rate is very stable at my 
 1. Reserve Heart Rate (HRR) @ 34 years (MHR-HRR): 186 - 66 = 120 BPM
 1. Target Heart rate is approximately 70%-85% of Max Heart Rate, based on HRR: (186-66) * (70% to 85%) + 66 = 150 - 168 BPM
     - The exact calculation is `HRR * (70% to 85%) + RHR = THR Range`
-    - More simply: max - `minus resting = reserve`
+        - Think of it as using 70-85% of your reserve
     - You want to spend your workout in this range... but how much time at each part of the range? I like to alternate every 5 min for 25 min.
     - I tend to stick closer to 146 right now, I consider 154 to be a really heavy workout.
     - I hit this something like 8 minutes into the workout? I measure what is a comfortable and natural ramp.
