@@ -156,3 +156,6 @@ You should also do:
 1. [CALCULATING YOUR TARGET HEART RATE](https://www.canyonranch.com/blog/fitness/calculating-your-target-heart-rate/)
     - This is the reference for some of these facts, and it has no citations.  
     - Please verify ALL data with the AHA or other entity and remove this reference.  I have read similar things elsewhere, but that's not a substitute for real citations.
+2. [CDC Exercise Guide](https://www.cdc.gov/physicalactivity/basics/index.htm)
+3. [CDC Activity Intensity](https://www.cdc.gov/physicalactivity/basics/measuring/index.html)
+3. [CDC Heart Rate Method](https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm)
