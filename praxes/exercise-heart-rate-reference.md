@@ -12,7 +12,7 @@ It may also be EVEN LOWER for you than the calculations, it's just an AVERAGE, s
 
 ## Reserve Heart Rate
 
-You can get a more accurate picture by using the 'reserve heart rate' method from [The May Clinic]().
+You can get a more accurate picture by using the 'reserve heart rate' method from [The Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887).
 
 Your reserve heart rate is: Maximum Heart Rate - Resting Heart Rate
 
