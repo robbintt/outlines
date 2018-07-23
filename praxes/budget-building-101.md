@@ -2,7 +2,10 @@
 
 An introductory course on building a budget in Google Sheets.  You can modify the included template for your own budget, try to avoid changing the calculations in some of the cells.
 
-The template assumes a monthly income of `$4357.14`, after tax.
+The template assumes a monthly income of $4092 based on a pretax salary of $70,000.  The income does not take into account the 2 months you get 3 paychecks (26 paychecks in a 52 week year).  
+
+If you want to include the two extra checks in your choice making, simply take your salary after tax and divide it by 12.  Figuring tax is annoying but you can figure it from your paycheck by taking your hourly earnings * hours and subtracting what you were actually paid.  This is approximately your tax rate, but is not fully accurate.  It also includes certain things your company gives you that are considered 'income', like a life insurance policy with them as the beneficiary that you pay for.  That's late stage capitalism!
+
 
 ## Template
 
