@@ -62,13 +62,10 @@ I used some categories in the spreadsheet:
 If something is a high percent of my income, I try to bring it down.  There are different strategies for everything, it usually just comes down to two things:
 
 1. **Adjust your habits**
-    - 7 cigarettes a day costs $1661 per year, roll your own cigarettes - or quit
-    - 3x $6 bar beers, 2 nights a week costs $1872 per year, drink a beer at noisebridge - or quit
     - Eating a $12 lunch out every day costs $4392 per year - pack your lunch - or quit... just kidding
     - Find more things like this, especially daily or weekly habits that cost you.
 1. **Shop Around**
     - Stop buying books and games and instead make a list of what you already have, read the top priority on that
-    - If the train costs 
 
 
 
