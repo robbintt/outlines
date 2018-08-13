@@ -12,6 +12,23 @@ Skip the examples for now because I've already run them once.
 Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build an analogy to `python-virtualenv`.
 
 
+## Tools
+
+Tools for Rust.
+
+### rustup
+
+> rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between __stable, beta, and nightly compilers__ and __keep them updated__. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows. (emphasis mine)
+
+> rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
+
+
+### GDB
+
+- [GDB support Rust](https://sourceware.org/gdb/onlinedocs/gdb/Rust.html)
+    - Lizzie says no one uses it
+
+
 ## Resources
 
 Resources from main rust site.
@@ -20,6 +37,7 @@ Resources from main rust site.
 ### Articles
 
 - ["Rust for Python Developers" by Armin Ronacher](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
+- [Three things Armin wishes he learned earlier](http://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/)
 
 ### Intro
 
