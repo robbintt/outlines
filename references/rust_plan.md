@@ -12,6 +12,22 @@ Skip the examples for now because I've already run them once.
 Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build an analogy to `python-virtualenv`.
 
 
+## Ingesting Anthologies and Aggregators of Rust Information
+
+## More Resource Compilations to Ingest
+
+- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md)
+- [readrust.net interesting post aggregator](https://readrust.net/)
+- [rust community blog](http://blog.community.rs/en-US/)
+- [project euler in rust](https://github.com/gifnksm/ProjectEulerRust)
+- [hackr.io tutorials learn-rust tutorials and courses](https://hackr.io/tutorials/learn-rust)
+
+
+## Already Ingested Here & Date
+
+- [rust-learning](https://github.com/ctjhoa/rust-learning) - 2018.08.13
+
+
 ## Tools
 
 Tools for Rust.
@@ -23,10 +39,38 @@ Tools for Rust.
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
 
+### Cargo
+
+- [Rust cargo guide](https://doc.rust-lang.org/cargo/guide/)
+
+> Cargo is a tool that allows Rust projects to declare their various dependencies and ensure that you’ll always get a repeatable build.  To accomplish this goal, Cargo does four things:
+
+> 1. Introduces two metadata files with various bits of project information.
+> 1. Fetches and builds your project’s dependencies.
+> 1. Invokes rustc or another build tool with the correct parameters to build your project.
+> 1. Introduces conventions to make working with Rust projects easier.
+
 ### GDB
 
 - [GDB support Rust](https://sourceware.org/gdb/onlinedocs/gdb/Rust.html)
     - Lizzie says no one uses it
+
+
+## "The Book 2nd Ed." aka "The Rust Programming Language"
+
+>  When you finish this you will be an intermediate rust programmer.
+
+> In general, this book assumes that you’re reading it in sequence from front to back. Later chapters build on concepts in earlier chapters, and earlier chapters might not delve into details on a topic; we typically revisit the topic in a later chapter.
+
+> You’ll find two kinds of chapters in this book: concept chapters and project chapters. In concept chapters, you’ll learn about an aspect of Rust. In project chapters, we’ll build small programs together, applying what you’ve learned so far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
+
+
+
+
+### Notes
+
+- 20 chapters long
+- available in print
 
 
 ## Resources
@@ -34,10 +78,50 @@ Tools for Rust.
 Resources from main rust site.
 
 
+### "Are we _ yet?"
+
+Things that are [not awesome yet in rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust)
+
+- [web app stuff](http://www.arewewebyet.org/)
+- [game stuff](http://arewegameyet.com/)
+
+
+
+
 ### Articles
 
-- ["Rust for Python Developers" by Armin Ronacher](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
-- [Three things Armin wishes he learned earlier](http://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/)
+Summaries inside.
+
+- A list of ['fearless rust bloggers'](https://users.rust-lang.org/t/fearless-rust-bloggers/16770)
+- [Tutorials & Workshop Materials](https://github.com/ctjhoa/rust-learning#tutorials--workshop-materials)
+- [hackr.io tutorials](https://hackr.io/tutorials/learn-rust)
+
+
+#### ["Rust for Python Developers" by Armin Ronacher](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
+
+
+##### Mutability, Borrows, and Owners
+
+> Functions that operate on immutable borrows are marked as &self and functions that need a mutable borrow are marked as &mut self. You can only loan out references if you are the owner. If you want to move the value out of the function (for instance by returning it) you cannot have any outstanding loans and you cannot loan out values after having moved ownership away from yourself.
+
+> This is a big change in how you think about programs but you will get used to it.
+
+
+##### [Three rust things Armin wishes he learned earlier](http://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/)
+
+
+##### [RUST'S OWNERSHIP MODEL FOR JAVASCRIPT DEVELOPERS](https://blog.thoughtram.io/rust/2015/05/11/rusts-ownership-model-for-javascript-developers.html)
+
+
+##### [github py2rs](https://github.com/rochacbruno/py2rs)
+
+
+##### [rust for node developers](https://github.com/Mercateo/rust-for-node-developers)
+
+##### [rust for c developers / "I used to use pointers - now what?"](https://github.com/diwic/reffers-rs/blob/master/docs/Pointers.md)
+
+
+##### [rust for clojurists](https://gist.github.com/oakes/4af1023b6c5162c6f8f0)
 
 ### Intro
 
@@ -45,6 +129,7 @@ Resources from main rust site.
 - ["The Book (Second Edition)" aka "The Rust Programming Language"](https://doc.rust-lang.org/book/second-edition/index.html)
 - [Self Contained Rust Examples](https://doc.rust-lang.org/rust-by-example/)
 - [Community Maintained Git Repo of Rust Resources](https://github.com/ctjhoa/rust-learning)
+- [Rust Performance Pitfalls](https://llogiq.github.io/2017/06/01/perf-pitfalls.html)
 
 
 ### Detailed
@@ -52,7 +137,15 @@ Resources from main rust site.
 - [The Rust Reference](https://doc.rust-lang.org/stable/reference/)
 - [Rust Grammar](https://doc.rust-lang.org/stable/grammar.html)
 - [Standard Library API Reference](https://doc.rust-lang.org/std/)
+- [Rust API Guidelines](https://rust-lang-nursery.github.io/api-guidelines/)
+    - [Rust API Guidelines Quick Checklist](https://rust-lang-nursery.github.io/api-guidelines/checklist.html)
 - [Advanced: How to write unsafe Rust code aka "The Rustonomicon"](https://doc.rust-lang.org/nomicon/)
 - [Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/)
+- [Rust release notes](https://github.com/rust-lang/rust/blob/master/RELEASES.md)
+- [Rust platform support](https://forge.rust-lang.org/platform-support.html)
+- [Rust Compiler Error Index](https://doc.rust-lang.org/error-index.html)
+- [Segfaults in Rust](https://jvns.ca/blog/2017/12/23/segfault-debugging/)
+- [Profiling Rust Applications on Linux](https://llogiq.github.io/2015/07/15/profiling.html)
+- [Writing an OS in rust](https://os.phil-opp.com/)
 
 
