@@ -5,14 +5,20 @@ I was planning on learning C but it's tough to get up to speed and people seem t
 
 ## The Plan
 
-Go through the book (2nd edition) and check out the community maintained git repo.
 
-Skip the examples for now because I've already run them once.
+### Todo
 
-Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build an analogy to `python-virtualenv`.
+- Go through the book (2nd edition) and check out the community maintained git repo.
+- Skip the examples for now because I've already run them once.
+
+
+### Done
+
+- Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build an analogy to `python-virtualenv`.
 
 
 ## Ingesting Anthologies and Aggregators of Rust Information
+
 
 ## More Resource Compilations to Ingest
 
@@ -88,17 +94,17 @@ Resources from main rust site.
 
 ### "Are we _ yet?"
 
-Things that are [not awesome yet in rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust)
-
 - [web app stuff](http://www.arewewebyet.org/)
 - [game stuff](http://arewegameyet.com/)
+- also check out "things that are [not awesome yet in rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust)"
+
 
 
 
 
 ### Articles
 
-Summaries inside.
+Summaries go below.
 
 - A list of ['fearless rust bloggers'](https://users.rust-lang.org/t/fearless-rust-bloggers/16770)
 - [Tutorials & Workshop Materials](https://github.com/ctjhoa/rust-learning#tutorials--workshop-materials)
