@@ -21,7 +21,7 @@ Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build 
 - [rust community blog](http://blog.community.rs/en-US/)
 - [project euler in rust](https://github.com/gifnksm/ProjectEulerRust)
 - [hackr.io tutorials learn-rust tutorials and courses](https://hackr.io/tutorials/learn-rust)
-
+- [rust design patterns](https://github.com/rust-unofficial/patterns)
 
 ## Already Ingested Here & Date
 
@@ -31,6 +31,14 @@ Learn about `rustup` and how to maintain your `rust` toolchain. Hopefully build 
 ## Tools
 
 Tools for Rust.
+
+### Places to get help
+
+> there are a number of places you can get help. The easiest is the #rust IRC channel on irc.mozilla.org, which you can access through Mibbit. At that address you can chat with other Rustaceans (a silly nickname we call ourselves) who can help you out. Other great resources include the Users forum and Stack Overflow.
+
+### Local Documentation
+
+try: `rustup doc`
 
 ### rustup
 
@@ -52,7 +60,7 @@ Tools for Rust.
 
 ### GDB
 
-- [GDB support Rust](https://sourceware.org/gdb/onlinedocs/gdb/Rust.html)
+- [GDB supports Rust](https://sourceware.org/gdb/onlinedocs/gdb/Rust.html)
     - Lizzie says no one uses it
 
 
@@ -147,5 +155,6 @@ Summaries inside.
 - [Segfaults in Rust](https://jvns.ca/blog/2017/12/23/segfault-debugging/)
 - [Profiling Rust Applications on Linux](https://llogiq.github.io/2015/07/15/profiling.html)
 - [Writing an OS in rust](https://os.phil-opp.com/)
+- [Pretty state machine patterns in rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/)
 
 
