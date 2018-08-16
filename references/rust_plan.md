@@ -9,7 +9,8 @@ I was planning on learning C but it's tough to get up to speed and people seem t
 ### Todo
 
 - Go through the book (2nd edition) and check out the community maintained git repo.
-- Skip the examples for now because I've already run them once.
+- Skip the git project of examples for now, I've checked them out before and should learn the rust book before checking them out again.
+- How do I get a .gitignore to be generated when I do `cargo new --bin variables` or similar?
 
 
 ### Done
@@ -52,6 +53,18 @@ try: `rustup doc`
 
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
+
+### The Book
+
+Some random notes.
+
+- Chapter 2
+
+> Switching from an `expect` call to a `match` expression is how you generally move from crashing on an error to handling the error. Remember that `parse` returns a `Result` type and Result is an enum that has the variants `Ok` or `Err`. We’re using a `match` expression here, as we did with the `Ordering` result of the `cmp` method.
+
+> --- snip ---
+
+> If `parse` is not able to turn the string into a number, it will return an `Err` value that contains more information about the error. The `Err` value does not match the `Ok(num)` pattern in the first `match` arm, but it does match the `Err(_)` pattern in the second arm. The underscore, `_`, is a catchall value; in this example, we’re saying we want to match all `Err` values, no matter what information they have inside them. So the program will execute the second arm’s code, `continue`, which tells the program to go to the next iteration of the `loop` and ask for another guess. So effectively, the program ignores all errors that `parse` might encounter!
 
 ### Cargo
 
