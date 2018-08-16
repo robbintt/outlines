@@ -55,17 +55,8 @@ try: `rustup doc`
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
 
-### The Book
 
-Some random notes.
 
-- Chapter 2
-
-> Switching from an `expect` call to a `match` expression is how you generally move from crashing on an error to handling the error. Remember that `parse` returns a `Result` type and Result is an enum that has the variants `Ok` or `Err`. We’re using a `match` expression here, as we did with the `Ordering` result of the `cmp` method.
-
-> --- snip ---
-
-> If `parse` is not able to turn the string into a number, it will return an `Err` value that contains more information about the error. The `Err` value does not match the `Ok(num)` pattern in the first `match` arm, but it does match the `Err(_)` pattern in the second arm. The underscore, `_`, is a catchall value; in this example, we’re saying we want to match all `Err` values, no matter what information they have inside them. So the program will execute the second arm’s code, `continue`, which tells the program to go to the next iteration of the `loop` and ask for another guess. So effectively, the program ignores all errors that `parse` might encounter!
 
 ### Cargo
 
@@ -93,12 +84,24 @@ Some random notes.
 > You’ll find two kinds of chapters in this book: concept chapters and project chapters. In concept chapters, you’ll learn about an aspect of Rust. In project chapters, we’ll build small programs together, applying what you’ve learned so far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
 
 
-
-
 ### Notes
 
 - 20 chapters long
 - available in print
+
+
+#### Chapter 2
+
+> Switching from an `expect` call to a `match` expression is how you generally move from crashing on an error to handling the error. Remember that `parse` returns a `Result` type and Result is an enum that has the variants `Ok` or `Err`. We’re using a `match` expression here, as we did with the `Ordering` result of the `cmp` method.
+
+> --- snip ---
+
+> If `parse` is not able to turn the string into a number, it will return an `Err` value that contains more information about the error. The `Err` value does not match the `Ok(num)` pattern in the first `match` arm, but it does match the `Err(_)` pattern in the second arm. The underscore, `_`, is a catchall value; in this example, we’re saying we want to match all `Err` values, no matter what information they have inside them. So the program will execute the second arm’s code, `continue`, which tells the program to go to the next iteration of the `loop` and ask for another guess. So effectively, the program ignores all errors that `parse` might encounter!
+
+
+#### Chapter 3
+
+> So how do you know which type of integer to use? If you’re unsure, Rust’s defaults are generally good choices, and integer types default to i32: this type is generally the fastest, even on 64-bit systems. The primary situation in which you’d use isize or usize is when indexing some sort of collection.
 
 
 ## Resources
