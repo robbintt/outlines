@@ -11,6 +11,7 @@ I was planning on learning C but it's tough to get up to speed and people seem t
 - Go through the book (2nd edition) and check out the community maintained git repo.
 - Skip the git project of examples for now, I've checked them out before and should learn the rust book before checking them out again.
 - How do I get a .gitignore to be generated when I do `cargo new --bin variables` or similar?
+- What's the deal with shadowing? Sure it's fine, but you could end up with a bunch of values that never get garbage collected, what other tradeoffs are there? Perhaps the same type management issues that Python is attempting to solve with type annotation. Why use shadowing?
 
 
 ### Done
