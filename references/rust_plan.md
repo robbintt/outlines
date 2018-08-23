@@ -86,8 +86,17 @@ try: `rustup doc`
 
 ### Notes
 
-- 20 chapters long
-- available in print
+- Rust is an `expression` based language 
+    - `Statements` are instructions that perform some action and do not return a value. 
+        - `let y = 6;` is a statement, it does not return a value
+    - `Expressions` evaluate to a resulting value.
+        - Expressions can be parts of statements: in `let y = 6`, the `6` is an expression that evaluates to `6`.
+        - calling a `function` or calling a `macro` is an expression
+        - calling the block to create new scopes, `{}`, is an expression
+        - a function can have an expression and it will be returned by the function
+    - other languages don't have the same distinctions
+- blocks of code inside `if` expressions or `match` expressions are sometimes called `arms`
+- Remember that blocks of code evaluate to the last expression in them
 
 
 #### Chapter 2
@@ -101,11 +110,16 @@ try: `rustup doc`
 
 #### Chapter 3
 
+> Function bodies are made up of a series of statements optionally ending in an expression. So far, we’ve only covered functions without an ending expression, but you have seen an expression as part of a statement. Because Rust is an expression-based language, this is an important distinction to understand. Other languages don’t have the same distinctions, so let’s look at what statements and expressions are and how their differences affect the bodies of functions.  
+
+> We’ve actually already used statements and expressions. Statements are instructions that perform some action and do not return a value. Expressions evaluate to a resulting value. Let’s look at some examples.
+
 > So how do you know which type of integer to use? If you’re unsure, Rust’s defaults are generally good choices, and integer types default to i32: this type is generally the fastest, even on 64-bit systems. The primary situation in which you’d use isize or usize is when indexing some sort of collection.
 
 > Floating-point numbers are represented according to the IEEE-754 standard. The f32 type is a single-precision float, and f64 has double precision.
 
 > Rust’s char type represents a Unicode Scalar Value, which means it can represent a lot more than just ASCII. Accented letters; Chinese, Japanese, and Korean characters; emoji; and zero-width spaces are all valid char values in Rust. Unicode Scalar Values range from U+0000 to U+D7FF and U+E000 to U+10FFFF inclusive. However, a “character” isn’t really a concept in Unicode, so your human intuition for what a “character” is may not match up with what a char is in Rust. We’ll discuss this topic in detail in “Strings” in Chapter 8.
+
 
 ## Resources
 
