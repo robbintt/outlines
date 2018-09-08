@@ -61,6 +61,7 @@ try: `rustup doc`
 ### Cargo
 
 - [howto: specify cargo dependencies](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+    - This is manual... but I prefer cargo-edit so far for add/rm/upgrade
 - Make sure to `cargo install cargo-edit`
     - This gives you the ability to use `cargo add/rm/upgrade <crate>` for example `cargo add num_bigint`
 
