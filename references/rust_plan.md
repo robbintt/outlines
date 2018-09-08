@@ -60,6 +60,11 @@ try: `rustup doc`
 
 ### Cargo
 
+- [howto: specify cargo dependencies](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+- Make sure to `cargo install cargo-edit`
+    - This gives you the ability to use `cargo add/rm/upgrade <crate>` for example `cargo add num_bigint`
+
+
 - [Rust cargo guide](https://doc.rust-lang.org/cargo/guide/)
 
 > Cargo is a tool that allows Rust projects to declare their various dependencies and ensure that you’ll always get a repeatable build.  To accomplish this goal, Cargo does four things:
