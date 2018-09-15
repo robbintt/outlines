@@ -50,11 +50,31 @@ try: `rustup doc`
 
 ### rustup
 
+
+#### Switch between `stable` and `nightly`
+
+you will need some or all of these: 
+
+- `rustup update`
+- `rustup install nightly`
+- switch with: `rustup default nightly` or `rustup default stable`
+
+
+
 > rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between __stable, beta, and nightly compilers__ and __keep them updated__. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows. (emphasis mine)
 
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
 
+
+### Crater
+
+I don't think this is useful until I'm trying to switch between `stable` and `nightly` with tons of dependencies.
+
+- detect regressions in rust compiler against a bunch of `crates`
+- [github project](https://github.com/rust-lang-nursery/crater)
+- Check the differences between `stable` and `target` 
+    - only for sandboxed environments, it's very destructive... so I guess only on vms.
 
 
 
