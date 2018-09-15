@@ -122,7 +122,7 @@ I don't think this is useful until I'm trying to switch between `stable` and `ni
 
 ### Rust 101 Youtube (20 Jan 2017)
 
-- Speaker: E. Dunham; @qedunham
+- Speaker: E. Dunham; @qedunham  (Mozilla)
 - [source](https://www.youtube.com/watch?v=FMqydRampuo)
 - [slides](http://talks.edunham.net/lca2017/rust101.pdf)
 
@@ -263,5 +263,28 @@ Summaries go below.
 - [Profiling Rust Applications on Linux](https://llogiq.github.io/2015/07/15/profiling.html)
 - [Writing an OS in rust](https://os.phil-opp.com/)
 - [Pretty state machine patterns in rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/)
+
+
+### Rust Community
+
+- Find a meetup on meetup.com in your area
+- [goog.gl/EJ2iRb](rust global calendar)
+- [rust conf - west coast?](rustconf.com)
+- `#rust-community` on IRC
+k
+
+### Cool Projects
+
+- [Redox OS](https://www.redox-os.org/) - unix-like operating system
+- [Popular Crate on crates.io](https://crates.io/) - find cool stuff to work on
+
+
+
+### Embedded
+
+- Need `llvm`, there is an `avr llvm` project
+- Does `esp32` have access to `llvm` yet?
+- `llvm` now supports `arm64` which is good for the future...
+    - This is fall 2018, 18 months later... does this work yet? **check**
 
 
