@@ -66,6 +66,16 @@ you will need some or all of these:
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
 
+### Clippy
+
+Linter - `nightly` only. Use it!
+
+
+
+### Playpen
+
+You can put your rust in a gist and put it in `Playpen` and then share it with others who can see it run. Good tool for collaboration.
+
 
 ### Crater
 
@@ -108,6 +118,37 @@ I don't think this is useful until I'm trying to switch between `stable` and `ni
 > In general, this book assumes that you’re reading it in sequence from front to back. Later chapters build on concepts in earlier chapters, and earlier chapters might not delve into details on a topic; we typically revisit the topic in a later chapter.
 
 > You’ll find two kinds of chapters in this book: concept chapters and project chapters. In concept chapters, you’ll learn about an aspect of Rust. In project chapters, we’ll build small programs together, applying what you’ve learned so far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
+
+
+### Rust 101 Youtube (20 Jan 2017)
+
+- Speaker: E. Dunham; @qedunham
+- [source](https://www.youtube.com/watch?v=FMqydRampuo)
+- [slides](http://talks.edunham.net/lca2017/rust101.pdf)
+
+
+#### Exercises
+
+- [Rustlings repo](https://github.com/rustlings/rustlings)
+- Rust By Example book
+
+
+#### Macros
+
+Macros are syntactic sugar for functions that take a variable number of arguments...
+
+Need more content, see rust book v2.
+
+
+#### Inclusive and Exclusive Ranges
+
+- `..` is an exclusive range, `..=` is an inclusive range
+    - This is true for both matches and expressions
+    - The old match-only inclusive range syntax `...` is still acceptable in match-only but not recommended and does not work in expressions
+    - See `rust book v2 appendix 6`
+    
+
+
 
 
 ### Notes
