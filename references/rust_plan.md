@@ -50,15 +50,51 @@ try: `rustup doc`
 
 ### rustup
 
+
+#### Switch between `stable` and `nightly`
+
+you will need some or all of these: 
+
+- `rustup update`
+- `rustup install nightly`
+- switch with: `rustup default nightly` or `rustup default stable`
+
+
+
 > rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between __stable, beta, and nightly compilers__ and __keep them updated__. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows. (emphasis mine)
 
 > rustup is a toolchain multiplexer. It installs and manages many Rust toolchains and presents them all through a single set of tools installed to ~/.cargo/bin. The rustc and cargo installed to ~/.cargo/bin are proxies that delegate to the real toolchain. rustup then provides mechanisms to easily change the active toolchain by reconfiguring the behavior of the proxies.
 
 
+### Clippy
+
+Linter - `nightly` only. Use it!
+
+
+
+### Playpen
+
+You can put your rust in a gist and put it in `Playpen` and then share it with others who can see it run. Good tool for collaboration.
+
+
+### Crater
+
+I don't think this is useful until I'm trying to switch between `stable` and `nightly` with tons of dependencies.
+
+- detect regressions in rust compiler against a bunch of `crates`
+- [github project](https://github.com/rust-lang-nursery/crater)
+- Check the differences between `stable` and `target` 
+    - only for sandboxed environments, it's very destructive... so I guess only on vms.
 
 
 
 ### Cargo
+
+- [howto: specify cargo dependencies](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
+    - This is manual... but I prefer cargo-edit so far for add/rm/upgrade
+- Make sure to `cargo install cargo-edit`
+    - This gives you the ability to use `cargo add/rm/upgrade <crate>` for example `cargo add num_bigint`
+
 
 - [Rust cargo guide](https://doc.rust-lang.org/cargo/guide/)
 
@@ -82,6 +118,37 @@ try: `rustup doc`
 > In general, this book assumes that you’re reading it in sequence from front to back. Later chapters build on concepts in earlier chapters, and earlier chapters might not delve into details on a topic; we typically revisit the topic in a later chapter.
 
 > You’ll find two kinds of chapters in this book: concept chapters and project chapters. In concept chapters, you’ll learn about an aspect of Rust. In project chapters, we’ll build small programs together, applying what you’ve learned so far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
+
+
+### Rust 101 Youtube (20 Jan 2017)
+
+- Speaker: E. Dunham; @qedunham  (Mozilla)
+- [source](https://www.youtube.com/watch?v=FMqydRampuo)
+- [slides](http://talks.edunham.net/lca2017/rust101.pdf)
+
+
+#### Exercises
+
+- [Rustlings repo](https://github.com/rustlings/rustlings)
+- Rust By Example book
+
+
+#### Macros
+
+Macros are syntactic sugar for functions that take a variable number of arguments...
+
+Need more content, see rust book v2.
+
+
+#### Inclusive and Exclusive Ranges
+
+- `..` is an exclusive range, `..=` is an inclusive range
+    - This is true for both matches and expressions
+    - The old match-only inclusive range syntax `...` is still acceptable in match-only but not recommended and does not work in expressions
+    - See `rust book v2 appendix 6`
+    
+
+
 
 
 ### Notes
@@ -196,5 +263,28 @@ Summaries go below.
 - [Profiling Rust Applications on Linux](https://llogiq.github.io/2015/07/15/profiling.html)
 - [Writing an OS in rust](https://os.phil-opp.com/)
 - [Pretty state machine patterns in rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/)
+
+
+### Rust Community
+
+- Find a meetup on meetup.com in your area
+- [goog.gl/EJ2iRb](rust global calendar)
+- [rust conf - west coast?](rustconf.com)
+- `#rust-community` on IRC
+k
+
+### Cool Projects
+
+- [Redox OS](https://www.redox-os.org/) - unix-like operating system
+- [Popular Crate on crates.io](https://crates.io/) - find cool stuff to work on
+
+
+
+### Embedded
+
+- Need `llvm`, there is an `avr llvm` project
+- Does `esp32` have access to `llvm` yet?
+- `llvm` now supports `arm64` which is good for the future...
+    - This is fall 2018, 18 months later... does this work yet? **check**
 
 
