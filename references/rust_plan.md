@@ -188,6 +188,42 @@ Need more content, see rust book v2.
 > Rust’s char type represents a Unicode Scalar Value, which means it can represent a lot more than just ASCII. Accented letters; Chinese, Japanese, and Korean characters; emoji; and zero-width spaces are all valid char values in Rust. Unicode Scalar Values range from U+0000 to U+D7FF and U+E000 to U+10FFFF inclusive. However, a “character” isn’t really a concept in Unicode, so your human intuition for what a “character” is may not match up with what a char is in Rust. We’ll discuss this topic in detail in “Strings” in Chapter 8.
 
 
+
+#### Chapter 4: Understanding Ownership (ownership, references, borrowing, slices)
+
+Lifetimes are not covered in this chapter, see chapter 10.  I think this most related to borrowing with async, which sounds like a hairball.
+
+
+
+#### Chapter 5: Using Structs to Structure Related Data
+
+> Structs and enums (discussed in Chapter 6) are the building blocks for creating new types in your program’s domain to take full advantage of Rust’s compile time type checking.
+
+- Use `let` to instantiate struct with kv pairs (not ordered). 
+- Use dot notation to get a value back from a struct.
+- Entire `struct instance` must be mutable, not certain fields of struct instance.
+    - Mutability is on the instance not the struct definition
+
+
+##### Struct Instantiaton Example
+
+This valid expression is returned from the function and expressed in the function signature:
+
+```
+fn build_user(email: String, username: String) -> User {
+    User {
+        email: email,
+        username: username,
+        active: true,
+        sign_in_count: 1,
+    }
+}
+```
+
+
+
+
+
 ## Resources
 
 Resources from main rust site.
