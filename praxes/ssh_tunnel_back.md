@@ -3,6 +3,12 @@
 
 This is for establishing a new connection back to the server through the original SSH connection.
 
+This is typically used if you are behind a proxy but the machine you want to be on is not.  You can access the machine, then use that tunnel to access your machine.
+
+The best use case for this is if you have some non-ssh access to a remote machine and need to establish a tunnel back to your local machine in order to have direct ssh access to the remote machine.
+
+One use case for this might be a citrix desktop.
+
 
 ### Definitions
 
