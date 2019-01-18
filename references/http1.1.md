@@ -1,6 +1,6 @@
 # Modern HTTP/1.1 RFCs
 
-HTTP1.1 RFC2616 replaced in 2014 by RFCs 7230-7237
+`HTTP/1.1 RFC2616` replaced in 2014 by `RFCs 7230-7237`
 
 Any `connection`, `port`, `protocol` can be used and is out of scope of the RFC.
 
@@ -21,7 +21,7 @@ This document covers `rfc7230` and `rfc7231` as of January 2019.
 - [Method Registrations](https://tools.ietf.org/html/rfc7237)
 
 
-#### rfc7230 Highlights
+### rfc7230 Highlights
 
 - [Four distinct formats for request-target UgRI](https://tools.ietf.org/html/rfc7230#section-5.3)
 - [Client w/ 2+ requests must maintain a time-ordered list and correlate first response to first request](https://tools.ietf.org/html/rfc7230#section-5.6)
@@ -43,7 +43,7 @@ This document covers `rfc7230` and `rfc7231` as of January 2019.
     - `TCP reset problem` and half-closed connections (close write then close read) discussed inside
 
 
-#### rfc7231 Highlights
+### rfc7231 Highlights
 
 This contains `request methods`, `method header fields`, and `content representation`, among other things.
 
@@ -89,6 +89,26 @@ This contains `request methods`, `method header fields`, and `content representa
 
 - [HTTP Semantics - Security Considerations](https://tools.ietf.org/html/rfc7231#section-9)
     - be aware of these, read them over
+
+
+### rfc7232 Highlights
+
+>    This specification defines two forms of metadata that are commonly used to observe resource state and test for preconditions: modification dates (Section 2.2) and opaque entity tags (Section 2.3).  Additional metadata that reflects resource state has been defined by various extensions of HTTP, such as Web Distributed Authoring and Versioning (WebDAV, [RFC4918]), that are beyond the scope of this specification.  A resource metadata value is referred to as a "validator" when it is used within a precondition.
+  
+- [Header Fields Defined by this RFC](https://tools.ietf.org/html/rfc7232#section-7.2)
+    - `ETag`
+    - `If-Match`
+    - `If-Modified-Since`
+    - `If-None-Match`
+    - `If-Unmodified-Since`
+    - `Last-Modified`
+- [Last-Modified Header Field](https://tools.ietf.org/html/rfc7232#section-2.2)
+    
+    > The "Last-Modified" header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.
+
+- [ETag == entity-tag](https://tools.ietf.org/html/rfc7232#section-2.3) 
+    
+    > An entity-tag can be more reliable for validation than a modification date in situations where it is inconvenient to store modification dates, where the one-second resolution of HTTP date values is not sufficient, or where modification dates are not consistently maintained.
 
 ### References
 
