@@ -1,10 +1,12 @@
-# Modern HTTP1.1 RFCs
+# Modern HTTP/1.1 RFCs
 
 HTTP1.1 RFC2616 replaced in 2014 by RFCs 7230-7237
 
 Any `connection`, `port`, `protocol` can be used and is out of scope of the RFC.
 
 The HTTP URI scheme `http` indicates TCP over IP with default tcp port 80.
+
+This document covers `rfc7230` and `rfc7231` as of January 2019.
 
 
 ### Current
