@@ -6,7 +6,7 @@ Any `connection`, `port`, `protocol` can be used and is out of scope of the RFC.
 
 The HTTP URI scheme `http` indicates TCP over IP with default tcp port 80.
 
-This document covers `rfc7230` and `rfc7231` as of January 2019.
+This document highlights `rfc7230`, `rfc7231`, and `rfc7232` as of January 2019.
 
 
 ### Current
@@ -69,10 +69,8 @@ This contains `request methods`, `method header fields`, and `content representa
     > Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.
 
 - [Method Definitions - for all methods](https://tools.ietf.org/html/rfc7231#section-4.3)
-    - 
 
 - [Request Header Fields](https://tools.ietf.org/html/rfc7231#section-5)
-    - 
 
 - [Response Status Codes](https://tools.ietf.org/html/rfc7231#section-6)
     - Range is 1xx-5xx, extensible
