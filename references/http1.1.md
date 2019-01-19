@@ -9,7 +9,16 @@ The HTTP URI scheme `http` indicates TCP over IP with default tcp port 80.
 This document highlights `rfc7230`, `rfc7231`, and `rfc7232` as of January 2019.
 
 
-### Current
+### Future
+
+- Digesting the cacheing RFC will take some time (rfc7234).
+- I am not sure what range requests are for, that's worth some quick research
+    - [MDN on Range Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)
+
+
+### Primary RFCs Summarized Below
+
+These are the eight HTTP/1.1 RFCs. Other RFCs are discussed inside these RFCs.
 
 - [Message Syntax and Routing](https://tools.ietf.org/html/rfc7230)
 - [Semantics and Content](https://tools.ietf.org/html/rfc7231)
@@ -108,10 +117,39 @@ This contains `request methods`, `method header fields`, and `content representa
     
     > An entity-tag can be more reliable for validation than a modification date in situations where it is inconvenient to store modification dates, where the one-second resolution of HTTP date values is not sufficient, or where modification dates are not consistently maintained.
 
+
+### rfc7233 Highlights
+
+
+
+### rfc7234 Highlights
+
+
+
+### rfc7235 Highlights
+
+- `oauth2/bearer` Authorization is covered in `rfc7235` and its spec resides in [rfc6750](https://tools.ietf.org/html/rfc6749)
+    - Note that `oauth2/bearer` aka The OAuth 2.0 Authorization Framework, supercedes [outh rfc6749](https://tools.ietf.org/html/rfc6749).
+    - oauth2 `Authorization headers` are very common for `HTTP APIs`, particularly modern `JSON APIs`
+- There is a IANA Authentication Scheme Registry in the References of this document.
+- `rfc7235` supercedes [rfc2617](https://tools.ietf.org/html/rfc2617). 
+
+
+### rfc7236 Highlights
+
+This document is a sparse reference to grandfather HTTP Authentication Methods established before the IANA HTTP Authentication Scheme Registry was established.
+
+
+### rfc7237 Highlights
+
+This document is a sparse reference to grandfather HTTP Methods established in RFCs other than RFC7231 before the IANA HTTP Scheme Registry was established.
+
 ### References
 
+- [IANA Authentication Scheme Registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml)
+    - Of note is `oauth2/bearer`
 - [IANA HTTP Methods Registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml)
-    - Nice table
+    - table contains:
         - methods
         - if they are safe
         - if they are idempotent
