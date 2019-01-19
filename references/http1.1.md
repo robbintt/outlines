@@ -12,8 +12,9 @@ This document highlights `rfc7230`, `rfc7231`, and `rfc7232` as of January 2019.
 ### Future
 
 - Digesting the cacheing RFC will take some time (rfc7234).
-- I am not sure what range requests are for, that's worth some quick research
+- Range requests are used for multi-part downloads, particularly in the browser.
     - [MDN on Range Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)
+        - This has some good curl examples that help to show how range requests are done in the app backend
 
 
 ### Primary RFCs Summarized Below
