@@ -99,7 +99,6 @@ This can be tough to search, the filters don't seem super accurate.
 Udemy has a ton of competing courses on their platform.
 
 - Sorting by [most reviewed](https://www.udemy.com/courses/search/?q=aws&sort=most-reviewed) seems helpful...
-- Sury recommends the Udemy AWS Solutions Architect course - which one?
 - [Third party Udemy FAQ](https://www.smartmoves.life/udemy/)
 - Courses are supposedly often about $15 with some 90% off discount applied [1](https://www.reddit.com/r/web_design/comments/51o8wb/are_udemy_courses_always_this_cheap/)
 
