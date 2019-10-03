@@ -1,5 +1,13 @@
 # Exam Taking Strategies
 
+Sleep well, eat well, arrive a few minutes early to the testing center.
+
+It's a long exam period (2 hours?), the guy next to me was done in an hour.
+
+Keep track of your time, mark a tough question and go back.
+
+Remember the relative grading.
+
 
 ## Exams are on a curve
 
