@@ -1,4 +1,4 @@
-# Chunking, Practice, and Context
+# Chunking, Practice, and Recall
 
 These notes are my reinterpretation of the material of week 2 (of 4 weeks) of the online course ["Learning How to Learn" on Coursera](https://www.coursera.org/learn/learning-how-to-learn?) by Dr. Barabra Oakley.
 
@@ -57,18 +57,18 @@ Thought experiment: How are my grandmother's favorite shoes related to household
 
 Perform these steps when practicing or studying material.
 
-1. "Undivided Attention"
+### 1. "Undivided Attention"
   - Turn off all notifications
   - Any single interruption "uproots" some neural connections being made (weaker foundation)
 
-2. "Understand"
+### 2. "Understand"
   - Get the "main idea" or "gist": "top down learning"
   - "Superglue" the pieces together
   - "Broad traces" and "link to other traces you have"
     - Finding links to other knowledge will stimulate dopamine reward
   - Do a picture walk through a chapter before reading it
 
-3. "Gain Context" - "deliberate practice", "recall", "review", "when to use the chunk"
+### 3. "Gain Context" - "deliberate practice", "recall", "review", "when to use the chunk"
   - Perform: "deliberate practice": 
       - Process: work on primarily difficult problems
         - **TODO:** How do we identify "difficult problems" in each of the below contexts?
@@ -103,12 +103,12 @@ Perform these steps when practicing or studying material.
   - "Do a picture walk through a chapter before reading it"
     - Know how the "pieces of the puzzle" fit together (knowledge inside the chunk)
 
-4. "Repair Flaws"
+### 4. "Repair Flaws"
   - Process: Identify your misunderstandings and repeat "deliberate proactice" with the right ideas
   - This is part of the same study methods above
   - It's important enough here to call out as a step
 
-5. "Interleaving"
+### 5. "Interleaving"
   - Mix up your learning within a subject or even between multiple subjects
   - Find other contexts that have this chunk or a similar chunk
     - In a textbook, read through nearby problem sets to find other applications that contain the problem
