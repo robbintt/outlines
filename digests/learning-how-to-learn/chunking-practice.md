@@ -103,12 +103,12 @@ Perform these steps when practicing or studying material.
   - "Do a picture walk through a chapter before reading it"
     - Know how the "pieces of the puzzle" fit together (knowledge inside the chunk)
 
-### 4. "Repair Flaws"
+### 4. "Repair the Flaws"
   - Process: Identify your misunderstandings and repeat "deliberate proactice" with the right ideas
   - This is part of the same study methods above
   - It's important enough here to call out as a step
 
-### 5. "Interleaving"
+### 5. "Interleaving during Practice"
   - Mix up your learning within a subject or even between multiple subjects
   - Find other contexts that have this chunk or a similar chunk
     - In a textbook, read through nearby problem sets to find other applications that contain the problem
