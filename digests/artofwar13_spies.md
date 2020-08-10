@@ -1,6 +1,6 @@
 ### Chapter 13: Spies
 
-A summary of Sun Tzi Chapter 13.
+A summary of Sun Tzu Chapter 13.
 
 Source: https://suntzusaid.com/book/13
 
