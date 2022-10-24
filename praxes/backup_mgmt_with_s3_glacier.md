@@ -35,3 +35,35 @@ parallel -j 30 -q -a $FILENAME aws s3api restore-object --restore-request Days=7
 ```
 
 ## How to download a restored object
+
+After 12 hours, all objects are guaranteed (by AWS) restored. This is for "bulk" retrieval, as depicted above.
+
+The flag `--force-glacier-transfer` must be used to download objects with aws cli.
+
+
+### Verify files or add new files to the bucket: `s3 sync` with the existing bucket
+
+These 2 operations will verify the `size` and `timestamp` parameters match.
+
+*WARNING: Sync is destructive for the destination if the timestamp is older or the size is incorrect.*
+
+Format below is <source> <destination>.
+
+Below, we first sync to the bucket, then we sync from the bucket. This considers any local change should overwrite or update new objects to the bucket, then the second command downloads objects that are in the bucket that don't exist locally.
+
+- `cd my-bucket; aws s3 sync --force-glacier-transfer . s3://my-bucket`
+- `cd my-bucket; aws s3 sync --force-glacier-transfer s3://my-bucket .`
+
+
+### Deleting from a bucket with sync
+
+NOT RECOMMENDED for operating on buckets that contain source of truth (only use for cache buckets).
+
+Consider deleting the individual objects using `s3 rm` instead of trying to delete with sync.
+
+Deleting with sync is very dangerous because it removes any files in <destination> that are not in <source>.
+
+1. before removing the files from local, sync from the bucket to local. Otherwise files added to the bucket from somewhere else would be deleted, since they aren't yet in local.
+2. remove the desired files from local
+3. run another s3 sync with the `--delete` flag. WARNING, this could delete any remote file not on your local. Not advised for backup operations.
+
