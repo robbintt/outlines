@@ -6,6 +6,13 @@ Note: Glacier deep archive could be 10x more economical but carries risks. `Bulk
 
 Future: Model glacier deep archive costs. 10x cheaper is huge. If objects can be reduced by using zip, then this would only cost about $2.50 per terabyte.
 
+
+## How to set up a bucket with glacier
+
+TODO, did this manually in the past, write a terraform module.
+
+
+
 ## How to restore all objects in a bucket
 
 There is no recursive restore option. Restore must be implemented.
