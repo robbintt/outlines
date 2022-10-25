@@ -61,6 +61,8 @@ Below, we first sync to the bucket, then we sync from the bucket. This considers
 - `cd my-bucket; aws s3 sync --force-glacier-transfer . s3://my-bucket`
 - `cd my-bucket; aws s3 sync --force-glacier-transfer s3://my-bucket .`
 
+Note: You may wish to use the flag `--size-only` if files repeatedly transfer. There is a documented bug in some related to filenames with special characters causing files to resync, and timestamps are typically not relevant if size is the same size for backups and backups flow into the backup space from user space, although not universally true, especially if you have multiple user spaces flowing into a backup that need reconciled.
+
 
 ### Deleting from a bucket with sync
 
