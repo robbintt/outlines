@@ -26,7 +26,7 @@
 
 \pagestyle{fancy}
 \lhead{\hmwkAuthorName}
-\chead{\ \hmwkBook\ (\hmwkBookInstructor): \hmwkTitle}
+\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle}
 \rhead{\firstxmark}
 \lfoot{\lastxmark}
 \cfoot{\thepage}
@@ -79,18 +79,19 @@
 %
 % Homework Details
 %   - Title
-%   - Completed date
-%   - Book
+%   - Due date
+%   - Class
 %   - Section/Time
 %   - Instructor
 %   - Author
 %
 
-\newcommand{\hmwkTitle}{Diagnostic A: Algebra}
-\newcommand{\hmwkCompletedDate}{May 13, 2022}
-\newcommand{\hmwkBook}{Calculus: Early Transcendentals, 9th Ed.}
-\newcommand{\hmwkBookInstructor}{Stewart}
-\newcommand{\hmwkAuthorName}{Trent Robbins}
+\newcommand{\hmwkTitle}{Homework\ \#2}
+\newcommand{\hmwkDueDate}{February 12, 2014}
+\newcommand{\hmwkClass}{Calculus}
+\newcommand{\hmwkClassTime}{Section A}
+\newcommand{\hmwkClassInstructor}{Professor Isaac Newton}
+\newcommand{\hmwkAuthorName}{\textbf{Josh Davis} \and \textbf{Davis Josh}}
 
 %
 % Title Page
@@ -98,10 +99,9 @@
 
 \title{
     \vspace{2in}
-    \textmd{\textbf{\hmwkBook}}\\
-    \textmd{\textbf{\hmwkTitle}}\\
-    \normalsize\vspace{0.1in}\small{Completed\ on\ \hmwkCompletedDate}\\
-    \vspace{0.1in}\large{\textit{\hmwkBookInstructor}}
+    \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate\ at 3:10pm}\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
     \vspace{3in}
 }
 
@@ -138,67 +138,6 @@
 \begin{document}
 
 \maketitle
-
-\pagebreak
-
-\begin{homeworkProblem}
-    Evaluate each expression without using a calculator.
-
-    \begin{enumerate}
-      \item \((-3)^4 = 81\)
-      \item \(-3^4 = -81\)
-      \item \(3^{-4} = 1/3^4 = 1/81\)
-      \item \(5^{23}/5^{21} = 5^{23-21} = 5^2 = 25\)
-      \item \((2/3)^{-2} = (2/3)^{-1*2} = (3/2)^2 = 9/4 \)
-      \item \(16^{-3/4} = \displaystyle(16^{\frac{3}{4}})^{-1} =  \displaystyle(\frac{1}{16^{\frac{3}{4}}}) = \displaystyle\frac{1}{(\sqrt[4]{16})^3} = \frac{1}{2^3} = \frac{1}{8} \)
-    \end{enumerate}
-
-\end{homeworkProblem}
-
-\begin{homeworkProblem}
-    Simplify each expression. Write your answer without negative exponents.
-
-    \begin{enumerate}
-        \item \( \sqrt{200} - \sqrt{32} = \sqrt{100*2} - \sqrt{16*2} = 100 * \sqrt{100*2} - 8 * \sqrt{16*2} = 10 * \sqrt{2}   - 4 * sqrt{2} = 6*\sqrt{2} \)
-        \begin{enumerate}
-            \item note that 32 is a power of 2; we can get a clean factor
-            \item since \( 100 * 2 \) is also a perfect square factor of 200
-            \item many factors of 200: \(1, 2, 4, 5, 10, 20, 40, 50, 100, 200\)
-        \end{enumerate}
-        \item \((3a^3b^3)(4ab^2)^2 = 3*4*4*a^3*a*a*b^3*b^2*b^2 = 48a^5b^7 \)
-        \item \( \displaystyle(\frac{3x^{3/2}y^3}{x^2y^{\frac{-1}{2}}})^{-2} = \displaystyle\frac{(x^2y^{\frac{-1}{2}})^2}{(3x^{3/2}y^3)^2} = \displaystyle\frac{x^4y^{-1}}{9x^3y^6} = \displaystyle\frac{x}{9y^7} \)
-
-    \end{enumerate}
-
-\end{homeworkProblem}
-
-\begin{homeworkProblem}
-    Expand and simplify
-
-    \begin{enumerate}
-        \item \( 3(x+6)+4(2x-5) = 3x+3*6+8x-20 = 11x-2 \)
-        \item \( (\sqrt{a} + \sqrt{b})(\sqrt{a}-\sqrt{b}) = a-b  \)
-        \item \( (x + 3)(4x - 5) = 4x^2+7x-15 \)
-        \item \( (2x+3)^2 = 4x^2 + 12x + 9 \)
-        \item \( (x+2)^3 = = (x+2)(x+2)(x+2) = x^3 + 6x^2 + 12x+ 8 \)
-    \end{enumerate}
-
-\end{homeworkProblem}
-
-\begin{homeworkProblem}
-    Factor each expression.
-
-    \begin{enumerate}
-        \item \( 4x^2 - 25 = (2x - 5)(2x + 5) \)
-        \item \( 2x^2+5x-12 = (2x - 3)(1x + 4)  \) - solved by factor and brute force
-        \begin{enumerate}
-            \item System of equations... hmm - how can we solve below?
-            \item \( a,b,c,d : b*d=-12, a*c=2, a*d+b*c=5 \)
-        \end{enumerate}
-        \item \( x^3-3x^2-4x+12 \)
-    \end{enumerate}
-
-\end{homeworkProblem}
 
 \pagebreak
 
