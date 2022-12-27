@@ -26,8 +26,9 @@ Feynman proposed schools should teach productive thinking instead of reproductiv
 
 ### Selecting Ideas to Invest Time Into
 
-- **Place to dig deeper on my own?** 
-- Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm. **What is the fitness algorithm for our ideas?** I suspect the book to be light on this topic.
+- Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm. 
+- **What is the fitness algorithm for our ideas?** I suspect the book to be light on this topic.
+- Place to dig deeper on my own?
 
 ### Practice, Practice, Practice (Productive Thinking)
 
