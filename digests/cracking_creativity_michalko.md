@@ -9,28 +9,34 @@ The book presents thinking strategies of creative giants from: science, arts, in
 
 **Advice: Find excellent mentors.  It is obvious that creative geniuses successfully transmitted their genius. Fermi's students had 6 nobel prize winners. Bohr's students had 4 nobel prize winners.**
 
+
+### Productive Thinking First (stop using reproductive thinking)
+
 Feynman proposed schools should teach productive thinking instead of reproductive thinking.
 
 - **Productive Thinking:** Creative. Generate as many approaches as you can no matter how likely. look for all the possible needles by dissecting the haystack.
 - **Reproductive Thinking:** Not creative. Rehash your experience into solutions. Rigid and narrow. Not competitive, others already thought of it.
 
 
-### Quantifying and Qualifying Idea Goals
+### Idea Goals: Quantify and Qualify
 
-**Be Productive:** Geniuses set concrete numeric goals for their ideas in the short term. Writers set quotas for writing, Edison set goals for small (1 per 10 days) and big inventions (1 per 6 months).
-**Blind Variations:** Produce original and novel variations. **This is the core principle.**
+- **Be Productive:** Geniuses set concrete numeric goals for their ideas in the short term. Writers set quotas for writing, Edison set goals for small (1 per 10 days) and big inventions (1 per 6 months).
+- **Blind Variations:** Produce original and novel variations. **This is the core principle.**
 
 
 ### Selecting Ideas to Invest Time Into
 
-**Place to dig deeper on my own?** Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm. **What is the fitness algorithm for our ideas?** I suspect the book to be light on this topic.
+- **Place to dig deeper on my own?** 
+- Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm. **What is the fitness algorithm for our ideas?** I suspect the book to be light on this topic.
+
+### Practice, Practice, Practice (Productive Thinking)
 
 Organize your thinking by practicing these 9 strategies. Without practice, you will get no benefit.
 
 
-### Preparative Summaries
+### Intro Summaries
 
-These are summaries of the intro.
+These are summaries of the intro, not the whole book.
 
 
 #### Part 1: Seeing what no one else is seeing.
