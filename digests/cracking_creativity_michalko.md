@@ -26,7 +26,7 @@ Feynman proposed schools should teach productive thinking instead of reproductiv
 
 ### Selecting Ideas to Invest Time Into
 
-- Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm. 
+- Within the mileu of ideas, let natural selection make choices. Evolution finds novel paths with a fitness algorithm.
 - **What is the fitness algorithm for our ideas?** I suspect the book to be light on this topic.
 - Place to dig deeper on my own?
 
@@ -93,4 +93,61 @@ Strategy 7 is "conditions for effective group brainstorming" and "a selection of
 
 7. Awakening the Collaborative Spirit
   - Principles and conditions for participants to retain their individuality while combining their efforts and talents in a group in ways vital for collaborative synthesis.
-  - Collegial. Open & honest collaboration. 
+  - Collegial. Open & honest collaboration.
+
+
+## Strategy One: Knowing How to See
+
+- Da Vinci: "saper vedere" is knowing how to see
+  - first perspective is usually wrong
+  - move repeatedly to new perspectives, deepen understanding along the way
+- "Invitational Stem" - start problem statement with "In what ways may I..." to avoid narrowing the problem statement to one perspective.
+- Human language plays a role: Verbalize and write out a problem (and other ways) -- do not solve silently -- for better outcomes.
+- Don't persist with any one perspective.
+- Try using a whole different system and terms to express the same relationship
+- Restructuring your problems more makes it more likely you will deepen your perspective
+
+### Ways to restructure your problem:
+
+- Global and Specific Abstractions
+- Separate the parts from the whole
+- Change the words in some fashion
+- Make positive action statements
+- Switch perspective
+- Use Da Vinci's multiple perspectives
+- Use Questions
+
+### Global and Specific Abstractions
+
+#### Quip
+"Make it more global and specific."
+
+#### Tips
+- To widen your perspective use the "5 whys": Ask why 5 times to your answer to the previous why. Find the level of abstraction that fits.
+- Ask "Who, what, when, where, why, how?"
+- The more specifically you define your problem statement, the easier it will be to generate ideas. (tradeoffs)
+- Trent: Specific statements miss solutions, abstraction may be necessary to discover something great.
+
+#### Summary
+- "Abstraction is a basic principle in restructuring a problem."
+  - "Widening the perspective", at the maximum "globalize" the problem
+  - Find the APPROPRIATE level of abstaction.
+  - "Standard procedure for physical science is abstraction."
+  - Galileo "ideal vacuum" thought experiment imagined a large vacuum existed (none was available)
+    - all items fall through a vacuum with the same acceleration regardless of their weight
+    - More abstract version of "what weighs more, a pound of feathers or a pound of bricks?"
+      - removes the pound: "what accelerates faster in a vacuum, a feather or a brick?" (neither)
+  - Einstein relativity was also unobservable.
+- "More specific problem statements lead to faster solutions with less conceptual clarity."
+  - oil spill: driveway vs gulf coast
+  - new keyboard design vs new global IT industry niche
+- Shipping industry too focused on reducing costs of ships
+  - Perspective change, global problem statement: "In what way can the shipping industry lower reduce costs?"
+  - Solution: Separate loading and stowing. Container ships reduced port time, congestion, theft. Ships spend more time traveling 
+    - ship is "capital equipment" - spends more time doing its unique work of moving)
+    - costs down 60%
+
+
+### Separate the Parts from the Whole
+
+
