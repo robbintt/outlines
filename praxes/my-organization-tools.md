@@ -4,4 +4,5 @@
 2. github.com
 3. trello.com
 4. gmail.com
-5. librarything.com
+5. librarything.com *
+6. todoist *
