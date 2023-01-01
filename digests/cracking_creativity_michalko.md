@@ -150,4 +150,48 @@ Strategy 7 is "conditions for effective group brainstorming" and "a selection of
 
 ### Separate the Parts from the Whole
 
+Move from one detail to another examining it in isolation from the rest.
+
+- Fishbone Diagram
+  - good for processing a "north star" or large vision
+  - find relationships between causes and effects
+  - use more than one session to work on a diagram
+  - let the diagram cook overnight (in your mind) and then return to find your fresh thoughts & ideas
+
+### Words and Word Chains
+
+- Aristotle work titled "On Interpretation" - words and chains of words are powerful tools of thought
+  - both reflect thinking and shape thinking
+- Words crystallize thought, creating precision and rigidity. (both strength and weakness)
+
+
+#### Rephrase the Problem / Feynman
+
+- avoid definitions such as "friction", "energy" (trent: this abstraction can hide important meaning too early)
+- students should rephrase what they learn in their own language
+- example of avoiding "friction": shoe soles go flat because notches and bumps in the sidewalk grab pieces and pull them off
+  - trent: now we see the sidewalk-shoe interface is more like a slow table saw, scooping a little rubber from various places each step
+
+- Example: Toyota asked employees a question 2 ways, the 1st failed, the 2nd worked:
+  1. "How can you be more productive at work?"
+  1. "How can you make your job easier?"
+
+#### Change the Words
+
+- Try changing the verb, it is easier to do.
+- Play with verbs and nouns:
+- Transpose the Words
+  - Aristotle "convertibility" - "if every pleasure is good, some good must be pleasure." (questionable)
+    - find a "verbal-conceptual chain" to trigger a "different view"
+  - "How can I get a promotion?" vs "How can I promote myself?"
+    - interesting relationship even though it's just a random transposition.
+  - "How can I learn to use the internet?" vs "How can I use the internet to learn?"
+    - 21 years later this one hits spot on, that's a major use of the internet.
+- The first word often influences, for example:
+  - "skyscraper prayer temple cathedral" = architectural concepts
+  - "prayer skyscraper temple cathedral" = religious concepts
+
+#### One Word Technique
+
+
 
