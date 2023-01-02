@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "outlines"
+authors = [{name = "Trent Robbins", email = "robbintt@gmail.com"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+
+[tool.portray]
+docs_dir = "docs"
+modules = ["portray"]
+include_reference_documentation = "false"
+
+[tool.portray.mkdocs]
+plugins = ["search", "awesome-pages"]
