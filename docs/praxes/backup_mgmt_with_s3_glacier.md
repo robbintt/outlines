@@ -68,8 +68,8 @@ Note: You may wish to use the flag `--size-only` if files repeatedly transfer. T
 
 Typically archive updates are additive, so we don't want to affect what's already in the archive. It saves time and prevents errors to avoid enumerating what was changed, so `aws s3 sync` is preferred. This 
   
-- `cd my-bucket; aws s3 sync s3://my-bucket . --size-only`
-  -s-s optional, it excludes date which helps avoid accidental updates if your local has a date change without contents changing.
+- `cd my-bucket; aws s3 sync . s3://my-bucket --size-only`
+  - `--size-only` is optional, it excludes date comparison. This helps avoid accidental updates if your local files have a date change without content change
   
 
 ### Deleting from a bucket with sync
