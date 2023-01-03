@@ -14,9 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install poetry
-        run: pipx install poetry
-
       - name: Setup Python
         uses: actions/setup-python@v3
         with:
@@ -25,8 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          poetry env use "3.7"
-          poetry install
+          pip install -r requirements.txt
           pip install mkdocs-awesome-pages-plugin # Install plugin for alphabetical left sidebar based on docs folder strucvture
       - name: Deploy docs
         run: poetry run portray on_github_pages -f
