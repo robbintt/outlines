@@ -1,5 +1,5 @@
 ---
-name: Docs publish
+name: Publish to GitHub Pages
 
 on:
   push:
@@ -18,11 +18,10 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.7"
-          cache: "poetry"
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           pip install mkdocs-awesome-pages-plugin # Install plugin for alphabetical left sidebar based on docs folder strucvture
       - name: Deploy docs
-        run: poetry run portray on_github_pages -f
+        run: portray on_github_pages -f
