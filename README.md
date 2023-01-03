@@ -22,7 +22,7 @@ Please send `pull requests` if you notice errors.
 
 ## Github Pages
 
-- Portray is configured in `PyProject.toml`
+- Portray is configured in `pyproject.toml`
 - requiring the project to have a `docs` directory for now (maybe there is some hack to get rid of the `docs/` top level directory.
 
 ### Rebuilding
