@@ -62,7 +62,15 @@ Below, we first sync to the bucket, then we sync from the bucket. This considers
 - `cd my-bucket; aws s3 sync --force-glacier-transfer s3://my-bucket .`
 
 Note: You may wish to use the flag `--size-only` if files repeatedly transfer. There is a documented bug in some related to filenames with special characters causing files to resync, and timestamps are typically not relevant if size is the same size for backups and backups flow into the backup space from user space, although not universally true, especially if you have multiple user spaces flowing into a backup that need reconciled.
+  
+  
+## Sync new files to the bucket without considering glacier objects
 
+Typically archive updates are additive, so we don't want to affect what's already in the archive. It saves time and prevents errors to avoid enumerating what was changed, so `aws s3 sync` is preferred. This 
+  
+- `cd my-bucket; aws s3 sync . s3://my-bucket --size-only`
+  - `--size-only` is optional, it excludes date comparison. This helps avoid accidental updates if your local files have a date change without content change
+  
 
 ### Deleting from a bucket with sync
 

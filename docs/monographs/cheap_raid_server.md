@@ -70,6 +70,10 @@ However, shucking can require power pin reroute, which I don't want to mess with
 
 ### RAID6
 
+Ideally use RAID6 since it has double redundancy, 2 arbitrary drives can fail, and good efficiency.
+
+It looks like LVM directly supports RAID6, so this must be the go-to software RAID: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/assembly_configure-mange-raid-configuring-and-managing-logical-volumes
+
 The main problem with RAID6 seems to be software RAID support, BTRFS discourages it for production: https://www.phoronix.com/news/Btrfs-Warning-RAID5-RAID6
 
 - RAID6 considered unstable for btrfs: https://btrfs.wiki.kernel.org/index.php/Status#RAID56
