@@ -17,3 +17,16 @@ Here's the revised plan:
 |13 | Adequate Hydration                      | Low        | Maintain regular water intake; guidelines suggest around 2 liters per day. | Theoretical, lacks empirical support |
 
 Confidence levels based on strength of scientific evidence: systematic reviews and meta-analyses of randomized controlled trials (highest), single randomized trials (high), cohort studies (moderate), case-control studies (low), and expert opinion (lowest).
+
+===
+
+Sure, here's a table summarizing the three supplemental components with recommended daily doses:
+
+| # | Supplement                      | Daily Dose             | Primary Benefit           | Main Evidence  |
+|---|---------------------------------|------------------------|---------------------------|----------------|
+| 1 | Psyllium Husk                   | 5 grams (usually in 1 teaspoon) | Soluble fiber for lowering LDL cholesterol | Brown et al., 1999 |
+| 2 | Berries and Nuts (Whole Foods)  | Varied. For instance, a handful of nuts (1 oz.) and 1 cup of berries. | Rich in polyphenols, fiber, and healthy fats | Seeram et al., 2008; Bolling et al., 2010 |
+| 3 | NOW Foods Plant Sterols         | 1.5 to 2.4 grams       | Plant sterols/stanols for lowering LDL cholesterol | AbuMweis et al., 2008 |
+
+Ensure to follow the usage instructions on the supplement labels and consult with a healthcare professional before starting any new supplement regimen. Confidence: High, based on randomized trials indicating these substances can help in lowering LDL cholesterol.
+
