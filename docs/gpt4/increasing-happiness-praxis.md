@@ -116,9 +116,9 @@ Confidence:
 Overall, I am fairly confident in these recommendations based on scientific literature. However, individual experiences can vary.
 
 
-# Detailed Activities
+## Detailed Activities
 
-## Solo CBT
+### Solo CBT
 
 robbintt@gpt-4 12> Is CBT a solo activity
 
@@ -174,3 +174,30 @@ To practice solo Cognitive Behavioral Therapy (CBT), follow these steps:
 
 Remember that self-guided CBT may not be as effective as working with a trained professional, especially for more severe mental health concerns. However, it can be a helpful starting point for those seeking to improve their well-being and manage mild to moderate symptoms of anxiety or depression.
 
+### Creating & Reciting Affirmations
+
+robbintt@gpt-4 16> How do I do the affirmations one?
+
+To practice positive affirmations, follow these steps:
+
+1. Identify areas for improvement: Reflect on aspects of your life where you'd like to boost self-confidence, build motivation, or change negative thought patterns. Examples could include self-worth, relationships, career, or personal growth.
+
+2. Create your affirmations: Write positive, present-tense statements that directly address the areas you want to improve. Make sure they are specific, concise, and self-affirming. For example, "I am capable of achieving my goals," "I deserve love and respect," or "I handle challenges with resilience and confidence."
+
+3. Personalize your affirmations: Ensure that your affirmations resonate with you and feel genuine. Use language that reflects your values and beliefs. 
+
+4. Make a list: Compile a list of your chosen affirmations. You can start with a few and gradually expand your list as you become more comfortable with the practice.
+
+5. Practice regularly: Set aside time each day to recite your affirmations. You can do this in the morning as part of your daily routine or throughout the day whenever you need a boost of confidence or positivity.
+
+6. Speak with conviction: Recite your affirmations out loud, with confidence and conviction. You can also say them silently or write them down if you prefer.
+
+7. Visualization: As you recite your affirmations, visualize yourself embodying the positive qualities and emotions they represent. This mental imagery can help reinforce the affirmations and create a stronger emotional connection.
+
+8. Repetition: Repeat your affirmations multiple times during each session to help solidify them in your mind.
+
+9. Be consistent and patient: Practice affirmations consistently over time to experience their full benefits. Change takes time, so be patient and trust the process.
+
+10. Monitor your progress: Periodically review your affirmations to ensure they still align with your goals and values. Update or modify them as needed to reflect your personal growth and development.
+
+Remember, the effectiveness of affirmations may vary for individuals, and it's essential to find an approach that works best for you. Consistency and repetition are key to reaping the benefits of positive affirmations.
