@@ -1,6 +1,14 @@
 # Praxis: Increasing Happiness
 
+Put simply, your reactions and emotions don't change your baseline happiness. The techniques in this document do.
+
+## Explanation of "Happiness Set Point" AKA "Hedonic Treadmill"
+
 From wikipedia: [Hedonic Treadmill](https://en.wikipedia.org/wiki/Hedonic_treadmill)
+
+Note that "happiness set point" and "hedonic treadmill" are the same concept.
+
+**Importantly, the "happiness set point" can easily be changed. BUT generally not by things that bring you immediate feelings, e.g. joy or sadness.**
 
 The hedonic treadmill, also known as hedonic adaptation, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes.
 
