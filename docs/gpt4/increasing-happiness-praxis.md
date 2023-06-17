@@ -20,31 +20,31 @@ This checklist came from combining the suggestions from::w
 Daily Happiness Checklist (Revised Order by Effectiveness)
 
 1. Sleep Hygiene (7-9 hours)
-   - Prioritize getting sufficient, quality sleep each night, as sleep is crucial for overall well-being and happiness. Maintain a consistent sleep schedule and establish a relaxing bedtime routine.
+    - Prioritize getting sufficient, quality sleep each night, as sleep is crucial for overall well-being and happiness. Maintain a consistent sleep schedule and establish a relaxing bedtime routine.
 
 2. Physical Activity (30 minutes)
-   - Engage in your preferred form of exercise (e.g., walking, jogging, yoga, or swimming) to boost mood and reduce stress.
+    - Engage in your preferred form of exercise (e.g., walking, jogging, yoga, or swimming) to boost mood and reduce stress.
 
 3. Cognitive Behavioral Therapy (CBT) (variable time)
-   - Use CBT techniques, such as challenging negative thoughts and restructuring cognitive distortions, to improve mood and overall well-being. Consider working with a therapist or using self-help resources.
+    - Use CBT techniques, such as challenging negative thoughts and restructuring cognitive distortions, to improve mood and overall well-being. Consider working with a therapist or using self-help resources.
 
 4. Morning Mindfulness Meditation (10-15 minutes)
-   - Find a quiet space and spend time focusing on your breath or a mantra to start your day with a calm mind.
+    - Find a quiet space and spend time focusing on your breath or a mantra to start your day with a calm mind.
 
 5. Social Connection (variable time)
-   - Reach out to friends or family members through a phone call, text, or in-person visit to maintain and strengthen relationships.
+    - Reach out to friends or family members through a phone call, text, or in-person visit to maintain and strengthen relationships.
 
 6. Acts of Kindness (variable time)
-   - Perform small acts of kindness for others, such as helping a neighbor, complimenting someone, or volunteering. This can boost happiness by promoting positive emotions and fostering social connections.
+    - Perform small acts of kindness for others, such as helping a neighbor, complimenting someone, or volunteering. This can boost happiness by promoting positive emotions and fostering social connections.
 
 7. Time in Nature (15-30 minutes)
-   - Spend time outdoors in natural settings, such as a park, forest, or beach. Exposure to nature has been shown to reduce stress, improve mood, and increase well-being.
+    - Spend time outdoors in natural settings, such as a park, forest, or beach. Exposure to nature has been shown to reduce stress, improve mood, and increase well-being.
 
 8. Problem-Solving Practice (10-15 minutes)
-   - Identify a challenge you are currently facing, brainstorm possible solutions, and take a small step toward resolving the issue.
+    - Identify a challenge you are currently facing, brainstorm possible solutions, and take a small step toward resolving the issue.
 
 9. Goal Review and Progress (5-10 minutes)
-   - Reflect on your long-term goals, review the short-term actionable steps you've outlined, and track your progress.
+    - Reflect on your long-term goals, review the short-term actionable steps you've outlined, and track your progress.
 
 10. Positive Affirmations (5 minutes)
     - Recite affirmations that emphasize control over personal choices and behaviors, promoting self-confidence and an internal locus of control.
