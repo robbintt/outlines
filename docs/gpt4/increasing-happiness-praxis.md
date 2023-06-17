@@ -12,31 +12,51 @@ The hedonic treadmill, also known as hedonic adaptation, is the observed tendenc
 
 ## Daily Happiness Checklist
 
-1. Physical Activity (30 minutes)
+Daily Happiness Checklist (Revised Order by Effectiveness)
+
+1. Sleep Hygiene (7-9 hours)
+   - Prioritize getting sufficient, quality sleep each night, as sleep is crucial for overall well-being and happiness. Maintain a consistent sleep schedule and establish a relaxing bedtime routine.
+
+2. Physical Activity (30 minutes)
    - Engage in your preferred form of exercise (e.g., walking, jogging, yoga, or swimming) to boost mood and reduce stress.
 
-2. Morning Mindfulness Meditation (10-15 minutes)
+3. Morning Mindfulness Meditation (10-15 minutes)
    - Find a quiet space and spend time focusing on your breath or a mantra to start your day with a calm mind.
 
-3. Social Connection (variable time)
+4. Social Connection (variable time)
    - Reach out to friends or family members through a phone call, text, or in-person visit to maintain and strengthen relationships.
 
-4. Problem-Solving Practice (10-15 minutes)
+5. Acts of Kindness (variable time)
+   - Perform small acts of kindness for others, such as helping a neighbor, complimenting someone, or volunteering. This can boost happiness by promoting positive emotions and fostering social connections.
+
+6. Time in Nature (15-30 minutes)
+   - Spend time outdoors in natural settings, such as a park, forest, or beach. Exposure to nature has been shown to reduce stress, improve mood, and increase well-being.
+
+7. Problem-Solving Practice (10-15 minutes)
    - Identify a challenge you are currently facing, brainstorm possible solutions, and take a small step toward resolving the issue.
 
-5. Goal Review and Progress (5-10 minutes)
+8. Goal Review and Progress (5-10 minutes)
    - Reflect on your long-term goals, review the short-term actionable steps you've outlined, and track your progress.
 
-6. Positive Affirmations (5 minutes)
+9. Positive Affirmations (5 minutes)
    - Recite affirmations that emphasize control over personal choices and behaviors, promoting self-confidence and an internal locus of control.
 
-7. Gratitude Journaling (10 minutes)
-   - Write down three things you are grateful for each day to cultivate a positive mindset and increase happiness.
+10. Gratitude Journaling (10 minutes)
+    - Write down three things you are grateful for each day to cultivate a positive mindset and increase happiness.
 
-8. Evening Mindfulness Meditation (10-15 minutes)
-   - Wind down with another session of mindfulness meditation, focusing on releasing any stress or tension from the day.
+11. Laughter and Humor (variable time)
+    - Make time to watch a funny movie, read a humorous book, or share jokes with friends. Laughter can reduce stress, improve mood, and promote feelings of happiness.
 
-Please note that the effectiveness of each activity may vary depending on individual preferences and experiences. The order provided above is based on general effectiveness, but you should adjust the checklist according to your personal needs and priorities.
+12. Deep Breathing Exercises (5-10 minutes)
+    - Practice deep breathing exercises throughout the day to help manage stress and maintain a sense of calm.
+
+13. Nurturing Hobbies (variable time)
+    - Engage in hobbies or activities that bring you joy and fulfillment, such as painting, playing a musical instrument, gardening, or cooking.
+
+14. Evening Mindfulness Meditation (10-15 minutes)
+    - Wind down with another session of mindfulness meditation, focusing on releasing any stress or tension from the day.
+
+Please note that the effectiveness of each activity may vary depending on individual preferences and experiences. The revised order provided above takes into consideration the importance of certain items, but you should still adjust the checklist according to your personal needs and priorities.
 
 
 ## Reducing your "Neuroticism"
