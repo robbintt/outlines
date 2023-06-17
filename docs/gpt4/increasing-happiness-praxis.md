@@ -4,11 +4,15 @@ Put simply, your reactions and emotions don't change your baseline happiness. Th
 
 ## Explanation of "Happiness Set Point" AKA "Hedonic Treadmill"
 
+This section is not by GPT-4. Most of the document is. It's not really a more or less reliable narrator than me.
+
 From wikipedia: [Hedonic Treadmill](https://en.wikipedia.org/wiki/Hedonic_treadmill)
 
 Note that "happiness set point" and "hedonic treadmill" are the same concept.
 
-**Importantly, the "happiness set point" can easily be changed. BUT generally not by things that bring you immediate feelings, e.g. joy or sadness.**
+**Importantly, the "happiness set point" can easily be changed.** 
+
+Things that bring you immediate feelings, e.g. joy or sadness, do not change your overall happiness. Note that circumstances, e.g. "life events" can change your happiness, and need managed differently, although generally as humans our most important skills for these events are are coping with things we cannot control and controlling things we should.
 
 The hedonic treadmill, also known as hedonic adaptation, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes.
 
@@ -20,7 +24,7 @@ The hedonic treadmill, also known as hedonic adaptation, is the observed tendenc
 
 ## Daily Happiness Checklist
 
-This checklist came from combining the suggestions from::w
+This checklist came from combining the suggestions from:
   - "reducing neuroticism"
   - "increasing locus of control"
   - "improving your happiness set point"
