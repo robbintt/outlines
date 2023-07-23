@@ -2,7 +2,8 @@
 
 Some time to focus on my way of being.
 
-I would like to:
+## I would like to:
+
 - maintain a clear mind
     - keep space in every thought and decision for innovation or creativity
 - maintain my practices for: diet, fitness, and meditation
@@ -17,9 +18,9 @@ I would like to:
     - small projects fit in my regular life
     - don't waste big blocks of time on small projects
     - resist "catching up", it doesn't exist
-- No books
+- No "catching up" with books
     - this is part of the regular practice
-    - if there is a book, it should be related to my practice
+    - if there is a book, it should be related to my "vacation projects"
 - No discord / slack / hacker news / reddit
     - don't read the news, just take the time off
     - don't get on weird tangents
@@ -54,6 +55,30 @@ I would like to:
 - impove my meditation practice
 - break the habit mold of my exercise repeatibly
   - leverage learning, pratice, and trainer
+
+## Vacation Projects
+
+Question: how will I balance deep dives / "big blocks" with "new discovery"
+
+Things I am interested in:
+1. woodworking
+2. c++
+3. cross compiling c++
+  - for esp32
+  - for openwrt
+4. embedded controllers
+5. leveraging llms
+  - don't want to rabbit hole
+  - i will have this at work when I get back, for free
+6. self documentation
+  - i have been doing this on the weekends
+  - might be worth a big block to:
+    1. enumerate this stuff
+    2. write a basic gpt4 assisted doc for each
+7. inventors and creativity
+
+
+
 
 ## Documentation
 
