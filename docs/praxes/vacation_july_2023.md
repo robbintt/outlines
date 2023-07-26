@@ -2,6 +2,55 @@
 
 Some time to focus on my way of being.
 
+## Look back at 2023 New Year Goals
+
+My Analysis: "it seems like i can just read scifi, workout, and program c++ for the rest of the year, and work on my creativity process which is my top one right now."
+
+### Lose 8 lbs
+
+- need to start doing this, i know exactly what to do. 
+- i can be done by october if I start by the end of vacation.
+- tentative start date: 2023-7-27
+- goals: don't eat any burgers/fries, indian, pizza
+  - 1 cheat meal per week, historically do it on a wednesday
+  - probably want to leave it up to me to decide when
+
+
+### Keep participating actively and doing recall on my personal training
+
+- TODO - add my new personal fitness goals to my 2023 goals
+    - mobility - shoulders, hips, ??
+    - compound weightlifting practice (squats, deadlifts, etc)
+    - "at home" practice
+    - better fitness "goalsetting"
+    - what else?
+
+
+### Work on my creative process
+
+- TODO - eed to review my summaries for the Michalko books, and keep reading.
+- TODO - Write a "creative process" markdown / outline / cliff notes for reviewing
+- TODO - review the learning how to learn stuff in the context of creativity
+- ONGOING - Find creative applications in my every day life
+
+### Write c++
+
+I'm not really listless here so much as "uncollected"
+
+- TODO: get collected in my c++ learning
+- TODO - review the learning how to learn stuff in the context of c++
+- TODO: consider if I should learn java this year based on my H2 goals.
+
+
+### Read scifi
+
+Goal: none yet, keep reading what I am reading in the gym
+
+Can I add a paper book? Do I have too much reading going on already?
+
+I have had a lot of boring scifi misses or light scifi. I am missing the "ringworld" style mindbenders that dream up whole new possibiltiies.
+
+
 ## I would like to:
 
 - maintain a clear mind
