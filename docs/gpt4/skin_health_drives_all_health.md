@@ -38,3 +38,9 @@ Furthermore, the appearance of the skin can be an early indicator of underlying 
 8. **Stay Informed**: Keep updated on skin health research and consult healthcare professionals.
 
 These checklists encapsulate the essential daily routines and best practices for maintaining skin health, reflecting the information provided in the article.
+
+## Experimental Ideas
+
+- DIY 20% ascorbic acid for the face (vitamin c): https://news.ycombinator.com/item?id=37254602
+- humectants AND emollients AND occlusives required: https://news.ycombinator.com/item?id=37253270
+    - I think aquaphor is just an occlusive and emollient? Although I thought at one point it had water as well...
