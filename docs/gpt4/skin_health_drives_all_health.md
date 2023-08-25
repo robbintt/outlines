@@ -2,7 +2,7 @@
 
 Prolonged exposure to UV radiation, including UVA and UVB rays, can cause systemic inflammation, leading to age-related diseases such as cardiovascular disease, type 2 diabetes, Alzheimer's, and Parkinson's. 
 
-**UV damage drives 80% of skin health reduction, not aging.**
+**UV damage drives 80% of skin health reduction, not aging. This is not referring to skin visual condition (wrinkling), which apparently had no difference, at least in UV vs control group.**
 
 The appearance of the skin can also serve as a predictive marker for various health conditions, emphasizing the importance of proper skin care and sun protection as integral parts of overall physical well-being.
 
@@ -10,6 +10,8 @@ The appearance of the skin can also serve as a predictive marker for various hea
 
 - https://www.bbc.com/future/article/20230823-the-curious-ways-your-skin-shapes-your-health
 - archive: https://archive.is/2023.08.24-114321/https://www.bbc.com/future/article/20230823-the-curious-ways-your-skin-shapes-your-health
+- hacker news discussion: https://news.ycombinator.com/item?id=37248882
+    - Especially see humectants and occlusives (moisturizers vs moisture trappers on the skin), you need BOTH
 
 ## GPT-4 executive summary
 
