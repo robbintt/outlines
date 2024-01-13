@@ -44,3 +44,23 @@ I asked GPT-4 to summarize the article in an outline, then to make each line act
 ## 9. Conclusion
 - Recognize and enhance agency as a crucial life skill.
 - Motivate oneself to continuously learn and apply principles of agency.
+
+# Definitions
+
+1. **Agency**: The capacity of individuals to act independently and make their own free choices, influenced by their personal beliefs, values, and goals.
+
+2. **Radical Agency**: An extreme form of agency where individuals actively shape their environment and circumstances rather than simply reacting to them. It involves taking bold actions that can significantly alter one's life path.
+
+3. **Real Edges**: Unique advantages or strengths that a person can identify and leverage to achieve success. These are often personal attributes or situational factors that can be exploited in competitive or challenging environments.
+
+4. **Court Rejection**: The practice of intentionally seeking out situations where rejection is likely, in order to become more resilient and learn from the experience. It involves asking for things that seem unreasonable to desensitize oneself to the fear of rejection.
+
+5. **Seek Real Feedback**: Actively pursuing honest and constructive criticism about one's performance or abilities. This involves seeking out feedback that is genuine and useful for personal or professional growth.
+
+6. **Increase Surface Area for Luck**: Expanding one's network and exposure to opportunities in order to increase the chances of encountering beneficial situations or connections. It's about being open to serendipity and making oneself available for lucky breaks.
+
+7. **Assume Everything is Learnable**: Adopting a growth mindset that views skills, traits, and abilities as malleable and capable of improvement through effort and learning. It's the belief that one can develop and enhance any aspect of themselves with dedication and practice.
+
+8. **The Moat of Low Status**: Embracing and learning from periods of low expertise or status. This concept suggests that being in a position of lower status can be an opportunity for growth, learning, and eventual advancement.
+
+9. **Don’t Work Too Hard**: The idea of maintaining a healthy work-life balance and avoiding burnout. It emphasizes the importance of not overextending oneself and ensuring that there is time for rest, creativity, and personal life outside of work.
