@@ -3,6 +3,11 @@
 I have trouble with books in my queue. I want to read them, but I always pick up something totally off my queue when it's time.
 
 
+## Main Question / Premise
+
+"Why would I prioritize a new book when I have a queue of high quality books already ordered?"
+
+
 ## Process Goal
 
 - Avoid recency bias when selecting what book to read next
