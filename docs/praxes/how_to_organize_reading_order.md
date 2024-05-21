@@ -7,6 +7,11 @@ I have trouble with books in my queue. I want to read them, but I always pick up
 
 "Why would I prioritize a new book when I have a queue of high quality books already ordered?"
 
+## Two main topics
+
+1. How to survey a nonfiction book to decide whether and when to read it?
+2. How to select the next fiction book to read based on the book's properties and your current goals?
+
 
 ## Process Goal
 
