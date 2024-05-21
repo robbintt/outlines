@@ -22,10 +22,38 @@ Develop a short series of questions I can ask chatgpt about a specific book to s
 
 
 
+## Fiction Books
+
+- classic fiction
+- pop fiction works
+- award winning fiction
+- reading deeper with a beloved author
+- uncertain quality fiction
+
+
+## Nonfiction Books
+
+- topical overview
+  - popular nonfiction
+- topical survey (some depth)
+  - textbooks (topical survey?)
+- technical reading
+  - where is the boundary of training material?
+  - when is reading not learning/training material?
+- self improvement
+
+
+## When to read the audiobook?
+
+- Peculiarly, some fiction books are terrible as audiobooks
+  - Would "American Gods" be better on paper? How about the 4 hyperion cantos books?
+- Topical overviews & popular nonfiction
+  - Often better to skip the book / replace with wikipedia
+  - **might be better to do nothing and reflect/recall your other working topics instead.**
+  - "Is it bringing you joy?"
+
 
 ## Reading Goals
-
-quick draft
 
 
 ### Some Specific Works or "sets"
