@@ -12,6 +12,15 @@ I have trouble with books in my queue. I want to read them, but I always pick up
 1. How to survey a nonfiction book to decide whether and when to read it?
 2. How to select the next fiction book to read based on the book's properties and your current goals?
 
+## Interesting Questions
+
+1. Why am I reading?
+2. Why did I select this book? What am I getting for the work?
+3. What books am I not reading to make time for this one? 
+4. Have I mastered the important parts of the book after reading it?
+5. Am I getting the most I can out of it? Eg using "A Mind for Numbers" techniques?
+6. Is there a shorter path to my learning goal?
+7. Can I set the book aside until a shorter path becomes clear, or do I need to read it now?
 
 ## Process Goal
 
