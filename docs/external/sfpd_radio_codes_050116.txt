@@ -1,0 +1,308 @@
+00 Burglar alarm
+32 Accessory to a felony
+53m Harassment by phone (obscene call)
+67 Offer a bribe to executive officer
+69 Deter/resist executive officer (other than peace officer)
+71 Threaten injury to school officer or employee
+93d Theft of CATV
+100S Silent burglar alarm
+102 Take or destroy property in custody of officer
+118 Perjury
+136.1(a) Intimidation of witness or victim
+137(a) Offer bribe to influence testimony
+146a Impersonating a peace officer
+148 Resisting arrest
+148.1 False report of a bomb
+148.5 False report of a crime
+150 Refuse to aid an officer
+151(a1) Advocate killing/injuring officer
+152 Drunk driver
+187 Homicide
+192.1 Voluntary manslaughter
+192.2 Involuntary manslaughter
+192.3 Vehicular manslaughter
+203 Mayhem
+207 Kidnapping
+209a Kidnaping for ransom/extortion
+211 Robbery (holdup)
+212 Strongarm
+213 Purse snatch
+216 Shots fired
+217 Shooting
+219 Stabbing/cutting
+220 Assault with intent to mayhem/rape/sodomy/oral copulation 
+221 Person with gun
+222 Person with knife
+236 False imprisonment
+240 Assault/battery
+241 Assault on peace officer/EMT/firefighter
+242 Battery
+243a Battery against a citizen
+244 Throwing acid with intent to disfigure or burn
+245 Aggravated assault/deadly weapon (ADW)
+246 Shooting at an inhabited dwelling or vehicle
+261 Sexual assault/rape
+261.5 Rape - under 18 years of age
+262 Rape of spouse
+266h Pimping
+266i Pandering
+270 Child neglect/failing to pay the support payments
+271 Child abandonment - under 14
+272 Contributing to the delinquency of a minor
+273d Corporal injury upon child
+273.5a Corporal injury to spouse/cohabitant
+278 Child abduction from parent or guardian
+285 Incest
+286 Sodomy
+288 Sexual assault, victim under 15 y/o 
+290 Sex registration
+311 Indecent exposure
+311.2a Possession of obscene matter 314 Indecent exposure
+330 Gambling
+373 Public nuisance misdemeanors (spitting in public places, etc.) 
+374b Garbage dumping
+400 Demonstration/pickets
+402b Abandoned refrigerator
+404 Riot
+405 Citizens holding prisoner
+406 Officer needs emergency help
+407 Prisoner transport
+408 Send ambulance
+409 Send tow-truck
+410 Requested assistance responding
+415 Noise complaint
+416 Citizen standby
+417 Person ringing doorbells/begging
+418 Fight or dispute, no weapons
+419 Fight or dispute with weapons, specify
+420 Juvenile disturbance
+451 Arson
+459 Burglary
+470 Fraud
+476a Insufficient funds (checks)
+484e Theft of a credit card
+487 Grand theft
+488 Petty theft
+496 Stolen property receiving
+499b Joy riding
+503 Embezzlement
+518 Vehicle accident, no injury
+519 Vehicle accident with injury
+520 Accident (non-vehicle)
+527 Bonfire
+528 Fire
+529 Explosion
+530 Bomb threat
+531 Suspected explosive device found
+537 Nonpayment of a bill (Restaurants, etc.)
+555 Posted trespass 5
+585 Traffic stop
+586 Traffic Congestion
+587 Parking violation
+588 Driveway violation - tow
+594 Malicious mischief (vandalism)
+595 Malicious mischief (graffiti)
+596 Abandoned vehicle
+597 Killing or abusing animals
+600 Roadblock
+601 Trespassers
+602 Breaking & Entering
+603 Prowler
+647B Prostitute
+650 Threats
+799 Senile person
+800 Mentally-disturbed person
+801 Person attempting suicide
+802 Coroner's case
+805 Juvenile complaint (minor)
+806 Juvenile beyond parental control
+807 Missing juvenile
+809 Missing person
+811 Intoxicated person
+819 Rolling of intoxicated person
+851 Stolen vehicle
+852 Auto boost/strip
+853 Recovered stolen vehicle
+901 Call ____________
+902 Return to station
+903 Close Signal Box
+904 Meet with officer, non-emergency
+905 Meet with city or public service employee 
+909 Citizen requests interview
+910 Check on well-being
+911 Broken window
+912 Person dumping rubbish
+913 Complaint unknown
+914 Person down
+916 Suspicious person in vehicle
+917 Suspicious person
+918 Person Screaming For Help
+1000 Plane Crash
+2000 Prison break
+3000 Blockade
+4000 Evacuation, mobilization
+5150 Mental-health detention
+7000 Use of chemical agents imminent
+
+10-00 Exercise great caution. 
+10-01 Reception is poor. 
+10-02 Reception is good. 
+10-03 Stop transmitting. 
+10-04 OK/message received 
+10-05 Relay message.
+10-06 Change channel.
+10-07 Out of service/unavailable for assignment.
+10-07A Out of service at home.
+10-07B Out of service - personal.
+10-07C Out of Service (court)
+10-07E Out of Service (end of watch)
+10-07F Out of Service (follow-up)
+10-07G Out of Service (gas/garage)
+10-07I Out of Service (investigation)
+10-07M Out of Service (meal)
+10-07R Out of Service (radio shop/range)
+10-07S Out of Service (station)
+10-07T Out of Service (traffic control/training)
+10-008 In service/available for assignment.
+10-08F In service, on foot
+10-09 Repeat last transmission.
+10-10 Off duty.
+10-10A Off duty at home.
+10-11 Identify this frequency.
+10-12 Visitors are present (be discrete).
+10-13 Advise conditions at scene
+10-14 Citizen holding suspect.
+10-15 Prisoner in custody.
+10-16 Pick up prisoner.
+10-17 Request for gasoline.
+10-18 Equipment exchange.
+10-19 Return/returning to the station.
+10-20 Location
+10-21 Telephone:
+10-21A Advise home that I will return at:
+10-22 Cancel last assignment
+10-22C Leave area if all secure
+10-22 Disregard the last assignment.
+10-23 Standby.
+10-24 Request car-to-car transmission.
+10-25 Respond & act as backup
+10-26 Clear.
+10-27 Driver's license check.
+10-28 Vehicle registration
+10-29 Check for being wanted/warrants.
+10-29F The subject is wanted for a felony.
+10-29H Caution - severe hazard potential.
+10-29M The subject is wanted for a misdemeanor.
+10-29V The vehicle is wanted in connection with a possible crime. 
+10-30 Person/vehicle wanted/stolen
+10-31 Person has arrest record
+10-32 Person/vehicle clear
+10-33 Alarm sounding.
+10-34 Confidential info follows
+10-35 Consent to search
+10-35 Time check.
+10-36 Confidential information.
+10-36 Emergency notification
+10-37 Identify the operator.
+10-38 Probation
+10-39 Can ______ come to the radio?
+10-40 Is ______ available for a telephone call?
+10-42 Check on the welfare of/at ______.
+10-43 Call a doctor.
+10-43 Intelligence Div. interested
+10-45 What is the condition of the patient?
+10-45A Condition of patient is good.
+10-45B Condition of patient is serious.
+10-45C Condition of patient is critical.
+10-45D Patient is deceased.
+10-49 Proceed to ______.
+10-50 Subject is under the influence of narcotics. 
+10-51 Subject is drunk.
+10-52 Resuscitator is needed.
+10-53 Man down.
+10-54 Possible dead body.
+10-55 This is a coroner's case.
+10-56 A Suicide attempt.
+10-56 Suicide.
+10-57 Missing person.
+10-59 Security check.
+10-60 Lock out.
+10-61 Miscellaneous public service.
+10-62 Meet a citizen.
+10-62B Civil standby.
+10-62A Take a report from a citizen.
+10-63 Prepare to copy.
+10-64 Found property.
+10-66 Suspicious person.
+10-67 Person calling for help.
+10-68 Call for police made via telephone.
+10-70 Prowler. 
+10-71 Shooting.
+10-72 Gun involved.
+10-73 How do you receive?
+10-79 Bomb threat.
+10-80 Explosion.
+10-86 Any traffic?
+10-88 Assume your post.
+10-91 A Stray.
+10-91 Animal.
+10-91B Noisy animal.
+10-91C Injured animal.
+10-91D Dead animal.
+10-91E Animal bite.
+10-91G Animal pickup.
+10-91J Pickup/collect ______.
+10-91L Leash law violation.
+10-91V Vicious animal.
+10-95 Requesting an I.D./Tech unit.
+10-96 Undercover surveillance, marked units keep out 
+10-97 Arrived at scene
+10-98 Available for assignment.
+10-100 Civil disturbance - Mutual aid standby.
+10-101 Civil disturbance - Mutual aid request.
+11-10 Take a report.
+11-24 Abandoned automobile.
+11-25 Traffic hazard.
+11-26 Abandoned bicycle.
+11-27 with the driver being held.
+11-28 with the driver being held.
+11-40 Advise if an ambulance is needed.
+11-41 An ambulance is needed.
+11-42 No ambulance is needed.
+11-48 Furnish transportation.
+11-51 Escort.
+11-52 Funeral detail.
+11-54 Suspicious vehicle.
+11-55 Officer is being followed by automobile.
+11-56 Officer is being followed by auto containing dangerous persons. 
+11-57 An unidentified auto appeared at the scene of the assignment. 
+11-58 Radio traffic is being monitored. Phone all non-routine messages. 
+11-59 Give intensive attention to high hazard/business areas.
+11-60 Attack in a high hazard area.
+11-65 Signal light is out.
+11-66 Defective traffic light.
+11-78 Aircraft accident.
+11-79 Accident - ambulance has been sent.
+11-80 Accident - major injuries.
+11-81 Accident - minor injuries.
+11-82 Accident - no injuries.
+11-83 Accident - no details.
+11-84 Direct traffic.
+11-85 Tow truck required.
+11-94 Pedestrian stop.
+11-95 Routine traffic stop.
+11-96 Checking a suspicious vehicle
+11-97 Time/security check on patrol vehicles.
+11-98 Meet: _______
+11-99 Officer needs help.
+
+Code 1 Do so at your convenience. 
+Code 2 Urgent.
+Code 3 Emergency/lights and siren. 
+Code 4 No further assistance is needed. 
+Code 5 Stakeout.
+Code 6 Responding from a long distance. 
+Code 7 Mealtime.
+Code 8 Request cover/backup.
+Code 9 Set up a roadblock.
+Code 33 Mobile emergency - clear this radio channel.
