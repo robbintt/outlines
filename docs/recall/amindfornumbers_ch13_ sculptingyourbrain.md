@@ -1,0 +1,17 @@
+- Chunking a key idea is abstracting it with metaphors or analogies
+- a chunk is also a neural pattern, so you can strengthen its connections, speed, depth, and other "training properties" in your brain 
+   - TODO - work more on this concept of "training properties" - i made that part up but I think I am onto something
+- math and science ideas are usually analogies to "common knowledge" and very simple to chunk (once you learn it)
+- one test for your chunk: can you easily teach / convey it to someone else?
+- Persistence is more important for learning than intelligence
+- intelligence is not needed and does not protect the bearer from failure. It can lead to bad habits.
+- **DEEP CHUNKING** - cajal used a form of free recall and deep work to build a larger understanding of neurons by redrawing the neurons in his photographs, and drawing the connections between the photographs. This recall allowed him to get a "picture in his brain" larger than the photos CHECK THIS
+- i think **this concept of deep chunking is the most important in the book**. Persistently recalling then chunking new edges onto your topic probably have a massive effect on your neural structures.
+- deep chunking could form the basis for establishing a new math such as feynman's path integral.
+- preparing to teach, then teaching, is the best learning. you are forging and then testing your knowledge by this process.
+- form a rich reserve of chunks by learning math and science regardless of your career path. You can transfer these chunks to anything you do.
+- brains mature at different speeds. It can take into your mid twenties to have a mature brain. That's ok.
+- combining art with science in 1 brain is very powerful, like cajal and his color photography and drawing structures of the brain from memory
+- perseverence is "the virtue of the less brilliant"
+- enhance/strengthen your neural connections by practicing thoughts that use the connections
+- how can you turn your mental disadvantages (such as not being quick to recall) into advantages? Eg Cajal discovered that taking his time to recall slowly created "deep chunking" in his brain.
