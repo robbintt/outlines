@@ -1,0 +1,725 @@
+Notes by Kevin, July 2017
+=========================
+
+1300 101: Controlling IoT Devices With Crafted Radio Signals
+1400 Tr2: Death By 1000 Installers; on MacOS, It’s All Broken!
+1500 Tr3: Dark Data, 101: Assembly Language is Too High Level
+1600 101: Radio Exploitation 101
+1700 Tr3: MEATPISTOL, malware implantation
+###
+
+1300 101: Controlling IoT Devices With Crafted Radio Signals
+
+Wirelessly controlled outlet switches
+REmoved control unit, soldered in transistors, and could remote control the buttons
+Music theory: spectral analysis
+Wireless hacking, wireless protocol attack often can't be fixed with a patch
+802.11 monitor mode, to figure out if wireless camera can be used for motion detection
+We'll explore the physical layer
+
+"Harness the invisible energy all around us!" -Jedi quote.
+IoT: all wireless attacks have 5000% damage power now
+Many things operate thru radio: Cell, TV, Wifi, BT, GPS, wireless sec sys,
+His device: HackRF One: Great Scott Gadgets (SDR)
+LimeSDR, RTL-SDR (cheaper)
+Wizard metaphor: transmitting power thru your wand (antenna)
+Attacked his Jeep Patriot with the HackRF
+Gnu Radio on notebook, using it to turn on Jeep
+It was a replay attack.  Some cars have rolling codes, which might be defeatable.
+Jamming attack: jam_narrow.py 420420000
+
+$ python3 ask_modulate_radio_signal.py -c raw_data/outlet_c2_on.json -o /tmp/radio_signal.pcm
+$ ./transmit_signal.py -f /tmp/radio_Signal.pcm
+
+Config file with bit string, frewquency, baud rate, etc.
+
+Shows captured signal on SDR, converted to audio, in Audacity
+Audio tools can be reused for radio hacking
+ASK on off key
+Short bursts are zeros, long burst ones.
+
+Open wave files in Audacity by specifying the base Hz, and it resamples to audible.
+Do not need to know the math.  Gnu Radio will handle much of it.
+
+Convoluted waves can be deconvoluted
+Many things are waves: breathing, temperature of earth, quantum theory
+Derivative of a sine wave is itself, another sine wave
+Superposition principle: how can you hear many things at once?
+How can there be multiple radio waves in the air at once?
+
+Euler's formula relates e^x to sin(x) and cos(x)
+e^ipi =
+
+Radios actually use a circular sine wave, not a flat 2d sine wave
+
+ASK, FSK, PSK
+
+Jupyter notebook for generating a radio wave from scratch
+It's on github.com/caleb.../radio-hacking-scripts/
+
+CalebMadrigal.com
+
+###
+
+ReconVillage.org
+
+http://reconvillage.org/comprehensive-look-at-twitter-as-a-research-tool/
+Twitter as a Research Tool
+6K tweets per second, 500MM tweets per day, 180Bn/year
+
+March 2006 first tweet
+Larry Bird is the bird
+
+
+
+DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib
+^ Apply IDAPro
+Stephan Esser
+github.com/nologic/idaref
+
+Frida, Cycrypt, LLDB
+FileMon
+MiTM proxy
+ObjC, more meaningful than strace to watch its messages
+hit/fuzz a particular method
+Swift, we see rntime library interactions
+IF a function appears in a cache, that means it's been executed before
+MachShark: he wrote this to see messages and data structures
+
+
+Breaking in -> automating
+
+Most apps are largely user reactive in nature
+"A little engine for driving the UI while observing the inner workings of an ios app"
+^ ChaoticMarch
+
+Apply your intelligence: Simulate the user, read and understand the UI
+How does UI look in memory?
+^ Tree of objects with methods attached
+
+ChaoticMarch is Lua scriptable
+Standard functions for touching device etc.
+
+Mutator to alter web requests to get different results
+th3bartend3r
+
+datasploit github personal access token: 4304ca06ac9ecc108b6d3e1f1e73158374a9d147
+emailhunter: jq/ab12
+
+google dork: aggressive google advanced search
+domain == dns identity equivalences
+
+Deloite has a bizintel group, private spy agency
+
+### Rhett Greenhagen - http://reconvillage.org/skip-tracing-for-fun-and-profit/
+
+Simple Pivots to Profiling:
+ - Where's the perfect place to hide if FBI/CIA/NSA was after you?
+ - Unique names are a pivot: "Kis*" means eastern europe descent
+ - Reverse Google search on an avatar to find unique matches
+ - Unique name is able to be pivoted from searches
+ - Key phrases/questions can be searched / cross refed
+ - Phrases with location, date, names can be merged
+ - Time frame on posts can be used to create a timeline of movement/thinking for profiling
+
+Maltego: interactive data mining tool
+Case File gathers data after collection, for deliverable
+Caninput from multiple sources
+Palantir Metropolis platform - used to gather large-scale data to use in quantitative investigations
+  ^ Integrates across multiple sources of data
+netglub: open source data mining tool
+ ^ uses own scripting language, can integrate any toolset
+ ^ it's Rhett's bread and butter
+Social Engineer Toolkit
+Michael Bazzell's tools are great
+
+Google alerts
+Footprinting google alerts to see if anything new
+
+Some cases Rhett liked:
+  - Justin KEeting #92
+  - Chain of identities from Steam to friends to other games
+  - Via netglub
+  - MAsterMerge.txt
+
+Google Takeout - all your data are belong to them
+Michelle Gomez on Wired about skip tracing
+
+What are your steps, what you did to trace someone with success
+
+
+W3C - Since 2013 they've pursued a course unwise, to make a DRM standard for the web.
+This allows DRM vendors to work with browser vendors to seamlessly integrate DRM into browsers.
+EFF have joined and failed to convince W3C
+"Go ahead if you must make DRM, but don't involve the membership."
+Compromise: doesn't stop W3C members from suing anybody.
+Says W3C can't use DRM to threaten developers.
+
+
+
+STM32 ST-Link Utility
+System Workbench for STM32
+STM32 CubeMX
+
+###
+Recon Village 1300 Sat - Bug Bounties
+One of 5 bug bounty researchers at Synack
+Uninformed threat model
+Hackers interested in your subdomains, your third party apps, github repos
+Recon is great, how to?
+Reverse ip search when pen testing?
+dnsdumpster.com - to get subdomains of a domain
+subbrood? subroot?
+censys.io
+https://www.virustotal.com/
+https://www.yougetsignal.com/
+
+Please don't list private keys on your github repos!
+
+Google site:domain.com with date constraints, look back to the early history of a domain to find exploitable URLs that have been "forgotten"
+
+linkfinder on github
+
+jason haddix
+nahamsec
+naffy
+shubs_shah
+bharath kumar
+
+bugcrowd
+@abhijeth
+
+### 13:30 - DFIR Automation/Orchestration Tools for OSINT/RECON
+Tyler Rorabaugh
+maltego
+hunchly
+better investigations
+open refine
+netglub
+intrigue.io
+
+Why use DFIR Tactics 4 OSINT?
+Understand & reduce your attack surface
+Gain awareness of threat actors
+Enhance incident response investigations
+Or for fun...
+...like getting to know your CEO
+
+Then auto-responding to your friends who you scan.
+
+Let's compare phases: attacking vs response vs OSINT
+Why use DFIR
+- Built to gather evidence
+- Case management
+- Can integrate with a ton out of box
+- New tools can be added
+- You can push/pull data from one place to another
+- Because we need to automate or die, right?
+
+Playbooks make it easy to automate
+
+These all have automation frameworks, for automation
+Demisto
+TheHive project
+LogRhythm
+Hexadite
+proofpoint
+cybertriage
+Siemplify
+Resilient IBM
+Phantm
+swimlane
+
+IACD Standard says legal mumbo-jumbo
+
+Montego has transformations
+Playbooks are step by step process that glues stuff together
+
+Tyler's process-
+- ican.hopto.org
+- ArcSight ESM
+- ArcSight Logger
+- ArcSight XML
+
+OSINT for CTF!!!
+demisto.com
+
+
+## 14:00 Total Recoll - Dakota
+http://reconvillage.org/total-recoll-conducting-investigations-without-missing-a-thing/
+"We are buried beneath the weight of information, which is being confused for knowledge..." Tom Waits
+"All Your Data" - NSA Sources
+882 MB of PDFs
+
+Desktop full-text search tool (an understatement)
+Create an index:
+Preferences > Index Config > Top Directories "+" > Folder of PDFs
+http://www.lesbonscomptes.com/recoll/
+
+"wapo-prism.pdf"
+
+Hunchly
+
+Firefox addon: Recoll visited web pags indexer
+Install Plugin > saves to ~/wherever
+- then Preferences > Index Config > Top Dirs "+" > that dir
+- Preferences > Index Config > Web History tab > check box, put that dir in, set cache size
+- It can save pages also.  By domain, or for a term, or regex
+
+Full text search, copy saved locally, no effort!
+
+Hunchly isn't free, is Recoll?
+They eat many document formats
+Recoll WebUI has python binding, allows scripting, SDK etc.
+Can share index with other users
+
+NSA docs archive: https://github.com/nsa-observer/documents/tree/master/files/pdf
+
+dakota@strikersecurity.com
+@jerkota
+Dakota Nelson
+
+### 100 Facebook accounts per day - m0m0 (Deloitte MX City) - into breaking things for fun
+FB Issue #331801952
+POF, exploiting en masse, we got paid!, remediation, what's next?
+- Facebook mobile app implements content thru "instant articles" -2016
+- Content from third parties can be viewed, shared, saved etc in FB
+- Found a session hijacking vuln in this functionality
+- Informed FB in their bug bounty program
+
+How it works
+- Detected when sharing links from the FB mobile app
+- Lack of proper validation in "one tap login"
+- "Links shared with a session_key and api_key
+- Allows a third party to steal the session when opening the link in a browser since the browser asks to initiate session as the user uses the link
+
+POF
+- A legitimate user opens an instant article on FB mobile app
+- User shares it by tapping Share, then Copy link
+- User shares the link copied thru any social media
+- Exposes the session_key
+4. Malic user opens the link and notes that the browser asks to initiate session as the user that initially shared the link!
+5. The malicious user accepts and gains the other user's session
+
+Exploiting the vuln en masse
+- IT was not easy to test this issue since we identified that the vuln was not always present when sharing a link
+- Searching Google for these links, to steal valid sessions from FB accounts
+
+Search twitter for: "m.facebook.com/auth.php" and see += ?api_key=asdfasdf&session_key=asdfasdf
+
+Realtime searches, using "tresor"?
+Search vulnerable urls
+search twitter for "facebook.com/auth.php"
+
+
+### 14:15 Vulnex.com
+- Basic source code analysis, applying OSINT tactics  on source code
+- Techical people but not usually security savvy
+- Influencers
+- Access to info & systems
+- Common habits we can exploit: Sci-Fi, anime, pr0n, beer
+
+1. Identify source code repos: Organizations, individuals
+2. Search for OSINT patterns in code
+3. Go to social networks
+
+Classics:
+-IPs
+- Domain names
+- URLs
+- Emails
+- Credit cards
+- Phone numbers
+- Twitter alias
+- Comments
+- Source headers - "Written or maintained by ... <email addy>, company etc"
+
+e.t. AirCrack-NG
+Who is KoreK?
+WPA-PSK: Joshua Wright
+SHA1 MMX assembly code Simon Marechal
+
+Github-rank.com: who has the highest ranking?
+Gitrob: github.com/michenriksen/gitrob - finds credentials and private keys
+^ runs in background, scans for findings, generate "Assessments" report
+^ "New assessment" produces new report
+.bash_aliases, .bashrc, .gitconfig, etc. <- files the git user shouldn't have published
+
+
+
+github.com/Microsoft/ghcrawler
+github.com/dfm/github-repo-crawler/tree/master/crawler
+npmjs.com/package/repo-crawler
+
+Get the feeling of developer angriness
+- Source code vs. Twitter
+Indexing repos by nice words love, good, nice, sweet, kiss
+linuxcounter.net/statistics/kernel
+
+Commens contain plenty of dirty data
+- Code
+- Bad chars (punctuation etc)
+- Useless text (licenses)
+- Useless talks by this presenter.  I could do much better.
+
++ maltego
++ recon-ng
++ datasploit
++ custom scripting
+
+### 30 July - I can tell what you are by the smell of your wifi
+
+Multiple signatures
+Clients behave differently depending on the AP
+APs advertise capabilities, clients react accordingly
+e.g. 2.4 ghz, 5 ghz, power management capabilities
+
+He caches signatures in the database. Uses three different signatures
+Sometimes devices have ambigious signatures
+To distinguish, they include the upper 24 bits of MAC address
+
+Only the AP can see the DHCP address/signature unencrypted
+
+Some client devs have same signature, i.e. iPad Air 2nd gen & iphone 6s
+
+They developed a WiFi taxonomy
+If we could just know what the chipset of a device is, we'd find clever workarounds based on HW or bugs
+List of connected clients display in a UI
+Correlated with other data - a useful hostname in the DHCP client req
+Packet reordering (for lower latency) is a signature element
+WIDS (wireless intrusion detec sys) a factor
+Published papers: arxiv.org/abs/1608.01725
+
+Current status of Impl
+- hostapd 2.6 added CONFIG_TAXONOMY
+- database of known signatures released to github
+- 907 signatures of 172 devs
+- ~60% of connected devices are known signatures
+
+What's next
+- Integration
+- Better tools to gather signatures, it's a manually intensive process
+  - Handle dependency on AP
+- AP taxonomy?
+
+
+
+Power Laws
+- Natural processes, they're statistical
+- Things descriptive of natural processes follow power laws
+- When they don't, something's wrong
+- Not all nat processes are natural
+- Financial transactions e.g.
+- You can use power laws to detect fraud
+
+Natural distribution vs power law distrivution
+
+Why matters?
+= Somehow network traffic is "natural"
+- Good lord the machines are alive!
+- So power laws must ally
+- Some power laws can be hard coded
+- Extremely low cost and fast anomaly detection
+
+(I wonder vs NN)
+
+Benford's Law
+- Simple and awesome power law
+- If it's a number...
+- Generated by a process...
+- The more articicial the packet, the worse the anomaly
+- Flood DDoS (Amplification, tcp, etc attack) are very loud
+- Can be clearly seen in gestalt connection data
+- Practically instantaneous
+- Realtime in 100Mb/Gigabit scenarious
+- No training at all
+
+How it's done
+- Get a tcpdump
+- Extract features
+- Power law analysis tells us goodness
+- Prnt out to csv with timestamp
+- Or throw an alarm
+- Iptables maybe, as a trigger endpoint/handler
+
+What to do with it?
+- Watch for DDoS attacks
+- Probably won't save your network
+- Can determine if someone is using your PC for something nefarious
+- DDoS zombie instead of WTF is this?
+- Determine between attack types, too
+
+What else can you do: IDS
+- DoS isn't the only kind of disturbance
+- Obviously we don't know what all of them are
+- Strap learning agent to output
+- Tell it to make decisions
+- Should at least detect active recon, even at slow speeds
+- (portscan demo shows high central spike)
+
+What else: diagnostics
+- Changes in traffic across a network change "power law profile"
+- Are all the changes where you expect?
+- Is someone doing something to your systems when they're not around?  Not physically present?
+
+What else: User IDing
+- Natural systems aren't just networks
+- User interaction with a computer is too
+- You can profile a user's keystrokes
+- Profile your own keystrokes
+- Have your own laptop/pc as a honeypot
+
+What else: much more
+- Very early days for power law based analysis
+- Possible that all kinds of computer metrics are power law compliant
+- Experiment
+- It's cheap, fast, simple, so why not?
+
+What's the demo URL
+bitbucket.com/redezem/peimaultralite
+
+
+### iGaming 11:00
+
+Security incidents
+- Las Vegas Sands hack
+- NJ iGaming DDOS attacks
+- Affinity Gaming breach
+- Hard Rock Hotel/Casino data breach
+- Casino Rama Resort in Ontario
+- Peppermill
+
+LV Sands website hack
+- They had a tiny IT security staff
+
+History
+- Banknote validators
+- Fake coins
+- Tony Carmichael / Monkey Paw to release the coin hopper
+- Light wand which manipulated the sensors
+- 4/24/1980 - lottery reached its liability limits on Daily Number s(3 digits), winning number was 666
+- Later rumour surfaced that illegal bookmakers were not paying
+- When watched in slow mo only the 4s and 6s appeared
+- Ronald Dale Harris, computer prog, worked for Nevadada gaming control board 1990s, responsible for finding flaws, gaffes in software that runs computerized casino games.
+- He audited EEPROMS to look for vulnerabilities, but then reprogrammed them so when a certain sequence was input it'd pay off
+- They don't know how much money he made from this
+- He wasn't caught for that, caught for Keno, by predicting the pseudorandom number generator beforehand.
+- Went to Bally's (Reid Errol McNeal), attempted to redeem a high value winning keno ticket
+- Execs became suspicious and notified NJ gaming investigators
+- Winrate in BB/100, poker ultimate bets, scatterplot, had a backdoor programmed to see players hole cards, illegally clawed $20MM from players
+
+Latest news (Evan)
+- Hot Lotto RNG Rigging at Muscle: Eddie Tipton, Tommy Tipton, Robert Rhodes, Rob Sand (Iowa Assistant AG, lead prosec)
+- Eddie picked the winning lottery tocket , went almost a year before claiming the prize
+- Crawford Shaw began investigating
+- Lottery refused to release the prize because the trust declined to give their identities, which is req under Iowa law
+- Claim to prize was withdrawn in Jan 2012
+- Oct 13 authorities received a tip that Tipton was the man in the video
+- Investigators analyzed Tipton's cell recs, showed he was in Des Moines
+- Eddie was convicted in 2015 2 cts fraud, following week trial
+
+
+
+### Tinder chatbot - Inbar Raz, former Principal Researcher, PerimeterX (company) @inbarraz / @perimeterx
+Chatbots have link in profile, or in messages
+Better than Tinder!
+Unsubscribe - but you're not subscribed
+Send any message and they still go on as before
+live:juicyyy768 - for example
+Created fake Skype profile, and connected
+Juicyy Aphrodite
+
+I'm taking screenshots of thos convo.  Kaspersky SAS admins/screens
+"Hmm I'm gettin wet"
+
+Service announcements: "LookHoles.com"
+"hey babe:) hope u catching u at a good time and not being too agressive. for ya but i wanna play, wann chat? comne here LookHoles.com"
+
+"Do you like chat with me? Come here its free to join and find me same username lookholes.com"
+"Do you want to sex with me?"
+"I am boring, do you want to chat with me? Come here it's free to join and find me same username lookholes.com"
+
+Esther, 25 "Hi, I'm Kate!"
+
+Jessie, 27 twitter: emmyyy  "I am very interesting dogs, especially pungs"
+Evelyn, 27, To be honest I have no idea why I downloaded this: url
+
+VirusTotal to review the domains of these bots
+7 of 61 domains registered to one IP were not protected by proxy reg
+One domain reg had fake address
+One domain reg had an email, Edouard SZERKOV, same fake address but real email
+
+Connecting the dots ... greg752@gmail.com, Mathieu Durand, different address still fake
+
+whereIfoundluv.com
+reverse lookup of IP finds even more, virustotal
+passionfoundhere.com
+IPAddress.com to look up
+Montrell Nuble of Silver Spring MD, computertechnicals@yahoo
+Shifting from bad/opaque opsec to transparent
+Devon Green aka Montrell Devon Nuble
+Took photo of himself with scads of cash
+
+How hard is it to operate such a scam?
+Bots-
+- Gen 1 Bots - scripts, no JS, no cookies
+- Gen 2 - Scripts + State: no JS, uses cookies
+- Gen 3 - JS, cookies, Selenium, PhantomJS
+- Gen 4 - Malware running on top of real browsers, hijacked machines, fake extensions
+
+
+"I created a bot to find love online - reader, it worked" guardian.co.uk
+
+Q: How much of your own automation drove your bot discovery process?
+
+They created their own bots: 70% conversion rate.
+70% of people who sent a message to a bot girl clicked through
+Most of the discussion int he security indus is around how you got breached
+There's so much you can do to avoid exploits.
+
+Someone is using an automator script over a mobile device or emulator to make this happen.
+
+Percent of bots vs real people: 57 fake profiles out of 1,000, he says
+
+
+SweepAtic.com - big researcher for multinationals
+Mimic recon techniques from adversaries for customers
+High frequency, but enterprise-grade, to avoid being blocked
+Obfuscation, load balancing algos, to cycle thru different DNS servers
+To spread the load across multiple source IPs
+To not pollute the ecosystem, so they're not blocked
+DataSploit
+JPMorgan Chase has over 400 seed domains in the world
+They did contracting jobs
+To reduce attack service - the value prop
+
+Client maintained domains in Excel spreadsheet
+
+Starting to explore competitive analysis
+Analysing domains of suppliers of client company
+Seed == base domain
+
+They produce a report of exposure
+
+Monitor DNS records of subdomains
+See how cloud provider relationship changes
+
+
+CTF winners: RumpleForeskin - Jesse & David
+
+"Hunting licenses"
+
+
+### Zombie Chrome Extensions - Tomer Cohen R&D Security Team Leader, Wix.com
+Chrome bots which increase apparent signups, versus legit traffic
+
+Investigating attack patterns
+- Most increase comes from Latin America
+- Signup requests come from an iframe in a WiX signup page in FB
+- Suspicous users signup then publish a new WiX page within 10 seconds
+- The published websites were "How does it work?  If you want to see your profile on FB, click Start and download Chrome Extension to do it.  Viad30 Unlocker" - gets more views or some similar promise.
+
+Viad30
+- It injects code into FB tabs
+- Opens a WiX iframe transparently inside FB via chrome ext markup injection
+- Sends signup request to WiX
+- Why? Chrome ext don't have same-origin restriction
+- All published sites lead back to the same attack page
+- It distributes the link to itself to all the victim's friends
+- Reviews the extension in Google Web Store
+
+Why do it like this?  Why WiX.com?
+- Wix was used as a supplier of disposable URLs
+- Each newly created website provided a new URL basis
+- FB didn't recognize that pattern, and allowed those URLs
+
+This was only the infection phase. These bots were used for more.
+- Send Spam, DDoS, Scrape Websites, Click Frauds
+- Put the bots up for rent
+
+Timeline
+April 2016:  "Facebook 'Comment Tagging Malware' spreading via google chrohme"
+
+"Tag me if you can" attack according to Kaspersky
+
+- Victim gets a notification on FB, saying you were mentioned in a comment
+- Clicking that, you get a .jse file, which runs a malware to crash Chrome
+- The malware copies the Chrome process file, starts a new Chrome with the extension installed
+- New copy of .jse is uploaded to user's Google Drive
+- Then uses FB's API to tag all friends with that .jse Google Drive URL
+- Repeat from "Victim gets a notification" above
+- Exponential growth
+
+Bacground script
+chrome.tags.onUpdated.addListener(function() ...
+ var xhr_obj = asdfasdf();
+ xhr_obj['onreadystatechange'] = function() {
+   ifxhr_obj['readyState'] == 4) {
+     chrome['tabs']['executeScript'] ...
+
+How can we make it easier?
+- Smuggling an extension to Google Web Store, keeping it up to date, is a lot of effort
+- By using XSS to form a botnet
+- Adobe Acrobat extension XSS (Jan 2016). Embed an exploit into a PDF file.
+- window.open("chrome-extension://.asdfasdfasdf/frame.js
+  open = request.panel_op
+  switch(op) { ...
+    case "request" : ....
+- CSP on extensions by default since 2014
+- Prevents common JS injections
+  - Inline scripts, eval
+  - whitelist script sources only
+
+
+AVG Web Tuneup XSS
+- Attack page adds a listener to a webpage
+- window.postMessage(payload) to the AVG Web Tuneup extension embedded in the page
+- The AVG extension is vulnerable
+
+### Weaponizing AI - Bishop Fox
+
+Hacking into the database
+- AI is trying variants on a SQL string, looking for a tablename that exists in the sqlite_master table
+- The AI learned how to look for an attack vector ?
+- 200 lines of py
+- Takes existing ML methodology and applying it to hacking
+- "It has to discover the data on its own."
+- "This might seem magical, or special and scary to you"
+- Please, be more patronizing
+
+The Model
+Regular program: Code -> Binary -> Action
+AI program:      (Code, Data) -> Model -> Action
+
+Difficult to enumerate all possible states
+
+
+### 25 Years of Program Analysis
+Blind trust of a program by the monitor|kernel was common back to the 60s and earlier.
+
+You have a potentially vulnerable program, and want to analyse it.
+It's composed of "basic blocks" which are executed all together
+  x = input() # single basic block, a statement
+  if x== 42:
+    print "Correct"
+  else:
+    print "No"
+
+Each of these blocks has a constraint attached to it.  Depending on the input() value, it'll execute differently.
+
+"SELECT-a formal system for testing and debugging programs by symbolic execution"
+ - ACM SigPlan Notices, 1975.
+
+
+" Cyber Grand_Challenge" 2016 where seven fully automated machines fought each other for primacy.
+Software analysis-
+= 249 programs
+- Source code avail (now, not during challenge)
+- Range of vuln classes
+- Documented vulns
+- Simple OS model
+- Explicit security specifications
+
+Program coverage is a thing, here.
+
+Fuzzing.  Varying inputs until
