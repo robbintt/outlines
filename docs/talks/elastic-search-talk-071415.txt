@@ -1,0 +1,55 @@
+
+
+
+OpenDNS - Why use elastic search? 7-14-15
+
+Wikipedia uses elastic search for their full text search.
+Github uses elastic search for structured searches in a repository.
+
+You could build a kayak style search in elastic search if you wanted with a single query.
+Kibana allows visualization of data by making heavy use of elastic search.
+
+What is it? Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal scalabilty, reliability, and easy management.
+
+Elasticsearch wraps Lucine, a Java? library, and makes it available via a REST API.
+
+Every piece of data by default keeps 2 copies of each datum. Has a REST API.
+
+Elastic Search itself is open source.  Elastic is the company behind elastic search.
+
+CONCEPTS:
+
+Concept: "Document" - The unit of data fed into elasticsearch in JSON format.
+
+{ 
+  "from" : "tony@stark.com",
+  ...
+}
+
+Concept: "Comparing RDBMS <-> ElasticSearch"
+mapping:
+database->index
+table->type
+(2 more)
+->
+field->
+
+
+Now lets translate SQL to ElasticSearch (see presentation)
+Get/Select mapped directly
+
+Update is a little more interesting (just some documents/rows)
+
+
+WHY??? SEARCH for a SINGLE term in a SINGLE field:
+SQL: SELECT * FROM emails WHERE body LIKE "% have %";
+
+We lose 'stemming', we might also want to match 'having' as well as 'have'. ElasticSearch does this internally, apparently.
+
+
+
+
+
+
+
+
