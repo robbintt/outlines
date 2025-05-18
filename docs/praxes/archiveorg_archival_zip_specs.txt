@@ -1,0 +1,47 @@
+
+To upload a zip to archive.org
+==============================
+crop images to be consistent (as they should look in the book)
+image filenames must be in order (from beginning to end)
+rename into a zip file, eg: foo_images.zip (must end in `_images.zip`)  Foo MAY need to be an indentifier, not sure. Maybe it could be anything.
+To test:
+========
+Go to archive.org, choose upload a file, update.
+(worked)
+
+
+Spreads:
+========
+Try spreads for cropping, white balance, etc.
+spreads - modular workflow assistant - https://github.com/DIYBookScanner/spreads
+
+
+after uploading:
+================
+you can check at the unique identifier of your item uploaded
+after 2 hours, maybe ask gio to check what's going on
+anyone who creates an archive.org account can upload a book
+
+
+If I start uploading a lot of books:
+====================================
+archive.org can give me a collection which is a folder with all my contents
+This would be for multiple people to share in an org, so we could have a noisebridge-digital-archivists collection
+Gio can do this for me in about 5 minutes when I am ready. They don't give the feature out to the public quite yet.
+Only users with at least 150, but for Noisebridge they can just do it.
+We could definitely use this for the Noisebridge datastore.
+
+We could also share a user - noisebridge-books-bot for example.
+
+
+timeline:
+=========
+200 book page takes hours - there are often 1200 books in the pipeline
+if something never comes out, gio can give me feedback
+if something is broken, gio can give feedback
+
+
+
+white balance:
+===============
+archive uses a color card in the photo and a robot balances this to white in software
