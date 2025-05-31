@@ -1,0 +1,120 @@
+Trent's untested arena ideas:
+=============================
+1. Time Matters - Play online at 1-4 PM pacific time to fight weaker opponents. Simply put, children are less capable.
+2. Do not play after 11 PM pacific time. Tests in ranked shows that the level of difficulty goes way up due to hardcore players.
+3. Be prepared to pick from your top 7 classes. Only 2 may be wholesale ignored. Have your prioritization written down.
+4. Removal/Tempo is critical, including board wipe.
+5. Weapons = Tempo. They are always picked first.
+
+Always take (incomplete):
+=====
+all -> chillwind yeti
+mage -> enrage cards
+priest -> high health
+druid -> taunt
+midrange -> card draw, 2-for-1, other card advantage.
+minions are efficient if they cost half of their combined attack + health. Chillwind Yeti (5/4) = 9, 9/2 = 4.5, 4.5 > 4. Very efficient.
+Booty bay bodyguard is bad, it is 5/4 for 5, (4.5 < 5), specifically, a 4 health minion will trade down with a 3-4 cost card.
+
+
+Going Infinite and Games Per Day
+================================
+A NOTE: In a sense, with a daily quest and one arena round per day, going infinite actually happens at 6 wins. This nets 106 gold per day average. Coupled with 10 gold for winning 3 rounds you can play arena daily.
+
+Going infinite takes at least 7 wins (on average).
+This is a game 7 win ratio higher than 2.25.
+
+You get your gold back after 7 games plus prizes.
+The prizes must be worth seven games worth of playing.
+
+GAME 6 WIN RATIO: 3.0 -- (6 wins / 2 losses, then a win after).
+The plus is to indicate that the third loss must occur last, so the win rate is actually much higher at different points.  
+To accomplish this win rate, you will need an extremely high win rate (lets assume 100%) in the first three rounds, which can taper in the 2nd 3 rounds to 1.33
+
+Notes:
+The true breakeven on buying packs is 3-4 games. Over 4 wins is coming out ahead.
+It takes up to 4 quests (4 days) to get one arena play, so save your gold!
+What is the average gold you get for 3-4 wins?
+
+From the internet (http://us.battle.net/hearthstone/en/forum/topic/11224842495)
+0 win = 0-30 gold, average 14 gold
+1 win = 0-40 gold, average 17 gold
+2 win = 0-50 gold?, average 23 gold
+3 win = 30- at least 50 gold, average 41
+4 win = 45-85 gold, average 65
+5 win = 55-120 gold, average 81
+6 win = 75-145 gold, average 106
+================================
+7 wins = 150-180, average 165
+8 wins = 150-220, average 185
+9 wins = 150-255, average 211
+10 wins = 150-370, average 261
+11 wins= 225-510, average 306
+12 wins= 225-535, average 332
+
+What about your bankroll?
+=========================
+You can't win every time. How much do you need to have socked away to keep things smoothly running?
+Simple concept: 3 bad beats (0-2 wins) requires 600 gold, including the 4th buy in.
+
+
+Nick's Arena Tips:
+==================
+Use Tier Lists (online) - HearthArena, Trump Arena Tier List
+Get a good batch of two drops.
+Pay attention to your curve.
+Many people right now (before the expansion) are really good, so the arena is harder.
+It is harder at the end of a season (month of ranked play)
+It is harder on the final days of an expansion (less hot, less casual).
+Some classes are better than others - see the tier lists. Mages have common removal. Paladins are also very good.
+
+
+Nick's Tier Lists:
+==================
+http://www.heartharena.com/
+http://www.liquidhearth.com/guides/arena-tier-list
+
+
+Warming Up:
+===========
+
+Presumably there is some limit to how many games per day are fun.
+Quest rewards 40 gold and typically take 2-3 games per quest.
+One quest is given per day.
+This means there are 2-3 games 'guaranteed gold' per day.
+Quests can be used as daily warm ups to keep sharp.
+
+It makes sense to do a quest to warm up, then try to go infinite in the arena. You can always pause your arena so if you get bored it won't be an obligation.
+
+Another option is to warm up in the Tavern Brawl.
+
+
+Training for the Arena:
+=======================
+1. Get all basic spells for all classes.
+2. Play 6-8 tavern brawls for each class to get exposed to new cards you may not have used.
+3. USE INFORMATION ONLINE. This should be organized by class so I can quick reference the specific class I end up with.
+4. WARM UP BEFORE GOING IN!!
+5. You must be prepared to pick 7 of the 9 classes, you may get your worst three picks and have to choose from those.
+6. MAYBE: BUILD ALL ARCHETYPES FOR ALL CLASSES??? This takes a lot of common cards, and it can probably be replaced by using information online. However, there are a lot of cards.
+
+
+Getting android Galaxy S6 an android phone packs:
+=================================================
+https://www.reddit.com/r/hearthstone/comments/32q830/stepbystep_guide_for_getting_free_android_pack
+https://www.reddit.com/r/hearthstone/comments/3dkwew/how_to_get_the_samsung_s6_3_packs_and_card_back/
+
+
+Trent's Play Notes:
+==============
+
+My worst classes so far:
+Druid
+
+My best classes so far:
+Mage, Priest
+
+Tavern Brawl Tally:
+===================
+Mage - 2
+Hunter - 1

@@ -1,0 +1,4856 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.4">
+    
+    
+      
+        <title>Compilers Ch1 The Dragon Book - outlines</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.80dcb947.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="lightgreen">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#compilers-the-dragon-book-1986" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="outlines" class="md-header__button md-logo" aria-label="outlines" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            outlines
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Compilers Ch1 The Dragon Book
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/robbintt/outlines" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    outlines
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="outlines" class="md-nav__button md-logo" aria-label="outlines" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    outlines
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/robbintt/outlines" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    outlines
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Byollm Static
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Byollm Static" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Byollm Static
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../byollm_static/byollm-privacy-policy/" class="md-nav__link">
+        Byollm Privacy Policy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Deep Work
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deep Work" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Deep Work
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/" class="md-nav__link">
+        Readme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/deep-work-quality-checklist/" class="md-nav__link">
+        Deep Work Quality Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/deep-work-quality-ref-sheet/" class="md-nav__link">
+        Deep Work Quality Ref Sheet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/deep-work-shutdown-ritual/" class="md-nav__link">
+        Deep Work Shutdown Ritual
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/deep-work-start-ritual/" class="md-nav__link">
+        Deep Work Start Ritual
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/deep-work-weekly-review/" class="md-nav__link">
+        Deep Work Weekly Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/shallow-work-audit/" class="md-nav__link">
+        Shallow Work Audit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Deliberate Practice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deliberate Practice" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Deliberate Practice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deliberate-practice/deliberate-practice-framework/" class="md-nav__link">
+        Deliberate Practice Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deliberate-practice/implementing-deliberate-practice/" class="md-nav__link">
+        Implementing Deliberate Practice
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Digests
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Digests" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Digests
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ansible-semanticmediawiki-install-notes/" class="md-nav__link">
+        Ansible Semanticmediawiki Install Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../artofwar13_spies/" class="md-nav__link">
+        Artofwar13 Spies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../be_more_agentic/" class="md-nav__link">
+        Be More Agentic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../becoming_a_magician/" class="md-nav__link">
+        Becoming A Magician
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Compilers Ch1 The Dragon Book
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Compilers Ch1 The Dragon Book
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-1-introduction-to-compiling" class="md-nav__link">
+    Chapter 1 - Introduction to Compiling
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 1 - Introduction to Compiling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contents" class="md-nav__link">
+    Contents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compilers" class="md-nav__link">
+    1.1 Compilers
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 Compilers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-analysis-synthesis-model-of-compilation" class="md-nav__link">
+    The Analysis-Synthesis Model of Compilation
+  </a>
+  
+    <nav class="md-nav" aria-label="The Analysis-Synthesis Model of Compilation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analysis" class="md-nav__link">
+    Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compilers-arent-just-for-machine-code" class="md-nav__link">
+    Compilers aren't just for machine code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-context-of-a-compiler" class="md-nav__link">
+    The Context of a Compiler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-analysis-of-the-source-program" class="md-nav__link">
+    1.2 Analysis of the source program
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Analysis of the source program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#three-phases-of-analysis" class="md-nav__link">
+    Three Phases of Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexical-analysis" class="md-nav__link">
+    Lexical Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-analysis" class="md-nav__link">
+    Syntax Analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#factors-for-division-between-lexical-and-syntactic-analysis" class="md-nav__link">
+    Factors for division between lexical and syntactic analysis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-directed-translation" class="md-nav__link">
+    Syntax-directed translation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#semantic-analysis" class="md-nav__link">
+    Semantic Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysis-in-text-formatters" class="md-nav__link">
+    Analysis in Text Formatters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-the-phases-of-a-compiler" class="md-nav__link">
+    1.3 The Phases of a Compiler
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 The Phases of a Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phases" class="md-nav__link">
+    Phases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-phases-used-during-every-phase" class="md-nav__link">
+    Supplementary Phases (used during every phase)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbol-table-management" class="md-nav__link">
+    Symbol-Table Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-detection-and-reporting" class="md-nav__link">
+    Error Detection and Reporting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-analysis-phase" class="md-nav__link">
+    The Analysis Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intermediate-code-generation" class="md-nav__link">
+    Intermediate Code Generation
+  </a>
+  
+    <nav class="md-nav" aria-label="Intermediate Code Generation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties-of-an-intermediate-representation" class="md-nav__link">
+    Properties of an intermediate representation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-address-code" class="md-nav__link">
+    Three-address code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-optimization" class="md-nav__link">
+    Code Optimization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-generation" class="md-nav__link">
+    Code Generation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-cousins-of-the-compiler" class="md-nav__link">
+    1.4 Cousins of the Compiler
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 Cousins of the Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preprocessors" class="md-nav__link">
+    Preprocessors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assemblers" class="md-nav__link">
+    Assemblers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#two-pass-assembly" class="md-nav__link">
+    Two-pass Assembly
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loaders-and-link-editors" class="md-nav__link">
+    Loaders and Link-editors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-the-grouping-of-phases" class="md-nav__link">
+    1.5 The Grouping of Phases
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 The Grouping of Phases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-and-back-ends" class="md-nav__link">
+    Front and Back Ends
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passes" class="md-nav__link">
+    Passes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reducing-the-number-of-passes" class="md-nav__link">
+    Reducing the Number of Passes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-compiler-construction-tools" class="md-nav__link">
+    1.6 Compiler-Construction Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 Compiler-Construction Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-list-of-compiler-construction-tools" class="md-nav__link">
+    A list of compiler construction tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bibliographic-notes" class="md-nav__link">
+    Bibliographic Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cracking_creativity_michalko/" class="md-nav__link">
+        Cracking Creativity Michalko
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_portal_dictionary_catalog/" class="md-nav__link">
+        Data Portal Dictionary Catalog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engelbart_hlamt_1962/" class="md-nav__link">
+        Engelbart Hlamt 1962
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golang/" class="md-nav__link">
+        Golang
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-get-your-point-across-30sec/" class="md-nav__link">
+        How To Get Your Point Across 30Sec
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro_to_grant_proposal_writing_foundation_ctr/" class="md-nav__link">
+        Intro To Grant Proposal Writing Foundation Ctr
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meditations_Marcus_Aurelius/" class="md-nav__link">
+        Meditations Marcus Aurelius
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules_for_radicals_1971/" class="md-nav__link">
+        Rules For Radicals 1971
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thoughts-on-tyrrany-of-structurelessness-jo-freeman/" class="md-nav__link">
+        Thoughts On Tyrrany Of Structurelessness Jo Freeman
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15" type="checkbox" id="__nav_5_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_15">
+          Calculus Early Transcendentals 9Th Stewart
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Calculus Early Transcendentals 9Th Stewart" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_15">
+          <span class="md-nav__icon md-icon"></span>
+          Calculus Early Transcendentals 9Th Stewart
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calculus_early_transcendentals_9th_stewart/" class="md-nav__link">
+        Readme
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_16" type="checkbox" id="__nav_5_16" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_16">
+          Design Patterns In Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Design Patterns In Python" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_16">
+          <span class="md-nav__icon md-icon"></span>
+          Design Patterns In Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design-patterns-in-python/intro-and-solid-design-principles/" class="md-nav__link">
+        Intro And Solid Design Principles
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_17" type="checkbox" id="__nav_5_17" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_17">
+          Learning How To Learn
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Learning How To Learn" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_17">
+          <span class="md-nav__icon md-icon"></span>
+          Learning How To Learn
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learning-how-to-learn/chunking-practice/" class="md-nav__link">
+        Chunking Practice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learning-how-to-learn/old-reviseme-learning-how-to-learn-coursera/" class="md-nav__link">
+        Old Reviseme Learning How To Learn Coursera
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learning-how-to-learn/procrastination-IMPORTANT/" class="md-nav__link">
+        Procrastination Important
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_18" type="checkbox" id="__nav_5_18" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_18">
+          Thegiftsofimperfection Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Thegiftsofimperfection Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_18">
+          <span class="md-nav__icon md-icon"></span>
+          Thegiftsofimperfection Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thegiftsofimperfection_notes/alternative_index/" class="md-nav__link">
+        Alternative Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thegiftsofimperfection_notes/courage_compassion_connection/" class="md-nav__link">
+        Courage Compassion Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thegiftsofimperfection_notes/preface_and_introduction/" class="md-nav__link">
+        Preface And Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thegiftsofimperfection_notes/thegiftsofimperfection_integration_tools/" class="md-nav__link">
+        Thegiftsofimperfection Integration Tools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          External
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="External" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          External
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../external/david_recommendations_keystorage/" class="md-nav__link">
+        David Recommendations Keystorage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../external/sat-for-noobs/" class="md-nav__link">
+        Sat For Noobs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../external/ukraine_daily_news/" class="md-nav__link">
+        Ukraine Daily News
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Llm Generated
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Llm Generated" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Llm Generated
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/adhd_compensation/" class="md-nav__link">
+        Adhd Compensation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/be_a_science_user/" class="md-nav__link">
+        Be A Science User
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/cholesterol_plan/" class="md-nav__link">
+        Cholesterol Plan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/cpp_retro_gaming/" class="md-nav__link">
+        Cpp Retro Gaming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/increasing-happiness-praxis/" class="md-nav__link">
+        Increasing Happiness Praxis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/learning-how-to-learn-summary-revised2025/" class="md-nav__link">
+        Learning How To Learn Summary Revised2025
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/learning-how-to-learn-summary/" class="md-nav__link">
+        Learning How To Learn Summary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../llm_generated/skin_health_drives_all_health/" class="md-nav__link">
+        Skin Health Drives All Health
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Logs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Logs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Logs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logs/creativity_2023123/" class="md-nav__link">
+        Creativity 2023123
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Monographs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Monographs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Monographs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/account_traversal/" class="md-nav__link">
+        Account Traversal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/candidate-languages-for-genetic-algorithms/" class="md-nav__link">
+        Candidate Languages For Genetic Algorithms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/case-study-agar.io/" class="md-nav__link">
+        Case Study Agar.Io
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/cheap_raid_server/" class="md-nav__link">
+        Cheap Raid Server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/crm_data_model/" class="md-nav__link">
+        Crm Data Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/debt_and_blame/" class="md-nav__link">
+        Debt And Blame
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/licensing_rules/" class="md-nav__link">
+        Licensing Rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/modes-of-thought/" class="md-nav__link">
+        Modes Of Thought
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/squarespace_patterns/" class="md-nav__link">
+        Squarespace Patterns
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/ssd_vs_hdd_2023/" class="md-nav__link">
+        Ssd Vs Hdd 2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/taking_notes_on_books/" class="md-nav__link">
+        Taking Notes On Books
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monographs/threat_model_test_cases/" class="md-nav__link">
+        Threat Model Test Cases
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Praxes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Praxes" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Praxes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/audio_to_wav_via_ffmpeg/" class="md-nav__link">
+        Audio To Wav Via Ffmpeg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/backup_mgmt_with_s3_glacier/" class="md-nav__link">
+        Backup Mgmt With S3 Glacier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/budget-building-101/" class="md-nav__link">
+        Budget Building 101
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/docker-jupyter-datasciencenotebook/" class="md-nav__link">
+        Docker Jupyter Datasciencenotebook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ergonomic-eval-alameda-20180228/" class="md-nav__link">
+        Ergonomic Eval Alameda 20180228
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/exercise-calories-burning-reference/" class="md-nav__link">
+        Exercise Calories Burning Reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/exercise-heart-rate-reference/" class="md-nav__link">
+        Exercise Heart Rate Reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/git-make-diff-patch/" class="md-nav__link">
+        Git Make Diff Patch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/gitolite-manual-reinstall-graft/" class="md-nav__link">
+        Gitolite Manual Reinstall Graft
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/how_to_organize_book_reading_order/" class="md-nav__link">
+        How To Organize Book Reading Order
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/image_shrink_ext4/" class="md-nav__link">
+        Image Shrink Ext4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/lftp_automation/" class="md-nav__link">
+        Lftp Automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/my-organization-tools/" class="md-nav__link">
+        My Organization Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/optiplex/" class="md-nav__link">
+        Optiplex
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/osx_disable_sip/" class="md-nav__link">
+        Osx Disable Sip
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/outlines_repo_management/" class="md-nav__link">
+        Outlines Repo Management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/pcb-etching/" class="md-nav__link">
+        Pcb Etching
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/raspi_home_setup/" class="md-nav__link">
+        Raspi Home Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/research-tracking/" class="md-nav__link">
+        Research Tracking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/set_dvdplayer_region/" class="md-nav__link">
+        Set Dvdplayer Region
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/site_asset_checklist/" class="md-nav__link">
+        Site Asset Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/site_launch_checklist/" class="md-nav__link">
+        Site Launch Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ssh_port_forwarding/" class="md-nav__link">
+        Ssh Port Forwarding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ssh_socks_proxy/" class="md-nav__link">
+        Ssh Socks Proxy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ssh_tunnel_back/" class="md-nav__link">
+        Ssh Tunnel Back
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ssh_vnc_reverse_proxy/" class="md-nav__link">
+        Ssh Vnc Reverse Proxy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/using-scad-clj/" class="md-nav__link">
+        Using Scad Clj
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/vacation_july_2023/" class="md-nav__link">
+        Vacation July 2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/vim_registers_for_macro_templates/" class="md-nav__link">
+        Vim Registers For Macro Templates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/wp_backup_migrate/" class="md-nav__link">
+        Wp Backup Migrate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/wp_backup_restore/" class="md-nav__link">
+        Wp Backup Restore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/wp_install_another/" class="md-nav__link">
+        Wp Install Another
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10_33" type="checkbox" id="__nav_10_33" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10_33">
+          Ios App Dev
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Ios App Dev" data-md-level="2">
+        <label class="md-nav__title" for="__nav_10_33">
+          <span class="md-nav__icon md-icon"></span>
+          Ios App Dev
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ios%20app%20dev/notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ios%20app%20dev/revenue/" class="md-nav__link">
+        Revenue
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/ios%20app%20dev/tools/" class="md-nav__link">
+        Tools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10_34" type="checkbox" id="__nav_10_34" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10_34">
+          Training
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Training" data-md-level="2">
+        <label class="md-nav__title" for="__nav_10_34">
+          <span class="md-nav__icon md-icon"></span>
+          Training
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20230724_training/" class="md-nav__link">
+        20230724 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20230727_training/" class="md-nav__link">
+        20230727 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20230803/" class="md-nav__link">
+        20230803
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20230907_training/" class="md-nav__link">
+        20230907 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240201_training/" class="md-nav__link">
+        20240201 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240220_training/" class="md-nav__link">
+        20240220 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240227_training/" class="md-nav__link">
+        20240227 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240402_training/" class="md-nav__link">
+        20240402 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240414_training/" class="md-nav__link">
+        20240414 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20240611_%20training/" class="md-nav__link">
+        20240611  Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20241121_training/" class="md-nav__link">
+        20241121 Training
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../praxes/training/20250204_training/" class="md-nav__link">
+        20250204 Training
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          Recall
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recall" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Recall
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/Amindfornumbers_ch12_learningtoappreciateyourtalent/" class="md-nav__link">
+        Amindfornumbers Ch12 Learningtoappreciateyourtalent
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/alternative_index/" class="md-nav__link">
+        Alternative Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/amindfornumbers_ch13_%20sculptingyourbrain/" class="md-nav__link">
+        Amindfornumbers Ch13  Sculptingyourbrain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/amindfornumbers_ch15_renaissaince_learning/" class="md-nav__link">
+        Amindfornumbers Ch15 Renaissaince Learning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/amindfornunbers_ch14_developing_the_minds_eye/" class="md-nav__link">
+        Amindfornunbers Ch14 Developing The Minds Eye
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/readme/" class="md-nav__link">
+        Readme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recall/thegiftsofimperfection_integration_tools/" class="md-nav__link">
+        Thegiftsofimperfection Integration Tools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12">
+          Recipes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recipes" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Recipes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/Coconut_Chicken_Curry/" class="md-nav__link">
+        Coconut Chicken Curry
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_13">
+          References
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="References" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          References
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/2018_election_information/" class="md-nav__link">
+        2018 Election Information
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/BranchPythonOperator_Concepts/" class="md-nav__link">
+        Branchpythonoperator Concepts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/aws-certs-and-trainings/" class="md-nav__link">
+        Aws Certs And Trainings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/bash_and_gnu_tricks/" class="md-nav__link">
+        Bash And Gnu Tricks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/bazel_java/" class="md-nav__link">
+        Bazel Java
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/c_programming/" class="md-nav__link">
+        C Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/corewar/" class="md-nav__link">
+        Corewar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/django-general/" class="md-nav__link">
+        Django General
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/emacs/" class="md-nav__link">
+        Emacs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/fight-global-internet-propaganda-review/" class="md-nav__link">
+        Fight Global Internet Propaganda Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/git/" class="md-nav__link">
+        Git
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/html5-game-dev/" class="md-nav__link">
+        Html5 Game Dev
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/html5-phaser-pixi-phonegap/" class="md-nav__link">
+        Html5 Phaser Pixi Phonegap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/html5-phonegap-for-ios/" class="md-nav__link">
+        Html5 Phonegap For Ios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/http1.1/" class="md-nav__link">
+        Http1.1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/icestick_setup/" class="md-nav__link">
+        Icestick Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/infopages/" class="md-nav__link">
+        Infopages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/iptables/" class="md-nav__link">
+        Iptables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/javascript_notes/" class="md-nav__link">
+        Javascript Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/kali_vm_setup/" class="md-nav__link">
+        Kali Vm Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/learning_methods/" class="md-nav__link">
+        Learning Methods
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/linksys_wrt160n_info/" class="md-nav__link">
+        Linksys Wrt160N Info
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/manpages/" class="md-nav__link">
+        Manpages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/migrate_mysql_to_postgresql/" class="md-nav__link">
+        Migrate Mysql To Postgresql
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/molecular_geometry/" class="md-nav__link">
+        Molecular Geometry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/pinebook/" class="md-nav__link">
+        Pinebook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/pivot_tables/" class="md-nav__link">
+        Pivot Tables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/python-reference/" class="md-nav__link">
+        Python Reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/python_generator_pattern/" class="md-nav__link">
+        Python Generator Pattern
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/react-basic/" class="md-nav__link">
+        React Basic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/rust_plan/" class="md-nav__link">
+        Rust Plan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/scansf/" class="md-nav__link">
+        Scansf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/security_resources/" class="md-nav__link">
+        Security Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/skyrim_creation_kit/" class="md-nav__link">
+        Skyrim Creation Kit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/slic3r/" class="md-nav__link">
+        Slic3R
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/spacemacs/" class="md-nav__link">
+        Spacemacs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/spelunking_sqlite3/" class="md-nav__link">
+        Spelunking Sqlite3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/stardart_spacedomination/" class="md-nav__link">
+        Stardart Spacedomination
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/uart_isp_ftdi_etc_programming/" class="md-nav__link">
+        Uart Isp Ftdi Etc Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/vim_tricks/" class="md-nav__link">
+        Vim Tricks
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14">
+          Talks
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Talks" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          Talks
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/AirflowCreatorTalkBigData_20180117/" class="md-nav__link">
+        Airflowcreatortalkbigdata 20180117
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/ReactSFMeetup_20160923_PublishYourComponents/" class="md-nav__link">
+        Reactsfmeetup 20160923 Publishyourcomponents
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/ReactSFMeetup_20161013_Animation/" class="md-nav__link">
+        Reactsfmeetup 20161013 Animation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/ReactSFMeetup_20161013_ReactAsync/" class="md-nav__link">
+        Reactsfmeetup 20161013 Reactasync
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_HolidayParty_LightningTalks_20171207/" class="md-nav__link">
+        Sfpython Holidayparty Lightningtalks 20171207
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_HolidayParty_RaymondHettinger_20171207/" class="md-nav__link">
+        Sfpython Holidayparty Raymondhettinger 20171207
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_Import_Madness_20170614/" class="md-nav__link">
+        Sfpython Import Madness 20170614
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_Unit_Testing_With_Mock_20170614/" class="md-nav__link">
+        Sfpython Unit Testing With Mock 20170614
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_tensorflow-8hr-condensed-20171108/" class="md-nav__link">
+        Sfpython Tensorflow 8Hr Condensed 20171108
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_train-streetfighter-gym-keras-20171108/" class="md-nav__link">
+        Sfpython Train Streetfighter Gym Keras 20171108
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/SFPython_unicode_20170614/" class="md-nav__link">
+        Sfpython Unicode 20170614
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/airflow-kubernetes-wepay/" class="md-nav__link">
+        Airflow Kubernetes Wepay
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/airflow-on-googlecloud/" class="md-nav__link">
+        Airflow On Googlecloud
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/airflow-operating-data-pipeline-with-airflow/" class="md-nav__link">
+        Airflow Operating Data Pipeline With Airflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/cypherpunks_writecode_20161112/" class="md-nav__link">
+        Cypherpunks Writecode 20161112
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/defcon25-nfc-tool-from-scratch-20170730/" class="md-nav__link">
+        Defcon25 Nfc Tool From Scratch 20170730
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/littlefish_ian_gotts_20170210/" class="md-nav__link">
+        Littlefish Ian Gotts 20170210
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pyclass_vector_packing_20161114/" class="md-nav__link">
+        Pyclass Vector Packing 20161114
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pycon2016_django_docdrivendev/" class="md-nav__link">
+        Pycon2016 Django Docdrivendev
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pycon2016_grinberg_flaskprod/" class="md-nav__link">
+        Pycon2016 Grinberg Flaskprod
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pycon2016_lasercutter_3dprinter_python/" class="md-nav__link">
+        Pycon2016 Lasercutter 3Dprinter Python
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pycon2016_sqlite_tricks/" class="md-nav__link">
+        Pycon2016 Sqlite Tricks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/pycon2016_typeannotations/" class="md-nav__link">
+        Pycon2016 Typeannotations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/trigger-point-massage/" class="md-nav__link">
+        Trigger Point Massage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14_25" type="checkbox" id="__nav_14_25" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14_25">
+          Aws.Training
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aws.Training" data-md-level="2">
+        <label class="md-nav__title" for="__nav_14_25">
+          <span class="md-nav__icon md-icon"></span>
+          Aws.Training
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/" class="md-nav__link">
+        Readme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/design-cost-optimized-architectures/" class="md-nav__link">
+        Design Cost Optimized Architectures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/exam-questions-copied/" class="md-nav__link">
+        Exam Questions Copied
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/exam-taking-strategies/" class="md-nav__link">
+        Exam Taking Strategies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/operationally-excellent-architectures/" class="md-nav__link">
+        Operationally Excellent Architectures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/performant-architectures/" class="md-nav__link">
+        Performant Architectures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/resilient-architectures/" class="md-nav__link">
+        Resilient Architectures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/aws.training.solarchitect/secure-applications-and-architectures/" class="md-nav__link">
+        Secure Applications And Architectures
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14_26" type="checkbox" id="__nav_14_26" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14_26">
+          Flack Miguel Grinberg
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Flack Miguel Grinberg" data-md-level="2">
+        <label class="md-nav__title" for="__nav_14_26">
+          <span class="md-nav__icon md-icon"></span>
+          Flack Miguel Grinberg
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/flack_miguel_grinberg/NOTES_PARTII_trent/" class="md-nav__link">
+        Notes Partii Trent
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../talks/flack_miguel_grinberg/NOTES_PARTI_trent/" class="md-nav__link">
+        Notes Parti Trent
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15_1" type="checkbox" id="__nav_15_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15_1">
+          Portray
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Portray" data-md-level="2">
+        <label class="md-nav__title" for="__nav_15_1">
+          <span class="md-nav__icon md-icon"></span>
+          Portray
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/api/" class="md-nav__link">
+        API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/cli/" class="md-nav__link">
+        CLI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/config/" class="md-nav__link">
+        Config
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/exceptions/" class="md-nav__link">
+        Exceptions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/logo/" class="md-nav__link">
+        Logo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/portray/render/" class="md-nav__link">
+        Render
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-1-introduction-to-compiling" class="md-nav__link">
+    Chapter 1 - Introduction to Compiling
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 1 - Introduction to Compiling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contents" class="md-nav__link">
+    Contents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compilers" class="md-nav__link">
+    1.1 Compilers
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 Compilers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-analysis-synthesis-model-of-compilation" class="md-nav__link">
+    The Analysis-Synthesis Model of Compilation
+  </a>
+  
+    <nav class="md-nav" aria-label="The Analysis-Synthesis Model of Compilation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analysis" class="md-nav__link">
+    Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compilers-arent-just-for-machine-code" class="md-nav__link">
+    Compilers aren't just for machine code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-context-of-a-compiler" class="md-nav__link">
+    The Context of a Compiler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-analysis-of-the-source-program" class="md-nav__link">
+    1.2 Analysis of the source program
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Analysis of the source program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#three-phases-of-analysis" class="md-nav__link">
+    Three Phases of Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexical-analysis" class="md-nav__link">
+    Lexical Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-analysis" class="md-nav__link">
+    Syntax Analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#factors-for-division-between-lexical-and-syntactic-analysis" class="md-nav__link">
+    Factors for division between lexical and syntactic analysis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-directed-translation" class="md-nav__link">
+    Syntax-directed translation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#semantic-analysis" class="md-nav__link">
+    Semantic Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysis-in-text-formatters" class="md-nav__link">
+    Analysis in Text Formatters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-the-phases-of-a-compiler" class="md-nav__link">
+    1.3 The Phases of a Compiler
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 The Phases of a Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phases" class="md-nav__link">
+    Phases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-phases-used-during-every-phase" class="md-nav__link">
+    Supplementary Phases (used during every phase)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbol-table-management" class="md-nav__link">
+    Symbol-Table Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-detection-and-reporting" class="md-nav__link">
+    Error Detection and Reporting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-analysis-phase" class="md-nav__link">
+    The Analysis Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intermediate-code-generation" class="md-nav__link">
+    Intermediate Code Generation
+  </a>
+  
+    <nav class="md-nav" aria-label="Intermediate Code Generation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties-of-an-intermediate-representation" class="md-nav__link">
+    Properties of an intermediate representation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-address-code" class="md-nav__link">
+    Three-address code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-optimization" class="md-nav__link">
+    Code Optimization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-generation" class="md-nav__link">
+    Code Generation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-cousins-of-the-compiler" class="md-nav__link">
+    1.4 Cousins of the Compiler
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 Cousins of the Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preprocessors" class="md-nav__link">
+    Preprocessors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assemblers" class="md-nav__link">
+    Assemblers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#two-pass-assembly" class="md-nav__link">
+    Two-pass Assembly
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loaders-and-link-editors" class="md-nav__link">
+    Loaders and Link-editors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-the-grouping-of-phases" class="md-nav__link">
+    1.5 The Grouping of Phases
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 The Grouping of Phases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-and-back-ends" class="md-nav__link">
+    Front and Back Ends
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passes" class="md-nav__link">
+    Passes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reducing-the-number-of-passes" class="md-nav__link">
+    Reducing the Number of Passes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-compiler-construction-tools" class="md-nav__link">
+    1.6 Compiler-Construction Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 Compiler-Construction Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-list-of-compiler-construction-tools" class="md-nav__link">
+    A list of compiler construction tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bibliographic-notes" class="md-nav__link">
+    Bibliographic Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/robbintt/outlines/edit/main/docs/digests/compilers-ch1-the-dragon-book.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="compilers-the-dragon-book-1986">Compilers ~ The Dragon Book - 1986</h1>
+<h2 id="chapter-1-introduction-to-compiling">Chapter 1 - Introduction to Compiling</h2>
+<p>On the general subject of compiling.</p>
+<h3 id="contents">Contents</h3>
+<ul>
+<li><code>components</code> of a compiler </li>
+<li><code>environment</code> in which a compiler does its job</li>
+<li><code>tools</code> to make it easier to build compilers</li>
+</ul>
+<h3 id="11-compilers">1.1 Compilers</h3>
+<p>compiler - a program that reads a program written in the <code>source language</code> and translates it into an equivalent <code>target program</code> in the <code>target language</code>.  The compiler reports errors in the <code>source program</code> as <code>error messages</code>.</p>
+<ul>
+<li>"basic tasks" all compilers perform "are the same"</li>
+<li>Thousands of source languages</li>
+<li>Target languages include<ul>
+<li>Another programming language</li>
+<li>Machine language of any computer (microprocessor to supercomputer)</li>
+</ul>
+</li>
+<li>Some compiler classifications - based on structure or function<ul>
+<li>single-pass</li>
+<li>multi-pass</li>
+<li>load-and-go</li>
+<li>debugging</li>
+<li>optimizing</li>
+<li>etc.</li>
+</ul>
+</li>
+<li>advances in compilers:<ul>
+<li>implementation languages</li>
+<li>programming environments</li>
+<li>software tools</li>
+</ul>
+</li>
+</ul>
+<h4 id="the-analysis-synthesis-model-of-compilation">The <code>Analysis-Synthesis Model</code> of Compilation</h4>
+<p>The 2 parts of compilation are <code>analysis</code> and <code>synthesis</code>.</p>
+<ol>
+<li><code>Analysis</code> - Break the <code>source program</code> into pieces and create an <code>intermediate representation</code> of the <code>source program</code>.</li>
+<li><code>Synthesis</code> - Construct the <code>target program</code> from the <code>intermediate representation</code> *<em>requires the most specialized techniques</em></li>
+</ol>
+<h5 id="analysis">Analysis</h5>
+<ul>
+<li>Operations of source program are determined &amp; recorded in a tree, (hierarchical structure).</li>
+<li>Often a <code>syntax tree</code><ul>
+<li><code>node</code> == <code>operation</code></li>
+<li><code>children of node</code> == <code>arguments of operation</code></li>
+<li>in the text diagram, operations can be arguments: <ul>
+<li><code>position := initial + rate * 60</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Many <code>software tools</code> that manipulate source programs first perform some kind of <code>analysis</code><ol>
+<li><code>Structure Editors</code> - text editor + autocomplete + linter + static analysis + etc. <ul>
+<li>real-time partial analysis</li>
+</ul>
+</li>
+<li><code>Pretty Printers</code> - structure viewer for humans</li>
+<li><code>Static Checkers</code> - attempt to discover potential bugs without running the program.  Similar to <code>optimizing compilers</code>. <ul>
+<li>code that cannot be executed in the course of the program </li>
+<li>variable used before defined</li>
+<li>catch logical errors (type checking / use real variable as pointer)</li>
+</ul>
+</li>
+<li><code>Interpreters</code> - Instead of producing <code>target program</code>, perform the operations implied by <code>source program</code></li>
+</ol>
+</li>
+</ul>
+<h5 id="compilers-arent-just-for-machine-code">Compilers aren't just for machine code</h5>
+<p>The <code>analysis</code> portion of compiling shows up in these examples:</p>
+<ol>
+<li><code>Text formatters</code> - Format text for output in a textual format</li>
+<li><code>Silicon compilers</code> - Input is a conventional programming <code>source language</code>.  Variables represent signals or signal groups in switching circuits. Outputs a <code>circuit design</code> in an appropriate <code>target language</code></li>
+<li><code>Query interpreters</code> - translates a predicate containing relational and boolean operators into commands to search a database for records satisfying the predicate</li>
+</ol>
+<h4 id="the-context-of-a-compiler">The Context of a Compiler</h4>
+<p>Other programs may be needed to create the executable target program.</p>
+<ul>
+<li>A <code>preprocessor</code> might: <ul>
+<li>collect parts of the <code>source program</code> stored in separate files </li>
+<li>expand <code>macros</code> into <code>source language</code> statements.</li>
+</ul>
+</li>
+</ul>
+<p>See <code>fig 1.3</code> page 4.</p>
+<ul>
+<li>A <code>target program</code> may require further processing to run.<ul>
+<li><code>assembler</code> - translate assembly to machine code</li>
+<li><code>linker</code> - link to library routines</li>
+</ul>
+</li>
+</ul>
+<h3 id="12-analysis-of-the-source-program">1.2 Analysis of the <code>source program</code></h3>
+<p>Introducing <code>analysis</code> and illustrate its use in some <code>text-formatting languages</code>. Also see chapters 2-4, 6.</p>
+<h5 id="three-phases-of-analysis">Three Phases of Analysis</h5>
+<ol>
+<li><code>Linear Analysis</code><ul>
+<li>AKA: <code>lexical analysis</code> or <code>scanning</code></li>
+<li>read stream of <code>source program</code> left-to-right and group into <code>tokens</code>, streams of characters, with collective meaning </li>
+</ul>
+</li>
+<li><code>Hierarchical Analysis</code><ul>
+<li>AKA: <code>syntax analysis</code> or <code>parsing</code></li>
+<li>hierarchically group characters/tokens into meaningful nested collections</li>
+</ul>
+</li>
+<li><code>Semantic Analysis</code><ul>
+<li>find semantic errors, identify operands, type checking</li>
+<li>check that components of a program fit together meaningfully</li>
+</ul>
+</li>
+</ol>
+<h4 id="lexical-analysis">Lexical Analysis</h4>
+<p>Linear analysis is called <code>lexical analysis</code> or <code>scanning</code>.  See example page 5.</p>
+<p>Create <code>tokens</code> from the <code>source program</code> stream. Discard separators, e.g. whitespace.</p>
+<h4 id="syntax-analysis">Syntax Analysis</h4>
+<p>Hierarchical Analsysis is called <code>parsing</code> or <code>syntax analysis</code>.</p>
+<p>Group the <code>tokens</code> into <code>grammatical phrases</code> for the compiler to synthesize output.  Usually the <code>grammatical phrases</code> are represented by a <code>parse tree</code> or a <code>syntax tree</code>.</p>
+<ol>
+<li><code>parse tree</code> - <code>statements</code>, <code>expressions</code>, and <code>identifers</code> are all nodes. A precise definition is not given, see fig. 1.4, page 6.</li>
+<li><code>syntax tree</code> - Compressed representation of a parse tree. Operators appear as interior nodes and operands are the children of that operator's node. See <code>Section 5.2</code>.</li>
+</ol>
+<p>There is a good example here, page 6.</p>
+<p><code>expressions</code>, <code>recursive rules</code>, <code>(nonrecursive) basis rules</code>, and <code>definition rules</code>, and <code>statements</code> are described in the example but not introduced as formal terms.</p>
+<blockquote>
+<p>The division between lexical and syntactic analysis is somewhat arbitrary.
+We usually choose a division that simplifies the overall task of analysis.</p>
+</blockquote>
+<h5 id="factors-for-division-between-lexical-and-syntactic-analysis">Factors for division between <code>lexical</code> and <code>syntactic</code> analysis:</h5>
+<ol>
+<li>Is the source language construct recursive or not?<ul>
+<li><code>Lexical constructs</code> - <strong>do not require recursion</strong>.<ul>
+<li><code>identifiers</code> - strings of <code>letters+digits</code> beginning with a letter</li>
+<li>recursion not necessary to recognize <code>identifiers</code>, typically scan until <code>non-(letter+number)</code> and group back to beginning</li>
+<li>the grouped characters are recorded in a <code>symbol table</code> and removed from the input (so the pointer is back at the beginning)</li>
+<li>the next token is then processed.</li>
+</ul>
+</li>
+<li><code>Syntactic constructs</code> often <strong>require recursion</strong>.<ul>
+<li>linear scan cannot analyze expressions or statements</li>
+<li>cannot match <code>parentheses</code> in expressions</li>
+<li>cannot match <code>begin</code> and <code>end</code> in statements</li>
+<li>unless there is a <code>hierarchical</code> or nesting <code>structure</code> ON the input</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>Context-free grammars</code> - formalization of recursive rule that can be used to guide <code>syntactic analysis</code><ul>
+<li>See chapter 2 for introduction, chapter 4 for extensive treatment.</li>
+</ul>
+</li>
+</ol>
+<h5 id="syntax-directed-translation">Syntax-directed translation</h5>
+<p>The <code>compiler</code> uses the <code>hierarchical structure</code> on the <code>input</code> to <strong>help generate</strong> the <code>output</code>.</p>
+<p>See: Chapters 2, 5.</p>
+<h4 id="semantic-analysis">Semantic Analysis</h4>
+<ul>
+<li>check <code>source program</code> for <code>semantic errors</code></li>
+<li>gather <code>type information</code> for subsequent <code>code-generation phase</code></li>
+<li>
+<p>use <code>hierarchical structure</code> determined by <code>syntax-analysis phase</code> to identify <code>operators</code> and <code>operands</code> of <code>expressions</code> and <code>statements</code></p>
+</li>
+<li>
+<p><code>type checking</code>: <code>compiler</code> checks that each <code>operator</code> has permitted <code>operands</code> based on <code>source language</code> specification. Must also check for operator coercions.</p>
+<ul>
+<li>Part of <code>semantic analysis</code>, see ch. 6.</li>
+<li>example: binary arithmetic operator applied to integer &amp; real, converts integer to real, see example 1.1 and fig. 1.5 inttoreal</li>
+</ul>
+</li>
+</ul>
+<h4 id="analysis-in-text-formatters">Analysis in Text Formatters</h4>
+<p>TEX uses hierarchical arrangement in boxes as part of the <code>syntax analysis</code> to describe the relative position of groups of vertical and horizontal characters.  See p.8-9 for fig 1.6-1.7.</p>
+<h3 id="13-the-phases-of-a-compiler">1.3 The Phases of a Compiler</h3>
+<ul>
+<li>A compiler operates in conceptual <code>phases</code>.  Each transforms the <code>source program</code> from one representation to another. </li>
+<li>Some phases may be grouped together.  Intermediate representations between grouped phases need not be explicity constructed.</li>
+<li>See fig. 1.9, page 10 for a "typical decomposition of a compiler".</li>
+</ul>
+<h6 id="phases">Phases</h6>
+<p>There are six phases between <code>source program</code> and <code>target program</code>:</p>
+<ol>
+<li>Lexical Analyzer</li>
+<li>Syntax Analyzer</li>
+<li>Semantic Analyzer</li>
+<li>Intermediate Code Generator</li>
+<li>Code Optimizer</li>
+<li>Code Generator</li>
+</ol>
+<p>See figure 1.10 , page 13, for a detailed translation of <code>position := initial + rate * 60</code>.</p>
+<h6 id="supplementary-phases-used-during-every-phase">Supplementary Phases (used during every phase)</h6>
+<ol>
+<li>Symbol-table manager</li>
+<li>Error handler</li>
+</ol>
+<h4 id="symbol-table-management">Symbol-Table Management</h4>
+<ul>
+<li><code>Symbol Table</code>: data structure containing a record for each identifier with fields for the attributes of the identifier.  Quickly find, store, and retrieve data for that identifier.</li>
+<li>The <code>identifier</code> is added by the <code>lexical analyzer</code> but the identifier's <code>attributes</code> are typically added and consumed during later phases.</li>
+<li>An attribute could be something like storage, scope, type. If the identifier is a procedure: perhaps number and type of arguments, method of passing arguments (by reference, etc.), and type returned, if any.</li>
+<li>See chapters: 2, 7 for more about symbol tables.</li>
+</ul>
+<h4 id="error-detection-and-reporting">Error Detection and Reporting</h4>
+<p>Each phase must encounter and deal with errors, and potentially proceed.</p>
+<ul>
+<li>The <code>syntax analyzer</code> and <code>semantic analyzer</code> typically handle a large fraction of errors.</li>
+<li>The <code>lexical analyzer</code> may encounter errors when remaining characters do not form a token.</li>
+<li>The <code>syntax analyser</code> finds errors where the <code>token stream</code> violates the structure rules.</li>
+<li>The <code>semantic analyzer</code> can find errors where a meaningless operation occurs, e.g. add an array to the name of a procedure.</li>
+<li>Further discussion of errors for each phase is included in the part of the book devoted to that phase.</li>
+</ul>
+<h4 id="the-analysis-phase">The Analysis Phase</h4>
+<ul>
+<li>As <code>translation</code> progresses, the compiler's representatin of the source program changes.  </li>
+<li>note: In this diagram and chapter, the <code>intermediate representation</code> is considered/proxied as the <code>syntax tree</code> and <code>symbol table</code>.  The data structure for the tree in <code>fig. 1.10</code> is shown in <code>fig. 1.11b</code>.</li>
+<li><code>Lexical analysis</code> is covered in chapter 3.</li>
+</ul>
+<h4 id="intermediate-code-generation">Intermediate Code Generation</h4>
+<ul>
+<li>Some compilers generate an explicit <code>intermediate representation</code> of the <code>source program</code>, "a program for an abstract machine".</li>
+<li>Variety of forms.</li>
+<li>Chapter 8 covers principle <code>intermediate representations</code> in compilers. Chapters 5, 8 cover algorithms for generating intermedaite code for typical programming language constructs.</li>
+</ul>
+<h5 id="properties-of-an-intermediate-representation">Properties of an <code>intermediate representation</code></h5>
+<ol>
+<li>easy to produce</li>
+<li>easy to translate into the <code>target program</code></li>
+</ol>
+<h5 id="three-address-code"><code>Three-address code</code></h5>
+<p><code>Three-address code</code> consists of a sequence of instructions, each of which has at most three operands.</p>
+<p>Assembly language for a machine in which every memory location can act like a register. </p>
+<h4 id="code-optimization">Code Optimization</h4>
+<p><strong>Goal:</strong> improve intermediate code.</p>
+<ul>
+<li>Simple example on pages 14-15.</li>
+<li>Chapter 9 discusses simple optimizations.</li>
+<li>Chapter 10 gives technology used by most powerful optimizing compilers.</li>
+</ul>
+<h4 id="code-generation">Code Generation</h4>
+<p><strong>Goal:</strong> generate <code>target code</code> from <code>intermediate code</code>.</p>
+<ul>
+<li>Normally this gives <code>relocateable machine code</code> or <code>assembly code</code>.</li>
+<li>A crucial aspect is assignment of variables to registers.</li>
+<li>Simple example on pages 15-16.</li>
+<li>Chapter 9 covers code generation.</li>
+</ul>
+<h3 id="14-cousins-of-the-compiler">1.4 Cousins of the Compiler</h3>
+<p>This section is about a compiler's typical operating context.</p>
+<h4 id="preprocessors">Preprocessors</h4>
+<p>Produce the input to compilers.  Everything here seems to boil down to macros.</p>
+<ol>
+<li><code>Macro processing</code>: allow user to define macros as shorhand for longer constructs.</li>
+<li><code>File inclusion</code>: include header files into the program text, e.g. in <code>c language</code>: <code>#include &lt;global.h&gt;</code> is replaced by the contents of <code>global.h</code></li>
+<li><code>"Rational" preprocessors</code>: Add capabilities to a language, especially for flow control and data structures. Same as macros functionally?</li>
+<li><code>Language Extensions</code>: More macros, different use.  See example in book.</li>
+</ol>
+<p>Example 1.2 on page 16.</p>
+<h4 id="assemblers">Assemblers</h4>
+<p><code>Assembly code</code> is a mnemonic version of <code>machine code</code>, where <code>names</code> are used instead of <code>binary codes for operations</code>. Names are also given to <code>memory addresses</code>.</p>
+<blockquote>
+<p>It is customary for assembly languages to have macro facilities that are similar to those in the macro preprocessors described above.</p>
+</blockquote>
+<h4 id="two-pass-assembly">Two-pass Assembly</h4>
+<p>Simple assemblers make two passes over the input file, where a <code>pass</code> reads a input file once.</p>
+<ol>
+<li>The first pass finds and stores <code>identifiers</code>, assigning storage locations in the <code>symbol table</code>.</li>
+<li>The second pass translates <code>operation</code> code into the bits representing that <code>operation</code> in machine language. It also translates each <code>identifier</code> intot he address given for that <code>identifier</code> in the <code>symbol table</code>.</li>
+</ol>
+<p>The output of the second pass is usually <code>relocateable machine code</code>, which means it can be loaded starting in any memory location, L, in memory.  If L is added to all addresses in the code, all references will be correct.</p>
+<blockquote>
+<p>Thus, the output of the assembler must distinguish those portions of instructions that refer to addresses that can be relocated.</p>
+</blockquote>
+<p>See example 3, page 18-19.</p>
+<h4 id="loaders-and-link-editors">Loaders and Link-editors</h4>
+<p>A <code>loader</code> usually performs both <code>loading</code> and <code>link-editing</code>.</p>
+<ol>
+<li><code>loading</code>: Taking relocateable machine code, altering the relocateable address, and placing the altered instructions and data in memory at the proper locations.</li>
+<li><code>link-editor</code>: Make a single program from several files of relocateable machine code. Many of the files result from separate compiles, and often are stored in separate locations for system-wide use. e.g. libraries.</li>
+<li><code>external reference</code>: code in one file references a location in another file. May be data or an entry point to a procedure.<ul>
+<li>relocateable machine code file must retain the information in the symbol table for:<ul>
+<li>each data location defined in one file and used in another</li>
+<li>each entry point of a procedure defined in one file and used in another</li>
+</ul>
+</li>
+<li>if not known in advance, must include entire symbol table as part of relocateable machine code </li>
+</ul>
+</li>
+</ol>
+<h3 id="15-the-grouping-of-phases">1.5 The Grouping of Phases</h3>
+<p>Multiple phases are often grouped together in compiler implementations.</p>
+<h4 id="front-and-back-ends">Front and Back Ends</h4>
+<ol>
+<li><code>Front end</code>: largely independent of target machine, based on <code>source language</code><ul>
+<li>lexical analysis</li>
+<li>syntactic analysis</li>
+<li>symbol table creation</li>
+<li>semantic analysis</li>
+<li>generate intermediate code</li>
+</ul>
+</li>
+<li><code>Back end</code>:<ul>
+<li>code optimization</li>
+<li>code generation</li>
+<li>error handling</li>
+<li>symbol table operations</li>
+</ul>
+</li>
+</ol>
+<p>Fairly routine: keep the <code>front end</code> of a compiler and redo the <code>back end</code> for another machine.  Parts of the <code>back end</code> can even be kept.  Further discussion in Chapter 9.</p>
+<blockquote>
+<p>It is also tempting to compile several different languages into the same intermediate language and use a common back end for the different front ends, thereby obtaining several compilers for one machine. However, because of subtle differences in the viewpoints of different languages, there has been only limited success in this direction.</p>
+</blockquote>
+<h4 id="passes">Passes</h4>
+<p>Many phases can be done in one pass. Organizing phases into passes is complex and discussed for some specific implementations in chapter 12.</p>
+<p>The whole <code>back end</code> may be one pass, immedately producing <code>intermediate code</code>.</p>
+<p>We may think of the <code>syntax analyzer</code> as being 'in charge'.  As it discovers grammatical structure, the parser can call intermediate code generation.  See chapter 2 for a compiler with this implementation.</p>
+<h4 id="reducing-the-number-of-passes">Reducing the Number of Passes</h4>
+<p><strong>Goal:</strong> Have relatively few passes.</p>
+<p><strong>Goal:</strong> Don't use up all the system memory.</p>
+<p>Reconciling these could create tension.</p>
+<blockquote>
+<p>The interface between the lexical and syntactic analyzers can often be limited to a single token. It is often very hard to perform code generation until the intermediate representation has been completely generated.</p>
+</blockquote>
+<ol>
+<li><code>backpatching</code>: merge <code>intermediate code</code> and <code>target code</code> generation can often be merged into one pass by creating a slot and filling it once the information becomes available. See the example, page 21. </li>
+</ol>
+<p>To ensure you do not use too much space, you can reduce the distance over which backpatching occurs.</p>
+<h3 id="16-compiler-construction-tools">1.6 Compiler-Construction Tools</h3>
+<p>Chapter eleven discusses <code>software tools</code> for implementing a compiler.</p>
+<p>There are <code>specialized tools</code> for implementing various phases of a compiler</p>
+<p>These tools are called variously: </p>
+<ul>
+<li><code>compiler-compilers</code></li>
+<li><code>compiler-generators</code></li>
+<li><code>translator-writing systems</code></li>
+</ul>
+<p><code>Specialized tools</code> are typically oriented around a model of languages and are suitable for languages following that model.</p>
+<p>Tools exist for automatic design of specific <code>compiler components</code>, they use <code>specialized languages</code> for specifying and implementing the component.  The most successful hide details of generation algorithm and make components that are easily integrated into the remainder of the compiler.</p>
+<h5 id="a-list-of-compiler-construction-tools">A list of compiler construction tools</h5>
+<ol>
+<li><code>Parser generators</code>: produce <code>syntax analyzers</code> normally from in put based on <code>context-free grammar</code>. Syntax analysis used to be very time consuming but now is "one of the easiest phases to implement".  Often <code>parser generators</code> use <code>parsing algorithms</code> too complex to do by hand.</li>
+<li><code>Scanner generators</code>: automatically generate <code>lexical analyzers</code>, normally from a specification based on <code>regular expressions</code>.   The <code>lexical analyzer</code> is effectively a <code>finite automaton</code>. See <code>chapter 3</code>, implementations in <code>section 3.5, section 3.8</code>.</li>
+<li><code>Syntax-directed translation engines</code>: produce collections of routines that walk the parse tree, generating <code>intermediate code</code>. One or more translations are associated with each node of the parse tree, each translation defined in terms of its neighbor nodes in the tree. See chapter 5.</li>
+<li><code>Automatic code generators</code>: take a collection of rules defining <code>intermediate language</code>-&gt;<code>target language</code> and replace the intermediate rules with templates that represent sequences of machine instructions. Something about tiling intermediate code without a combinatorial explosion in compiler running time.  See chapter 9.</li>
+<li><code>Data-flow engines</code>: <code>data flow analysis</code> is used in optimization. How are values transmitted from one part of a program to each other part? Especially as the user defines relationships between intermediate code statements and the information being gathered. See Section 10.11.</li>
+</ol>
+<h3 id="bibliographic-notes">Bibliographic Notes</h3>
+<p>Lots of parallel discovery, hard to attribute credit. Page 23-24 have references.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+    
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../becoming_a_magician/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Becoming A Magician" rel="prev">
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Previous
+                </span>
+                Becoming A Magician
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../cracking_creativity_michalko/" class="md-footer__link md-footer__link--next" aria-label="Next: Cracking Creativity Michalko" rel="next">
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Next
+                </span>
+                Cracking Creativity Michalko
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+            
+            Powered by
+            <a href="http://timothycrosley.github.io/portray">portray.</a>
+            You too can
+            <a href="http://timothycrosley.github.io/portray">
+              portray</a>
+            your Python project well using automatic documentation.
+          </div>
+        
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.078830c0.min.js"></script>
+      
+    
+  </body>
+</html>
