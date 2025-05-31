@@ -13,3 +13,7 @@
     - login to account
     - subscribe to subcategory daily digests (e.g. for cs.AI): https://info.arxiv.org/help/subscribe.html
 
+
+## Not yet tested
+
+- https://github.com/DavidMChan/ArXiV-Notify
